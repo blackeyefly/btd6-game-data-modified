@@ -1,535 +1,142 @@
 {
-  "$type": "Assets.Scripts.Models.Towers.TowerModel, Assembly-CSharp",
-  "cost": 0.0,
+  "radius": 6.0,
+  "radiusSquared": 36.0,
   "range": 78.0,
   "ignoreBlockers": true,
-  "isGlobalRange": false,
-  "tier": 0,
-  "tiers": [
-    0,
-    0,
-    0
-  ],
   "towerSet": 8,
-  "icon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "icon3D": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "portrait": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "a4cd1f1b12fcd1f45af84b286b4becb3",
-    "guidRef": "a4cd1f1b12fcd1f45af84b286b4becb3"
-  },
-  "instaIcon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
   "areaTypes": [
     2
   ],
   "mods": [
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "HeroicReach",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "HeroicReach"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "HeroicVelocity",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "HeroicVelocity"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "EmpoweredHeroes",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "EmpoweredHeroes"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
       "mod": "BigBloonBlueprints",
-      "target": "Splat,BaseProjectile",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "target": "Splat,BaseProjectile"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "BetterSellDeals",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "BetterSellDeals"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "MonkeyEducation",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "MonkeyEducation"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "VeteranMonkeyTraining",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "VeteranMonkeyTraining"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "GlobalAbilityCooldowns",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "GlobalAbilityCooldowns"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "QuickHands",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "QuickHands"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "Scholarships",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "Scholarships"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "SelfTaughtHeroes",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "SelfTaughtHeroes"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
       "mod": "AbilityDiscipline",
-      "target": "HexAbility",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "target": "HexAbility"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "WeakPoint",
-      "target": "",
-      "name": "EziliUpgrades",
-      "ImplementationType": null
+      "mod": "WeakPoint"
     }
   ],
-  "ignoreTowerForSelection": false,
-  "footprint": {
-    "$type": "Assets.Scripts.Models.Towers.Behaviors.CircleFootprintModel, Assembly-CSharp",
-    "radius": 6.0,
-    "doesntBlockTowerPlacement": false,
-    "ignoresPlacementCheck": false,
-    "ignoresTowerOverlap": false,
-    "name": "CircleFootprintModel_Circle Footprint",
-    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-  },
-  "dontDisplayUpgrades": false,
-  "emoteSpriteSmall": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "emoteSpriteLarge": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "doesntRotate": false,
-  "upgrades": [],
-  "appliedUpgrades": [],
-  "targetTypes": null,
-  "paragonUpgrade": null,
-  "isSubTower": true,
-  "isBakable": false,
-  "powerName": null,
-  "showPowerTowerBuffs": false,
-  "animationSpeed": 1.0,
-  "towerSelectionMenuThemeId": "Default",
-  "secondarySelectionMenu": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "ignoreCoopAreas": false,
-  "canAlwaysBeSold": false,
-  "blockSelling": false,
-  "isParagon": false,
-  "ignoreMaxSellPercent": false,
-  "isStunned": false,
-  "geraldoItemName": null,
-  "sellbackModifierAdd": 0.0,
-  "skinName": null,
-  "dontAddMutatorsFromParent": false,
-  "showBuffs": true,
-  "destroyTowerOnRedistribution": false,
-  "displayScale": 1.0,
-  "baseId": "SacrificialTotem",
-  "display": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": "63acfea4658f08e44989d6a399143509",
-    "guidRef": "63acfea4658f08e44989d6a399143509"
-  },
   "behaviors": [
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.TowerExpireModel, Assembly-CSharp",
-      "expireOnRoundComplete": false,
-      "expireOnDefeatScreen": false,
-      "rounds": 0,
       "Lifespan": 60.0,
-      "name": "TowerExpireModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "lifespan": 60.0
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnPlaceModel, Assembly-CSharp",
       "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "2b78079119d4db74d89d8863f9d65e70",
-          "guidRef": "2b78079119d4db74d89d8863f9d65e70"
-        },
         "scale": 1.0,
-        "lifespan": 0.5,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_",
-        "ImplementationType": null
-      },
-      "name": "CreateEffectOnPlaceModel_SacrificialTotem",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        "lifespan": 0.5
+      }
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnExpireModel, Assembly-CSharp",
       "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "2b78079119d4db74d89d8863f9d65e70",
-          "guidRef": "2b78079119d4db74d89d8863f9d65e70"
-        },
         "scale": 1.0,
-        "lifespan": 0.5,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_",
-        "ImplementationType": null
-      },
-      "name": "CreateEffectOnExpireModel_SacrificialTotem",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        "lifespan": 0.5
+      }
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.MutationImunityTowerModel, Assembly-CSharp",
       "mutationIds": [
         "Village"
-      ],
-      "effectScale": 0.0,
-      "durationScale": 0.0,
-      "modifyEffectScale": false,
-      "modifyDurationScale": false,
-      "preventMutation": false,
-      "name": "MutationImunityTowerModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.MutationImunityTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      ]
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.IgnoreAllMutatorsTowerModel, Assembly-CSharp",
-      "name": "IgnoreAllMutatorsTowerModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.IgnoreAllMutatorsTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.TowerExpireOnParentDestroyedModel, Assembly-CSharp",
-      "name": "TowerExpireOnParentDestroyedModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpireOnParentDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.SavedSubTowerModel, Assembly-CSharp",
-      "name": "SavedSubTowerModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SavedSubTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnSellModel, Assembly-CSharp",
       "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "b1dec8a8d79593843bc2e2410eae944e",
-          "guidRef": "b1dec8a8d79593843bc2e2410eae944e"
-        },
         "scale": 1.0,
-        "lifespan": 1.0,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_SellEffect",
-        "ImplementationType": null
-      },
-      "name": "CreateEffectOnSellModel_SacrificialTotem",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        "lifespan": 1.0
+      }
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnTowerPlaceModel, Assembly-CSharp",
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "b680997e404133143997d51105f59451",
-          "guidRef": "b680997e404133143997d51105f59451"
-        },
-        "name": "SoundModel_PlaceTowerMonkey01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "133e6e045f566e44ba09748ed2457a1f",
-          "guidRef": "133e6e045f566e44ba09748ed2457a1f"
-        },
-        "name": "SoundModel_PlaceTowerMonkey02",
-        "ImplementationType": null
-      },
-      "waterSound1": null,
-      "waterSound2": null,
-      "heroSound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "503965f743b1f8649a369b276d55180c",
-          "guidRef": "503965f743b1f8649a369b276d55180c"
-        },
-        "name": "SoundModel_PlaceEzili01",
-        "ImplementationType": null
-      },
-      "heroSound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "7f666c460a938df4bb89d66caa55187b",
-          "guidRef": "7f666c460a938df4bb89d66caa55187b"
-        },
-        "name": "SoundModel_PlaceEzili02",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnTowerPlaceModel_SacrificialTotem",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.RangeSupportModel, Assembly-CSharp",
       "multiplier": 0.2,
-      "additive": 0.0,
-      "mutatorId": "SacrificialTotemRange",
       "isUnique": true,
-      "filters": null,
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "RangeSupportModel_Support_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.RangeSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.RateSupportModel, Assembly-CSharp",
       "multiplier": 0.85,
       "isUnique": true,
-      "mutatorId": "SacrificialTotemRate",
-      "priority": 0,
-      "filters": null,
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "RateSupportModel_Support_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.RateSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.VisibilitySupportModel, Assembly-CSharp",
-      "isUnique": false,
-      "mutatorId": "SacrificialTotemVisibility",
-      "filters": null,
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "VisibilitySupportModel_Support_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.VisibilitySupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.PierceSupportModel, Assembly-CSharp",
       "pierce": 1.0,
-      "mutatorId": "SacrificialTotemPierce",
       "isUnique": true,
-      "filters": null,
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "PierceSupportModel_Support_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PierceSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.ProjectileSpeedSupportModel, Assembly-CSharp",
       "multiplier": 0.25,
-      "mutatorId": "SacrificialTotemProjectileSpeed",
       "isUnique": true,
-      "filters": null,
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "ProjectileSpeedSupportModel_Support_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.ProjectileSpeedSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.RateSupportModel, Assembly-CSharp",
       "multiplier": 0.95,
       "isUnique": true,
-      "mutatorId": "SacrificialTotemWizardRate",
-      "priority": 0,
       "filters": [
         {
-          "$type": "Assets.Scripts.Models.Towers.TowerFilters.FilterInBaseTowerIdModel, Assembly-CSharp",
           "baseIds": [
             "WizardMonkey"
-          ],
-          "name": "FilterInBaseTowerIdModel_",
-          "ImplementationType": "Assets.Scripts.Simulation.Towers.TowerFilters.FilterInBaseTowerId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          ]
         }
       ],
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "RateSupportModel_WizardSupport_WizardRate",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.RateSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.PierceSupportModel, Assembly-CSharp",
       "pierce": 1.0,
-      "mutatorId": "SacrificialTotemWizardPierce",
       "isUnique": true,
       "filters": [
         {
-          "$type": "Assets.Scripts.Models.Towers.TowerFilters.FilterInBaseTowerIdModel, Assembly-CSharp",
           "baseIds": [
             "WizardMonkey"
-          ],
-          "name": "FilterInBaseTowerIdModel_",
-          "ImplementationType": "Assets.Scripts.Simulation.Towers.TowerFilters.FilterInBaseTowerId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          ]
         }
       ],
-      "isGlobal": false,
-      "isCustomRadius": false,
-      "customRadius": 0.0,
-      "appliesToOwningTower": false,
-      "showBuffIcon": true,
-      "buffLocsName": "BuffIconSacrificialTotem",
-      "buffIconName": "BuffIconSacrificialTotem",
-      "maxStackSize": 0,
-      "onlyShowBuffIfMutated": false,
-      "onlyAffectParagon": false,
-      "name": "PierceSupportModel_WizardSupport_WizardSupport",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PierceSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "showBuffIcon": true
     },
     {
-      "$type": "Assets.Scripts.Models.GenericBehaviors.DisplayModel, Assembly-CSharp",
-      "display": {
-        "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-        "AssetGUID": "63acfea4658f08e44989d6a399143509",
-        "guidRef": "63acfea4658f08e44989d6a399143509"
-      },
       "layer": -1,
-      "positionOffset": {
-        "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
       "scale": 1.0,
-      "ignoreRotation": false,
-      "animationChanges": null,
-      "delayedReveal": 0.0,
-      "category": 4,
-      "isAnimationPaused": false,
-      "name": "DisplayModel_TowerDisplay",
-      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "category": 4
     }
   ],
-  "radius": 6.0,
-  "isPowerTower": false,
-  "isGeraldoItem": false,
-  "IsBeastHandlerPet": false,
-  "SelectParentOnSelected": false,
-  "DisplayScale": 1.0,
-  "IsSubEntity": true,
-  "BeastHandlerLeashMutationId": "BeastHandlerContributionSacrificialTotem",
-  "IsBaseTower": true,
-  "TargetTypes": null,
-  "IsExclusivelyWaterBased": false,
-  "RadiusSquared": 0.0,
-  "name": "SacrificialTotem",
-  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  "footprint": {
+    "radius": 6.0
+  },
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "displayScale": 1.0,
+  "showBuffs": true,
+  "IsBaseTower": true
 }

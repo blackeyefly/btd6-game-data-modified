@@ -1,707 +1,123 @@
 {
-  "$type": "Assets.Scripts.Models.Towers.TowerModel, Assembly-CSharp",
   "cost": 1200.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
   "range": 20.0,
-  "ignoreBlockers": false,
-  "isGlobalRange": false,
   "tier": 1,
   "tiers": [
-    1,
-    0,
-    0
+    1
   ],
   "towerSet": 16,
-  "icon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "MonkeyIcons[BenjaminIcon]",
-    "guidRef": "MonkeyIcons[BenjaminIcon]"
-  },
-  "icon3D": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": "f861e9111800a7949aab8f4fb5575e0c",
-    "guidRef": "f861e9111800a7949aab8f4fb5575e0c"
-  },
-  "portrait": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "b382beb4f44ae5d46b5e2f98fde91283",
-    "guidRef": "b382beb4f44ae5d46b5e2f98fde91283"
-  },
-  "instaIcon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
   "areaTypes": [
     2
   ],
   "mods": [
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "GlobalAbilityCooldowns",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "GlobalAbilityCooldowns"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "VeteranMonkeyTraining",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "VeteranMonkeyTraining"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "MonkeyEducation",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "MonkeyEducation"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "BetterSellDeals",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "BetterSellDeals"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
       "mod": "AbilityDiscipline",
-      "target": "SyphonFundingAbility",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "target": "SyphonFundingAbility"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "EmpoweredHeroes",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "EmpoweredHeroes"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "HeroicReach",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "HeroicReach"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "HeroicVelocity",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "HeroicVelocity"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "QuickHands",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "QuickHands"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "Scholarships",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "Scholarships"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "SelfTaughtHeroes",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "SelfTaughtHeroes"
     },
     {
-      "$type": "Assets.Scripts.Models.Towers.Mods.ApplyModModel, Assembly-CSharp",
-      "mod": "WeakPoint",
-      "target": "",
-      "name": "BenjaminUpgrades",
-      "ImplementationType": null
+      "mod": "WeakPoint"
     }
   ],
-  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "xpScale": 1.0,
+      "costPerXpToLevel": 1.0
+    },
+    {
+      "placeAnimation": 3,
+      "upgradeAnimation": 2
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 1.0
+      }
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 18.0
+      }
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 6.0
+      }
+    },
+    {
+      "tag": "Moabs"
+    },
+    {
+      "cashPerRound": 80.0,
+      "lifespan": 1.0
+    },
+    {
+      "behaviors": [
+        {
+          "filters": [
+            {
+              "isActive": true
+            }
+          ]
+        }
+      ],
+      "range": 20.0,
+      "offsetY": -3.05175763e-05,
+      "offsetZ": 3.637979e-12,
+      "addsToSharedGrid": true
+    },
+    {
+      "layer": -1,
+      "scale": 1.0,
+      "category": 4
+    }
+  ],
   "footprint": {
-    "$type": "Assets.Scripts.Models.Towers.Behaviors.CircleFootprintModel, Assembly-CSharp",
-    "radius": 7.0,
-    "doesntBlockTowerPlacement": false,
-    "ignoresPlacementCheck": false,
-    "ignoresTowerOverlap": false,
-    "name": "CircleFootprintModel_Circle Footprint",
-    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-  },
-  "dontDisplayUpgrades": false,
-  "emoteSpriteSmall": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "UiEmoteIcons[EmoteBenjamin]",
-    "guidRef": "UiEmoteIcons[EmoteBenjamin]"
-  },
-  "emoteSpriteLarge": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "8e5c56e9f36383a49946c6e031f435f9",
-    "guidRef": "8e5c56e9f36383a49946c6e031f435f9"
+    "radius": 7.0
   },
   "doesntRotate": true,
   "upgrades": [
     {
-      "$type": "Assets.Scripts.Models.Towers.Upgrades.UpgradePathModel, Assembly-CSharp",
       "tower": "Benjamin 2",
-      "upgrade": "Benjamin level 2",
-      "name": "UpgradePathModel_UpgradePathModel",
-      "ImplementationType": null
+      "upgrade": "Benjamin level 2"
     }
   ],
-  "appliedUpgrades": [],
-  "targetTypes": null,
-  "paragonUpgrade": null,
-  "isSubTower": false,
   "isBakable": true,
-  "powerName": null,
-  "showPowerTowerBuffs": false,
   "animationSpeed": 1.0,
-  "towerSelectionMenuThemeId": "Default",
-  "secondarySelectionMenu": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "ignoreCoopAreas": false,
-  "canAlwaysBeSold": false,
-  "blockSelling": false,
-  "isParagon": false,
-  "ignoreMaxSellPercent": false,
-  "isStunned": false,
-  "geraldoItemName": null,
-  "sellbackModifierAdd": 0.0,
-  "skinName": null,
-  "dontAddMutatorsFromParent": false,
-  "showBuffs": true,
-  "destroyTowerOnRedistribution": false,
   "displayScale": 1.0,
-  "baseId": "Benjamin",
-  "display": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": "4ead8cc58d460544790b7d1b09d37a66",
-    "guidRef": "4ead8cc58d460544790b7d1b09d37a66"
-  },
-  "behaviors": [
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.HeroModel, Assembly-CSharp",
-      "xpScale": 1.0,
-      "costPerXpToLevel": 1.0,
-      "name": "HeroModel_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Hero, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.PlayAnimationIndexModel, Assembly-CSharp",
-      "placeAnimation": 3,
-      "upgradeAnimation": 2,
-      "name": "PlayAnimationIndexModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PlayAnimationIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnSellModel, Assembly-CSharp",
-      "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "b1dec8a8d79593843bc2e2410eae944e",
-          "guidRef": "b1dec8a8d79593843bc2e2410eae944e"
-        },
-        "scale": 1.0,
-        "lifespan": 1.0,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_Sell",
-        "ImplementationType": null
-      },
-      "name": "CreateEffectOnSellModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnPlaceModel, Assembly-CSharp",
-      "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "708be580149dc444d89314b6d9f388e9",
-          "guidRef": "708be580149dc444d89314b6d9f388e9"
-        },
-        "scale": 1.0,
-        "lifespan": 18.0,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_PlacementEffect",
-        "ImplementationType": null
-      },
-      "name": "CreateEffectOnPlaceModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnBloonEnterTrackModel, Assembly-CSharp",
-      "moabSound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "1e746f7760ea8e443add08778cd4379a",
-          "guidRef": "1e746f7760ea8e443add08778cd4379a"
-        },
-        "name": "SoundModel_MoabWarningBenjamin",
-        "ImplementationType": null
-      },
-      "bfbSound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "306f570ef095dc1498d03c325b506672",
-          "guidRef": "306f570ef095dc1498d03c325b506672"
-        },
-        "name": "SoundModel_BfbWarningBenjamin",
-        "ImplementationType": null
-      },
-      "ddtSound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "51551580286e3f6448f6fc06bd959deb",
-          "guidRef": "51551580286e3f6448f6fc06bd959deb"
-        },
-        "name": "SoundModel_DdtWarningBenjamin",
-        "ImplementationType": null
-      },
-      "zomgSound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "c9cef72c6e10787419da6741338cb7cd",
-          "guidRef": "c9cef72c6e10787419da6741338cb7cd"
-        },
-        "name": "SoundModel_ZomgWarningBenjamin",
-        "ImplementationType": null
-      },
-      "badSound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "7485997b72cb310439825e5934ff50ce",
-          "guidRef": "7485997b72cb310439825e5934ff50ce"
-        },
-        "name": "SoundModel_BadWarningBenjamin",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnBloonEnterTrackModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonEnterTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnBloonLeakModel, Assembly-CSharp",
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "9b68844ee068e9a48a3e7c58901e791a",
-          "guidRef": "9b68844ee068e9a48a3e7c58901e791a"
-        },
-        "name": "SoundModel_LeakBenjamin01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "45d544fb0da9cf2408d3c19c320de3e2",
-          "guidRef": "45d544fb0da9cf2408d3c19c320de3e2"
-        },
-        "name": "SoundModel_LeakBenjamin02",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnBloonLeakModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonLeak, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnSelectedModel, Assembly-CSharp",
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "243fd5a0053260a4880622f0d2a87398",
-          "guidRef": "243fd5a0053260a4880622f0d2a87398"
-        },
-        "name": "SoundModel_SelectBenjamin01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "3a0c01bf91da53c44ae3ef7084c36e3f",
-          "guidRef": "3a0c01bf91da53c44ae3ef7084c36e3f"
-        },
-        "name": "SoundModel_SelectBenjamin02",
-        "ImplementationType": null
-      },
-      "sound3": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "0bd86d103b4dcb7478fdee54b7767708",
-          "guidRef": "0bd86d103b4dcb7478fdee54b7767708"
-        },
-        "name": "SoundModel_SelectBenjamin03",
-        "ImplementationType": null
-      },
-      "sound4": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "b56eece54bde9774382232bdbe71b535",
-          "guidRef": "b56eece54bde9774382232bdbe71b535"
-        },
-        "name": "SoundModel_SelectBenjamin04",
-        "ImplementationType": null
-      },
-      "sound5": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "92ff28e468224bf4db1649eda533d005",
-          "guidRef": "92ff28e468224bf4db1649eda533d005"
-        },
-        "name": "SoundModel_SelectBenjamin05",
-        "ImplementationType": null
-      },
-      "sound6": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "b4128f1cdc73eae4ba8c2642a962b9bd",
-          "guidRef": "b4128f1cdc73eae4ba8c2642a962b9bd"
-        },
-        "name": "SoundModel_SelectBenjamin06",
-        "ImplementationType": null
-      },
-      "altSound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "519ae31e5213d6a4486b171e88df4db8",
-          "guidRef": "519ae31e5213d6a4486b171e88df4db8"
-        },
-        "name": "SoundModel_SelectAltBenjamin01",
-        "ImplementationType": null
-      },
-      "altSound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "008f7fbe9854a024cb2e28a0c2edde9b",
-          "guidRef": "008f7fbe9854a024cb2e28a0c2edde9b"
-        },
-        "name": "SoundModel_SelectAltBenjamin02",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnSelectedModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSelected, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnSellModel, Assembly-CSharp",
-      "sound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "a8c789893d4275749af12c1efda9dd3e",
-          "guidRef": "a8c789893d4275749af12c1efda9dd3e"
-        },
-        "name": "SoundModel_UISell",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnSellModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnUpgradeModel, Assembly-CSharp",
-      "sound": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "f91dc7ea1b37815459e81e99254863ab",
-          "guidRef": "f91dc7ea1b37815459e81e99254863ab"
-        },
-        "name": "SoundModel_TowerUpgrade",
-        "ImplementationType": null
-      },
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "7479c6e19085b4f4ead0376cad9b6e77",
-          "guidRef": "7479c6e19085b4f4ead0376cad9b6e77"
-        },
-        "name": "SoundModel_UpgradeBenjamin01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "30171e86b15465e40af4d04834320b2b",
-          "guidRef": "30171e86b15465e40af4d04834320b2b"
-        },
-        "name": "SoundModel_UpgradeBenjamin02",
-        "ImplementationType": null
-      },
-      "sound3": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "98657aebb673ba74bade7fc1dee882b9",
-          "guidRef": "98657aebb673ba74bade7fc1dee882b9"
-        },
-        "name": "SoundModel_UpgradeBenjamin03",
-        "ImplementationType": null
-      },
-      "sound4": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "294864d8c091e834a87f8836e67f9eb9",
-          "guidRef": "294864d8c091e834a87f8836e67f9eb9"
-        },
-        "name": "SoundModel_UpgradeBenjamin04",
-        "ImplementationType": null
-      },
-      "sound5": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "920fa30b722f73147ac73d78d922dae6",
-          "guidRef": "920fa30b722f73147ac73d78d922dae6"
-        },
-        "name": "SoundModel_UpgradeBenjamin05",
-        "ImplementationType": null
-      },
-      "sound6": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "6184ba1d6e1a18d40b9e494982f59191",
-          "guidRef": "6184ba1d6e1a18d40b9e494982f59191"
-        },
-        "name": "SoundModel_UpgradeBenjamin06",
-        "ImplementationType": null
-      },
-      "sound7": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "06a88e04bda95a54785f2196ec2c4d2f",
-          "guidRef": "06a88e04bda95a54785f2196ec2c4d2f"
-        },
-        "name": "SoundModel_UpgradeBenjamin07",
-        "ImplementationType": null
-      },
-      "sound8": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "e25a8b6915f87fd45b436c14da35ef54",
-          "guidRef": "e25a8b6915f87fd45b436c14da35ef54"
-        },
-        "name": "SoundModel_UpgradeBenjamin08",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnUpgradeModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnTowerPlaceModel, Assembly-CSharp",
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "b680997e404133143997d51105f59451",
-          "guidRef": "b680997e404133143997d51105f59451"
-        },
-        "name": "SoundModel_PlaceTowerMonkey01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "133e6e045f566e44ba09748ed2457a1f",
-          "guidRef": "133e6e045f566e44ba09748ed2457a1f"
-        },
-        "name": "SoundModel_PlaceTowerMonkey02",
-        "ImplementationType": null
-      },
-      "waterSound1": null,
-      "waterSound2": null,
-      "heroSound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "95614b1dbb81c2e4bb4578a463f4641e",
-          "guidRef": "95614b1dbb81c2e4bb4578a463f4641e"
-        },
-        "name": "SoundModel_PlaceBenjamin01",
-        "ImplementationType": null
-      },
-      "heroSound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "bfdd3fa179ab38d459577bfda3c34344",
-          "guidRef": "bfdd3fa179ab38d459577bfda3c34344"
-        },
-        "name": "SoundModel_PlaceBenjamin02",
-        "ImplementationType": null
-      },
-      "name": "CreateSoundOnTowerPlaceModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateEffectOnUpgradeModel, Assembly-CSharp",
-      "effectModel": {
-        "$type": "Assets.Scripts.Models.Effects.EffectModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-          "AssetGUID": "9e800b22f83685141bcb398b78331495",
-          "guidRef": "9e800b22f83685141bcb398b78331495"
-        },
-        "scale": 1.0,
-        "lifespan": 6.0,
-        "fullscreen": 0,
-        "useCenterPosition": false,
-        "useTransformPosition": false,
-        "useTransfromRotation": false,
-        "destroyOnTransformDestroy": false,
-        "alwaysUseAge": false,
-        "useRoundTime": false,
-        "name": "EffectModel_UpgradeEffect",
-        "ImplementationType": null
-      },
-      "createOnAirUnit": false,
-      "name": "CreateEffectOnUpgradeModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.CreateSoundOnBloonDestroyedModel, Assembly-CSharp",
-      "sound1": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "1f41dd9d38d867d439fdd42e1ccd9b08",
-          "guidRef": "1f41dd9d38d867d439fdd42e1ccd9b08"
-        },
-        "name": "SoundModel_MoabDestroyedBenjamin01",
-        "ImplementationType": null
-      },
-      "sound2": {
-        "$type": "Assets.Scripts.Models.Audio.SoundModel, Assembly-CSharp",
-        "assetId": {
-          "$type": "NinjaKiwi.Common.ResourceUtils.AudioClipReference, NinjaKiwi.Common",
-          "AssetGUID": "b0cddb85a2c8b0b43b9c7413f76e0ca1",
-          "guidRef": "b0cddb85a2c8b0b43b9c7413f76e0ca1"
-        },
-        "name": "SoundModel_MoabDestroyedBenjamin02",
-        "ImplementationType": null
-      },
-      "tag": "Moabs",
-      "name": "CreateSoundOnBloonDestroyedModel_Benjamin",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.PerRoundCashBonusTowerModel, Assembly-CSharp",
-      "cashPerRound": 80.0,
-      "cashRoundBonusMultiplier": 0.0,
-      "lifespan": 1.0,
-      "assetId": {
-        "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-        "AssetGUID": "77503c27ee86922409f6383b5b264982",
-        "guidRef": "77503c27ee86922409f6383b5b264982"
-      },
-      "distributeCash": false,
-      "name": "",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PerRoundCashBonusTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.Towers.Behaviors.Attack.AttackModel, Assembly-CSharp",
-      "weapons": [],
-      "behaviors": [
-        {
-          "$type": "Assets.Scripts.Models.Towers.Behaviors.Attack.Behaviors.AttackFilterModel, Assembly-CSharp",
-          "filters": [
-            {
-              "$type": "Assets.Scripts.Models.Towers.Filters.FilterInvisibleModel, Assembly-CSharp",
-              "isActive": true,
-              "ignoreBroadPhase": false,
-              "name": "FilterInvisibleModel_",
-              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-            }
-          ],
-          "name": "AttackFilterModel_",
-          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-        }
-      ],
-      "range": 20.0,
-      "targetProvider": null,
-      "offsetX": 0.0,
-      "offsetY": -3.05175763E-05,
-      "offsetZ": 3.637979E-12,
-      "attackThroughWalls": false,
-      "fireWithoutTarget": false,
-      "framesBeforeRetarget": 0,
-      "addsToSharedGrid": true,
-      "sharedGridRange": 0.0,
-      "name": "AttackModel_SharedAttack_",
-      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    },
-    {
-      "$type": "Assets.Scripts.Models.GenericBehaviors.DisplayModel, Assembly-CSharp",
-      "display": {
-        "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-        "AssetGUID": "4ead8cc58d460544790b7d1b09d37a66",
-        "guidRef": "4ead8cc58d460544790b7d1b09d37a66"
-      },
-      "layer": -1,
-      "positionOffset": {
-        "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "scale": 1.0,
-      "ignoreRotation": false,
-      "animationChanges": null,
-      "delayedReveal": 0.0,
-      "category": 4,
-      "isAnimationPaused": false,
-      "name": "DisplayModel_TowerDisplay",
-      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-    }
-  ],
-  "radius": 7.0,
-  "isPowerTower": false,
-  "isGeraldoItem": false,
-  "IsBeastHandlerPet": false,
-  "SelectParentOnSelected": false,
-  "DisplayScale": 1.0,
-  "IsSubEntity": false,
-  "BeastHandlerLeashMutationId": "BeastHandlerContributionBenjamin",
-  "IsBaseTower": true,
-  "TargetTypes": null,
-  "IsExclusivelyWaterBased": false,
-  "RadiusSquared": 0.0,
-  "name": "Benjamin",
-  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  "showBuffs": true,
+  "IsBaseTower": true
 }

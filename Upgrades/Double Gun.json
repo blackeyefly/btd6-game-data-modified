@@ -1,19 +1,7 @@
 {
-  "$type": "Assets.Scripts.Models.Towers.Upgrades.UpgradeModel, Assembly-CSharp",
   "cost": 450,
   "xpCost": 1800,
-  "icon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "f8fc0aa8c89fe8b40850d8871a997556",
-    "guidRef": "f8fc0aa8c89fe8b40850d8871a997556"
-  },
   "path": 2,
   "tier": 2,
-  "locked": 0,
-  "confirmation": "",
-  "localizedNameOverride": "",
-  "LocsKey": "Double Gun",
-  "IsParagon": false,
-  "name": "Double Gun",
-  "ImplementationType": null
+  "LocsKey": "Double Gun"
 }
