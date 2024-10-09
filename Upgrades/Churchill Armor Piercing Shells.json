@@ -1,19 +1,5 @@
 {
-  "$type": "Assets.Scripts.Models.Towers.Upgrades.UpgradeModel, Assembly-CSharp",
-  "cost": 0,
   "xpCost": 787,
-  "icon": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": null,
-    "guidRef": null
-  },
-  "path": 0,
   "tier": 2,
-  "locked": 0,
-  "confirmation": "",
-  "localizedNameOverride": "",
-  "LocsKey": "Churchill Armor Piercing Shells",
-  "IsParagon": false,
-  "name": "Churchill Armor Piercing Shells",
-  "ImplementationType": null
+  "LocsKey": "Churchill Armor Piercing Shells"
 }
