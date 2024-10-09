@@ -1,13 +1,17 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "65e7d309df0e74d258590648dd24ce98"
+  },
+  "instaIcon": {
+    "AssetGUID": "6f971db76c95f4d37803155980720b9c"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,47 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-020",
+      "upgrade": "Wall of Fire"
+    },
+    {
+      "tower": "WizardMonkey-011",
+      "upgrade": "Intense Magic"
+    },
+    {
+      "tower": "WizardMonkey-110",
+      "upgrade": "Guided Magic"
+    }
+  ],
+  "appliedUpgrades": [
+    "Fireball"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -252,47 +297,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-020",
-      "upgrade": "Wall of Fire"
-    },
-    {
-      "tower": "WizardMonkey-011",
-      "upgrade": "Intense Magic"
-    },
-    {
-      "tower": "WizardMonkey-110",
-      "upgrade": "Guided Magic"
-    }
-  ],
-  "appliedUpgrades": [
-    "Fireball"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

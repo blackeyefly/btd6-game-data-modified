@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "23a3b106c8e336a428504de69830a2b8"
+  },
+  "instaIcon": {
+    "AssetGUID": "7dc59faf48eb14111883c8a8a928188a"
+  },
   "areaTypes": [
     1
   ],
@@ -39,6 +43,44 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-102",
+      "upgrade": "Airburst Darts"
+    },
+    {
+      "tower": "MonkeySub-201",
+      "upgrade": "Advanced Intel"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Twin Guns"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -181,44 +223,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-102",
-      "upgrade": "Airburst Darts"
-    },
-    {
-      "tower": "MonkeySub-201",
-      "upgrade": "Advanced Intel"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Twin Guns"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

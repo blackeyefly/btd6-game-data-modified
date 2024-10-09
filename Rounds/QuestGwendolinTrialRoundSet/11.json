@@ -1,646 +1,267 @@
 {
-  "$type": "Assets.Scripts.Models.Rounds.RoundModel, Assembly-CSharp",
   "groups": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "Zomg",
-      "start": 0.0,
       "end": 51.0,
-      "count": 1,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 1
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "LeadFortified",
       "start": 102.0,
       "end": 867.000061,
-      "count": 50,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 50
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "Bfb",
       "start": 255.0,
       "end": 765.0,
-      "count": 10,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 10
     }
   ],
   "emissions": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Zomg",
-      "time": 25.5,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 25.5
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 102.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 102.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 117.612244,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 117.612244
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 133.224487,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 133.224487
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 148.836731,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 148.836731
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 164.44899,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 164.44899
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 180.061234,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 180.061234
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 195.673477,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 195.673477
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 211.285736,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 211.285736
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 226.89798,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 226.89798
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 242.510223,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 242.510223
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 258.122467,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 258.122467
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 273.7347,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 273.7347
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 289.346954,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 289.346954
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 304.9592,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 304.9592
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 320.571472,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 320.571472
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 336.183716,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 336.183716
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 351.795959,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 351.795959
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 367.4082,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 367.4082
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 383.020447,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 383.020447
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 398.6327,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 398.6327
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 414.244934,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 414.244934
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 429.857178,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 429.857178
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 445.469421,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 445.469421
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 461.081665,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 461.081665
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 476.6939,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 476.6939
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 492.306152,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 492.306152
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 507.9184,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 507.9184
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 523.53064,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 523.53064
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 539.142944,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 539.142944
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 554.7551,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 554.7551
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 570.367432,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 570.367432
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 585.9796,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 585.9796
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 601.5919,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 601.5919
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 617.204163,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 617.204163
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 632.8164,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 632.8164
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 648.42865,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 648.42865
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 664.0409,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 664.0409
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 679.653137,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 679.653137
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 695.2654,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 695.2654
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 710.8776,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 710.8776
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 726.489868,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 726.489868
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 742.1021,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 742.1021
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 757.714355,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 757.714355
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 773.3266,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 773.3266
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 788.938843,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 788.938843
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 804.5511,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 804.5511
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 820.1633,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 820.1633
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 835.7756,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 835.7756
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 851.3878,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 851.3878
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "LeadFortified",
-      "time": 867.000061,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 867.000061
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 255.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 255.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 311.666656,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 311.666656
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 368.333344,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 368.333344
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 425.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 425.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 481.6667,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 481.6667
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 538.3334,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 538.3334
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 595.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 595.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 651.6667,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 651.6667
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 708.3334,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 708.3334
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Bfb",
-      "time": 765.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 765.0
     }
-  ],
-  "name": "RoundModel_",
-  "ImplementationType": null
+  ]
 }

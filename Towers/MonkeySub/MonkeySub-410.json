@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "dc8d549c38103f54a82f4682608b252a"
+  },
+  "instaIcon": {
+    "AssetGUID": "858b256b08cd7431aaeec9b25d27d25b"
+  },
   "areaTypes": [
     1
   ],
@@ -40,6 +44,52 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-420",
+      "upgrade": "Heat-tipped Darts"
+    },
+    {
+      "tower": "MonkeySub-510",
+      "upgrade": "Energizer"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Advanced Intel",
+    "Submerge and Support",
+    "Bloontonium Reactor",
+    "Barbed Darts"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    },
+    {
+      "id": "Submerge",
+      "intID": -1,
+      "continueToNextPriority": true
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -90,11 +140,11 @@
                 "lifespan": 1.0
               },
               {
-                "min": 0.3
+                "min": 0.28
               }
             ],
-            "Rate": 0.3,
-            "rate": 0.3
+            "Rate": 0.28,
+            "rate": 0.28
           },
           {
             "animation": -1,
@@ -148,8 +198,8 @@
                     "id": "ReactorDamage",
                     "priority": 1
                   },
-                  "Lifespan": 0.3,
-                  "lifespan": 0.3
+                  "Lifespan": 0.28,
+                  "lifespan": 0.28
                 },
                 {
                   "scale": 1.0,
@@ -166,11 +216,11 @@
             "fireWithoutTarget": true,
             "behaviors": [
               {
-                "min": 0.3
+                "min": 0.28
               }
             ],
-            "Rate": 0.3,
-            "rate": 0.3
+            "Rate": 0.28,
+            "rate": 0.28
           }
         ],
         "range": 2000.0,
@@ -245,8 +295,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.3,
-            "lifespan": 0.3
+            "Lifespan": 0.28,
+            "lifespan": 0.28
           },
           {
             "scale": 1.0,
@@ -345,8 +395,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.3,
-            "lifespan": 0.3
+            "Lifespan": 0.28,
+            "lifespan": 0.28
           },
           {
             "scale": 1.0,
@@ -516,11 +566,11 @@
               "lifespan": 1.0
             },
             {
-              "min": 0.3
+              "min": 0.28
             }
           ],
-          "Rate": 0.3,
-          "rate": 0.3
+          "Rate": 0.28,
+          "rate": 0.28
         },
         {
           "animation": -1,
@@ -574,8 +624,8 @@
                   "id": "ReactorDamage",
                   "priority": 1
                 },
-                "Lifespan": 0.3,
-                "lifespan": 0.3
+                "Lifespan": 0.28,
+                "lifespan": 0.28
               },
               {
                 "scale": 1.0,
@@ -592,11 +642,11 @@
           "fireWithoutTarget": true,
           "behaviors": [
             {
-              "min": 0.3
+              "min": 0.28
             }
           ],
-          "Rate": 0.3,
-          "rate": 0.3
+          "Rate": 0.28,
+          "rate": 0.28
         }
       ],
       "range": 2000.0,
@@ -608,52 +658,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-420",
-      "upgrade": "Heat-tipped Darts"
-    },
-    {
-      "tower": "MonkeySub-510",
-      "upgrade": "Energizer"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Advanced Intel",
-    "Submerge and Support",
-    "Bloontonium Reactor",
-    "Barbed Darts"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    },
-    {
-      "id": "Submerge",
-      "intID": -1,
-      "continueToNextPriority": true
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

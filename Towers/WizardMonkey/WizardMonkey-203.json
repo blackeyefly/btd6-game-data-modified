@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "538a4f25a04184b4c96ff65667ae0006"
+  },
+  "instaIcon": {
+    "AssetGUID": "6eb565e0c7b91498cb772a0a466ac024"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,43 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-204",
+      "upgrade": "Necromancer: Unpopped Army"
+    }
+  ],
+  "appliedUpgrades": [
+    "Guided Magic",
+    "Arcane Blast",
+    "Intense Magic",
+    "Monkey Sense",
+    "Shimmer"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -181,43 +222,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-204",
-      "upgrade": "Necromancer: Unpopped Army"
-    }
-  ],
-  "appliedUpgrades": [
-    "Guided Magic",
-    "Arcane Blast",
-    "Intense Magic",
-    "Monkey Sense",
-    "Shimmer"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

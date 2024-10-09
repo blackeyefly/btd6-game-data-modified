@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 57.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "9b899a5d74cc708499711cafb6f5b5d6"
+  },
+  "instaIcon": {
+    "AssetGUID": "126c1be9444e044369bebaec76ec59d4"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,39 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "appliedUpgrades": [
+    "Bigger Bombs",
+    "Heavy Bombs",
+    "Extra Range",
+    "Frag Bombs",
+    "Really Big Bombs",
+    "Bloon Impact",
+    "Bloon Crush"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -125,11 +162,11 @@
                       ]
                     },
                     {
-                      "pushAmount": 10.0,
-                      "multiplierMOAB": 0.5,
-                      "multiplierBFB": 0.5,
-                      "multiplierDDT": 0.5,
-                      "multiplierZOMG": 0.5,
+                      "pushAmount": 20.0,
+                      "multiplierMOAB": 0.25,
+                      "multiplierBFB": 0.25,
+                      "multiplierDDT": 0.25,
+                      "multiplierZOMG": 0.25,
                       "onlyIfDamaged": true
                     },
                     {
@@ -265,39 +302,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Bigger Bombs",
-    "Heavy Bombs",
-    "Extra Range",
-    "Frag Bombs",
-    "Really Big Bombs",
-    "Bloon Impact",
-    "Bloon Crush"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

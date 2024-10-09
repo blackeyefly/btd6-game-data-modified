@@ -2,12 +2,18 @@
   "behaviorModels": [
     {
       "petRabbitBaseTowerModel": {
-        "radius": 6.0,
-        "radiusSquared": 36.0,
         "areaTypes": [
           2
         ],
         "ignoreTowerForSelection": true,
+        "footprint": {
+          "doesntBlockTowerPlacement": true,
+          "ignoresTowerOverlap": true
+        },
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "layer": -1,
@@ -25,7 +31,8 @@
                 "IdleTimeMax": 10.0,
                 "MotionCurve": [
                   {
-                    "outWeight": 0.06738544
+                    "outWeight": 0.06738544,
+                    "weightedMode": 3
                   },
                   {
                     "time": 0.15,
@@ -33,7 +40,8 @@
                     "inTangent": 1.05408466,
                     "outTangent": 1.05408466,
                     "inWeight": 0.564465165,
-                    "outWeight": 0.07873854
+                    "outWeight": 0.07873854,
+                    "weightedMode": 3
                   },
                   {
                     "time": 0.85,
@@ -41,20 +49,28 @@
                     "inTangent": 1.06291342,
                     "outTangent": 1.06291342,
                     "inWeight": 0.069201,
-                    "outWeight": 0.333333343
+                    "outWeight": 0.333333343,
+                    "weightedMode": 3
                   },
                   {
                     "time": 1.0,
-                    "value": 1.0
+                    "value": 1.0,
+                    "weightedMode": 3
                   }
                 ],
                 "startAtTower": true,
                 "useSyncedRandom": true
               },
               {
+                "Effect": {
+                  "AssetGUID": "966fb7349f1435c4fa1f2d4a62faa1eb"
+                },
                 "Lifespan": 2.0
               },
               {
+                "Effect": {
+                  "AssetGUID": "b1dec8a8d79593843bc2e2410eae944e"
+                },
                 "Lifespan": 2.0
               }
             ]
@@ -63,15 +79,10 @@
             "mergeAmountRequired": 4
           }
         ],
-        "footprint": {
-          "doesntBlockTowerPlacement": true,
-          "ignoresTowerOverlap": true
-        },
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "displayScale": 1.0,
-        "showBuffs": true,
+        "radius": 6.0,
         "isGeraldoItem": true,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true
       }
     }
@@ -85,5 +96,8 @@
   "amountToReplenish": 1,
   "levelUnlockedAt": 10,
   "showGeraldoRangeCircle": true,
-  "blockPurchaseIfTowerPlaced": "WererabbitTower"
+  "blockPurchaseIfTowerPlaced": "WererabbitTower",
+  "defaultIcon": {
+    "AssetGUID": "de55f58d4f49f824eb2d760ba2f2514c"
+  }
 }

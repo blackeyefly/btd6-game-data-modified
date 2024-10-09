@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 45.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "f4ecd11e53966d2479ec4d7eba626869"
+  },
+  "instaIcon": {
+    "AssetGUID": "1166b70c3daa84ef0aa51925446e0cb1"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,50 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-005",
+      "upgrade": "Avatar of Wrath"
+    },
+    {
+      "tower": "Druid-014",
+      "upgrade": "Thorn Swarm"
+    },
+    {
+      "tower": "Druid-104",
+      "upgrade": "Hard Thorns"
+    }
+  ],
+  "appliedUpgrades": [
+    "Druidic Reach",
+    "Heart of Vengeance",
+    "Druid of Wrath",
+    "Poplust"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "maxStacks": 5,
@@ -177,50 +225,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-005",
-      "upgrade": "Avatar of Wrath"
-    },
-    {
-      "tower": "Druid-014",
-      "upgrade": "Thorn Swarm"
-    },
-    {
-      "tower": "Druid-104",
-      "upgrade": "Hard Thorns"
-    }
-  ],
-  "appliedUpgrades": [
-    "Druidic Reach",
-    "Heart of Vengeance",
-    "Druid of Wrath",
-    "Poplust"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "12a5ca55036d0bd43a74738f92037d64"
+  },
+  "instaIcon": {
+    "AssetGUID": "becf82148c78342438e91d9c056fb51d"
+  },
   "areaTypes": [
     1
   ],
@@ -45,6 +49,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-024",
+      "upgrade": "Buccaneer-Favored Trades"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Grape Shot",
+    "Buccaneer-Hot Shot",
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest",
+    "Buccaneer-Merchantman"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -335,43 +376,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-024",
-      "upgrade": "Buccaneer-Favored Trades"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Grape Shot",
-    "Buccaneer-Hot Shot",
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest",
-    "Buccaneer-Merchantman"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

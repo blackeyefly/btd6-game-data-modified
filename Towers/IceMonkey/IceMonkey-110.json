@@ -1,7 +1,5 @@
 {
   "cost": 500.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "8fd642de092e96f40845e40a4052ffaa"
+  },
+  "instaIcon": {
+    "AssetGUID": "16e0b3dab128e4755a2cb45832c882ed"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,33 @@
       "target": "Attack,BaseProjectile"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "IceMonkey-120",
+      "upgrade": "Deep Freeze"
+    },
+    {
+      "tower": "IceMonkey-210",
+      "upgrade": "Metal Freeze"
+    }
+  ],
+  "appliedUpgrades": [
+    "Permafrost",
+    "Enhanced Freeze"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -343,33 +374,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "IceMonkey-120",
-      "upgrade": "Deep Freeze"
-    },
-    {
-      "tower": "IceMonkey-210",
-      "upgrade": "Metal Freeze"
-    }
-  ],
-  "appliedUpgrades": [
-    "Permafrost",
-    "Enhanced Freeze"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

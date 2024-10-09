@@ -2,6 +2,12 @@
   "id": "Encrypted",
   "difficulty": 1,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectEncryptedButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "3d809a393d83d1343b13f1e3266d6ab7"
+  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

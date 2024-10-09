@@ -1,14 +1,18 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
-  "range": 55.0,
+  "range": 47.0,
   "tier": 5,
   "tiers": [
     1,
     5
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "7df9ec3fe1b7849719ebc4f504831dfc"
+  },
+  "instaIcon": {
+    "AssetGUID": "80f3c88db8aa642b0a4d35b1f45ea483"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,48 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-205",
+      "upgrade": "Sharp Shurikens"
+    }
+  ],
+  "appliedUpgrades": [
+    "Seeking Shuriken",
+    "Caltrops",
+    "Flash Bomb",
+    "Sticky Bomb",
+    "Master Bomber",
+    "Ninja Discipline"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "NinjaMonkey-Paragon",
+    "upgrade": "NinjaMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -70,7 +116,7 @@
           "ejectZ": 7.0,
           "projectile": {
             "id": "Projectile",
-            "pierce": 2.0,
+            "pierce": 4.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -104,7 +150,7 @@
                   "Stun"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAdditive": 9.0,
+                "damageAdditive": 19.0,
                 "mustBeModified": true
               },
               {
@@ -113,7 +159,7 @@
                   "StickyBomb"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAdditive": 9.0,
+                "damageAdditive": 19.0,
                 "mustBeModified": true
               },
               {
@@ -124,7 +170,7 @@
             "canCollideWithBloons": true,
             "radius": 3.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 2.0
+            "CappedPierce": 4.0
           },
           "behaviors": [
             {
@@ -230,7 +276,7 @@
           "isSelectable": true
         }
       ],
-      "range": 55.0,
+      "range": 47.0,
       "addsToSharedGrid": true
     },
     {
@@ -344,7 +390,7 @@
           "rotateTower": true
         }
       ],
-      "range": 55.0,
+      "range": 47.0,
       "targetProvider": {
         "maxOffset": 2.0
       }
@@ -490,48 +536,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-205",
-      "upgrade": "Sharp Shurikens"
-    }
-  ],
-  "appliedUpgrades": [
-    "Seeking Shuriken",
-    "Caltrops",
-    "Flash Bomb",
-    "Sticky Bomb",
-    "Master Bomber",
-    "Ninja Discipline"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "NinjaMonkey-Paragon",
-    "upgrade": "NinjaMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

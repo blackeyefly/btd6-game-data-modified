@@ -1,13 +1,17 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 57.19,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "305d06670fe58d84c8764fef34a25d2b"
+  },
+  "instaIcon": {
+    "AssetGUID": "f65c98476fef04880b7a26020b70a94b"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,50 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-005",
+      "upgrade": "MOAB Domination"
+    },
+    {
+      "tower": "BoomerangMonkey-104",
+      "upgrade": "Improved Rangs"
+    },
+    {
+      "tower": "BoomerangMonkey-014",
+      "upgrade": "Faster Throwing"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Range Rangs",
+    "Red Hot Rangs",
+    "Kylie Boomerang",
+    "MOAB Press"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -736,50 +784,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-005",
-      "upgrade": "MOAB Domination"
-    },
-    {
-      "tower": "BoomerangMonkey-104",
-      "upgrade": "Improved Rangs"
-    },
-    {
-      "tower": "BoomerangMonkey-014",
-      "upgrade": "Faster Throwing"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Range Rangs",
-    "Red Hot Rangs",
-    "Kylie Boomerang",
-    "MOAB Press"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

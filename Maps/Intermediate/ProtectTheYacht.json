@@ -2,6 +2,9 @@
   "id": "ProtectTheYacht",
   "difficulty": 1,
   "mapMusic": "MusicUpbeat2A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectProtectTheYachtMapButton]"
+  },
   "hasWater": true,
   "theme": 4,
   "IsBrowserOnly": true,

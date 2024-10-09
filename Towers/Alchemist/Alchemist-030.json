@@ -1,7 +1,5 @@
 {
   "cost": 550.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "bd2d20b004f9e1649a0ad3e49c9cc805"
+  },
+  "instaIcon": {
+    "AssetGUID": "a706d649f7fa74b0da181a12c1a54b6b"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,49 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "Alchemist-031",
+      "upgrade": "Alchemist Faster Throwing"
+    },
+    {
+      "tower": "Alchemist-040",
+      "upgrade": "Transforming Tonic"
+    },
+    {
+      "tower": "Alchemist-130",
+      "upgrade": "Larger Potions"
+    }
+  ],
+  "appliedUpgrades": [
+    "Stronger Acid",
+    "Perishing Potions",
+    "Unstable Concoction"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -704,49 +751,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "Alchemist-031",
-      "upgrade": "Alchemist Faster Throwing"
-    },
-    {
-      "tower": "Alchemist-040",
-      "upgrade": "Transforming Tonic"
-    },
-    {
-      "tower": "Alchemist-130",
-      "upgrade": "Larger Potions"
-    }
-  ],
-  "appliedUpgrades": [
-    "Stronger Acid",
-    "Perishing Potions",
-    "Unstable Concoction"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

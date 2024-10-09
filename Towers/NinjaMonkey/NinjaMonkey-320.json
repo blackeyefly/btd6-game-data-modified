@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 40.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "0a0a3e11eca6f4cda8b0f92dddbf57b1"
+  },
+  "instaIcon": {
+    "AssetGUID": "44081baa51f10443ca725bfadaa9f8ec"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,43 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-420",
+      "upgrade": "Bloonjitsu"
+    }
+  ],
+  "appliedUpgrades": [
+    "Ninja Discipline",
+    "Sharp Shurikens",
+    "Distraction",
+    "Counter-Espionage",
+    "Double Shot"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -164,43 +205,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-420",
-      "upgrade": "Bloonjitsu"
-    }
-  ],
-  "appliedUpgrades": [
-    "Ninja Discipline",
-    "Sharp Shurikens",
-    "Distraction",
-    "Counter-Espionage",
-    "Double Shot"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

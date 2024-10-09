@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 50.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "c3f84159b0b35e54999c17bf3948613e"
+  },
+  "instaIcon": {
+    "AssetGUID": "7442b1c11dfa840ebb1630df57f11859"
+  },
   "areaTypes": [
     1
   ],
@@ -46,6 +50,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "appliedUpgrades": [
+    "Barbed Darts",
+    "Heat-tipped Darts",
+    "Twin Guns",
+    "Airburst Darts",
+    "Ballistic Missile",
+    "First Strike Capability",
+    "Pre-emptive Strike"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeySub-Paragon",
+    "upgrade": "MonkeySub Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "projectileModel": {
@@ -430,7 +471,7 @@
               {
                 "projectile": {
                   "id": "MissileExplosion",
-                  "pierce": 60.0,
+                  "pierce": 40.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -479,7 +520,7 @@
                   "canCollideWithBloons": true,
                   "radius": 24.0,
                   "hasDamageModifiers": true,
-                  "CappedPierce": 60.0
+                  "CappedPierce": 40.0
                 }
               },
               {
@@ -662,43 +703,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Barbed Darts",
-    "Heat-tipped Darts",
-    "Twin Guns",
-    "Airburst Darts",
-    "Ballistic Missile",
-    "First Strike Capability",
-    "Pre-emptive Strike"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeySub-Paragon",
-    "upgrade": "MonkeySub Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

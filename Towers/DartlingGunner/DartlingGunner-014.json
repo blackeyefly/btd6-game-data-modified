@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "a0b11441c21e2ed43b3795f4f0522ed8"
+  },
+  "instaIcon": {
+    "AssetGUID": "8ac2d2e1999984a6784c8c31cdd0e5f8"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,46 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-015",
+      "upgrade": "Bloon Exclusion Zone"
+    },
+    {
+      "tower": "DartlingGunner-024",
+      "upgrade": "Faster Barrel Spin"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Swivel",
+    "Powerful Darts",
+    "Buckshot",
+    "Bloon Area Denial System",
+    "Advanced Targeting"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    },
+    {
+      "id": "TargetIndependant",
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -450,46 +494,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-015",
-      "upgrade": "Bloon Exclusion Zone"
-    },
-    {
-      "tower": "DartlingGunner-024",
-      "upgrade": "Faster Barrel Spin"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Swivel",
-    "Powerful Darts",
-    "Buckshot",
-    "Bloon Area Denial System",
-    "Advanced Targeting"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    },
-    {
-      "id": "TargetIndependant",
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

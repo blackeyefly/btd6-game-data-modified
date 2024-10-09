@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "639d47d80546ee8469a06849ca499652"
+  },
+  "instaIcon": {
+    "AssetGUID": "4a5238459a4fa4950b35182052a87262"
+  },
   "areaTypes": [
     1
   ],
@@ -39,6 +43,44 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-120",
+      "upgrade": "Heat-tipped Darts"
+    },
+    {
+      "tower": "MonkeySub-210",
+      "upgrade": "Advanced Intel"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Barbed Darts"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -162,44 +204,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-120",
-      "upgrade": "Heat-tipped Darts"
-    },
-    {
-      "tower": "MonkeySub-210",
-      "upgrade": "Advanced Intel"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Barbed Darts"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

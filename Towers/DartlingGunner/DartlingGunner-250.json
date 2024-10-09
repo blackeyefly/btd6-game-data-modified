@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "48db5e0f03935db47866ca9b8ff8e771"
+  },
+  "instaIcon": {
+    "AssetGUID": "37fc5ffd386334716be2dfcc747c7264"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,34 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "appliedUpgrades": [
+    "Focused Firing",
+    "Laser Shock",
+    "Advanced Targeting",
+    "Faster Barrel Spin",
+    "Hydra Rocket Pods",
+    "Rocket Storm",
+    "M.A.D"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -426,34 +458,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Focused Firing",
-    "Laser Shock",
-    "Advanced Targeting",
-    "Faster Barrel Spin",
-    "Hydra Rocket Pods",
-    "Rocket Storm",
-    "M.A.D"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

@@ -1,237 +1,101 @@
 {
-  "$type": "Assets.Scripts.Models.Rounds.RoundModel, Assembly-CSharp",
   "groups": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "DdtCamo",
-      "start": 0.0,
       "end": 60.0,
-      "count": 1,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 1
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "Moab",
       "start": 180.0,
       "end": 540.0,
-      "count": 20,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 20
     }
   ],
   "emissions": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtCamo",
-      "time": 30.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 30.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 180.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 180.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 198.947372,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 198.947372
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 217.894745,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 217.894745
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 236.8421,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 236.8421
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 255.789474,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 255.789474
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 274.736847,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 274.736847
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 293.6842,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 293.6842
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 312.6316,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 312.6316
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 331.578949,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 331.578949
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 350.5263,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 350.5263
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 369.4737,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 369.4737
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 388.421051,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 388.421051
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 407.3684,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 407.3684
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 426.3158,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 426.3158
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 445.263153,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 445.263153
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 464.210541,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 464.210541
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 483.1579,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 483.1579
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 502.105255,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 502.105255
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 521.0526,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 521.0526
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "Moab",
-      "time": 540.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 540.0
     }
-  ],
-  "name": "RoundModel_",
-  "ImplementationType": null
+  ]
 }

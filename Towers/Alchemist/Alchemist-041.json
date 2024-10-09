@@ -1,7 +1,5 @@
 {
   "cost": 550.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "3d9517ad7f52e354596d879afdb6a17b"
+  },
+  "instaIcon": {
+    "AssetGUID": "7d8135979418a46fd9f5139d5c1a2c7a"
+  },
   "areaTypes": [
     2
   ],
@@ -37,6 +41,47 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "Alchemist-042",
+      "upgrade": "Acid Pool"
+    },
+    {
+      "tower": "Alchemist-051",
+      "upgrade": "Total Transformation"
+    }
+  ],
+  "appliedUpgrades": [
+    "Stronger Acid",
+    "Perishing Potions",
+    "Unstable Concoction",
+    "Transforming Tonic",
+    "Alchemist Faster Throwing"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -826,47 +871,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "Alchemist-042",
-      "upgrade": "Acid Pool"
-    },
-    {
-      "tower": "Alchemist-051",
-      "upgrade": "Total Transformation"
-    }
-  ],
-  "appliedUpgrades": [
-    "Stronger Acid",
-    "Perishing Potions",
-    "Unstable Concoction",
-    "Transforming Tonic",
-    "Alchemist Faster Throwing"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

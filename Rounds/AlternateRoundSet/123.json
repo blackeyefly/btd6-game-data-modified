@@ -1,3027 +1,1214 @@
 {
-  "$type": "Assets.Scripts.Models.Rounds.RoundModel, Assembly-CSharp",
   "groups": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "start": 0.0,
       "end": 2400.0,
-      "count": 100,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 100
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonGroupModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "start": 0.0,
       "end": 2400.0,
-      "count": 200,
-      "name": "BloonGroupModel_",
-      "ImplementationType": null
+      "count": 200
     }
   ],
   "emissions": [
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
-      "bloon": "DdtFortifiedCamo",
-      "time": 0.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "bloon": "DdtFortifiedCamo"
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 24.242424,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 24.242424
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 48.484848,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 48.484848
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 72.72727,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 72.72727
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 96.969696,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 96.969696
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 121.21212,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 121.21212
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 145.454544,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 145.454544
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 169.69696,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 169.69696
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 193.939392,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 193.939392
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 218.181824,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 218.181824
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 242.42424,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 242.42424
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 266.666656,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 266.666656
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 290.9091,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 290.9091
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 315.15152,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 315.15152
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 339.393921,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 339.393921
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 363.636353,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 363.636353
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 387.878784,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 387.878784
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 412.121216,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 412.121216
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 436.363647,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 436.363647
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 460.606049,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 460.606049
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 484.84848,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 484.84848
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 509.0909,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 509.0909
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 533.3333,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 533.3333
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 557.575745,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 557.575745
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 581.8182,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 581.8182
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 606.0606,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 606.0606
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 630.30304,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 630.30304
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 654.5455,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 654.5455
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 678.787842,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 678.787842
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 703.0303,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 703.0303
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 727.2727,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 727.2727
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 751.515137,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 751.515137
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 775.757568,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 775.757568
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 800.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 800.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 824.242432,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 824.242432
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 848.484863,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 848.484863
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 872.7273,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 872.7273
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 896.969666,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 896.969666
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 921.2121,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 921.2121
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 945.4545,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 945.4545
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 969.69696,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 969.69696
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 993.9394,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 993.9394
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1018.18182,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1018.18182
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1042.42419,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1042.42419
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1066.66663,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1066.66663
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1090.909,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1090.909
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1115.15149,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1115.15149
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1139.39392,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1139.39392
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1163.63635,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1163.63635
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1187.87878,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1187.87878
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1212.12122,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1212.12122
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1236.36365,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1236.36365
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1260.60608,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1260.60608
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1284.84851,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1284.84851
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1309.091,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1309.091
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1333.33337,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1333.33337
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1357.57568,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1357.57568
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1381.81812,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1381.81812
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1406.06055,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1406.06055
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1430.303,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1430.303
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1454.54541,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1454.54541
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1478.78784,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1478.78784
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1503.03027,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1503.03027
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1527.27271,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1527.27271
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1551.51514,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1551.51514
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1575.75757,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1575.75757
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1600.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1600.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1624.24243,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1624.24243
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1648.48486,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1648.48486
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1672.72729,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1672.72729
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1696.96973,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1696.96973
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1721.21216,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1721.21216
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1745.45459,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1745.45459
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1769.6969,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1769.6969
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1793.93933,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1793.93933
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1818.18176,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1818.18176
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1842.42419,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1842.42419
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1866.66663,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1866.66663
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1890.909,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1890.909
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1915.15149,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1915.15149
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1939.39392,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1939.39392
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1963.63635,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1963.63635
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 1987.87878,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1987.87878
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2012.12122,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2012.12122
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2036.36365,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2036.36365
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2060.606,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2060.606
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2084.84839,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2084.84839
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2109.09082,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2109.09082
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2133.33325,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2133.33325
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2157.57568,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2157.57568
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2181.818,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2181.818
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2206.06055,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2206.06055
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2230.303,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2230.303
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2254.54541,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2254.54541
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2278.78784,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2278.78784
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2303.03027,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2303.03027
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2327.27271,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2327.27271
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2351.51514,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2351.51514
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2375.75757,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2375.75757
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "DdtFortifiedCamo",
-      "time": 2400.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2400.0
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
-      "bloon": "MoabFortified",
-      "time": 0.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "bloon": "MoabFortified"
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 12.0603018,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 12.0603018
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 24.1206036,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 24.1206036
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 36.1809044,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 36.1809044
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 48.2412071,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 48.2412071
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 60.30151,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 60.30151
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 72.36181,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 72.36181
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 84.42211,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 84.42211
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 96.4824142,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 96.4824142
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 108.542717,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 108.542717
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 120.60302,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 120.60302
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 132.663315,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 132.663315
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 144.723618,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 144.723618
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 156.78392,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 156.78392
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 168.844223,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 168.844223
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 180.904526,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 180.904526
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 192.964828,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 192.964828
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 205.025131,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 205.025131
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 217.085434,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 217.085434
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 229.145737,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 229.145737
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 241.206039,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 241.206039
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 253.266342,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 253.266342
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 265.32663,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 265.32663
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 277.386932,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 277.386932
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 289.447235,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 289.447235
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 301.507538,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 301.507538
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 313.567841,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 313.567841
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 325.628143,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 325.628143
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 337.688446,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 337.688446
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 349.748749,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 349.748749
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 361.809052,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 361.809052
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 373.869354,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 373.869354
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 385.929657,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 385.929657
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 397.98996,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 397.98996
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 410.050262,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 410.050262
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 422.110565,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 422.110565
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 434.170868,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 434.170868
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 446.231171,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 446.231171
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 458.291473,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 458.291473
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 470.351776,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 470.351776
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 482.412079,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 482.412079
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 494.472382,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 494.472382
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 506.532684,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 506.532684
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 518.592957,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 518.592957
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 530.653259,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 530.653259
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 542.713562,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 542.713562
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 554.773865,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 554.773865
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 566.834167,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 566.834167
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 578.8945,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 578.8945
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 590.9548,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 590.9548
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 603.0151,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 603.0151
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 615.0754,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 615.0754
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 627.1357,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 627.1357
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 639.196,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 639.196
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 651.2563,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 651.2563
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 663.3166,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 663.3166
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 675.3769,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 675.3769
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 687.4372,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 687.4372
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 699.4975,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 699.4975
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 711.5578,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 711.5578
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 723.6181,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 723.6181
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 735.6784,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 735.6784
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 747.7387,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 747.7387
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 759.799,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 759.799
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 771.8593,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 771.8593
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 783.9196,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 783.9196
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 795.9799,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 795.9799
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 808.0402,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 808.0402
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 820.1005,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 820.1005
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 832.1608,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 832.1608
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 844.2211,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 844.2211
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 856.281433,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 856.281433
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 868.341736,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 868.341736
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 880.402039,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 880.402039
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 892.462341,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 892.462341
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 904.522644,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 904.522644
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 916.582947,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 916.582947
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 928.64325,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 928.64325
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 940.703552,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 940.703552
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 952.763855,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 952.763855
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 964.824158,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 964.824158
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 976.88446,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 976.88446
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 988.944763,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 988.944763
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1001.00507,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1001.00507
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1013.06537,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1013.06537
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1025.12561,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1025.12561
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1037.18591,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1037.18591
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1049.24622,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1049.24622
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1061.30652,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1061.30652
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1073.36682,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1073.36682
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1085.42712,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1085.42712
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1097.48743,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1097.48743
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1109.54773,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1109.54773
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1121.608,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1121.608
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1133.66833,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1133.66833
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1145.72864,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1145.72864
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1157.789,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1157.789
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1169.84924,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1169.84924
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1181.90955,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1181.90955
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1193.96985,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1193.96985
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1206.03015,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1206.03015
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1218.09045,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1218.09045
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1230.15076,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1230.15076
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1242.211,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1242.211
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1254.27136,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1254.27136
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1266.33167,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1266.33167
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1278.392,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1278.392
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1290.45227,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1290.45227
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1302.51257,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1302.51257
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1314.57288,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1314.57288
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1326.63318,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1326.63318
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1338.69348,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1338.69348
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1350.75378,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1350.75378
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1362.81409,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1362.81409
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1374.87439,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1374.87439
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1386.93469,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1386.93469
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1398.995,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1398.995
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1411.0553,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1411.0553
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1423.1156,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1423.1156
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1435.1759,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1435.1759
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1447.23621,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1447.23621
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1459.29651,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1459.29651
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1471.35681,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1471.35681
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1483.41711,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1483.41711
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1495.47742,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1495.47742
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1507.53772,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1507.53772
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1519.598,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1519.598
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1531.65833,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1531.65833
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1543.71863,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1543.71863
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1555.77893,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1555.77893
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1567.83923,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1567.83923
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1579.89954,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1579.89954
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1591.95984,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1591.95984
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1604.02014,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1604.02014
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1616.08044,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1616.08044
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1628.14075,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1628.14075
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1640.201,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1640.201
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1652.26135,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1652.26135
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1664.32166,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1664.32166
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1676.382,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1676.382
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1688.44226,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1688.44226
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1700.50256,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1700.50256
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1712.56287,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1712.56287
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1724.62317,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1724.62317
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1736.68347,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1736.68347
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1748.74377,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1748.74377
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1760.80408,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1760.80408
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1772.86438,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1772.86438
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1784.92468,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1784.92468
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1796.985,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1796.985
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1809.04529,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1809.04529
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1821.10559,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1821.10559
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1833.16589,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1833.16589
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1845.2262,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1845.2262
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1857.2865,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1857.2865
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1869.3468,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1869.3468
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1881.4071,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1881.4071
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1893.46741,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1893.46741
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1905.52771,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1905.52771
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1917.588,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1917.588
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1929.64832,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1929.64832
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1941.70862,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1941.70862
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1953.76892,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1953.76892
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1965.82922,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1965.82922
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1977.88953,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1977.88953
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 1989.94983,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 1989.94983
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2002.01013,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2002.01013
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2014.07043,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2014.07043
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2026.13074,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2026.13074
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2038.191,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2038.191
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2050.25122,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2050.25122
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2062.31152,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2062.31152
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2074.37183,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2074.37183
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2086.43213,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2086.43213
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2098.49243,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2098.49243
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2110.55273,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2110.55273
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2122.613,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2122.613
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2134.67334,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2134.67334
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2146.73364,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2146.73364
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2158.794,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2158.794
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2170.85425,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2170.85425
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2182.91455,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2182.91455
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2194.97485,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2194.97485
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2207.03516,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2207.03516
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2219.09546,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2219.09546
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2231.15576,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2231.15576
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2243.216,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2243.216
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2255.27637,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2255.27637
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2267.33667,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2267.33667
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2279.397,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2279.397
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2291.45728,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2291.45728
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2303.51758,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2303.51758
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2315.578,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2315.578
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2327.63818,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2327.63818
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2339.69849,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2339.69849
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2351.75879,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2351.75879
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2363.819,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2363.819
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2375.87939,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2375.87939
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2387.9397,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2387.9397
     },
     {
-      "$type": "Assets.Scripts.Models.Rounds.BloonEmissionModel, Assembly-CSharp",
       "bloon": "MoabFortified",
-      "time": 2400.0,
-      "emissionIndex": 0,
-      "isCustomBossEmission": false,
-      "towerSetImmunity": 0,
-      "name": "BloonEmissionModel_BloonGroupModel_",
-      "ImplementationType": null
+      "time": 2400.0
     }
-  ],
-  "name": "RoundModel_",
-  "ImplementationType": null
+  ]
 }

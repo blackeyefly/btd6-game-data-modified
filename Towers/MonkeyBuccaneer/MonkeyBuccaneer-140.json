@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 60.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "5f1414adb8eb7814e8b9e70f2b67a49d"
+  },
+  "instaIcon": {
+    "AssetGUID": "64fe874525b5d4a4ba2a734379d63928"
+  },
   "areaTypes": [
     1
   ],
@@ -45,6 +49,47 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-150",
+      "upgrade": "Buccaneer-Pirate Lord"
+    },
+    {
+      "tower": "MonkeyBuccaneer-240",
+      "upgrade": "Buccaneer-Double Shot"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Grape Shot",
+    "Buccaneer-Hot Shot",
+    "Buccaneer-Cannon Ship",
+    "Buccaneer-Monkey Pirates",
+    "Buccaneer-Faster Shooting"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -325,7 +370,7 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 3.0
+                      "damageAddative": 5.0
                     },
                     {
                       "scale": 1.0,
@@ -481,7 +526,7 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 3.0
+                      "damageAddative": 5.0
                     },
                     {
                       "scale": 1.0,
@@ -746,47 +791,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-150",
-      "upgrade": "Buccaneer-Pirate Lord"
-    },
-    {
-      "tower": "MonkeyBuccaneer-240",
-      "upgrade": "Buccaneer-Double Shot"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Grape Shot",
-    "Buccaneer-Hot Shot",
-    "Buccaneer-Cannon Ship",
-    "Buccaneer-Monkey Pirates",
-    "Buccaneer-Faster Shooting"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

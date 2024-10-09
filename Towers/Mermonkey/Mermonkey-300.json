@@ -1,13 +1,17 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "f2d181aa3510dc842b920fbe62f85c0f"
+  },
+  "instaIcon": {
+    "AssetGUID": "4d483d79842622c499d42eb8b4738912"
+  },
   "areaTypes": [
     1,
     2
@@ -29,6 +33,49 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-400",
+      "upgrade": "Abyssal Warrior"
+    },
+    {
+      "tower": "Mermonkey-310",
+      "upgrade": "Sharper Prongs"
+    },
+    {
+      "tower": "Mermonkey-301",
+      "upgrade": "Echosense Precision"
+    }
+  ],
+  "appliedUpgrades": [
+    "Trident Efficiency",
+    "Trident Swiftness",
+    "Abyss Dweller"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -79,9 +126,9 @@
             "behaviors": [
               {
                 "Speed": 300.0,
-                "Lifespan": 0.333333343,
+                "Lifespan": 0.6666667,
                 "speed": 300.0,
-                "lifespan": 0.333333343
+                "lifespan": 0.6666667
               },
               {
                 "filters": [
@@ -105,12 +152,12 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 2.0,
+                      "damage": 4.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
                       "immuneBloonProperties": 1,
                       "immuneBloonPropertiesOriginal": 1,
-                      "CappedDamage": 2.0
+                      "CappedDamage": 4.0
                     },
                     {
                       "useRoundTime": true,
@@ -232,8 +279,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -286,7 +333,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 22.5
+              "baseTowerRotationOffset": 22.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -368,8 +416,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -423,7 +471,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 67.5
+              "baseTowerRotationOffset": 67.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -505,8 +554,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -560,7 +609,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 112.5
+              "baseTowerRotationOffset": 112.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -642,8 +692,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -697,7 +747,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 157.5
+              "baseTowerRotationOffset": 157.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -779,8 +830,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -834,7 +885,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 202.5
+              "baseTowerRotationOffset": 202.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -916,8 +968,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -971,7 +1023,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 247.5
+              "baseTowerRotationOffset": 247.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1053,8 +1106,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -1108,7 +1161,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 292.5
+              "baseTowerRotationOffset": 292.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1190,8 +1244,8 @@
                       "damage": 9.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 9.0
                     },
                     {
@@ -1245,7 +1299,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 337.5
+              "baseTowerRotationOffset": 337.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1277,7 +1332,7 @@
       "addsToSharedGrid": true
     },
     {
-      "percentIncrease": 1.05,
+      "percentIncrease": 1.1,
       "isUnique": true,
       "showBuffIcon": true
     },
@@ -1292,49 +1347,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-400",
-      "upgrade": "Abyssal Warrior"
-    },
-    {
-      "tower": "Mermonkey-310",
-      "upgrade": "Sharper Prongs"
-    },
-    {
-      "tower": "Mermonkey-301",
-      "upgrade": "Echosense Precision"
-    }
-  ],
-  "appliedUpgrades": [
-    "Trident Efficiency",
-    "Trident Swiftness",
-    "Abyss Dweller"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

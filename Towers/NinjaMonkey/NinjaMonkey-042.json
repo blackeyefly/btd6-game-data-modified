@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 47.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "9d33b5f7763444c64b2088562dd3df4b"
+  },
+  "instaIcon": {
+    "AssetGUID": "5711a95e80d0b4abd84222886cb807a2"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,44 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-052",
+      "upgrade": "Grand Saboteur"
+    }
+  ],
+  "appliedUpgrades": [
+    "Distraction",
+    "Counter-Espionage",
+    "Seeking Shuriken",
+    "Caltrops",
+    "Shinobi Tactics",
+    "Bloon Sabotage"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -403,44 +445,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-052",
-      "upgrade": "Grand Saboteur"
-    }
-  ],
-  "appliedUpgrades": [
-    "Distraction",
-    "Counter-Espionage",
-    "Seeking Shuriken",
-    "Caltrops",
-    "Shinobi Tactics",
-    "Bloon Sabotage"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

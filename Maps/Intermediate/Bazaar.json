@@ -3,6 +3,12 @@
   "difficulty": 1,
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat2A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectBazaarButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "961922a5a0861f34995ec8edbdcefa85"
+  },
   "hasWater": true,
   "theme": 3,
   "IsStandard": true

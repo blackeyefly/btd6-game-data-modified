@@ -2,6 +2,12 @@
   "id": "BloonariusPrime",
   "difficulty": 1,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectBloonariusPrimeButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "fa57d1e285b907746b51f489cadeaea2"
+  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

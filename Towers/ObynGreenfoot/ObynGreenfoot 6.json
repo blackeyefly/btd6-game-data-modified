@@ -1,7 +1,5 @@
 {
   "cost": 650.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "ignoreBlockers": true,
   "tier": 6,
@@ -9,6 +7,9 @@
     6
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "f408970328592ea4b81a19eba23c6786"
+  },
   "areaTypes": [
     2
   ],
@@ -55,6 +56,49 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "ccaa1772894571a48b7a191db847bbff"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "UiEmoteIcons[EmoteObyn]"
+  },
+  "upgrades": [
+    {
+      "tower": "ObynGreenfoot 7",
+      "upgrade": "ObynGreenfoot-7-Brambles++"
+    }
+  ],
+  "appliedUpgrades": [
+    "ObynGreenfoot-2-DruidOfWrath+",
+    "ObynGreenfoot-3-Brambles+",
+    "ObynGreenfoot-4-NaturesWard+",
+    "ObynGreenfoot-5-ReloadReduce+",
+    "ObynGreenfoot-6-Pierce+"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -306,6 +350,9 @@
                 "tower": {
                   "range": 32.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "f00bc9224369720458e7d57ff7e6b647"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -352,6 +399,10 @@
                       "mod": "WeakPoint"
                     }
                   ],
+                  "isSubTower": true,
+                  "animationSpeed": 1.0,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 15.0,
@@ -411,10 +462,8 @@
                       "category": 4
                     }
                   ],
-                  "isSubTower": true,
-                  "animationSpeed": 1.0,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true
                 },
                 "positionAtTarget": true
@@ -478,43 +527,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "ObynGreenfoot 7",
-      "upgrade": "ObynGreenfoot-7-Brambles++"
-    }
-  ],
-  "appliedUpgrades": [
-    "ObynGreenfoot-2-DruidOfWrath+",
-    "ObynGreenfoot-3-Brambles+",
-    "ObynGreenfoot-4-NaturesWard+",
-    "ObynGreenfoot-5-ReloadReduce+",
-    "ObynGreenfoot-6-Pierce+"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

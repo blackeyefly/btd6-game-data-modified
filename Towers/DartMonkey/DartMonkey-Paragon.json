@@ -1,13 +1,17 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 85.0,
   "tier": 6,
   "tiers": [
     6
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "3906afef12a8fab4db780428c3b8a50b"
+  },
+  "instaIcon": {
+    "AssetGUID": "d315884580d60469d8167a043b819944"
+  },
   "areaTypes": [
     2
   ],
@@ -39,8 +43,67 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Sharp Shots",
+    "Razor Sharp Shots",
+    "Spike-o-pult",
+    "Juggernaut",
+    "Ultra-Juggernaut",
+    "DartMonkey Paragon"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "animationSpeed": 1.0,
+  "isParagon": true,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
+      "displayDegreePaths": [
+        {
+          "assetPath": {
+            "AssetGUID": "0acf6f1a4c9610c45985d7ca4ddfdfb9"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "f392f44c12dcc2c43a62cac5fa435895"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "a151cbb51479bdf43ae4335b2781c1db"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "0ded4d69035e80f4e98da8673f3c45b0"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "3227ca69bb352dc4c9c667712825b985"
+          }
+        }
+      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -71,6 +134,18 @@
       "effectsStartMovingAt": 0.5,
       "effectsDontStartMovingAt": 1.5,
       "effectScaleDownTime": 0.15
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 6.0
+      }
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 1.0
+      }
     },
     {
       "effectModel": {
@@ -304,38 +379,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Sharp Shots",
-    "Razor Sharp Shots",
-    "Spike-o-pult",
-    "Juggernaut",
-    "Ultra-Juggernaut",
-    "DartMonkey Paragon"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "animationSpeed": 1.0,
-  "isParagon": true,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

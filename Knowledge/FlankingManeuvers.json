@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 24,
   "category": 1,
   "investmentRequired": 8,
   "monkeyMoneyCost": 500,
@@ -9,19 +7,11 @@
     "TradeAgreements"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.WeaponReloadPercentageOnTargetPrioModModel, Assembly-CSharp",
         "multiplier": 0.1,
-        "targetType": "Last",
-        "name": "FlankingManeuvers",
-        "ImplementationType": null
+        "targetType": "Last"
       }
-    ],
-    "name": "FlankingManeuvers",
-    "ImplementationType": null
-  },
-  "name": "FlankingManeuvers",
-  "ImplementationType": null
+    ]
+  }
 }

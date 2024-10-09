@@ -1,7 +1,5 @@
 {
   "cost": 875.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 60.0,
   "ignoreBlockers": true,
   "tier": 17,
@@ -9,6 +7,9 @@
     17
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "0594ab89bada3264bbbb614bab828688"
+  },
   "areaTypes": [
     2
   ],
@@ -59,6 +60,60 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "xWidth": 27.0,
+    "yWidth": 27.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteRosalia]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "dc92fbb9c3080784c85cc025f83c0dfc"
+  },
+  "upgrades": [
+    {
+      "tower": "Rosalia 18",
+      "upgrade": "Rosalia Upgrade 18"
+    }
+  ],
+  "appliedUpgrades": [
+    "Rosalia Upgrade 2",
+    "Rosalia Upgrade 3",
+    "Rosalia Upgrade 4",
+    "Rosalia Upgrade 5",
+    "Rosalia Upgrade 6",
+    "Rosalia Upgrade 7",
+    "Rosalia Upgrade 8",
+    "Rosalia Upgrade 9",
+    "Rosalia Upgrade 10",
+    "Rosalia Upgrade 11",
+    "Rosalia Upgrade 12",
+    "Rosalia Upgrade 13",
+    "Rosalia Upgrade 14",
+    "Rosalia Upgrade 15",
+    "Rosalia Upgrade 16",
+    "Rosalia Upgrade 17"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -145,7 +200,7 @@
                   "Moabs"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 20.0
+                "damageAddative": 30.0
               },
               {
                 "scale": 1.0,
@@ -199,7 +254,7 @@
                       "Moabs"
                     ],
                     "damageMultiplier": 1.0,
-                    "damageAddative": 20.0
+                    "damageAddative": 30.0
                   },
                   {
                     "scale": 1.0,
@@ -266,7 +321,7 @@
                             "Ceramic"
                           ],
                           "damageMultiplier": 1.0,
-                          "damageAddative": 5.0
+                          "damageAddative": 6.0
                         },
                         {
                           "scale": 1.0,
@@ -312,7 +367,7 @@
                         {
                           "projectile": {
                             "id": "Explosion",
-                            "pierce": 5.0,
+                            "pierce": 8.0,
                             "scale": 1.0,
                             "ignoreBlockers": true,
                             "canCollisionBeBlockedByMapLos": true,
@@ -350,7 +405,7 @@
                                   "Ceramic"
                                 ],
                                 "damageMultiplier": 1.0,
-                                "damageAddative": 3.0
+                                "damageAddative": 4.0
                               },
                               {
                                 "scale": 1.0,
@@ -360,7 +415,7 @@
                             "canCollideWithBloons": true,
                             "radius": 15.0,
                             "hasDamageModifiers": true,
-                            "CappedPierce": 5.0
+                            "CappedPierce": 8.0
                           },
                           "fraction": 1.0,
                           "durationfraction": -1.0
@@ -482,7 +537,7 @@
                             "Ceramic"
                           ],
                           "damageMultiplier": 1.0,
-                          "damageAddative": 5.0
+                          "damageAddative": 6.0
                         },
                         {
                           "scale": 1.0,
@@ -528,7 +583,7 @@
                         {
                           "projectile": {
                             "id": "Explosion",
-                            "pierce": 5.0,
+                            "pierce": 8.0,
                             "scale": 1.0,
                             "ignoreBlockers": true,
                             "canCollisionBeBlockedByMapLos": true,
@@ -566,7 +621,7 @@
                                   "Ceramic"
                                 ],
                                 "damageMultiplier": 1.0,
-                                "damageAddative": 3.0
+                                "damageAddative": 4.0
                               },
                               {
                                 "scale": 1.0,
@@ -576,7 +631,7 @@
                             "canCollideWithBloons": true,
                             "radius": 15.0,
                             "hasDamageModifiers": true,
-                            "CappedPierce": 5.0
+                            "CappedPierce": 8.0
                           },
                           "fraction": 1.0,
                           "durationfraction": -1.0
@@ -677,7 +732,7 @@
                       "Moabs"
                     ],
                     "damageMultiplier": 1.0,
-                    "damageAddative": 20.0
+                    "damageAddative": 30.0
                   },
                   {
                     "scale": 1.0,
@@ -874,7 +929,7 @@
           ]
         }
       ],
-      "range": 32.0,
+      "range": 40.0,
       "addsToSharedGrid": true,
       "sharedGridRange": 60.0
     },
@@ -898,8 +953,8 @@
                       },
                       {
                         "rounds": 9999999,
-                        "Lifespan": 8.8,
-                        "lifespan": 8.8
+                        "Lifespan": 8.2,
+                        "lifespan": 8.2
                       },
                       {
                         "projectileModel": {
@@ -987,7 +1042,7 @@
                           "lifespan": 0.3
                         },
                         "delayBeforeEffectFrames": -18,
-                        "initialDelayFrames": 60,
+                        "initialDelayFrames": 24,
                         "maxProjectileCount": 30
                       },
                       {
@@ -1109,11 +1164,11 @@
                         "duration": 10.0,
                         "durationFrames": 600,
                         "travelSpeed": 350.0,
-                        "maxAdditionalDamageAmount": 3000,
+                        "maxAdditionalDamageAmount": 4500,
                         "damageTakenMaxAmount": 6000,
                         "projectileExplosionModel": {
                           "id": "Explosion",
-                          "pierce": 100.0,
+                          "pierce": 500.0,
                           "scale": 1.0,
                           "ignoreBlockers": true,
                           "canCollisionBeBlockedByMapLos": true,
@@ -1149,7 +1204,7 @@
                           ],
                           "canCollideWithBloons": true,
                           "radius": 50.0,
-                          "CappedPierce": 100.0
+                          "CappedPierce": 500.0
                         },
                         "projectileExplosionEffectModel": {
                           "scale": 1.0,
@@ -1209,8 +1264,8 @@
           "brakeForce": 95.0,
           "minVelocityCapScale": 0.01,
           "tiltAngle": 24.0,
-          "pursuitDistance": 30.4,
-          "groupingOffset": 19.2,
+          "pursuitDistance": 38.0,
+          "groupingOffset": 24.0,
           "jumpUpTime": 0.1,
           "jumpUpTimeFrames": 6.0,
           "jumpDownTime": 0.34,
@@ -1218,7 +1273,31 @@
           "jumpUpAnimationState": 1,
           "jumpRelocateAnimationState": 2,
           "jumpDownAnimationState": 3,
-          "jumpSpeedScale": 0.7,
+          "jumpSpeedScale": 1.5,
+          "idleLaserPrefab": {
+            "AssetGUID": "f6a59556d44f8cc4f96f71a78c711f65"
+          },
+          "idleGrenadePrefab": {
+            "AssetGUID": "f6f020dacbfd09547ac943ce9f8c6112"
+          },
+          "jumpingLaserPrefab": {
+            "AssetGUID": "49c0f040848acfc44a49bc1025f53a3c"
+          },
+          "jumpingGrenadePrefab": {
+            "AssetGUID": "53f60845e112c584fa819c1d279e428b"
+          },
+          "hoveringLaserPrefab": {
+            "AssetGUID": "32ac29982542eee459d868c5620f044d"
+          },
+          "hoveringGrenadePrefab": {
+            "AssetGUID": "97834d1c3ebbe8b4e84bad06e482c3b5"
+          },
+          "flightBoostLaserPrefab": {
+            "AssetGUID": "793f61e3e0f9f8844a7d1ec59df9dcd5"
+          },
+          "flightBoostGrenadePrefab": {
+            "AssetGUID": "980babe70922682479ecdc8be8530f8b"
+          },
           "noTargetSlowdownDistance": 30.0,
           "noTargetVelocityScale": 0.97
         }
@@ -1237,7 +1316,7 @@
           "dontUseTowerPosition": true,
           "areaType": "Land",
           "useInverted": true,
-          "idealDistanceWithinTrack": 19.2
+          "idealDistanceWithinTrack": 24.0
         }
       ],
       "range": 60.0,
@@ -1249,7 +1328,7 @@
         "dontUseTowerPosition": true,
         "areaType": "Land",
         "useInverted": true,
-        "idealDistanceWithinTrack": 19.2
+        "idealDistanceWithinTrack": 24.0
       },
       "attackThroughWalls": true
     },
@@ -1259,54 +1338,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 27.0,
-    "yWidth": 27.0
-  },
-  "upgrades": [
-    {
-      "tower": "Rosalia 18",
-      "upgrade": "Rosalia Upgrade 18"
-    }
-  ],
-  "appliedUpgrades": [
-    "Rosalia Upgrade 2",
-    "Rosalia Upgrade 3",
-    "Rosalia Upgrade 4",
-    "Rosalia Upgrade 5",
-    "Rosalia Upgrade 6",
-    "Rosalia Upgrade 7",
-    "Rosalia Upgrade 8",
-    "Rosalia Upgrade 9",
-    "Rosalia Upgrade 10",
-    "Rosalia Upgrade 11",
-    "Rosalia Upgrade 12",
-    "Rosalia Upgrade 13",
-    "Rosalia Upgrade 14",
-    "Rosalia Upgrade 15",
-    "Rosalia Upgrade 16",
-    "Rosalia Upgrade 17"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

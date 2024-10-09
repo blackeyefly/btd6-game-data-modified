@@ -1,13 +1,14 @@
 {
   "cost": 700.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 55.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "4e668226563cf1f41b9f46438201e298"
+  },
   "areaTypes": [
     2
   ],
@@ -58,6 +59,47 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteStrikerJones]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "ae7c454731e40624097148dcf3d7cf5e"
+  },
+  "upgrades": [
+    {
+      "tower": "StrikerJones 5",
+      "upgrade": "Attack Speed"
+    }
+  ],
+  "appliedUpgrades": [
+    "Blast Radius",
+    "Concussive Shell",
+    "Bomb Speed Boost"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -406,41 +448,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "StrikerJones 5",
-      "upgrade": "Attack Speed"
-    }
-  ],
-  "appliedUpgrades": [
-    "Blast Radius",
-    "Concussive Shell",
-    "Bomb Speed Boost"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

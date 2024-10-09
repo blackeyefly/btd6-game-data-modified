@@ -1,6 +1,9 @@
 {
   "range": 70.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "5f5ee2016a2367a49a2e45d8551c70ec"
+  },
   "areaTypes": [
     2
   ],
@@ -21,6 +24,29 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 4.0,
+    "doesntBlockTowerPlacement": true
+  },
+  "doesntRotate": true,
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isSubTower": true,
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "canAlwaysBeSold": true,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -270,6 +296,11 @@
           "weaponEjectZ": 12.0
         },
         {
+          "isSelectable": true,
+          "scale": 1.0,
+          "isOnSubTower": true
+        },
+        {
           "scale": 1.0,
           "category": 1
         }
@@ -293,6 +324,9 @@
                 "tower": {
                   "range": 50.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "00e59418fb1222c45b71633625c19202"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -313,6 +347,34 @@
                       "mod": "MonkeyEducation"
                     }
                   ],
+                  "footprint": {
+                    "radius": 4.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "doesntRotate": true,
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "isBakable": true,
+                  "animationSpeed": 1.0,
+                  "canAlwaysBeSold": true,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 19.0,
@@ -517,34 +579,8 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 4.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "doesntRotate": true,
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "isBakable": true,
-                  "animationSpeed": 1.0,
-                  "canAlwaysBeSold": true,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -831,27 +867,18 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 4.0,
-    "doesntBlockTowerPlacement": true
-  },
-  "doesntRotate": true,
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    }
-  ],
-  "isSubTower": true,
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "canAlwaysBeSold": true,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true,
   "TargetTypes": [
     {
       "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
       "intID": -1
     }
   ]

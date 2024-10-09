@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 40.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "6e5d211c21ab8c043bf3499b109a761f"
+  },
+  "instaIcon": {
+    "AssetGUID": "7134b8d310b9b41bdb40997e6943d963"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,28 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-052",
+      "upgrade": "Homeland Defense"
+    }
+  ],
+  "appliedUpgrades": [
+    "Grow Blocker",
+    "Radar Scanner",
+    "Monkey Business",
+    "Monkey Commerce",
+    "Monkey Intelligence Bureau",
+    "Call to Arms"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -147,26 +173,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-052",
-      "upgrade": "Homeland Defense"
-    }
-  ],
-  "appliedUpgrades": [
-    "Grow Blocker",
-    "Radar Scanner",
-    "Monkey Business",
-    "Monkey Commerce",
-    "Monkey Intelligence Bureau",
-    "Call to Arms"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

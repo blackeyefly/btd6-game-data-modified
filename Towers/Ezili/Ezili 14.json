@@ -1,7 +1,5 @@
 {
   "cost": 600.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 14,
@@ -9,6 +7,9 @@
     14
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "4eb951cbfc5cc3240b07f591d7a8dc37"
+  },
   "areaTypes": [
     2
   ],
@@ -55,6 +56,57 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteEzili]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "3659b5703c271324ca14d4b106a73ffa"
+  },
+  "upgrades": [
+    {
+      "tower": "Ezili 15",
+      "upgrade": "Ezili Range+"
+    }
+  ],
+  "appliedUpgrades": [
+    "Ezili Range",
+    "Ezili Heartstopper",
+    "Ezili Splash Attack",
+    "Ezili MOAB Damage",
+    "Ezili Damage Over Time",
+    "Ezili Sacrificial Totem",
+    "Ezili Attack Speed",
+    "Ezili Strip Modifiers",
+    "Ezili MOAB Hex",
+    "Ezili Attack Range",
+    "Ezili Heartstopper+",
+    "Ezili Splash Attack+",
+    "Ezili Damage Over Time+"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -463,11 +515,12 @@
                     "behaviors": [
                       {
                         "tower": {
-                          "radius": 6.0,
-                          "radiusSquared": 36.0,
                           "range": 78.0,
                           "ignoreBlockers": true,
                           "towerSet": 8,
+                          "portrait": {
+                            "AssetGUID": "a4cd1f1b12fcd1f45af84b286b4becb3"
+                          },
                           "areaTypes": [
                             2
                           ],
@@ -514,6 +567,13 @@
                               "mod": "WeakPoint"
                             }
                           ],
+                          "footprint": {
+                            "radius": 6.0
+                          },
+                          "isSubTower": true,
+                          "animationSpeed": 1.0,
+                          "showBuffs": true,
+                          "displayScale": 1.0,
                           "behaviors": [
                             {
                               "Lifespan": 30.0,
@@ -595,13 +655,9 @@
                               "category": 4
                             }
                           ],
-                          "footprint": {
-                            "radius": 6.0
-                          },
-                          "isSubTower": true,
-                          "animationSpeed": 1.0,
-                          "displayScale": 1.0,
-                          "showBuffs": true,
+                          "radius": 6.0,
+                          "DisplayScale": 1.0,
+                          "IsSubEntity": true,
                           "IsBaseTower": true
                         }
                       },
@@ -629,6 +685,9 @@
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
                   "startWithClosestTrackPoint": true,
+                  "displayInvalid": {
+                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 }
@@ -638,6 +697,9 @@
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
                 "startWithClosestTrackPoint": true,
+                "displayInvalid": {
+                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -775,51 +837,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Ezili 15",
-      "upgrade": "Ezili Range+"
-    }
-  ],
-  "appliedUpgrades": [
-    "Ezili Range",
-    "Ezili Heartstopper",
-    "Ezili Splash Attack",
-    "Ezili MOAB Damage",
-    "Ezili Damage Over Time",
-    "Ezili Sacrificial Totem",
-    "Ezili Attack Speed",
-    "Ezili Strip Modifiers",
-    "Ezili MOAB Hex",
-    "Ezili Attack Range",
-    "Ezili Heartstopper+",
-    "Ezili Splash Attack+",
-    "Ezili Damage Over Time+"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 500.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 32.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "81b7b4a7f0a8c4c44a86e4f5b7a080a3"
+  },
+  "instaIcon": {
+    "AssetGUID": "c1334ff38bea5466286a471cc7f29624"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,28 @@
       "target": "Attack,BaseProjectile"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Permafrost",
+    "Metal Freeze",
+    "Larger Radius",
+    "Re-Freeze",
+    "Ice Shards",
+    "Embrittlement",
+    "Super Brittle"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -417,28 +443,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Permafrost",
-    "Metal Freeze",
-    "Larger Radius",
-    "Re-Freeze",
-    "Ice Shards",
-    "Embrittlement",
-    "Super Brittle"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

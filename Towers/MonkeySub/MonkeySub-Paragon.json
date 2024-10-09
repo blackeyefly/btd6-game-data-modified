@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "isGlobalRange": true,
   "tier": 6,
@@ -9,6 +7,12 @@
     6
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "d9bfba35e997eb64cbba5f82065c053c"
+  },
+  "instaIcon": {
+    "AssetGUID": "e1f84739edd944aad990ccc348b637af"
+  },
   "areaTypes": [
     1
   ],
@@ -39,6 +43,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "appliedUpgrades": [
+    "Longer Range",
+    "Advanced Intel",
+    "Submerge and Support",
+    "Bloontonium Reactor",
+    "Energizer",
+    "MonkeySub Paragon"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    },
+    {
+      "id": "Submerge",
+      "intID": -1,
+      "continueToNextPriority": true
+    }
+  ],
+  "animationSpeed": 1.0,
+  "isParagon": true,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -80,10 +121,10 @@
                   "collisionPass": -1
                 },
                 {
-                  "damage": 50.0,
+                  "damage": 250.0,
                   "distributeToChildren": true,
                   "createPopEffect": true,
-                  "CappedDamage": 50.0
+                  "CappedDamage": 250.0
                 },
                 {
                   "tag": "Ceramic",
@@ -91,7 +132,7 @@
                     "Ceramic"
                   ],
                   "damageMultiplier": 1.0,
-                  "damageAddative": 50.0
+                  "damageAddative": 250.0
                 },
                 {
                   "tag": "Boss",
@@ -99,7 +140,7 @@
                     "Boss"
                   ],
                   "damageMultiplier": 1.0,
-                  "damageAddative": 500.0
+                  "damageAddative": 250.0
                 },
                 {
                   "filters": [
@@ -120,8 +161,8 @@
                     "id": "ReactorDamage",
                     "priority": 1
                   },
-                  "Lifespan": 0.5,
-                  "lifespan": 0.5
+                  "Lifespan": 0.28,
+                  "lifespan": 0.28
                 },
                 {
                   "scale": 1.0,
@@ -139,11 +180,11 @@
             "fireWithoutTarget": true,
             "behaviors": [
               {
-                "min": 0.5
+                "min": 0.28
               }
             ],
-            "Rate": 0.5,
-            "rate": 0.5
+            "Rate": 0.28,
+            "rate": 0.28
           }
         ],
         "range": 2000.0,
@@ -205,10 +246,10 @@
             "collisionPass": -1
           },
           {
-            "damage": 50.0,
+            "damage": 250.0,
             "distributeToChildren": true,
             "createPopEffect": true,
-            "CappedDamage": 50.0
+            "CappedDamage": 250.0
           },
           {
             "tag": "Ceramic",
@@ -216,7 +257,7 @@
               "Ceramic"
             ],
             "damageMultiplier": 1.0,
-            "damageAddative": 50.0
+            "damageAddative": 250.0
           },
           {
             "tag": "Boss",
@@ -224,7 +265,7 @@
               "Boss"
             ],
             "damageMultiplier": 1.0,
-            "damageAddative": 500.0
+            "damageAddative": 250.0
           },
           {
             "filters": [
@@ -245,8 +286,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.5,
-            "lifespan": 0.5
+            "Lifespan": 0.28,
+            "lifespan": 0.28
           },
           {
             "scale": 1.0,
@@ -319,10 +360,10 @@
             "collisionPass": -1
           },
           {
-            "damage": 50.0,
+            "damage": 250.0,
             "distributeToChildren": true,
             "createPopEffect": true,
-            "CappedDamage": 50.0
+            "CappedDamage": 250.0
           },
           {
             "tag": "Ceramic",
@@ -330,7 +371,7 @@
               "Ceramic"
             ],
             "damageMultiplier": 1.0,
-            "damageAddative": 50.0
+            "damageAddative": 250.0
           },
           {
             "tag": "Boss",
@@ -338,7 +379,7 @@
               "Boss"
             ],
             "damageMultiplier": 1.0,
-            "damageAddative": 500.0
+            "damageAddative": 250.0
           },
           {
             "filters": [
@@ -359,8 +400,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.5,
-            "lifespan": 0.5
+            "Lifespan": 0.28,
+            "lifespan": 0.28
           },
           {
             "scale": 1.0,
@@ -385,6 +426,33 @@
       }
     },
     {
+      "displayDegreePaths": [
+        {
+          "assetPath": {
+            "AssetGUID": "a8161dc68eaabae47a3462292f2ddab6"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "c0dd1afc9013c354cb553bfee9eafcc5"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "85acc7e4477c89b459cb66264f62ee7e"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "713ffc137221bb9469c68aba27028e99"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "e75e515eaf8e55a48857addc542443f2"
+          }
+        }
+      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -611,7 +679,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 180.0
+                      "damageAddative": 100.0
                     },
                     {
                       "effectModel": {
@@ -675,7 +743,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 180.0
+                      "damageAddative": 100.0
                     },
                     {
                       "effectModel": {
@@ -732,7 +800,7 @@
                   "Boss"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 300.0
+                "damageAddative": 200.0
               },
               {
                 "scale": 1.0,
@@ -822,10 +890,10 @@
                 "collisionPass": -1
               },
               {
-                "damage": 50.0,
+                "damage": 250.0,
                 "distributeToChildren": true,
                 "createPopEffect": true,
-                "CappedDamage": 50.0
+                "CappedDamage": 250.0
               },
               {
                 "tag": "Ceramic",
@@ -833,7 +901,7 @@
                   "Ceramic"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 50.0
+                "damageAddative": 250.0
               },
               {
                 "tag": "Boss",
@@ -841,7 +909,7 @@
                   "Boss"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 500.0
+                "damageAddative": 250.0
               },
               {
                 "filters": [
@@ -862,8 +930,8 @@
                   "id": "ReactorDamage",
                   "priority": 1
                 },
-                "Lifespan": 0.5,
-                "lifespan": 0.5
+                "Lifespan": 0.28,
+                "lifespan": 0.28
               },
               {
                 "scale": 1.0,
@@ -881,11 +949,11 @@
           "fireWithoutTarget": true,
           "behaviors": [
             {
-              "min": 0.5
+              "min": 0.28
             }
           ],
-          "Rate": 0.5,
-          "rate": 0.5
+          "Rate": 0.28,
+          "rate": 0.28
         }
       ],
       "range": 2000.0,
@@ -896,6 +964,9 @@
         {
           "countdown": 15.05,
           "launchRate": 0.2,
+          "textEffectDisplay": {
+            "AssetGUID": "6755b43f4a9a8e84383bee88eb857801"
+          },
           "projectileModel": {
             "id": "FinalStrikeProjectile",
             "maxPierce": 1.0,
@@ -1099,43 +1170,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Longer Range",
-    "Advanced Intel",
-    "Submerge and Support",
-    "Bloontonium Reactor",
-    "Energizer",
-    "MonkeySub Paragon"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    },
-    {
-      "id": "Submerge",
-      "intID": -1,
-      "continueToNextPriority": true
-    }
-  ],
-  "animationSpeed": 1.0,
-  "isParagon": true,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

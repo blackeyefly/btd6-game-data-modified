@@ -10,8 +10,6 @@
     }
   ],
   "tower": {
-    "radius": 7.0,
-    "radiusSquared": 49.0,
     "range": 24.0,
     "ignoreBlockers": true,
     "towerSet": 64,
@@ -20,6 +18,17 @@
       3
     ],
     "ignoreTowerForSelection": true,
+    "footprint": {
+      "radius": 7.0,
+      "ignoresPlacementCheck": true,
+      "ignoresTowerOverlap": true
+    },
+    "dontDisplayUpgrades": true,
+    "showPowerTowerBuffs": true,
+    "animationSpeed": 1.0,
+    "blockSelling": true,
+    "showBuffs": true,
+    "displayScale": 1.0,
     "behaviors": [
       {
         "effectModel": {
@@ -191,18 +200,9 @@
         "category": 4
       }
     ],
-    "footprint": {
-      "radius": 7.0,
-      "ignoresPlacementCheck": true,
-      "ignoresTowerOverlap": true
-    },
-    "dontDisplayUpgrades": true,
-    "showPowerTowerBuffs": true,
-    "animationSpeed": 1.0,
-    "blockSelling": true,
-    "displayScale": 1.0,
-    "showBuffs": true,
+    "radius": 7.0,
     "isPowerTower": true,
+    "DisplayScale": 1.0,
     "IsBaseTower": true
   },
   "isHidden": true,

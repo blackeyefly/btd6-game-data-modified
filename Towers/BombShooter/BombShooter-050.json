@@ -1,13 +1,17 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 54.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "e0094b4d9660dcc4990aa79173aaf4c3"
+  },
+  "instaIcon": {
+    "AssetGUID": "1686834f017f4497bbb2b6c7ee27975b"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,47 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-150",
+      "upgrade": "Bigger Bombs"
+    },
+    {
+      "tower": "BombShooter-051",
+      "upgrade": "Extra Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Reload",
+    "Missile Launcher",
+    "MOAB Mauler",
+    "MOAB Assassin",
+    "MOAB Eliminator"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -92,6 +137,8 @@
                     {
                       "damage": 1.0,
                       "distributeToChildren": true,
+                      "immuneBloonProperties": 2,
+                      "immuneBloonPropertiesOriginal": 2,
                       "CappedDamage": 1.0
                     },
                     {
@@ -358,47 +405,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-150",
-      "upgrade": "Bigger Bombs"
-    },
-    {
-      "tower": "BombShooter-051",
-      "upgrade": "Extra Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Reload",
-    "Missile Launcher",
-    "MOAB Mauler",
-    "MOAB Assassin",
-    "MOAB Eliminator"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

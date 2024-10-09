@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "94d702afbc8bbe64f9cc79ee51bbd33e"
+  },
+  "instaIcon": {
+    "AssetGUID": "746ce7daef2514d37a780854c5dd506f"
+  },
   "areaTypes": [
     1
   ],
@@ -40,6 +44,51 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-015",
+      "upgrade": "Buccaneer-Grape Shot"
+    },
+    {
+      "tower": "MonkeyBuccaneer-105",
+      "upgrade": "Buccaneer-Faster Shooting"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest",
+    "Buccaneer-Merchantman",
+    "Buccaneer-Favored Trades",
+    "Buccaneer-Trade Empire"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeyBuccaneer-Paragon",
+    "upgrade": "MonkeyBuccaneer Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -244,51 +293,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-015",
-      "upgrade": "Buccaneer-Grape Shot"
-    },
-    {
-      "tower": "MonkeyBuccaneer-105",
-      "upgrade": "Buccaneer-Faster Shooting"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest",
-    "Buccaneer-Merchantman",
-    "Buccaneer-Favored Trades",
-    "Buccaneer-Trade Empire"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeyBuccaneer-Paragon",
-    "upgrade": "MonkeyBuccaneer Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

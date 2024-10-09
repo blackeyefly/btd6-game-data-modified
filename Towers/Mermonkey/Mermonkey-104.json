@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 32.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "94836a0a6f7772941a80b554a3befd35"
+  },
+  "instaIcon": {
+    "AssetGUID": "5add6633aded3744a9c96c83ab7bb367"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,47 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-204",
+      "upgrade": "Trident Swiftness"
+    },
+    {
+      "tower": "Mermonkey-105",
+      "upgrade": "The Final Harmonic"
+    }
+  ],
+  "appliedUpgrades": [
+    "Echosense Precision",
+    "Echosense Network",
+    "Alluring Melody",
+    "Symphonic Resonance",
+    "Trident Efficiency"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -63,9 +108,8 @@
     },
     {
       "tower": {
-        "radius": 8.0,
-        "radiusSquared": 64.0,
         "range": 32.0,
+        "towerSet": 4,
         "areaTypes": [
           2
         ],
@@ -86,6 +130,17 @@
             "mod": "HotMagic"
           }
         ],
+        "footprint": {
+          "radius": 8.0,
+          "doesntBlockTowerPlacement": true,
+          "ignoresPlacementCheck": true,
+          "ignoresTowerOverlap": true
+        },
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "dontAddMutatorsFromParent": true,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "radius": 8.0,
@@ -315,6 +370,9 @@
                     },
                     "lifespan": 6.0,
                     "useEmittedFrom": true
+                  },
+                  {
+                    "min": 12.0
                   }
                 ],
                 "startInCooldown": true,
@@ -366,21 +424,19 @@
             "category": 4
           }
         ],
-        "footprint": {
-          "radius": 8.0,
-          "doesntBlockTowerPlacement": true,
-          "ignoresPlacementCheck": true,
-          "ignoresTowerOverlap": true
-        },
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "dontAddMutatorsFromParent": true,
-        "displayScale": 1.0,
-        "showBuffs": true,
+        "radius": 8.0,
         "SelectParentOnSelected": true,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true
       },
-      "withinTowerRange": true
+      "withinTowerRange": true,
+      "targetDisplay": {
+        "AssetGUID": "f786dd2ad0e3e8649a8ff0ac9f8cc6fb"
+      },
+      "targetDisplayInvalid": {
+        "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+      }
     },
     {
       "weapons": [
@@ -396,9 +452,9 @@
             "behaviors": [
               {
                 "Speed": 200.0,
-                "Lifespan": 0.5,
+                "Lifespan": 1.0,
                 "speed": 200.0,
-                "lifespan": 0.5
+                "lifespan": 1.0
               },
               {
                 "projectile": {
@@ -482,7 +538,7 @@
     },
     {
       "rangeMultiplier": 0.06,
-      "maxStacks": 5,
+      "maxStacks": 10,
       "filters": [
         {
           "baseIds": [
@@ -496,7 +552,7 @@
           "path3MaxTier": 9999999
         }
       ],
-      "maxStackSize": 5,
+      "maxStackSize": 10,
       "isGlobalRange": true
     },
     {
@@ -510,47 +566,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-204",
-      "upgrade": "Trident Swiftness"
-    },
-    {
-      "tower": "Mermonkey-105",
-      "upgrade": "The Final Harmonic"
-    }
-  ],
-  "appliedUpgrades": [
-    "Echosense Precision",
-    "Echosense Network",
-    "Alluring Melody",
-    "Symphonic Resonance",
-    "Trident Efficiency"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 70.0,
   "tier": 6,
   "tiers": [
     6
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "307ac0b2ec4846a4ebafe6826707a519"
+  },
+  "instaIcon": {
+    "AssetGUID": "4e1503696788f449396d7836723fe377"
+  },
   "areaTypes": [
     2
   ],
@@ -40,8 +44,68 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Ninja Discipline",
+    "Sharp Shurikens",
+    "Double Shot",
+    "Bloonjitsu",
+    "Grandmaster Ninja",
+    "NinjaMonkey Paragon"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "isParagon": true,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
+      "displayDegreePaths": [
+        {
+          "assetPath": {
+            "AssetGUID": "a0e37f9b594f26443ace03535d3bbf7a"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "57f0a71939c2e6345b6096bc78998665"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "276f7b1b09baf2c4eb9468113a0e062c"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "0156c224a3b258f4e8a197c054d5ee8b"
+          }
+        },
+        {
+          "assetPath": {
+            "AssetGUID": "721e1bd60010fa242b06e112b4e1e2b5"
+          }
+        }
+      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -91,9 +155,21 @@
       }
     },
     {
+      "displayToSwap": {
+        "AssetGUID": "d2ba0805fb7500f4c979eee9478c3a07"
+      },
+      "newDisplay": {
+        "AssetGUID": "2fd13e0937034a1489a767e5d77a4a8a"
+      },
       "displayDegree": 4
     },
     {
+      "displayToSwap": {
+        "AssetGUID": "d2ba0805fb7500f4c979eee9478c3a07"
+      },
+      "newDisplay": {
+        "AssetGUID": "68c40a4a9ed6a9e478d4d68d775701ec"
+      },
       "displayDegree": 5,
       "applyToAllAbove": true
     },
@@ -174,7 +250,7 @@
                   "Camo"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 6.0
+                "damageAddative": 16.0
               },
               {
                 "bloonState": "Stun",
@@ -182,7 +258,7 @@
                   "Stun"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAdditive": 15.0,
+                "damageAdditive": 64.0,
                 "mustBeModified": true
               },
               {
@@ -321,7 +397,7 @@
                         "Camo"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 20.0
+                      "damageAddative": 48.0
                     },
                     {
                       "scale": 1.0,
@@ -397,7 +473,7 @@
                         "Camo"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 16.0
+                      "damageAddative": 40.0
                     },
                     {
                       "scale": 1.0,
@@ -604,10 +680,10 @@
                       "ignoreBlockers": true,
                       "behaviors": [
                         {
-                          "damage": 3500.0,
+                          "damage": 4200.0,
                           "distributeToChildren": true,
                           "createPopEffect": true,
-                          "CappedDamage": 3500.0
+                          "CappedDamage": 4200.0
                         },
                         {
                           "Lifespan": 0.05,
@@ -619,7 +695,7 @@
                             "Boss"
                           ],
                           "damageMultiplier": 1.0,
-                          "damageAddative": 1400.0
+                          "damageAddative": 2100.0
                         },
                         {
                           "distanceMin": 10.0,
@@ -638,7 +714,7 @@
                             "Camo"
                           ],
                           "damageMultiplier": 1.0,
-                          "damageAddative": 700.0
+                          "damageAddative": 2100.0
                         },
                         {
                           "scale": 1.0,
@@ -670,9 +746,9 @@
             "canCollideWithBloons": true,
             "CappedPierce": 1.0
           },
-          "Rate": 5.5,
+          "Rate": 6.5,
           "UseThrowMarker": true,
-          "rate": 5.5
+          "rate": 6.5
         }
       ],
       "behaviors": [
@@ -697,39 +773,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Ninja Discipline",
-    "Sharp Shurikens",
-    "Double Shot",
-    "Bloonjitsu",
-    "Grandmaster Ninja",
-    "NinjaMonkey Paragon"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "isParagon": true,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

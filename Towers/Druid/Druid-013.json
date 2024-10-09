@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 45.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "d207b61784c90c04ebdb224ce3cb10b2"
+  },
+  "instaIcon": {
+    "AssetGUID": "1217890b6c48a4bbfa0292eba36dd211"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,46 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-014",
+      "upgrade": "Poplust"
+    },
+    {
+      "tower": "Druid-023",
+      "upgrade": "Heart of Oak"
+    }
+  ],
+  "appliedUpgrades": [
+    "Druidic Reach",
+    "Heart of Vengeance",
+    "Druid of Wrath",
+    "Thorn Swarm"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -172,46 +216,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-014",
-      "upgrade": "Poplust"
-    },
-    {
-      "tower": "Druid-023",
-      "upgrade": "Heart of Oak"
-    }
-  ],
-  "appliedUpgrades": [
-    "Druidic Reach",
-    "Heart of Vengeance",
-    "Druid of Wrath",
-    "Thorn Swarm"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

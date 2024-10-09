@@ -1,7 +1,5 @@
 {
   "cost": 1000.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "ignoreBlockers": true,
   "isGlobalRange": true,
@@ -10,6 +8,9 @@
     20
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "75dfa503dcac30740b78e815ff664d73"
+  },
   "areaTypes": [
     2
   ],
@@ -56,6 +57,56 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmotePsi]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "4ca869b9295d7f44cb8854e8da4b6070"
+  },
+  "appliedUpgrades": [
+    "Psi Upgrade 2",
+    "Psi Upgrade 3",
+    "Psi Upgrade 4",
+    "Psi Upgrade 5",
+    "Psi Upgrade 6",
+    "Psi Upgrade 7",
+    "Psi Upgrade 8",
+    "Psi Upgrade 9",
+    "Psi Upgrade 10",
+    "Psi Upgrade 11",
+    "Psi Upgrade 12",
+    "Psi Upgrade 13",
+    "Psi Upgrade 14",
+    "Psi Upgrade 15",
+    "Psi Upgrade 16",
+    "Psi Upgrade 17",
+    "Psi Upgrade 18",
+    "Psi Upgrade 19",
+    "Psi Upgrade 20"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 4,
@@ -1575,50 +1626,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Psi Upgrade 2",
-    "Psi Upgrade 3",
-    "Psi Upgrade 4",
-    "Psi Upgrade 5",
-    "Psi Upgrade 6",
-    "Psi Upgrade 7",
-    "Psi Upgrade 8",
-    "Psi Upgrade 9",
-    "Psi Upgrade 10",
-    "Psi Upgrade 11",
-    "Psi Upgrade 12",
-    "Psi Upgrade 13",
-    "Psi Upgrade 14",
-    "Psi Upgrade 15",
-    "Psi Upgrade 16",
-    "Psi Upgrade 17",
-    "Psi Upgrade 18",
-    "Psi Upgrade 19",
-    "Psi Upgrade 20"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

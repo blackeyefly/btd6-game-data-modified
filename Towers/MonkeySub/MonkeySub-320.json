@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "isGlobalRange": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "4f2d9eddfc769c4409550715b62adfe2"
+  },
+  "instaIcon": {
+    "AssetGUID": "5181b24ce79ac4909a296695868f51ca"
+  },
   "areaTypes": [
     1
   ],
@@ -40,6 +44,48 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-420",
+      "upgrade": "Bloontonium Reactor"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Advanced Intel",
+    "Barbed Darts",
+    "Heat-tipped Darts",
+    "Submerge and Support"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    },
+    {
+      "id": "Submerge",
+      "intID": -1,
+      "continueToNextPriority": true
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "submergeAttackModel": {
@@ -343,48 +389,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-420",
-      "upgrade": "Bloontonium Reactor"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Advanced Intel",
-    "Barbed Darts",
-    "Heat-tipped Darts",
-    "Submerge and Support"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    },
-    {
-      "id": "Submerge",
-      "intID": -1,
-      "continueToNextPriority": true
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

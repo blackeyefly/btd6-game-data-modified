@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 47.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "4192ffdc837854b0a874dbc28b378a89"
+  },
+  "instaIcon": {
+    "AssetGUID": "7e323b37004bf444fa7db94704bb9516"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,45 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-022",
+      "upgrade": "Caltrops"
+    },
+    {
+      "tower": "NinjaMonkey-031",
+      "upgrade": "Shinobi Tactics"
+    }
+  ],
+  "appliedUpgrades": [
+    "Distraction",
+    "Counter-Espionage",
+    "Seeking Shuriken"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -165,45 +208,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-022",
-      "upgrade": "Caltrops"
-    },
-    {
-      "tower": "NinjaMonkey-031",
-      "upgrade": "Shinobi Tactics"
-    }
-  ],
-  "appliedUpgrades": [
-    "Distraction",
-    "Counter-Espionage",
-    "Seeking Shuriken"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

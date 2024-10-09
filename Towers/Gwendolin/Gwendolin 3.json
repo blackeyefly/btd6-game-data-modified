@@ -1,13 +1,14 @@
 {
   "cost": 725.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 38.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "a3e76454201597c4d88ae89760d00860"
+  },
   "areaTypes": [
     2
   ],
@@ -54,6 +55,46 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteGwendolin]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "dcbc7dc2da5520043976dc938ab03518"
+  },
+  "upgrades": [
+    {
+      "tower": "Gwendolin 4",
+      "upgrade": "gwendolin heat it up"
+    }
+  ],
+  "appliedUpgrades": [
+    "gwendolin pierce",
+    "gwendolin wall of fire"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -404,6 +445,9 @@
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
                   "startWithClosestTrackPoint": true,
+                  "displayInvalid": {
+                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 },
@@ -417,6 +461,9 @@
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
                 "startWithClosestTrackPoint": true,
+                "displayInvalid": {
+                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -445,40 +492,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Gwendolin 4",
-      "upgrade": "gwendolin heat it up"
-    }
-  ],
-  "appliedUpgrades": [
-    "gwendolin pierce",
-    "gwendolin wall of fire"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

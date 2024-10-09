@@ -1,7 +1,5 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "216081b5b89473a4c8f1bd19776ba8ab"
+  },
+  "instaIcon": {
+    "AssetGUID": "37290076813984005a67246c68985a84"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,33 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-015",
+      "upgrade": "Monkey Wall Street"
+    },
+    {
+      "tower": "BananaFarm-024",
+      "upgrade": "Valuable Bananas"
+    }
+  ],
+  "appliedUpgrades": [
+    "EZ Collect",
+    "Banana Salvage",
+    "Marketplace",
+    "Central Market",
+    "Long Life Bananas"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "sellbackModifierAdd": 0.1,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -141,31 +172,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-015",
-      "upgrade": "Monkey Wall Street"
-    },
-    {
-      "tower": "BananaFarm-024",
-      "upgrade": "Valuable Bananas"
-    }
-  ],
-  "appliedUpgrades": [
-    "EZ Collect",
-    "Banana Salvage",
-    "Marketplace",
-    "Central Market",
-    "Long Life Bananas"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "sellbackModifierAdd": 0.1,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

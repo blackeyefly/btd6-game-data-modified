@@ -1,5 +1,5 @@
 {
   "stackable": true,
-  "maxStackSize": 5,
+  "maxStackSize": 10,
   "globalRange": true
 }

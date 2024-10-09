@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "65ddf86d9fe6d4712bf2f1fd517cbfe5"
+  },
+  "instaIcon": {
+    "AssetGUID": "d5fd5f6359be242feae56bf21c4ffb71"
+  },
   "areaTypes": [
     2
   ],
@@ -40,6 +44,44 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-520",
+      "upgrade": "Archmage"
+    }
+  ],
+  "appliedUpgrades": [
+    "Guided Magic",
+    "Arcane Blast",
+    "Fireball",
+    "Wall of Fire",
+    "Arcane Mastery",
+    "Arcane Spike"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -345,6 +387,9 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
+          "displayInvalid": {
+            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+          },
           "alwaysShowTarget": true,
           "useTerrainHeight": true
         },
@@ -367,6 +412,9 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
+        "displayInvalid": {
+          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+        },
         "alwaysShowTarget": true,
         "useTerrainHeight": true
       },
@@ -378,44 +426,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-520",
-      "upgrade": "Archmage"
-    }
-  ],
-  "appliedUpgrades": [
-    "Guided Magic",
-    "Arcane Blast",
-    "Fireball",
-    "Wall of Fire",
-    "Arcane Mastery",
-    "Arcane Spike"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

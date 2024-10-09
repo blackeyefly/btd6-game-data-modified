@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "46d45b1ed91358e4b862b13547d8c205"
+  },
+  "instaIcon": {
+    "AssetGUID": "c4b23795f0bee4f10a9a87b371407211"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,46 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-401",
+      "upgrade": "Bloon Impact"
+    },
+    {
+      "tower": "BombShooter-302",
+      "upgrade": "Frag Bombs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Bombs",
+    "Heavy Bombs",
+    "Really Big Bombs",
+    "Extra Range"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -88,11 +132,11 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 3.0,
+                      "damage": 4.0,
                       "distributeToChildren": true,
                       "immuneBloonProperties": 2,
                       "immuneBloonPropertiesOriginal": 2,
-                      "CappedDamage": 3.0
+                      "CappedDamage": 4.0
                     },
                     {
                       "rounds": 1,
@@ -107,7 +151,7 @@
                       ]
                     },
                     {
-                      "pushAmount": 10.0,
+                      "pushAmount": 20.0,
                       "onlyIfDamaged": true
                     },
                     {
@@ -192,46 +236,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-401",
-      "upgrade": "Bloon Impact"
-    },
-    {
-      "tower": "BombShooter-302",
-      "upgrade": "Frag Bombs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Bombs",
-    "Heavy Bombs",
-    "Really Big Bombs",
-    "Extra Range"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 35.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "894fbcebe41352a48a5ad29206d7dc47"
+  },
+  "instaIcon": {
+    "AssetGUID": "a3cd95c875bd84a469833d8eba57b28e"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,44 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-120",
+      "upgrade": "Heart of Oak"
+    },
+    {
+      "tower": "Druid-210",
+      "upgrade": "Heart of Thunder"
+    }
+  ],
+  "appliedUpgrades": [
+    "Hard Thorns",
+    "Thorn Swarm"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -159,44 +201,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-120",
-      "upgrade": "Heart of Oak"
-    },
-    {
-      "tower": "Druid-210",
-      "upgrade": "Heart of Thunder"
-    }
-  ],
-  "appliedUpgrades": [
-    "Hard Thorns",
-    "Thorn Swarm"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

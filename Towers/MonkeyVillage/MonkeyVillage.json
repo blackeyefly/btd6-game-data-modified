@@ -1,10 +1,14 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 40.0,
   "ignoreBlockers": true,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "8e94164ab07bda54a95c5466fb978ceb"
+  },
+  "instaIcon": {
+    "AssetGUID": "8afd6e2f980654d3d84a31e8fc8d7ece"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,28 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-100",
+      "upgrade": "Bigger Radius"
+    },
+    {
+      "tower": "MonkeyVillage-010",
+      "upgrade": "Grow Blocker"
+    },
+    {
+      "tower": "MonkeyVillage-001",
+      "upgrade": "Monkey Business"
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -78,27 +104,7 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-100",
-      "upgrade": "Bigger Radius"
-    },
-    {
-      "tower": "MonkeyVillage-010",
-      "upgrade": "Grow Blocker"
-    },
-    {
-      "tower": "MonkeyVillage-001",
-      "upgrade": "Monkey Business"
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true
 }

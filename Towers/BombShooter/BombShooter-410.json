@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "9f1fe33fe14470f40bcc7e6c3e276a77"
+  },
+  "instaIcon": {
+    "AssetGUID": "f4526f26fcb3b47ef8e5adb2667c2d86"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,47 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-510",
+      "upgrade": "Bloon Crush"
+    },
+    {
+      "tower": "BombShooter-420",
+      "upgrade": "Missile Launcher"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Bombs",
+    "Heavy Bombs",
+    "Really Big Bombs",
+    "Bloon Impact",
+    "Faster Reload"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -108,11 +153,11 @@
                       "lifespan": 1.4
                     },
                     {
-                      "damage": 3.0,
+                      "damage": 4.0,
                       "distributeToChildren": true,
                       "immuneBloonProperties": 2,
                       "immuneBloonPropertiesOriginal": 2,
-                      "CappedDamage": 3.0
+                      "CappedDamage": 4.0
                     },
                     {
                       "rounds": 1,
@@ -135,7 +180,7 @@
                       "preventMutation": true
                     },
                     {
-                      "pushAmount": 10.0,
+                      "pushAmount": 20.0,
                       "onlyIfDamaged": true
                     },
                     {
@@ -223,47 +268,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-510",
-      "upgrade": "Bloon Crush"
-    },
-    {
-      "tower": "BombShooter-420",
-      "upgrade": "Missile Launcher"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Bombs",
-    "Heavy Bombs",
-    "Really Big Bombs",
-    "Bloon Impact",
-    "Faster Reload"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

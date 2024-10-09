@@ -1,13 +1,14 @@
 {
   "cost": 600.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 29.0,
   "tier": 16,
   "tiers": [
     16
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "fefa503a6f02ffd4daf096b761c80274"
+  },
   "areaTypes": [
     2
   ],
@@ -54,6 +55,59 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteSauda]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "251eb804ae383794c837ac496db62dee"
+  },
+  "upgrades": [
+    {
+      "tower": "Sauda 17",
+      "upgrade": "Sauda Upgrade 17"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sauda Upgrade 2",
+    "Sauda Upgrade 3",
+    "Sauda Upgrade 4",
+    "Sauda Upgrade 5",
+    "Sauda Upgrade 6",
+    "Sauda Upgrade 7",
+    "Sauda Upgrade 8",
+    "Sauda Upgrade 9",
+    "Sauda Upgrade 10",
+    "Sauda Upgrade 11",
+    "Sauda Upgrade 12",
+    "Sauda Upgrade 13",
+    "Sauda Upgrade 14",
+    "Sauda Upgrade 15",
+    "Sauda Upgrade 16"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 4,
@@ -84,7 +138,7 @@
     {
       "projectileModel": {
         "id": "BaseProjectile",
-        "pierce": 9.0,
+        "pierce": 8.0,
         "scale": 1.0,
         "ignoreBlockers": true,
         "behaviors": [
@@ -166,7 +220,7 @@
         "canCollideWithBloons": true,
         "radius": 22.5,
         "hasDamageModifiers": true,
-        "CappedPierce": 9.0
+        "CappedPierce": 8.0
       },
       "baseTowerRange": 29.0,
       "projectileRadiusOffset": -6.5,
@@ -183,7 +237,7 @@
           "ejectZ": 8.7,
           "projectile": {
             "id": "BaseProjectile",
-            "pierce": 9.0,
+            "pierce": 8.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "behaviors": [
@@ -265,7 +319,7 @@
             "canCollideWithBloons": true,
             "radius": 22.5,
             "hasDamageModifiers": true,
-            "CappedPierce": 9.0
+            "CappedPierce": 8.0
           },
           "behaviors": [
             {
@@ -451,7 +505,7 @@
     {
       "behaviors": [
         {
-          "iterations": 1,
+          "iterations": 2,
           "projectileModel": {
             "id": "SwordChargeProjectile",
             "pierce": 400.0,
@@ -459,10 +513,10 @@
             "ignoreBlockers": true,
             "behaviors": [
               {
-                "damage": 120.0,
+                "damage": 60.0,
                 "distributeToChildren": true,
                 "createPopEffect": true,
-                "CappedDamage": 120.0
+                "CappedDamage": 60.0
               },
               {
                 "rounds": 9999999,
@@ -480,15 +534,15 @@
                 "lv7TagsList": [
                   "Stun"
                 ],
-                "lv7NonMoabBonus": 60.0,
-                "lv7MoabBonus": 120.0,
+                "lv7NonMoabBonus": 30.0,
+                "lv7MoabBonus": 60.0,
                 "lv11ExcludeTags": "Stun, SaudaBleed",
                 "lv11ExcludeTagsList": [
                   "Stun",
                   "SaudaBleed"
                 ],
-                "lv11NonMoabBonus": 60.0,
-                "lv11MoabBonus": 120.0
+                "lv11NonMoabBonus": 30.0,
+                "lv11MoabBonus": 60.0
               },
               {
                 "scale": 1.0,
@@ -528,53 +582,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Sauda 17",
-      "upgrade": "Sauda Upgrade 17"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sauda Upgrade 2",
-    "Sauda Upgrade 3",
-    "Sauda Upgrade 4",
-    "Sauda Upgrade 5",
-    "Sauda Upgrade 6",
-    "Sauda Upgrade 7",
-    "Sauda Upgrade 8",
-    "Sauda Upgrade 9",
-    "Sauda Upgrade 10",
-    "Sauda Upgrade 11",
-    "Sauda Upgrade 12",
-    "Sauda Upgrade 13",
-    "Sauda Upgrade 14",
-    "Sauda Upgrade 15",
-    "Sauda Upgrade 16"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

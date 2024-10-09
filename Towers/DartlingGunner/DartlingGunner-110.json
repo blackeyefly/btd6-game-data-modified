@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 1,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "bf4bec45a69e50f42ad5d4ef93088cf2"
+  },
+  "instaIcon": {
+    "AssetGUID": "e242cd7a8baac4980b2561683e2f19cc"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,39 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-120",
+      "upgrade": "Faster Barrel Spin"
+    },
+    {
+      "tower": "DartlingGunner-210",
+      "upgrade": "Laser Shock"
+    }
+  ],
+  "appliedUpgrades": [
+    "Focused Firing",
+    "Advanced Targeting"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -135,39 +172,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-120",
-      "upgrade": "Faster Barrel Spin"
-    },
-    {
-      "tower": "DartlingGunner-210",
-      "upgrade": "Laser Shock"
-    }
-  ],
-  "appliedUpgrades": [
-    "Focused Firing",
-    "Advanced Targeting"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

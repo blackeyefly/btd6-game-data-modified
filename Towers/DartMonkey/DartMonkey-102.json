@@ -1,7 +1,5 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 48.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "53219e3a8979b34488e723ef1a7ebc5b"
+  },
+  "instaIcon": {
+    "AssetGUID": "9ed5bb1301fac41f381accd7bb8cd1dc"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,45 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartMonkey-202",
+      "upgrade": "Razor Sharp Shots"
+    },
+    {
+      "tower": "DartMonkey-103",
+      "upgrade": "Crossbow"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Range Darts",
+    "Enhanced Eyesight",
+    "Sharp Shots"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -72,10 +115,10 @@
                 "CappedDamage": 1.0
               },
               {
-                "Speed": 330.0,
-                "Lifespan": 0.3528409,
-                "speed": 330.0,
-                "lifespan": 0.3528409
+                "Speed": 350.0,
+                "Lifespan": 0.361607134,
+                "speed": 350.0,
+                "lifespan": 0.361607134
               },
               {
                 "scale": 1.0,
@@ -119,45 +162,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartMonkey-202",
-      "upgrade": "Razor Sharp Shots"
-    },
-    {
-      "tower": "DartMonkey-103",
-      "upgrade": "Crossbow"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Range Darts",
-    "Enhanced Eyesight",
-    "Sharp Shots"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

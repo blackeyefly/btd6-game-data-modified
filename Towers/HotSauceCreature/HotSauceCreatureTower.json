@@ -49,6 +49,28 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "dontDisplayUpgrades": true,
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -206,29 +228,9 @@
       "category": 4
     }
   ],
-  "dontDisplayUpgrades": true,
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
   "isGeraldoItem": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "First"

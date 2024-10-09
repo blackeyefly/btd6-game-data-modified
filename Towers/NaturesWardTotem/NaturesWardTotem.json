@@ -1,6 +1,9 @@
 {
   "range": 32.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "f00bc9224369720458e7d57ff7e6b647"
+  },
   "areaTypes": [
     2
   ],
@@ -47,6 +50,10 @@
       "mod": "WeakPoint"
     }
   ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "Lifespan": 15.0,
@@ -106,9 +113,7 @@
       "category": 4
     }
   ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true
 }

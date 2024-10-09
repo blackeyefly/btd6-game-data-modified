@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 11,
   "category": 4,
   "investmentRequired": 8,
   "monkeyMoneyCost": 1000,
@@ -8,18 +6,10 @@
     "EmpoweredHeroes"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.SimulationBehaviors.Mods.HeroXPBonusModModel, Assembly-CSharp",
-        "percentMultiplier": 0.05,
-        "name": "MonkeysTogetherStrong",
-        "ImplementationType": null
+        "percentMultiplier": 0.05
       }
-    ],
-    "name": "MonkeysTogetherStrong",
-    "ImplementationType": null
-  },
-  "name": "MonkeysTogetherStrong",
-  "ImplementationType": null
+    ]
+  }
 }

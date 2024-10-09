@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 9,
   "category": 4,
   "investmentRequired": 8,
   "monkeyMoneyCost": 500,
@@ -8,20 +6,10 @@
     "HeroFavors"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.HeroXpInjectionModModel, Assembly-CSharp",
-        "amount": 0,
-        "levels": 2,
-        "subtractHeroCost": false,
-        "name": "EmpoweredHeroes",
-        "ImplementationType": null
+        "levels": 2
       }
-    ],
-    "name": "EmpoweredHeroes",
-    "ImplementationType": null
-  },
-  "name": "EmpoweredHeroes",
-  "ImplementationType": null
+    ]
+  }
 }

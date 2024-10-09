@@ -1,7 +1,5 @@
 {
   "cost": 600.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "ignoreBlockers": true,
   "tier": 1,
@@ -9,6 +7,9 @@
     1
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "53e3c9019f809f2428af7d055c81c947"
+  },
   "areaTypes": [
     2
   ],
@@ -55,6 +56,42 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteEzili]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "3659b5703c271324ca14d4b106a73ffa"
+  },
+  "upgrades": [
+    {
+      "tower": "Ezili 2",
+      "upgrade": "Ezili Range"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -110,7 +147,7 @@
                 "layers": 9999999,
                 "behaviors": [
                   {
-                    "damage": 1.0,
+                    "damage": 2.0,
                     "immuneBloonProperties": 8,
                     "displayLifetime": 2.5,
                     "distributeToChildren": true,
@@ -232,36 +269,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Ezili 2",
-      "upgrade": "Ezili Range"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

@@ -1,13 +1,14 @@
 {
   "cost": 2000.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
-  "range": 66.0,
+  "range": 75.0,
   "tier": 20,
   "tiers": [
     20
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "de6cc8b8559ca44c4aa268af7d21ae6d"
+  },
   "areaTypes": [
     2
   ],
@@ -62,6 +63,57 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteChurchill]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "67172b4ce38cc654c8e7d7a6afbc9041"
+  },
+  "appliedUpgrades": [
+    "Churchill Pierce",
+    "Churchill Armor Piercing Shells",
+    "Churchill Range",
+    "Churchill Machine Gun",
+    "Churchill Binoculars",
+    "Churchill Shell Explosion",
+    "Churchill Attack Speed",
+    "Churchill Shell Explosion 2",
+    "Churchill MOAB Barage",
+    "Churchill Pierce 2",
+    "Churchill Shell Explosion 3",
+    "Churchill Armor Piercing Shells 2",
+    "Churchill Machine Gun Damage",
+    "Churchill Fortified Bloon Damage",
+    "Churchill Attack Speed 2",
+    "Churchill Armor Piercing Shells 3",
+    "Churchill Tank Shell Damage",
+    "Churchill Shell Explosion 4",
+    "Churchill MOAB Barage 2"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -114,11 +166,11 @@
                   "scale": 1.0,
                   "behaviors": [
                     {
-                      "damage": 15.0,
+                      "damage": 20.0,
                       "distributeToChildren": true,
                       "immuneBloonProperties": 2,
                       "immuneBloonPropertiesOriginal": 2,
-                      "CappedDamage": 15.0
+                      "CappedDamage": 20.0
                     },
                     {
                       "Lifespan": 0.1,
@@ -196,7 +248,7 @@
           "category": 1
         }
       ],
-      "range": 66.0,
+      "range": 75.0,
       "addsToSharedGrid": true
     },
     {
@@ -211,12 +263,12 @@
             "scale": 1.0,
             "behaviors": [
               {
-                "damage": 5.0,
+                "damage": 10.0,
                 "distributeToChildren": true,
                 "createPopEffect": true,
                 "immuneBloonProperties": 17,
                 "immuneBloonPropertiesOriginal": 17,
-                "CappedDamage": 5.0
+                "CappedDamage": 10.0
               },
               {
                 "tag": "Fortified",
@@ -224,7 +276,7 @@
                   "Fortified"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 1.0
+                "damageAddative": 4.0
               },
               {
                 "Lifespan": 0.1,
@@ -266,7 +318,7 @@
           "category": 1
         }
       ],
-      "range": 66.0
+      "range": 75.0
     },
     {
       "description": "Armor Piercing Shells: Shots can pop Black bloons and do extra damage to Ceramic or higher for 5 seconds.",
@@ -276,6 +328,7 @@
         },
         {
           "lifespanFrames": 1050,
+          "damageIncrease": 4,
           "projectileBehaviorModel": {
             "tag": "Moabs",
             "tags": [
@@ -290,11 +343,11 @@
             "scale": 1.0,
             "behaviors": [
               {
-                "damage": 15.0,
+                "damage": 20.0,
                 "distributeToChildren": true,
                 "immuneBloonProperties": 2,
                 "immuneBloonPropertiesOriginal": 2,
-                "CappedDamage": 15.0
+                "CappedDamage": 20.0
               },
               {
                 "Lifespan": 0.1,
@@ -340,11 +393,11 @@
             "scale": 1.0,
             "behaviors": [
               {
-                "damage": 15.0,
+                "damage": 20.0,
                 "distributeToChildren": true,
                 "immuneBloonProperties": 2,
                 "immuneBloonPropertiesOriginal": 2,
-                "CappedDamage": 15.0
+                "CappedDamage": 20.0
               },
               {
                 "Lifespan": 0.1,
@@ -529,51 +582,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "appliedUpgrades": [
-    "Churchill Pierce",
-    "Churchill Armor Piercing Shells",
-    "Churchill Range",
-    "Churchill Machine Gun",
-    "Churchill Binoculars",
-    "Churchill Shell Explosion",
-    "Churchill Attack Speed",
-    "Churchill Shell Explosion 2",
-    "Churchill MOAB Barage",
-    "Churchill Pierce 2",
-    "Churchill Shell Explosion 3",
-    "Churchill Armor Piercing Shells 2",
-    "Churchill Machine Gun Damage",
-    "Churchill Fortified Bloon Damage",
-    "Churchill Attack Speed 2",
-    "Churchill Armor Piercing Shells 3",
-    "Churchill Tank Shell Damage",
-    "Churchill Shell Explosion 4",
-    "Churchill MOAB Barage 2"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 12,
   "category": 4,
   "investmentRequired": 8,
   "monkeyMoneyCost": 1000,
@@ -9,28 +7,15 @@
     "BigBloonBlueprints"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.DamageModifierForTagModModel, Assembly-CSharp",
         "bloonTag": "Fortified",
-        "multiplierAdditive": 0.0,
-        "addative": 1.0,
-        "name": "WeakPoint",
-        "ImplementationType": null
+        "addative": 1.0
       },
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.DamageModifierForTagModModel, Assembly-CSharp",
         "bloonTag": "Ceramic",
-        "multiplierAdditive": 0.0,
-        "addative": 1.0,
-        "name": "WeakPoint",
-        "ImplementationType": null
+        "addative": 1.0
       }
-    ],
-    "name": "WeakPoint",
-    "ImplementationType": null
-  },
-  "name": "WeakPoint",
-  "ImplementationType": null
+    ]
+  }
 }

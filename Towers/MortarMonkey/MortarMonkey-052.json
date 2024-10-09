@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "5465dd9e7f1e0374fbc9e8dcff6f98c6"
+  },
+  "instaIcon": {
+    "AssetGUID": "952b2cd7614f04c339f656f0396a66cd"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,30 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "appliedUpgrades": [
+    "Mortar Faster Reload",
+    "Mortar Rapid Reload",
+    "Increased Accuracy",
+    "Burny Stuff",
+    "Heavy Shells",
+    "Artillery Battery",
+    "Pop and Awe"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -126,8 +154,8 @@
                       ],
                       "behaviors": [
                         {
-                          "damage": 5.0,
-                          "displayLifetime": 3.85,
+                          "damage": 18.0,
+                          "displayLifetime": 7.6,
                           "distributeToChildren": true,
                           "Interval": 1.25,
                           "interval": 1.25
@@ -138,7 +166,7 @@
                       "applyOnlyIfDamaged": true,
                       "overlayType": "Fire",
                       "collisionPass": -1,
-                      "lifespan": 3.85
+                      "lifespan": 7.6
                     },
                     {
                       "damage": 2.0,
@@ -349,6 +377,48 @@
                         "interval": 1.0
                       },
                       {
+                        "layers": 9999999,
+                        "filters": [
+                          {
+                            "tag": "Ddt",
+                            "disableWhenSupportMutatorIDs": [
+                              "MibMutator",
+                              "Striker:Level9BlackBuff"
+                            ]
+                          },
+                          {
+                            "tag": "Black",
+                            "disableWhenSupportMutatorIDs": [
+                              "MibMutator",
+                              "Striker:Level9BlackBuff"
+                            ]
+                          },
+                          {
+                            "tag": "Zebra",
+                            "disableWhenSupportMutatorIDs": [
+                              "MibMutator",
+                              "Striker:Level9BlackBuff"
+                            ]
+                          }
+                        ],
+                        "behaviors": [
+                          {
+                            "damage": 36.0,
+                            "immuneBloonProperties": 8,
+                            "displayLifetime": 7.6,
+                            "distributeToChildren": true,
+                            "Interval": 1.25,
+                            "interval": 1.25
+                          }
+                        ],
+                        "isUnique": true,
+                        "collideThisFrame": true,
+                        "applyOnlyIfDamaged": true,
+                        "overlayType": "Fire",
+                        "collisionPass": -1,
+                        "lifespan": 7.6
+                      },
+                      {
                         "scale": 1.0,
                         "category": 16
                       }
@@ -431,30 +501,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "appliedUpgrades": [
-    "Mortar Faster Reload",
-    "Mortar Rapid Reload",
-    "Increased Accuracy",
-    "Burny Stuff",
-    "Heavy Shells",
-    "Artillery Battery",
-    "Pop and Awe"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

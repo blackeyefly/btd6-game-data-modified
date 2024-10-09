@@ -1,9 +1,13 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 40.0,
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "465f9d412297e86429ee6ac17221587b"
+  },
+  "instaIcon": {
+    "AssetGUID": "42cbf8aeadbb34419af23eab39fc4f0a"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,44 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-100",
+      "upgrade": "Ninja Discipline"
+    },
+    {
+      "tower": "NinjaMonkey-001",
+      "upgrade": "Seeking Shuriken"
+    },
+    {
+      "tower": "NinjaMonkey-010",
+      "upgrade": "Distraction"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -130,44 +172,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-100",
-      "upgrade": "Ninja Discipline"
-    },
-    {
-      "tower": "NinjaMonkey-001",
-      "upgrade": "Seeking Shuriken"
-    },
-    {
-      "tower": "NinjaMonkey-010",
-      "upgrade": "Distraction"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

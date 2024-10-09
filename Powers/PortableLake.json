@@ -7,13 +7,21 @@
     }
   ],
   "tower": {
-    "radius": 19.0,
-    "radiusSquared": 361.0,
     "range": 24.0,
     "towerSet": 64,
+    "portrait": {
+      "AssetGUID": "c1738153284a15d4d9edcdeba5023696"
+    },
     "areaTypes": [
       2
     ],
+    "footprint": {
+      "radius": 19.0
+    },
+    "dontDisplayUpgrades": true,
+    "animationSpeed": 1.0,
+    "showBuffs": true,
+    "displayScale": 1.0,
     "behaviors": [
       {
         "points": [
@@ -95,14 +103,9 @@
         "category": 4
       }
     ],
-    "footprint": {
-      "radius": 19.0
-    },
-    "dontDisplayUpgrades": true,
-    "animationSpeed": 1.0,
-    "displayScale": 1.0,
-    "showBuffs": true,
+    "radius": 19.0,
     "isPowerTower": true,
+    "DisplayScale": 1.0,
     "IsBaseTower": true
   },
   "quantity": 1

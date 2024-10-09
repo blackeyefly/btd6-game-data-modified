@@ -1,7 +1,5 @@
 {
   "cost": 2500.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 57.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "05306f4bb0b90554ca0c104a1f26cf58"
+  },
+  "instaIcon": {
+    "AssetGUID": "32663b7ad05644a8b9537ffb29e9eb59"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,39 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "appliedUpgrades": [
+    "Laser Blasts",
+    "Plasma Blasts",
+    "Knockback",
+    "Ultravision",
+    "Dark Knight",
+    "Dark Champion",
+    "Legend of the Night"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -232,6 +269,9 @@
       "description": "DarkshiftDescription",
       "behaviors": [
         {
+          "placementZoneAsset": {
+            "AssetGUID": "7d0f0272fa5480146895ddcd72260882"
+          },
           "disappearEffectModel": {
             "scale": 1.0,
             "lifespan": 1.0
@@ -254,39 +294,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "appliedUpgrades": [
-    "Laser Blasts",
-    "Plasma Blasts",
-    "Knockback",
-    "Ultravision",
-    "Dark Knight",
-    "Dark Champion",
-    "Legend of the Night"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

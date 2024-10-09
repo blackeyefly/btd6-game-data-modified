@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "ae2a42daf8c5da84096100aa042ef8a8"
+  },
+  "instaIcon": {
+    "AssetGUID": "d00745df8cda6924eb332655ec99938b"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,46 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-302",
+      "upgrade": "Abyss Dweller"
+    },
+    {
+      "tower": "Mermonkey-203",
+      "upgrade": "Alluring Melody"
+    }
+  ],
+  "appliedUpgrades": [
+    "Trident Efficiency",
+    "Trident Swiftness",
+    "Echosense Precision",
+    "Echosense Network"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -75,9 +119,9 @@
             "behaviors": [
               {
                 "Speed": 300.0,
-                "Lifespan": 0.333333343,
+                "Lifespan": 0.6666667,
                 "speed": 300.0,
-                "lifespan": 0.333333343
+                "lifespan": 0.6666667
               },
               {
                 "projectile": {
@@ -160,7 +204,7 @@
     },
     {
       "rangeMultiplier": 0.06,
-      "maxStacks": 5,
+      "maxStacks": 10,
       "filters": [
         {
           "baseIds": [
@@ -174,7 +218,7 @@
           "path3MaxTier": 9999999
         }
       ],
-      "maxStackSize": 5,
+      "maxStackSize": 10,
       "isGlobalRange": true
     },
     {
@@ -188,46 +232,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-302",
-      "upgrade": "Abyss Dweller"
-    },
-    {
-      "tower": "Mermonkey-203",
-      "upgrade": "Alluring Melody"
-    }
-  ],
-  "appliedUpgrades": [
-    "Trident Efficiency",
-    "Trident Swiftness",
-    "Echosense Precision",
-    "Echosense Network"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

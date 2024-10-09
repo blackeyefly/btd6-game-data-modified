@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 58.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "60cce19a8785d5248b71460c3d6d3db8"
+  },
+  "instaIcon": {
+    "AssetGUID": "06a7b6a7511a944069e61bbdf7f6396e"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,46 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-032",
+      "upgrade": "MOAB Mauler"
+    },
+    {
+      "tower": "BombShooter-023",
+      "upgrade": "Cluster Bombs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Reload",
+    "Missile Launcher",
+    "Extra Range",
+    "Frag Bombs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -228,46 +272,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-032",
-      "upgrade": "MOAB Mauler"
-    },
-    {
-      "tower": "BombShooter-023",
-      "upgrade": "Cluster Bombs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Reload",
-    "Missile Launcher",
-    "Extra Range",
-    "Frag Bombs"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

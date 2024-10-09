@@ -1,13 +1,17 @@
 {
   "cost": 260.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 30.82,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "242e7ba6fcc5e394cb6f141b60b0f86d"
+  },
+  "instaIcon": {
+    "AssetGUID": "6d23ee8f8449b49c6ae1391038c1996f"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,37 @@
       "mod": "FastTackAttacks"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "TackShooter-030",
+      "upgrade": "Blade Shooter"
+    },
+    {
+      "tower": "TackShooter-120",
+      "upgrade": "Faster Shooting"
+    },
+    {
+      "tower": "TackShooter-021",
+      "upgrade": "More Tacks"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Range Tacks",
+    "Super Range Tacks"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -130,37 +165,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "TackShooter-030",
-      "upgrade": "Blade Shooter"
-    },
-    {
-      "tower": "TackShooter-120",
-      "upgrade": "Faster Shooting"
-    },
-    {
-      "tower": "TackShooter-021",
-      "upgrade": "More Tacks"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Range Tacks",
-    "Super Range Tacks"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

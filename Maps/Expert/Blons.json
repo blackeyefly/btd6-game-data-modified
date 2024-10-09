@@ -3,6 +3,9 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicUpbeat2A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectBlonsMapButton]"
+  },
   "hasWater": true,
   "IsBrowserOnly": true,
   "isBrowserOnly": true

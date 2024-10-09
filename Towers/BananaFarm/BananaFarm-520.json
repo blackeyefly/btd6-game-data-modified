@@ -1,7 +1,5 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "71954b5f95ec3b2488a0e547e587a761"
+  },
+  "instaIcon": {
+    "AssetGUID": "224f234b084a74bc586df01677f5548f"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,24 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "appliedUpgrades": [
+    "Long Life Bananas",
+    "Valuable Bananas",
+    "Increased Production",
+    "Greater Production",
+    "Banana Plantation",
+    "Banana Research Facility",
+    "Banana Central"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -349,22 +371,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "appliedUpgrades": [
-    "Long Life Bananas",
-    "Valuable Bananas",
-    "Increased Production",
-    "Greater Production",
-    "Banana Plantation",
-    "Banana Research Facility",
-    "Banana Central"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

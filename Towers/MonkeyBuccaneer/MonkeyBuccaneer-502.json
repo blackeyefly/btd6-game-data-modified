@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "0501bc939592086459d44fc7f2e46b87"
+  },
+  "instaIcon": {
+    "AssetGUID": "85e556df09bd04580a94b7d3606a8a10"
+  },
   "areaTypes": [
     1
   ],
@@ -41,6 +45,42 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "appliedUpgrades": [
+    "Buccaneer-Faster Shooting",
+    "Buccaneer-Double Shot",
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest",
+    "Buccaneer-Destroyer",
+    "Buccaneer-Aircraft Carrier",
+    "Buccaneer-Carrier Flagship"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeyBuccaneer-Paragon",
+    "upgrade": "MonkeyBuccaneer Paragon"
+  },
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -78,7 +118,7 @@
           "ejectZ": 1.0,
           "projectile": {
             "id": "Projectile",
-            "pierce": 6.0,
+            "pierce": 9.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -102,7 +142,7 @@
             ],
             "canCollideWithBloons": true,
             "radius": 4.0,
-            "CappedPierce": 6.0
+            "CappedPierce": 9.0
           },
           "Rate": 0.15,
           "UseThrowMarker": true,
@@ -127,7 +167,7 @@
           "ejectZ": 1.0,
           "projectile": {
             "id": "Projectile",
-            "pierce": 6.0,
+            "pierce": 9.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -151,7 +191,7 @@
             ],
             "canCollideWithBloons": true,
             "radius": 4.0,
-            "CappedPierce": 6.0
+            "CappedPierce": 9.0
           },
           "behaviors": [
             {
@@ -201,13 +241,7 @@
             "ignoreBlockers": true,
             "behaviors": [
               {
-                "Lifespan": "NaN",
-                "lifespan": "NaN"
-              },
-              {
                 "tower": {
-                  "radius": 6.0,
-                  "radiusSquared": 36.0,
                   "range": 200.0,
                   "ignoreBlockers": true,
                   "towerSet": 2,
@@ -244,6 +278,31 @@
                     }
                   ],
                   "ignoreTowerForSelection": true,
+                  "footprint": {
+                    "radius": 6.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "animationSpeed": 1.0,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "radius": 6.0,
@@ -276,12 +335,11 @@
                                 "ejectY": 10.0
                               }
                             ],
-                            "projectileCount": 2,
-                            "rotateProjectileWithTower": true
+                            "projectileCount": 2
                           },
                           "projectile": {
                             "id": "Projectile",
-                            "pierce": 16.0,
+                            "pierce": 9.0,
                             "scale": 1.0,
                             "ignoreBlockers": true,
                             "behaviors": [
@@ -322,7 +380,7 @@
                             "canCollideWithBloons": true,
                             "radius": 4.0,
                             "hasDamageModifiers": true,
-                            "CappedPierce": 16.0
+                            "CappedPierce": 9.0
                           },
                           "behaviors": [
                             {
@@ -334,8 +392,8 @@
                               "ejectY": 10.0
                             }
                           ],
-                          "Rate": 0.15,
-                          "rate": 0.15
+                          "Rate": 0.18,
+                          "rate": 0.18
                         }
                       ],
                       "behaviors": [
@@ -375,7 +433,7 @@
                           "ejectY": 10.0,
                           "projectile": {
                             "id": "Projectile",
-                            "pierce": 16.0,
+                            "pierce": 18.0,
                             "scale": 1.0,
                             "ignoreBlockers": true,
                             "behaviors": [
@@ -409,12 +467,12 @@
                             "canCollideWithBloons": true,
                             "radius": 4.0,
                             "hasDamageModifiers": true,
-                            "CappedPierce": 16.0
+                            "CappedPierce": 18.0
                           },
                           "fireWithoutTarget": true,
-                          "Rate": 1.0,
+                          "Rate": 1.2,
                           "UseThrowMarker": true,
-                          "rate": 1.0
+                          "rate": 1.2
                         }
                       ],
                       "range": 9999999.0,
@@ -590,31 +648,9 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 6.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "animationSpeed": 1.0,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "radius": 6.0,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -755,42 +791,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "appliedUpgrades": [
-    "Buccaneer-Faster Shooting",
-    "Buccaneer-Double Shot",
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest",
-    "Buccaneer-Destroyer",
-    "Buccaneer-Aircraft Carrier",
-    "Buccaneer-Carrier Flagship"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeyBuccaneer-Paragon",
-    "upgrade": "MonkeyBuccaneer Paragon"
-  },
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

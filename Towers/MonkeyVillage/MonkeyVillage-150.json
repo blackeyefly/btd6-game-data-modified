@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 48.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "b8ef7a96f0f0cb34b824c89692ab5238"
+  },
+  "instaIcon": {
+    "AssetGUID": "6d5c2d69981d74353ae31466999e27b1"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,28 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-250",
+      "upgrade": "Jungle Drums"
+    }
+  ],
+  "appliedUpgrades": [
+    "Grow Blocker",
+    "Radar Scanner",
+    "Monkey Intelligence Bureau",
+    "Call to Arms",
+    "Homeland Defense",
+    "Bigger Radius"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -148,26 +174,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-250",
-      "upgrade": "Jungle Drums"
-    }
-  ],
-  "appliedUpgrades": [
-    "Grow Blocker",
-    "Radar Scanner",
-    "Monkey Intelligence Bureau",
-    "Call to Arms",
-    "Homeland Defense",
-    "Bigger Radius"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

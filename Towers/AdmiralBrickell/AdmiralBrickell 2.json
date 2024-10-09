@@ -1,13 +1,14 @@
 {
   "cost": 900.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 50.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "0618a4040e4c4a74e9ae5436775ac3f2"
+  },
   "areaTypes": [
     1
   ],
@@ -58,6 +59,45 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteAdmiralBrickell]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "b2c0b90221e589b479a62fe3d826d734"
+  },
+  "upgrades": [
+    {
+      "tower": "AdmiralBrickell 3",
+      "upgrade": "AdmiralBrickell Upgrade 3"
+    }
+  ],
+  "appliedUpgrades": [
+    "AdmiralBrickell Upgrade 2"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 5,
@@ -630,39 +670,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "AdmiralBrickell 3",
-      "upgrade": "AdmiralBrickell Upgrade 3"
-    }
-  ],
-  "appliedUpgrades": [
-    "AdmiralBrickell Upgrade 2"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

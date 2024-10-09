@@ -1,13 +1,14 @@
 {
   "cost": 700.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 55.0,
   "tier": 11,
   "tiers": [
     11
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "dc70979b6f6a48b49a7673d462cf1213"
+  },
   "areaTypes": [
     2
   ],
@@ -58,6 +59,54 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteStrikerJones]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "ae7c454731e40624097148dcf3d7cf5e"
+  },
+  "upgrades": [
+    {
+      "tower": "StrikerJones 12",
+      "upgrade": "Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Blast Radius",
+    "Concussive Shell",
+    "Bomb Speed Boost",
+    "Attack Speed",
+    "Bigger Explosion",
+    "Coordinated Shots",
+    "Bomb Expert",
+    "Black Resistance",
+    "Artillery Command",
+    "Attack Speed 2"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -506,48 +555,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "StrikerJones 12",
-      "upgrade": "Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Blast Radius",
-    "Concussive Shell",
-    "Bomb Speed Boost",
-    "Attack Speed",
-    "Bigger Explosion",
-    "Coordinated Shots",
-    "Bomb Expert",
-    "Black Resistance",
-    "Artillery Command",
-    "Attack Speed 2"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

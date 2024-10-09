@@ -1,14 +1,18 @@
 {
   "cost": 400.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
-  "range": 55.0,
+  "range": 47.0,
   "tier": 4,
   "tiers": [
     1,
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "e43ab96a103f24855ab3ad2e0aec0b79"
+  },
+  "instaIcon": {
+    "AssetGUID": "755e706cf7d3a42c7affc31a7a091b18"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,47 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "NinjaMonkey-015",
+      "upgrade": "Master Bomber"
+    },
+    {
+      "tower": "NinjaMonkey-024",
+      "upgrade": "Counter-Espionage"
+    }
+  ],
+  "appliedUpgrades": [
+    "Seeking Shuriken",
+    "Caltrops",
+    "Flash Bomb",
+    "Sticky Bomb",
+    "Distraction"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -70,7 +115,7 @@
           "ejectZ": 4.56,
           "projectile": {
             "id": "Projectile",
-            "pierce": 2.0,
+            "pierce": 4.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -122,7 +167,7 @@
                   "Stun"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAdditive": 3.0,
+                "damageAdditive": 4.0,
                 "mustBeModified": true
               },
               {
@@ -131,7 +176,7 @@
                   "StickyBomb"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAdditive": 3.0,
+                "damageAdditive": 4.0,
                 "mustBeModified": true
               },
               {
@@ -142,7 +187,7 @@
             "canCollideWithBloons": true,
             "radius": 3.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 2.0
+            "CappedPierce": 4.0
           },
           "behaviors": [
             {
@@ -268,7 +313,7 @@
           "isSelectable": true
         }
       ],
-      "range": 55.0,
+      "range": 47.0,
       "addsToSharedGrid": true
     },
     {
@@ -391,7 +436,7 @@
           "rotateTower": true
         }
       ],
-      "range": 55.0,
+      "range": 47.0,
       "targetProvider": {
         "maxOffset": 2.0
       }
@@ -526,7 +571,7 @@
           ]
         }
       ],
-      "range": 55.0,
+      "range": 47.0,
       "offsetY": 0.000122070313
     },
     {
@@ -535,47 +580,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "NinjaMonkey-015",
-      "upgrade": "Master Bomber"
-    },
-    {
-      "tower": "NinjaMonkey-024",
-      "upgrade": "Counter-Espionage"
-    }
-  ],
-  "appliedUpgrades": [
-    "Seeking Shuriken",
-    "Caltrops",
-    "Flash Bomb",
-    "Sticky Bomb",
-    "Distraction"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

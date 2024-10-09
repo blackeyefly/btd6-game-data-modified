@@ -1,7 +1,5 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 57.19,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "305d06670fe58d84c8764fef34a25d2b"
+  },
+  "instaIcon": {
+    "AssetGUID": "f65c98476fef04880b7a26020b70a94b"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,44 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-205",
+      "upgrade": "MOAB Domination"
+    }
+  ],
+  "appliedUpgrades": [
+    "Improved Rangs",
+    "Glaives",
+    "Long Range Rangs",
+    "Red Hot Rangs",
+    "Kylie Boomerang",
+    "MOAB Press"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -518,7 +560,7 @@
           "ejectZ": 7.0,
           "projectile": {
             "id": "Projectile",
-            "pierce": 340.0,
+            "pierce": 420.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "filters": [
@@ -700,7 +742,7 @@
             "canCollideWithBloons": true,
             "radius": 15.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 340.0
+            "CappedPierce": 420.0
           },
           "Rate": 10.0,
           "UseThrowMarker": true,
@@ -737,44 +779,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-205",
-      "upgrade": "MOAB Domination"
-    }
-  ],
-  "appliedUpgrades": [
-    "Improved Rangs",
-    "Glaives",
-    "Long Range Rangs",
-    "Red Hot Rangs",
-    "Kylie Boomerang",
-    "MOAB Press"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

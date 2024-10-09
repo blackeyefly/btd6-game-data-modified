@@ -1,13 +1,17 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 36.8,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "a930ed195e0f5304fae12002fd736d17"
+  },
+  "instaIcon": {
+    "AssetGUID": "c775941e02fed4a539627b5d187b541a"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,49 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartMonkey-400",
+      "upgrade": "Juggernaut"
+    },
+    {
+      "tower": "DartMonkey-310",
+      "upgrade": "Quick Shots"
+    },
+    {
+      "tower": "DartMonkey-301",
+      "upgrade": "Long Range Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharp Shots",
+    "Razor Sharp Shots",
+    "Spike-o-pult"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -140,49 +187,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartMonkey-400",
-      "upgrade": "Juggernaut"
-    },
-    {
-      "tower": "DartMonkey-310",
-      "upgrade": "Quick Shots"
-    },
-    {
-      "tower": "DartMonkey-301",
-      "upgrade": "Long Range Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharp Shots",
-    "Razor Sharp Shots",
-    "Spike-o-pult"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

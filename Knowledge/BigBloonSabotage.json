@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 29,
   "category": 1,
   "investmentRequired": 14,
   "monkeyMoneyCost": 1000,
@@ -9,18 +7,10 @@
     "MasterDefender"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.BloonHealthModModel, Assembly-CSharp",
-        "percentageHealthReduced": 0.1,
-        "name": "BigBloonSabotage",
-        "ImplementationType": null
+        "percentageHealthReduced": 0.1
       }
-    ],
-    "name": "BigBloonSabotage",
-    "ImplementationType": null
-  },
-  "name": "BigBloonSabotage",
-  "ImplementationType": null
+    ]
+  }
 }

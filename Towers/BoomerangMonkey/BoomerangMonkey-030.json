@@ -1,13 +1,17 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "2d5e8e5ef94db8b4b8b3e92046913d7a"
+  },
+  "instaIcon": {
+    "AssetGUID": "428d792b531314044b4aedbe36f0251f"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,49 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-040",
+      "upgrade": "Turbo Charge"
+    },
+    {
+      "tower": "BoomerangMonkey-130",
+      "upgrade": "Improved Rangs"
+    },
+    {
+      "tower": "BoomerangMonkey-031",
+      "upgrade": "Long Range Rangs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Throwing",
+    "Faster Rangs",
+    "Bionc Boomerang"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -398,49 +445,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-040",
-      "upgrade": "Turbo Charge"
-    },
-    {
-      "tower": "BoomerangMonkey-130",
-      "upgrade": "Improved Rangs"
-    },
-    {
-      "tower": "BoomerangMonkey-031",
-      "upgrade": "Long Range Rangs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Throwing",
-    "Faster Rangs",
-    "Bionc Boomerang"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

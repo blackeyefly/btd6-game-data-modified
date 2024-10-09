@@ -1,8 +1,9 @@
 {
-  "radius": 3.0,
-  "radiusSquared": 9.0,
   "range": 32.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "cd034d1f96b9fb141aa25ab9d526b2a7"
+  },
   "areaTypes": [
     2
   ],
@@ -49,6 +50,16 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 3.0
+  },
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "ignoreMaxSellPercent": true,
+  "sellbackModifierAdd": 0.25,
+  "showBuffs": true,
+  "destroyTowerOnRedistribution": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "bracket1PercentPerRound": 0.1,
@@ -94,15 +105,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 3.0
-  },
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "ignoreMaxSellPercent": true,
-  "sellbackModifierAdd": 0.25,
-  "displayScale": 1.0,
-  "showBuffs": true,
-  "destroyTowerOnRedistribution": true,
-  "isGeraldoItem": true
+  "radius": 3.0,
+  "isGeraldoItem": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true
 }

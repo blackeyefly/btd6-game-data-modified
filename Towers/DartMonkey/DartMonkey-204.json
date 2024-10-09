@@ -1,7 +1,5 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 60.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "6ef0bb976370b44498b426a14ec1bf17"
+  },
+  "instaIcon": {
+    "AssetGUID": "c0394f9774c79458dab7fff11112aaca"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,44 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartMonkey-205",
+      "upgrade": "Crossbow Master"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharp Shots",
+    "Razor Sharp Shots",
+    "Long Range Darts",
+    "Enhanced Eyesight",
+    "Crossbow",
+    "Sharp Shooter"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -67,7 +109,7 @@
           "ejectZ": 7.88,
           "projectile": {
             "id": "Projectile",
-            "pierce": 6.0,
+            "pierce": 9.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -79,10 +121,10 @@
                 "CappedDamage": 6.0
               },
               {
-                "Speed": 400.0,
-                "Lifespan": 0.291093737,
-                "speed": 400.0,
-                "lifespan": 0.291093737
+                "Speed": 450.0,
+                "Lifespan": 0.28125,
+                "speed": 450.0,
+                "lifespan": 0.28125
               },
               {
                 "lifespan": 1.0
@@ -94,7 +136,7 @@
             ],
             "canCollideWithBloons": true,
             "radius": 2.0,
-            "CappedPierce": 6.0
+            "CappedPierce": 9.0
           },
           "behaviors": [
             {
@@ -140,44 +182,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartMonkey-205",
-      "upgrade": "Crossbow Master"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharp Shots",
-    "Razor Sharp Shots",
-    "Long Range Darts",
-    "Enhanced Eyesight",
-    "Crossbow",
-    "Sharp Shooter"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

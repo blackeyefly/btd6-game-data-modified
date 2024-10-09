@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 3,
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "198afe0b24b3805489dfe469ab3ab5cc"
+  },
+  "instaIcon": {
+    "AssetGUID": "9248f9cb49e834f24929f414f9f404cf"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,44 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-004",
+      "upgrade": "Bloon Area Denial System"
+    },
+    {
+      "tower": "DartlingGunner-013",
+      "upgrade": "Advanced Targeting"
+    },
+    {
+      "tower": "DartlingGunner-103",
+      "upgrade": "Focused Firing"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Swivel",
+    "Powerful Darts",
+    "Buckshot"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -177,44 +219,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-004",
-      "upgrade": "Bloon Area Denial System"
-    },
-    {
-      "tower": "DartlingGunner-013",
-      "upgrade": "Advanced Targeting"
-    },
-    {
-      "tower": "DartlingGunner-103",
-      "upgrade": "Focused Firing"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Swivel",
-    "Powerful Darts",
-    "Buckshot"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

@@ -34,6 +34,15 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "targetTypes": [
+    {
+      "id": "First"
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rotationDegreesPerFrame": 1.0,
@@ -218,15 +227,8 @@
       "category": 4
     }
   ],
-  "targetTypes": [
-    {
-      "id": "First"
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "First"

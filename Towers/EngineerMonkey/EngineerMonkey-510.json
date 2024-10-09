@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "d10bc1e4fd9140b4db9ecfe31fd24bb9"
+  },
+  "instaIcon": {
+    "AssetGUID": "b209216f6c8364e6dad04a5d422493a2"
+  },
   "areaTypes": [
     2
   ],
@@ -29,6 +33,48 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-520",
+      "upgrade": "Deconstruction"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sentry Gun",
+    "Faster Engineering",
+    "Sprockets",
+    "Sentry Expert",
+    "Sentry Paragon",
+    "Larger Service Area"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "EngineerMonkey-Paragon",
+    "upgrade": "EngineerMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -145,6 +191,9 @@
                 "tower": {
                   "range": 54.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "78539c173eded754f96819747d79e67b"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -165,6 +214,33 @@
                       "mod": "MonkeyEducation"
                     }
                   ],
+                  "footprint": {
+                    "radius": 4.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "isBakable": true,
+                  "animationSpeed": 1.0,
+                  "canAlwaysBeSold": true,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 25.0,
@@ -395,33 +471,8 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 4.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "isBakable": true,
-                  "animationSpeed": 1.0,
-                  "canAlwaysBeSold": true,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -705,48 +756,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-520",
-      "upgrade": "Deconstruction"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sentry Gun",
-    "Faster Engineering",
-    "Sprockets",
-    "Sentry Expert",
-    "Sentry Paragon",
-    "Larger Service Area"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "EngineerMonkey-Paragon",
-    "upgrade": "EngineerMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

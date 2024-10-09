@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 55.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "a61316f389b42ab4098720eb66ef3b46"
+  },
+  "instaIcon": {
+    "AssetGUID": "3c599ca01f8c948858e08f94d8518497"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,44 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-052",
+      "upgrade": "Spirit of the Forest"
+    }
+  ],
+  "appliedUpgrades": [
+    "Thorn Swarm",
+    "Heart of Oak",
+    "Druidic Reach",
+    "Heart of Vengeance",
+    "Druid of the Jungle",
+    "Jungle's Bounty"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -241,8 +283,8 @@
                   ],
                   "behaviors": [
                     {
-                      "Lifespan": 4.5,
-                      "lifespan": 4.5
+                      "Lifespan": 9.0,
+                      "lifespan": 9.0
                     },
                     {
                       "damage": 2.0,
@@ -253,10 +295,11 @@
                       "CappedDamage": 2.0
                     },
                     {
-                      "interval": 0.3
+                      "isBuffedByRate": true,
+                      "interval": 0.2
                     },
                     {
-                      "interval": 0.3
+                      "interval": 0.2
                     },
                     {
                       "filters": [
@@ -300,7 +343,7 @@
           },
           "behaviors": [
             {
-              "limit": 2
+              "limit": 1
             },
             {
               "effectModel": {
@@ -375,44 +418,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-052",
-      "upgrade": "Spirit of the Forest"
-    }
-  ],
-  "appliedUpgrades": [
-    "Thorn Swarm",
-    "Heart of Oak",
-    "Druidic Reach",
-    "Heart of Vengeance",
-    "Druid of the Jungle",
-    "Jungle's Bounty"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "673ba372de35f364da6ec62233ca9c71"
+  },
+  "instaIcon": {
+    "AssetGUID": "f1151f159efb340dca8453cf432b3744"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,45 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-220",
+      "upgrade": "Faster Rangs"
+    },
+    {
+      "tower": "BoomerangMonkey-310",
+      "upgrade": "Glaive Ricochet"
+    }
+  ],
+  "appliedUpgrades": [
+    "Improved Rangs",
+    "Glaives",
+    "Faster Throwing"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -390,45 +433,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-220",
-      "upgrade": "Faster Rangs"
-    },
-    {
-      "tower": "BoomerangMonkey-310",
-      "upgrade": "Glaive Ricochet"
-    }
-  ],
-  "appliedUpgrades": [
-    "Improved Rangs",
-    "Glaives",
-    "Faster Throwing"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,13 +1,17 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "b75090ea36c87134c9fbf4d169d24078"
+  },
+  "instaIcon": {
+    "AssetGUID": "067055f4be6f9405dafd386776a67a87"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,48 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-300",
+      "upgrade": "Bloon Dissolver"
+    },
+    {
+      "tower": "GlueGunner-210",
+      "upgrade": "Bigger Globs"
+    },
+    {
+      "tower": "GlueGunner-201",
+      "upgrade": "Stickier Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Glue Soak",
+    "Corrosive Glue"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -184,48 +230,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-300",
-      "upgrade": "Bloon Dissolver"
-    },
-    {
-      "tower": "GlueGunner-210",
-      "upgrade": "Bigger Globs"
-    },
-    {
-      "tower": "GlueGunner-201",
-      "upgrade": "Stickier Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Glue Soak",
-    "Corrosive Glue"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

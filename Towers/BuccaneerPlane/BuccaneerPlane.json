@@ -1,6 +1,4 @@
 {
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 200.0,
   "ignoreBlockers": true,
   "towerSet": 2,
@@ -37,6 +35,31 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "footprint": {
+    "radius": 6.0,
+    "doesntBlockTowerPlacement": true
+  },
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "radius": 6.0,
@@ -69,12 +92,11 @@
                 "ejectY": 10.0
               }
             ],
-            "projectileCount": 2,
-            "rotateProjectileWithTower": true
+            "projectileCount": 2
           },
           "projectile": {
             "id": "Projectile",
-            "pierce": 16.0,
+            "pierce": 9.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "behaviors": [
@@ -115,7 +137,7 @@
             "canCollideWithBloons": true,
             "radius": 4.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 16.0
+            "CappedPierce": 9.0
           },
           "behaviors": [
             {
@@ -127,8 +149,8 @@
               "ejectY": 10.0
             }
           ],
-          "Rate": 0.15,
-          "rate": 0.15
+          "Rate": 0.18,
+          "rate": 0.18
         }
       ],
       "behaviors": [
@@ -168,7 +190,7 @@
           "ejectY": 10.0,
           "projectile": {
             "id": "Projectile",
-            "pierce": 16.0,
+            "pierce": 18.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "behaviors": [
@@ -202,12 +224,12 @@
             "canCollideWithBloons": true,
             "radius": 4.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 16.0
+            "CappedPierce": 18.0
           },
           "fireWithoutTarget": true,
-          "Rate": 1.0,
+          "Rate": 1.2,
           "UseThrowMarker": true,
-          "rate": 1.0
+          "rate": 1.2
         }
       ],
       "range": 9999999.0,
@@ -383,31 +405,9 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0,
-    "doesntBlockTowerPlacement": true
-  },
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true,
   "TargetTypes": [
     {

@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "a1ba712de70cfdc4faa2cf44ef00b94a"
+  },
+  "instaIcon": {
+    "AssetGUID": "86a75453c76fd460fbcd4cee07cbd1c8"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,44 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "SniperMonkey-250",
+      "upgrade": "Elite Sniper"
+    }
+  ],
+  "appliedUpgrades": [
+    "Full Metal Jacket",
+    "Large Calibre",
+    "Night Vision Goggles",
+    "Shrapnel Shot",
+    "Bouncing Bullet",
+    "Supply Drop"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -123,7 +165,7 @@
                 "CappedDamage": 7.0
               },
               {
-                "distance": 40.0,
+                "distance": 80.0,
                 "maxBounces": 2147483647,
                 "targetType": {
                   "id": "Close",
@@ -328,44 +370,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "SniperMonkey-250",
-      "upgrade": "Elite Sniper"
-    }
-  ],
-  "appliedUpgrades": [
-    "Full Metal Jacket",
-    "Large Calibre",
-    "Night Vision Goggles",
-    "Shrapnel Shot",
-    "Bouncing Bullet",
-    "Supply Drop"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

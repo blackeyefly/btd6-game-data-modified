@@ -1,24 +1,13 @@
 {
-  "$type": "Assets.Scripts.Data.MapSets.MapDetails, Assembly-CSharp",
   "id": "Hedge",
-  "difficulty": 0,
   "coopMapDivisionType": 1,
-  "unlockDifficulty": 0,
   "mapMusic": "MusicCityA",
   "mapSprite": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "MapImages[MapSelectHedgeButton]",
-    "guidRef": "MapImages[MapSelectHedgeButton]"
+    "AssetGUID": "MapImages[MapSelectHedgeButton]"
   },
   "odysseyStatue": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": "93e6f80f76b70684aa02dbc4fa2523c0",
-    "guidRef": "93e6f80f76b70684aa02dbc4fa2523c0"
+    "AssetGUID": "93e6f80f76b70684aa02dbc4fa2523c0"
   },
-  "isDebug": false,
-  "hasWater": false,
   "theme": 2,
-  "IsStandard": true,
-  "IsBrowserOnly": false,
-  "isBrowserOnly": false
+  "IsStandard": true
 }

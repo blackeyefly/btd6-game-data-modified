@@ -2,6 +2,12 @@
   "id": "Polyphemus",
   "difficulty": 1,
   "mapMusic": "MusicUpbeat2A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectPolyphemusMapButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "75d3ff5dcdd94e64aad7436ef7a8122b"
+  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

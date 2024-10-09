@@ -20,5 +20,13 @@
   "maxQuantity": 2,
   "roundsToReplenish": 10,
   "amountToReplenish": 1,
-  "levelUnlockedAt": 3
+  "levelUnlockedAt": 3,
+  "defaultIcon": {
+    "AssetGUID": "dd81d4cb311615d4c9b23eca2cc3014d"
+  },
+  "defaultIconSwaps": [
+    {
+      "AssetGUID": "4c4ed05757ff05149b42b5a21e52d3b9"
+    }
+  ]
 }

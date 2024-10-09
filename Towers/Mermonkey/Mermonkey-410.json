@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "b9f4e8502d1af894eb1c382ee8550775"
+  },
+  "instaIcon": {
+    "AssetGUID": "4ff6313e060a68442bab64c013a901a3"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,47 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-510",
+      "upgrade": "Lord of the Abyss"
+    },
+    {
+      "tower": "Mermonkey-420",
+      "upgrade": "Tidal Chill"
+    }
+  ],
+  "appliedUpgrades": [
+    "Trident Efficiency",
+    "Trident Swiftness",
+    "Abyss Dweller",
+    "Abyssal Warrior",
+    "Sharper Prongs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -80,9 +125,9 @@
             "behaviors": [
               {
                 "Speed": 300.0,
-                "Lifespan": 0.333333343,
+                "Lifespan": 0.6666667,
                 "speed": 300.0,
-                "lifespan": 0.333333343
+                "lifespan": 0.6666667
               },
               {
                 "filters": [
@@ -106,12 +151,12 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 2.0,
+                      "damage": 8.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
                       "immuneBloonProperties": 1,
                       "immuneBloonPropertiesOriginal": 1,
-                      "CappedDamage": 2.0
+                      "CappedDamage": 8.0
                     },
                     {
                       "useRoundTime": true,
@@ -143,7 +188,7 @@
                     },
                     {
                       "tag": "Moabs",
-                      "slowMultiplier": 0.9
+                      "slowMultiplier": 1.2
                     },
                     {
                       "tag": "Ddt",
@@ -254,7 +299,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -268,8 +313,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -291,7 +336,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -322,7 +367,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 22.5
+              "baseTowerRotationOffset": 22.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -390,7 +436,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -404,8 +450,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -427,7 +473,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -459,7 +505,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 67.5
+              "baseTowerRotationOffset": 67.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -527,7 +574,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -541,8 +588,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -564,7 +611,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -596,7 +643,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 112.5
+              "baseTowerRotationOffset": 112.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -664,7 +712,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -678,8 +726,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -701,7 +749,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -733,7 +781,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 157.5
+              "baseTowerRotationOffset": 157.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -801,7 +850,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -815,8 +864,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -838,7 +887,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -870,7 +919,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 202.5
+              "baseTowerRotationOffset": 202.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -938,7 +988,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -952,8 +1002,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -975,7 +1025,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -1007,7 +1057,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 247.5
+              "baseTowerRotationOffset": 247.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1075,7 +1126,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -1089,8 +1140,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -1112,7 +1163,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -1144,7 +1195,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 292.5
+              "baseTowerRotationOffset": 292.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1212,7 +1264,7 @@
               {
                 "projectile": {
                   "id": "Explosion",
-                  "pierce": 32.0,
+                  "pierce": 43.2,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "canCollisionBeBlockedByMapLos": true,
@@ -1226,8 +1278,8 @@
                       "damage": 18.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 18.0
                     },
                     {
@@ -1249,7 +1301,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 12.0,
-                  "CappedPierce": 32.0
+                  "CappedPierce": 43.2
                 },
                 "intervalFrames": 9,
                 "targetType": {
@@ -1281,7 +1333,8 @@
             },
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 337.5
+              "baseTowerRotationOffset": 337.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1313,7 +1366,7 @@
       "addsToSharedGrid": true
     },
     {
-      "percentIncrease": 1.15,
+      "percentIncrease": 1.2,
       "isUnique": true,
       "showBuffIcon": true
     },
@@ -1328,47 +1381,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-510",
-      "upgrade": "Lord of the Abyss"
-    },
-    {
-      "tower": "Mermonkey-420",
-      "upgrade": "Tidal Chill"
-    }
-  ],
-  "appliedUpgrades": [
-    "Trident Efficiency",
-    "Trident Swiftness",
-    "Abyss Dweller",
-    "Abyssal Warrior",
-    "Sharper Prongs"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

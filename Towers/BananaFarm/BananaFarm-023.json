@@ -1,7 +1,5 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "2d501e1d9bc0d0d43aca092ecf403fb5"
+  },
+  "instaIcon": {
+    "AssetGUID": "ebf0588b1094a4991a30cbec290020f5"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,29 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-024",
+      "upgrade": "Central Market"
+    }
+  ],
+  "appliedUpgrades": [
+    "EZ Collect",
+    "Banana Salvage",
+    "Long Life Bananas",
+    "Valuable Bananas",
+    "Marketplace"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "sellbackModifierAdd": 0.1,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -136,27 +163,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-024",
-      "upgrade": "Central Market"
-    }
-  ],
-  "appliedUpgrades": [
-    "EZ Collect",
-    "Banana Salvage",
-    "Long Life Bananas",
-    "Valuable Bananas",
-    "Marketplace"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "sellbackModifierAdd": 0.1,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

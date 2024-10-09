@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 54.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "59d16d950cfa18448ad63609fccdc04a"
+  },
+  "instaIcon": {
+    "AssetGUID": "3967c7bb870bf49ffa209474c2cdb426"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,46 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-104",
+      "upgrade": "Recursive Cluster"
+    },
+    {
+      "tower": "BombShooter-203",
+      "upgrade": "Heavy Bombs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Extra Range",
+    "Frag Bombs",
+    "Cluster Bombs",
+    "Bigger Bombs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -275,46 +319,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-104",
-      "upgrade": "Recursive Cluster"
-    },
-    {
-      "tower": "BombShooter-203",
-      "upgrade": "Heavy Bombs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Extra Range",
-    "Frag Bombs",
-    "Cluster Bombs",
-    "Bigger Bombs"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

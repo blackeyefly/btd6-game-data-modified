@@ -1,13 +1,14 @@
 {
   "cost": 2000.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
-  "range": 63.0,
+  "range": 65.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "6c99f3e45ecc446799751d05f6a87ab3"
+  },
   "areaTypes": [
     2
   ],
@@ -58,6 +59,45 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteChurchill]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "67172b4ce38cc654c8e7d7a6afbc9041"
+  },
+  "upgrades": [
+    {
+      "tower": "CaptainChurchill 3",
+      "upgrade": "Churchill Armor Piercing Shells"
+    }
+  ],
+  "appliedUpgrades": [
+    "Churchill Pierce"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -186,10 +226,10 @@
               "useEjectPoint": true
             }
           ],
-          "Rate": 1.8,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.2,
-          "rate": 1.8
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -220,7 +260,7 @@
           "category": 1
         }
       ],
-      "range": 63.0,
+      "range": 65.0,
       "addsToSharedGrid": true
     },
     {
@@ -229,39 +269,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "CaptainChurchill 3",
-      "upgrade": "Churchill Armor Piercing Shells"
-    }
-  ],
-  "appliedUpgrades": [
-    "Churchill Pierce"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 1000.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 42.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     3
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "9d5164aa6e83d684eb36f5b51d6ddb92"
+  },
+  "instaIcon": {
+    "AssetGUID": "e74c26466b34d4b37956aa54e22496a8"
+  },
   "areaTypes": [
     2
   ],
@@ -30,6 +34,48 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "SpikeFactory-014",
+      "upgrade": "Deadly Spikes"
+    },
+    {
+      "tower": "SpikeFactory-023",
+      "upgrade": "Even Faster Production"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Reach",
+    "Directed Spikes",
+    "Long Life Spikes",
+    "Faster Production"
+  ],
+  "targetTypes": [
+    {
+      "id": "Track",
+      "intID": -1
+    },
+    {
+      "id": "CloseTrack",
+      "intID": -1
+    },
+    {
+      "id": "FarTrack",
+      "intID": -1
+    },
+    {
+      "id": "SmartTrack",
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -161,6 +207,11 @@
                 }
               },
               {
+                "sprites": [
+                  {
+                    "AssetGUID": "5a356f52744fe444b9436a2be1fddfd3"
+                  }
+                ],
                 "loopMode": "Clamp"
               },
               {
@@ -363,48 +414,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "SpikeFactory-014",
-      "upgrade": "Deadly Spikes"
-    },
-    {
-      "tower": "SpikeFactory-023",
-      "upgrade": "Even Faster Production"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Reach",
-    "Directed Spikes",
-    "Long Life Spikes",
-    "Faster Production"
-  ],
-  "targetTypes": [
-    {
-      "id": "Track",
-      "intID": -1
-    },
-    {
-      "id": "CloseTrack",
-      "intID": -1
-    },
-    {
-      "id": "FarTrack",
-      "intID": -1
-    },
-    {
-      "id": "SmartTrack",
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Track",

@@ -3,6 +3,12 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectWorkshopButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "0efb1437b2483f440a0622a36bb12eb0"
+  },
   "theme": 2,
   "IsStandard": true
 }

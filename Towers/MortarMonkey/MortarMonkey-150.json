@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "5465dd9e7f1e0374fbc9e8dcff6f98c6"
+  },
+  "instaIcon": {
+    "AssetGUID": "952b2cd7614f04c339f656f0396a66cd"
+  },
   "areaTypes": [
     2
   ],
@@ -30,6 +34,35 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-250",
+      "upgrade": "Bloon Buster"
+    }
+  ],
+  "appliedUpgrades": [
+    "Mortar Faster Reload",
+    "Mortar Rapid Reload",
+    "Heavy Shells",
+    "Artillery Battery",
+    "Pop and Awe",
+    "Bigger Blast"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -398,35 +431,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-250",
-      "upgrade": "Bloon Buster"
-    }
-  ],
-  "appliedUpgrades": [
-    "Mortar Faster Reload",
-    "Mortar Rapid Reload",
-    "Heavy Shells",
-    "Artillery Battery",
-    "Pop and Awe",
-    "Bigger Blast"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

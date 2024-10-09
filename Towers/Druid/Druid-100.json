@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 35.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "98042f8f4713f42439990cf756d2719f"
+  },
+  "instaIcon": {
+    "AssetGUID": "0644b95f7f3c542fd98875bbfb713810"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,47 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-200",
+      "upgrade": "Heart of Thunder"
+    },
+    {
+      "tower": "Druid-101",
+      "upgrade": "Druidic Reach"
+    },
+    {
+      "tower": "Druid-110",
+      "upgrade": "Thorn Swarm"
+    }
+  ],
+  "appliedUpgrades": [
+    "Hard Thorns"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -158,47 +203,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-200",
-      "upgrade": "Heart of Thunder"
-    },
-    {
-      "tower": "Druid-101",
-      "upgrade": "Druidic Reach"
-    },
-    {
-      "tower": "Druid-110",
-      "upgrade": "Thorn Swarm"
-    }
-  ],
-  "appliedUpgrades": [
-    "Hard Thorns"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

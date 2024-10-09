@@ -1,7 +1,5 @@
 {
   "cost": 550.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "c86a17b915dbb6443bee17ea86efb924"
+  },
+  "instaIcon": {
+    "AssetGUID": "72d7a0d4bed4c45d48cfbd92eebb9f70"
+  },
   "areaTypes": [
     2
   ],
@@ -37,6 +41,39 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Stronger Acid",
+    "Perishing Potions",
+    "Alchemist Faster Throwing",
+    "Acid Pool",
+    "Lead to Gold",
+    "Rubber to Gold",
+    "Bloon Master Alchemist"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -960,39 +997,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Stronger Acid",
-    "Perishing Potions",
-    "Alchemist Faster Throwing",
-    "Acid Pool",
-    "Lead to Gold",
-    "Rubber to Gold",
-    "Bloon Master Alchemist"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

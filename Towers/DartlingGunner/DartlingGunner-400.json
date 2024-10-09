@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "3c738c34a54cf2445a8bd24329f9c911"
+  },
+  "instaIcon": {
+    "AssetGUID": "41d05b626a09e44e48734a6433dde2f6"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,45 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-500",
+      "upgrade": "Ray of Doom"
+    },
+    {
+      "tower": "DartlingGunner-401",
+      "upgrade": "Faster Swivel"
+    },
+    {
+      "tower": "DartlingGunner-410",
+      "upgrade": "Advanced Targeting"
+    }
+  ],
+  "appliedUpgrades": [
+    "Focused Firing",
+    "Laser Shock",
+    "Laser Cannon",
+    "Plasma Accelerator"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -270,45 +313,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-500",
-      "upgrade": "Ray of Doom"
-    },
-    {
-      "tower": "DartlingGunner-401",
-      "upgrade": "Faster Swivel"
-    },
-    {
-      "tower": "DartlingGunner-410",
-      "upgrade": "Advanced Targeting"
-    }
-  ],
-  "appliedUpgrades": [
-    "Focused Firing",
-    "Laser Shock",
-    "Laser Cannon",
-    "Plasma Accelerator"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

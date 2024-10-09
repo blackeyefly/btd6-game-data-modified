@@ -1,13 +1,17 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 50.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "4923787d365931e4f95ac570481e9539"
+  },
+  "instaIcon": {
+    "AssetGUID": "16412f7c82d334bb9b35a228d4824983"
+  },
   "areaTypes": [
     1
   ],
@@ -42,6 +46,49 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-040",
+      "upgrade": "First Strike Capability"
+    },
+    {
+      "tower": "MonkeySub-031",
+      "upgrade": "Twin Guns"
+    },
+    {
+      "tower": "MonkeySub-130",
+      "upgrade": "Longer Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Barbed Darts",
+    "Heat-tipped Darts",
+    "Ballistic Missile"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -185,7 +232,7 @@
               {
                 "projectile": {
                   "id": "MissileExplosion",
-                  "pierce": 60.0,
+                  "pierce": 40.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -195,11 +242,11 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 1.0,
+                      "damage": 3.0,
                       "distributeToChildren": true,
                       "immuneBloonProperties": 2,
                       "immuneBloonPropertiesOriginal": 2,
-                      "CappedDamage": 1.0
+                      "CappedDamage": 3.0
                     },
                     {
                       "rounds": 1,
@@ -212,11 +259,11 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 5.0
+                      "damageAddative": 3.0
                     },
                     {
                       "damageMultiplier": 1.0,
-                      "damageAdditive": 5.0,
+                      "damageAdditive": 3.0,
                       "includeChildren": true
                     },
                     {
@@ -234,7 +281,7 @@
                   "canCollideWithBloons": true,
                   "radius": 18.0,
                   "hasDamageModifiers": true,
-                  "CappedPierce": 60.0
+                  "CappedPierce": 40.0
                 }
               },
               {
@@ -287,49 +334,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-040",
-      "upgrade": "First Strike Capability"
-    },
-    {
-      "tower": "MonkeySub-031",
-      "upgrade": "Twin Guns"
-    },
-    {
-      "tower": "MonkeySub-130",
-      "upgrade": "Longer Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Barbed Darts",
-    "Heat-tipped Darts",
-    "Ballistic Missile"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "718de4b86a47d489faadd9f46d1915d0"
+  },
+  "instaIcon": {
+    "AssetGUID": "cfbe2c5666cae47ad96dc8251157e937"
+  },
   "areaTypes": [
     2
   ],
@@ -40,6 +44,47 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-240",
+      "upgrade": "Arcane Blast"
+    },
+    {
+      "tower": "WizardMonkey-150",
+      "upgrade": "Wizard Lord Phoenix"
+    }
+  ],
+  "appliedUpgrades": [
+    "Fireball",
+    "Wall of Fire",
+    "Dragon's Breath",
+    "Summon Phoenix",
+    "Guided Magic"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -338,6 +383,9 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
+          "displayInvalid": {
+            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+          },
           "alwaysShowTarget": true,
           "useTerrainHeight": true
         },
@@ -360,6 +408,9 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
+        "displayInvalid": {
+          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+        },
         "alwaysShowTarget": true,
         "useTerrainHeight": true
       },
@@ -505,6 +556,10 @@
               }
             ],
             "ignoreTowerForSelection": true,
+            "isSubTower": true,
+            "animationSpeed": 1.0,
+            "showBuffs": true,
+            "displayScale": 1.0,
             "behaviors": [
               {
                 "Lifespan": 20.0,
@@ -614,10 +669,8 @@
                 "category": 4
               }
             ],
-            "isSubTower": true,
-            "animationSpeed": 1.0,
-            "displayScale": 1.0,
-            "showBuffs": true,
+            "DisplayScale": 1.0,
+            "IsSubEntity": true,
             "IsBaseTower": true
           },
           "isAirBasedTower": true,
@@ -635,47 +688,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-240",
-      "upgrade": "Arcane Blast"
-    },
-    {
-      "tower": "WizardMonkey-150",
-      "upgrade": "Wizard Lord Phoenix"
-    }
-  ],
-  "appliedUpgrades": [
-    "Fireball",
-    "Wall of Fire",
-    "Dragon's Breath",
-    "Summon Phoenix",
-    "Guided Magic"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

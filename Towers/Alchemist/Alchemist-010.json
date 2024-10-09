@@ -1,7 +1,5 @@
 {
   "cost": 550.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 1,
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "e6f6bd2e5c362504c9bcfc2c1bd72033"
+  },
+  "instaIcon": {
+    "AssetGUID": "2dfb62e74eb4e4fbdaf9b9e1e056665a"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,47 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "Alchemist-020",
+      "upgrade": "Perishing Potions"
+    },
+    {
+      "tower": "Alchemist-011",
+      "upgrade": "Alchemist Faster Throwing"
+    },
+    {
+      "tower": "Alchemist-110",
+      "upgrade": "Larger Potions"
+    }
+  ],
+  "appliedUpgrades": [
+    "Stronger Acid"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -336,47 +381,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "Alchemist-020",
-      "upgrade": "Perishing Potions"
-    },
-    {
-      "tower": "Alchemist-011",
-      "upgrade": "Alchemist Faster Throwing"
-    },
-    {
-      "tower": "Alchemist-110",
-      "upgrade": "Larger Potions"
-    }
-  ],
-  "appliedUpgrades": [
-    "Stronger Acid"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

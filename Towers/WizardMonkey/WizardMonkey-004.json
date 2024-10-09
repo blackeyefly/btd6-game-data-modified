@@ -1,13 +1,17 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "528443d67856547519ba7199eb9c2af6"
+  },
+  "instaIcon": {
+    "AssetGUID": "3f3c0eff59fdd4062ade5a0794bad398"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,50 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-005",
+      "upgrade": "Soulbind"
+    },
+    {
+      "tower": "WizardMonkey-014",
+      "upgrade": "Fireball"
+    },
+    {
+      "tower": "WizardMonkey-104",
+      "upgrade": "Guided Magic"
+    }
+  ],
+  "appliedUpgrades": [
+    "Intense Magic",
+    "Monkey Sense",
+    "Shimmer",
+    "Necromancer: Unpopped Army"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -280,9 +328,19 @@
               "isActive": true
             }
           ]
+        },
+        {
+          "displayInvalid": {
+            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+          }
         }
       ],
       "range": 60.0,
+      "targetProvider": {
+        "displayInvalid": {
+          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+        }
+      },
       "attackThroughWalls": true
     },
     {
@@ -291,50 +349,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-005",
-      "upgrade": "Soulbind"
-    },
-    {
-      "tower": "WizardMonkey-014",
-      "upgrade": "Fireball"
-    },
-    {
-      "tower": "WizardMonkey-104",
-      "upgrade": "Guided Magic"
-    }
-  ],
-  "appliedUpgrades": [
-    "Intense Magic",
-    "Monkey Sense",
-    "Shimmer",
-    "Necromancer: Unpopped Army"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

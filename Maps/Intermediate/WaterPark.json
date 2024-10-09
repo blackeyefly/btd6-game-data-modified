@@ -2,6 +2,12 @@
   "id": "WaterPark",
   "difficulty": 1,
   "mapMusic": "MusicSailsAgain",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectWaterparkMapButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "fdf98e4109572e84aaffa2b6e380644f"
+  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

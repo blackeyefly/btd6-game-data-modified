@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 35.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "00c0a419b103ff64198e925448544e34"
+  },
+  "instaIcon": {
+    "AssetGUID": "b3b3708be27d5485da51b804d3570acb"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,46 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-140",
+      "upgrade": "Jungle's Bounty"
+    },
+    {
+      "tower": "Druid-230",
+      "upgrade": "Heart of Thunder"
+    }
+  ],
+  "appliedUpgrades": [
+    "Thorn Swarm",
+    "Heart of Oak",
+    "Druid of the Jungle",
+    "Hard Thorns"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -242,6 +286,7 @@
                       "CappedDamage": 1.0
                     },
                     {
+                      "isBuffedByRate": true,
                       "interval": 0.3
                     },
                     {
@@ -341,46 +386,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-140",
-      "upgrade": "Jungle's Bounty"
-    },
-    {
-      "tower": "Druid-230",
-      "upgrade": "Heart of Thunder"
-    }
-  ],
-  "appliedUpgrades": [
-    "Thorn Swarm",
-    "Heart of Oak",
-    "Druid of the Jungle",
-    "Hard Thorns"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

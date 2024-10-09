@@ -1,7 +1,5 @@
 {
   "cost": 800.0,
-  "radius": 12.0,
-  "radiusSquared": 144.0,
   "range": 22.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "a16bbe2387ec38649af3d26ebc468520"
+  },
+  "instaIcon": {
+    "AssetGUID": "833e37ca06bff419594862bde0a91585"
+  },
   "areaTypes": [
     2
   ],
@@ -45,6 +49,45 @@
       "mod": "Wingmonkey"
     }
   ],
+  "footprint": {
+    "xWidth": 28.0,
+    "yWidth": 18.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyAce-502",
+      "upgrade": "Centered Path"
+    }
+  ],
+  "appliedUpgrades": [
+    "Rapid Fire",
+    "Lots More Darts",
+    "Fighter Plane",
+    "Operation: Dart Storm",
+    "Sky Shredder",
+    "Sharper Darts"
+  ],
+  "targetTypes": [
+    {
+      "id": "Circle",
+      "intID": -1
+    },
+    {
+      "id": "FigureInfinite",
+      "intID": -1
+    },
+    {
+      "id": "FigureEight",
+      "intID": -1
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeyAce-Paragon",
+    "upgrade": "MonkeyAce Paragon"
+  },
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -245,8 +288,8 @@
               {
                 "acceleration": 160.0,
                 "maxSpeed": 400.0,
-                "turnRateChange": 160.0,
-                "maxTurnRate": 400.0
+                "turnRateChange": 150.0,
+                "maxTurnRate": 500.0
               },
               {
                 "projectile": {
@@ -372,45 +415,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 28.0,
-    "yWidth": 18.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyAce-502",
-      "upgrade": "Centered Path"
-    }
-  ],
-  "appliedUpgrades": [
-    "Rapid Fire",
-    "Lots More Darts",
-    "Fighter Plane",
-    "Operation: Dart Storm",
-    "Sky Shredder",
-    "Sharper Darts"
-  ],
-  "targetTypes": [
-    {
-      "id": "Circle",
-      "intID": -1
-    },
-    {
-      "id": "FigureInfinite",
-      "intID": -1
-    },
-    {
-      "id": "FigureEight",
-      "intID": -1
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeyAce-Paragon",
-    "upgrade": "MonkeyAce Paragon"
-  },
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 12.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Circle",

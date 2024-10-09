@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 35.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "16f51db460fb9794ea13f4db92e38ef0"
+  },
+  "instaIcon": {
+    "AssetGUID": "de2767b7e4ebd5149add345394203a68"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,44 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-250",
+      "upgrade": "Popseidon"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharper Prongs",
+    "Tidal Chill",
+    "Trident Efficiency",
+    "Trident Swiftness",
+    "Riptide Champion",
+    "Arctic Knight"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -70,7 +112,7 @@
           "ejectZ": 10.4,
           "projectile": {
             "id": "Projectile",
-            "pierce": 14.0,
+            "pierce": 15.0,
             "scale": 1.0,
             "filters": [
               {
@@ -82,8 +124,8 @@
                 "damage": 6.0,
                 "distributeToChildren": true,
                 "createPopEffect": true,
-                "immuneBloonProperties": 8,
-                "immuneBloonPropertiesOriginal": 8,
+                "immuneBloonProperties": 12,
+                "immuneBloonPropertiesOriginal": 12,
                 "CappedDamage": 6.0
               },
               {
@@ -118,7 +160,7 @@
                 },
                 "bonusProjectileModel": {
                   "id": "SplitProjectile",
-                  "pierce": 12.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "filters": [
                     {
@@ -130,8 +172,8 @@
                       "damage": 6.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 8,
-                      "immuneBloonPropertiesOriginal": 8,
+                      "immuneBloonProperties": 12,
+                      "immuneBloonPropertiesOriginal": 12,
                       "CappedDamage": 6.0
                     },
                     {
@@ -182,15 +224,50 @@
                       "damageAddative": 6.0
                     },
                     {
+                      "layers": 9999999,
+                      "damageModel": {
+                        "damage": 6.0,
+                        "distributeToChildren": true,
+                        "createPopEffect": true,
+                        "immuneBloonProperties": 12,
+                        "immuneBloonPropertiesOriginal": 12,
+                        "CappedDamage": 6.0
+                      },
+                      "applyAfterDamage": true,
+                      "overlayType": "Ice",
+                      "collisionPass": 1,
+                      "Lifespan": 0.3,
+                      "mutator": {
+                        "overlayType": "Ice",
+                        "damageModel": {
+                          "damage": 6.0,
+                          "distributeToChildren": true,
+                          "createPopEffect": true,
+                          "immuneBloonProperties": 12,
+                          "immuneBloonPropertiesOriginal": 12,
+                          "CappedDamage": 6.0
+                        },
+                        "id": "Ice: MermonkeyFreeze",
+                        "priority": 5
+                      },
+                      "lifespan": 0.3
+                    },
+                    {
+                      "heatAmount": -10.0
+                    },
+                    {
                       "scale": 1.0,
                       "category": 16
                     }
+                  ],
+                  "collisionPasses": [
+                    1
                   ],
                   "canCollideWithBloons": true,
                   "radius": 1.0,
                   "vsBlockerRadius": 2.0,
                   "hasDamageModifiers": true,
-                  "CappedPierce": 12.0
+                  "CappedPierce": 15.0
                 },
                 "emission": {
                   "angle": 180.0,
@@ -207,8 +284,8 @@
                   "damage": 6.0,
                   "distributeToChildren": true,
                   "createPopEffect": true,
-                  "immuneBloonProperties": 8,
-                  "immuneBloonPropertiesOriginal": 8,
+                  "immuneBloonProperties": 12,
+                  "immuneBloonPropertiesOriginal": 12,
                   "CappedDamage": 6.0
                 },
                 "applyAfterDamage": true,
@@ -221,8 +298,8 @@
                     "damage": 6.0,
                     "distributeToChildren": true,
                     "createPopEffect": true,
-                    "immuneBloonProperties": 8,
-                    "immuneBloonPropertiesOriginal": 8,
+                    "immuneBloonProperties": 12,
+                    "immuneBloonPropertiesOriginal": 12,
                     "CappedDamage": 6.0
                   },
                   "id": "Ice: MermonkeyFreeze",
@@ -248,6 +325,9 @@
                 "damageAddative": 6.0
               },
               {
+                "heatAmount": -10.0
+              },
+              {
                 "scale": 1.0,
                 "category": 16
               }
@@ -259,7 +339,7 @@
             "radius": 1.0,
             "vsBlockerRadius": 2.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 14.0
+            "CappedPierce": 15.0
           },
           "Rate": 0.8040001,
           "UseThrowMarker": true,
@@ -324,10 +404,10 @@
                     ],
                     "behaviors": [
                       {
-                        "damage": 15.0,
-                        "immuneBloonProperties": 1,
-                        "immuneBloonPropertiesOriginal": 1,
-                        "CappedDamage": 15.0
+                        "damage": 20.0,
+                        "immuneBloonProperties": 12,
+                        "immuneBloonPropertiesOriginal": 12,
+                        "CappedDamage": 20.0
                       },
                       {
                         "Speed": 300.0,
@@ -348,10 +428,10 @@
                       {
                         "layers": 3,
                         "damageModel": {
-                          "damage": 15.0,
-                          "immuneBloonProperties": 1,
-                          "immuneBloonPropertiesOriginal": 1,
-                          "CappedDamage": 15.0
+                          "damage": 20.0,
+                          "immuneBloonProperties": 12,
+                          "immuneBloonPropertiesOriginal": 12,
+                          "CappedDamage": 20.0
                         },
                         "overlayType": "Ice",
                         "collisionPass": -1,
@@ -359,15 +439,23 @@
                         "mutator": {
                           "overlayType": "Ice",
                           "damageModel": {
-                            "damage": 15.0,
-                            "immuneBloonProperties": 1,
-                            "immuneBloonPropertiesOriginal": 1,
-                            "CappedDamage": 15.0
+                            "damage": 20.0,
+                            "immuneBloonProperties": 12,
+                            "immuneBloonPropertiesOriginal": 12,
+                            "CappedDamage": 20.0
                           },
                           "id": "Ice: MermonkeyFreeze",
                           "priority": 5
                         },
                         "lifespan": 3.0
+                      },
+                      {
+                        "rounds": 1,
+                        "Lifespan": 15.0,
+                        "lifespan": 15.0
+                      },
+                      {
+                        "heatAmount": -10.0
                       },
                       {
                         "scale": 1.0,
@@ -397,6 +485,9 @@
                 {
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
+                  "displayInvalid": {
+                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 },
@@ -417,6 +508,9 @@
               "targetProvider": {
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
+                "displayInvalid": {
+                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -449,44 +543,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-250",
-      "upgrade": "Popseidon"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharper Prongs",
-    "Tidal Chill",
-    "Trident Efficiency",
-    "Trident Swiftness",
-    "Riptide Champion",
-    "Arctic Knight"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

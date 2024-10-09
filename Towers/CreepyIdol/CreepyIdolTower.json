@@ -1,8 +1,9 @@
 {
-  "radius": 3.0,
-  "radiusSquared": 9.0,
   "range": 32.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "53d12e948aab4454bb6807b5c83ad04d"
+  },
   "areaTypes": [
     2
   ],
@@ -49,6 +50,14 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 3.0
+  },
+  "dontDisplayUpgrades": true,
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rounds": 2,
@@ -103,13 +112,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 3.0
-  },
-  "dontDisplayUpgrades": true,
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
-  "isGeraldoItem": true
+  "radius": 3.0,
+  "isGeraldoItem": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true
 }

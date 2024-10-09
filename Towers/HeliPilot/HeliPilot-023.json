@@ -1,7 +1,5 @@
 {
   "cost": 1600.0,
-  "radius": 14.0,
-  "radiusSquared": 196.0,
   "range": 22.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "0d597f8903c48374db64c3d80e7a679c"
+  },
+  "instaIcon": {
+    "AssetGUID": "308f2d7fd0b4c4cbfae54d0b51f83645"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,43 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "xWidth": 27.0,
+    "yWidth": 27.0
+  },
+  "upgrades": [
+    {
+      "tower": "HeliPilot-024",
+      "upgrade": "Comanche Defense"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Jets",
+    "IFR",
+    "Faster Darts",
+    "Faster Firing",
+    "MOAB Shove"
+  ],
+  "targetTypes": [
+    {
+      "id": "FollowTouch",
+      "intID": -1
+    },
+    {
+      "id": "LockInPlace",
+      "isActionable": true,
+      "intID": -1
+    },
+    {
+      "id": "PatrolPoints",
+      "isActionable": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -139,6 +180,9 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
+          "lineDisplay": {
+            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
+          },
           "lineDelay": 0.2
         },
         {
@@ -245,8 +289,8 @@
     },
     {
       "range": 42.0,
-      "moabPushSpeedScaleCap": -0.44,
-      "bfbPushSpeedScaleCap": -0.11,
+      "moabPushSpeedScaleCap": -0.41,
+      "bfbPushSpeedScaleCap": -0.01,
       "zomgPushSpeedScaleCap": 0.22
     },
     {
@@ -280,43 +324,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 27.0,
-    "yWidth": 27.0
-  },
-  "upgrades": [
-    {
-      "tower": "HeliPilot-024",
-      "upgrade": "Comanche Defense"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Jets",
-    "IFR",
-    "Faster Darts",
-    "Faster Firing",
-    "MOAB Shove"
-  ],
-  "targetTypes": [
-    {
-      "id": "FollowTouch",
-      "intID": -1
-    },
-    {
-      "id": "LockInPlace",
-      "isActionable": true,
-      "intID": -1
-    },
-    {
-      "id": "PatrolPoints",
-      "isActionable": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 14.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "FollowTouch",

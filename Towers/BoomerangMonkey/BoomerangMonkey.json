@@ -1,9 +1,13 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "29546e1ee66cfd24bb9c23470fc47443"
+  },
+  "instaIcon": {
+    "AssetGUID": "08b591831d9754e06a9fcbbfa93fc09f"
+  },
   "areaTypes": [
     2
   ],
@@ -30,6 +34,44 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-100",
+      "upgrade": "Improved Rangs"
+    },
+    {
+      "tower": "BoomerangMonkey-010",
+      "upgrade": "Faster Throwing"
+    },
+    {
+      "tower": "BoomerangMonkey-001",
+      "upgrade": "Long Range Rangs"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -389,44 +431,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-100",
-      "upgrade": "Improved Rangs"
-    },
-    {
-      "tower": "BoomerangMonkey-010",
-      "upgrade": "Faster Throwing"
-    },
-    {
-      "tower": "BoomerangMonkey-001",
-      "upgrade": "Long Range Rangs"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "isGlobalRange": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "934eeddc6fcfe8349afa34ad14ae3afc"
+  },
+  "instaIcon": {
+    "AssetGUID": "e1f84739edd944aad990ccc348b637af"
+  },
   "areaTypes": [
     1
   ],
@@ -40,6 +44,53 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-502",
+      "upgrade": "Airburst Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Advanced Intel",
+    "Submerge and Support",
+    "Bloontonium Reactor",
+    "Energizer",
+    "Twin Guns"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    },
+    {
+      "id": "Submerge",
+      "intID": -1,
+      "continueToNextPriority": true
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeySub-Paragon",
+    "upgrade": "MonkeySub Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -96,11 +147,11 @@
                 "lifespan": 1.0
               },
               {
-                "min": 0.21
+                "min": 0.196
               }
             ],
-            "Rate": 0.21,
-            "rate": 0.21
+            "Rate": 0.196,
+            "rate": 0.196
           },
           {
             "animation": -1,
@@ -162,8 +213,8 @@
                     "id": "ReactorDamage",
                     "priority": 1
                   },
-                  "Lifespan": 0.21,
-                  "lifespan": 0.21
+                  "Lifespan": 0.196,
+                  "lifespan": 0.196
                 },
                 {
                   "scale": 1.0,
@@ -181,11 +232,11 @@
             "fireWithoutTarget": true,
             "behaviors": [
               {
-                "min": 0.21
+                "min": 0.196
               }
             ],
-            "Rate": 0.21,
-            "rate": 0.21
+            "Rate": 0.196,
+            "rate": 0.196
           }
         ],
         "range": 2000.0,
@@ -262,8 +313,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.21,
-            "lifespan": 0.21
+            "Lifespan": 0.196,
+            "lifespan": 0.196
           },
           {
             "scale": 1.0,
@@ -371,8 +422,8 @@
               "id": "ReactorDamage",
               "priority": 1
             },
-            "Lifespan": 0.21,
-            "lifespan": 0.21
+            "Lifespan": 0.196,
+            "lifespan": 0.196
           },
           {
             "scale": 1.0,
@@ -562,11 +613,11 @@
               "lifespan": 1.0
             },
             {
-              "min": 0.21
+              "min": 0.196
             }
           ],
-          "Rate": 0.21,
-          "rate": 0.21
+          "Rate": 0.196,
+          "rate": 0.196
         },
         {
           "animation": -1,
@@ -628,8 +679,8 @@
                   "id": "ReactorDamage",
                   "priority": 1
                 },
-                "Lifespan": 0.21,
-                "lifespan": 0.21
+                "Lifespan": 0.196,
+                "lifespan": 0.196
               },
               {
                 "scale": 1.0,
@@ -647,11 +698,11 @@
           "fireWithoutTarget": true,
           "behaviors": [
             {
-              "min": 0.21
+              "min": 0.196
             }
           ],
-          "Rate": 0.21,
-          "rate": 0.21
+          "Rate": 0.196,
+          "rate": 0.196
         }
       ],
       "range": 2000.0,
@@ -663,53 +714,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-502",
-      "upgrade": "Airburst Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Advanced Intel",
-    "Submerge and Support",
-    "Bloontonium Reactor",
-    "Energizer",
-    "Twin Guns"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    },
-    {
-      "id": "Submerge",
-      "intID": -1,
-      "continueToNextPriority": true
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeySub-Paragon",
-    "upgrade": "MonkeySub Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

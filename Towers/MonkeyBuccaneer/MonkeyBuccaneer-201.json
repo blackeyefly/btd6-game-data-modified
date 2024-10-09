@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "b03dc722a0ba41d409ba3bd5fe423f3f"
+  },
+  "instaIcon": {
+    "AssetGUID": "81af1b55abb4143aa85e367bbb31e9f1"
+  },
   "areaTypes": [
     1
   ],
@@ -41,6 +45,45 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-202",
+      "upgrade": "Buccaneer-Crow's Nest"
+    },
+    {
+      "tower": "MonkeyBuccaneer-301",
+      "upgrade": "Buccaneer-Destroyer"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Faster Shooting",
+    "Buccaneer-Double Shot",
+    "Buccaneer-Long Range"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -224,45 +267,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-202",
-      "upgrade": "Buccaneer-Crow's Nest"
-    },
-    {
-      "tower": "MonkeyBuccaneer-301",
-      "upgrade": "Buccaneer-Destroyer"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Faster Shooting",
-    "Buccaneer-Double Shot",
-    "Buccaneer-Long Range"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

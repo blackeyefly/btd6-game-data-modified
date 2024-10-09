@@ -1,7 +1,5 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "ecfaf203e704ae94e8e1baa0d5541770"
+  },
+  "instaIcon": {
+    "AssetGUID": "b44303da10a5d4f91a05ac20d352270a"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,45 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-202",
+      "upgrade": "Corrosive Glue"
+    },
+    {
+      "tower": "GlueGunner-103",
+      "upgrade": "MOAB Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Stickier Glue",
+    "Stronger Glue",
+    "Glue Soak"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -176,45 +219,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-202",
-      "upgrade": "Corrosive Glue"
-    },
-    {
-      "tower": "GlueGunner-103",
-      "upgrade": "MOAB Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Stickier Glue",
-    "Stronger Glue",
-    "Glue Soak"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

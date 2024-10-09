@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 48.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "ac0cf22dc078ebb45824c90df63bc286"
+  },
+  "instaIcon": {
+    "AssetGUID": "9eddb7301930d472780cd0af9af182c1"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,34 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-500",
+      "upgrade": "Primary Expertise"
+    },
+    {
+      "tower": "MonkeyVillage-401",
+      "upgrade": "Monkey Business"
+    },
+    {
+      "tower": "MonkeyVillage-410",
+      "upgrade": "Grow Blocker"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Radius",
+    "Jungle Drums",
+    "Primary Training",
+    "Primary Mentoring"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -156,32 +188,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-500",
-      "upgrade": "Primary Expertise"
-    },
-    {
-      "tower": "MonkeyVillage-401",
-      "upgrade": "Monkey Business"
-    },
-    {
-      "tower": "MonkeyVillage-410",
-      "upgrade": "Grow Blocker"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Radius",
-    "Jungle Drums",
-    "Primary Training",
-    "Primary Mentoring"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

@@ -1,7 +1,5 @@
 {
   "cost": 2500.0,
-  "radius": 25.0,
-  "radiusSquared": 625.0,
   "range": 65.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "df307dbea1cab0e4285be3949c4d949a"
+  },
+  "instaIcon": {
+    "AssetGUID": "d6cf928d8672540378ceba8de8473f15"
+  },
   "areaTypes": [
     2,
     1
@@ -42,6 +46,50 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "xWidth": 37.0,
+    "yWidth": 40.0,
+    "ignoresPlacementCheck": true
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "SuperMonkey-501",
+      "upgrade": "Knockback"
+    },
+    {
+      "tower": "SuperMonkey-510",
+      "upgrade": "Super Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Laser Blasts",
+    "Plasma Blasts",
+    "Sun Avatar",
+    "Sun Temple",
+    "True Sun God"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -228,7 +276,7 @@
       "towerSet": 1,
       "mutators": [
         {
-          "pierce": 5,
+          "pierce": 2,
           "lifespan": -1.0
         }
       ]
@@ -255,7 +303,7 @@
                 "ejectZ": 22.7,
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 10.0,
+                  "pierce": 100.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -265,10 +313,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 15.0,
+                      "damage": 150.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 15.0
+                      "CappedDamage": 150.0
                     },
                     {
                       "Speed": 160.0,
@@ -293,7 +341,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 4.0,
-                  "CappedPierce": 10.0
+                  "CappedPierce": 100.0
                 },
                 "Rate": 2.0,
                 "UseThrowMarker": true,
@@ -348,7 +396,7 @@
                 "ejectZ": 22.7,
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 20.0,
+                  "pierce": 200.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -358,10 +406,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 25.0,
+                      "damage": 250.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 25.0
+                      "CappedDamage": 250.0
                     },
                     {
                       "Speed": 160.0,
@@ -386,7 +434,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 4.0,
-                  "CappedPierce": 20.0
+                  "CappedPierce": 200.0
                 },
                 "Rate": 1.5,
                 "UseThrowMarker": true,
@@ -428,7 +476,7 @@
           "lifespan": -1.0
         },
         {
-          "pierce": 5,
+          "pierce": 2,
           "lifespan": -1.0
         },
         {
@@ -455,10 +503,10 @@
                       }
                     },
                     {
-                      "damage": 10.0,
+                      "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 10.0
+                      "CappedDamage": 50.0
                     },
                     {
                       "path": [
@@ -638,7 +686,7 @@
           "lifespan": -1.0
         },
         {
-          "pierce": 5,
+          "pierce": 3,
           "lifespan": -1.0
         }
       ]
@@ -652,7 +700,7 @@
           "lifespan": -1.0
         },
         {
-          "pierce": 5,
+          "pierce": 3,
           "lifespan": -1.0
         },
         {
@@ -679,10 +727,10 @@
                       }
                     },
                     {
-                      "damage": 20.0,
+                      "damage": 100.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 20.0
+                      "CappedDamage": 100.0
                     },
                     {
                       "path": [
@@ -889,10 +937,10 @@
                       }
                     },
                     {
-                      "damage": 30.0,
+                      "damage": 150.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 30.0
+                      "CappedDamage": 150.0
                     },
                     {
                       "path": [
@@ -1083,7 +1131,7 @@
       "towerSet": 2,
       "mutators": [
         {
-          "pierce": 5,
+          "pierce": 3,
           "lifespan": -1.0
         }
       ]
@@ -1227,13 +1275,7 @@
                   "scale": 1.0,
                   "behaviors": [
                     {
-                      "Lifespan": "NaN",
-                      "lifespan": "NaN"
-                    },
-                    {
                       "tower": {
-                        "radius": 1.0,
-                        "radiusSquared": 1.0,
                         "range": 1.0,
                         "towerSet": 2,
                         "areaTypes": [
@@ -1263,6 +1305,19 @@
                           }
                         ],
                         "ignoreTowerForSelection": true,
+                        "footprint": {
+                          "radius": 1.0
+                        },
+                        "targetTypes": [
+                          {
+                            "id": "FigureInfinite",
+                            "intID": -1
+                          }
+                        ],
+                        "isSubTower": true,
+                        "animationSpeed": 1.0,
+                        "showBuffs": true,
+                        "displayScale": 1.0,
                         "behaviors": [
                           {
                             "weapons": [
@@ -1452,19 +1507,9 @@
                             "category": 4
                           }
                         ],
-                        "footprint": {
-                          "radius": 1.0
-                        },
-                        "targetTypes": [
-                          {
-                            "id": "FigureInfinite",
-                            "intID": -1
-                          }
-                        ],
-                        "isSubTower": true,
-                        "animationSpeed": 1.0,
-                        "displayScale": 1.0,
-                        "showBuffs": true,
+                        "radius": 1.0,
+                        "DisplayScale": 1.0,
+                        "IsSubEntity": true,
                         "IsBaseTower": true,
                         "TargetTypes": [
                           {
@@ -1512,7 +1557,7 @@
       "towerSet": 2,
       "mutators": [
         {
-          "pierce": 5,
+          "pierce": 3,
           "lifespan": -1.0
         },
         {
@@ -1656,7 +1701,7 @@
       "towerSet": 2,
       "mutators": [
         {
-          "pierce": 5,
+          "pierce": 4,
           "lifespan": -1.0
         },
         {
@@ -1809,13 +1854,7 @@
                   "scale": 1.0,
                   "behaviors": [
                     {
-                      "Lifespan": "NaN",
-                      "lifespan": "NaN"
-                    },
-                    {
                       "tower": {
-                        "radius": 1.0,
-                        "radiusSquared": 1.0,
                         "range": 1.0,
                         "towerSet": 2,
                         "areaTypes": [
@@ -1845,6 +1884,19 @@
                           }
                         ],
                         "ignoreTowerForSelection": true,
+                        "footprint": {
+                          "radius": 1.0
+                        },
+                        "targetTypes": [
+                          {
+                            "id": "FigureInfinite",
+                            "intID": -1
+                          }
+                        ],
+                        "isSubTower": true,
+                        "animationSpeed": 1.0,
+                        "showBuffs": true,
+                        "displayScale": 1.0,
                         "behaviors": [
                           {
                             "weapons": [
@@ -2034,19 +2086,9 @@
                             "category": 4
                           }
                         ],
-                        "footprint": {
-                          "radius": 1.0
-                        },
-                        "targetTypes": [
-                          {
-                            "id": "FigureInfinite",
-                            "intID": -1
-                          }
-                        ],
-                        "isSubTower": true,
-                        "animationSpeed": 1.0,
-                        "displayScale": 1.0,
-                        "showBuffs": true,
+                        "radius": 1.0,
+                        "DisplayScale": 1.0,
+                        "IsSubEntity": true,
                         "IsBaseTower": true,
                         "TargetTypes": [
                           {
@@ -2107,7 +2149,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2117,10 +2159,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 20.0,
+                      "damage": 40.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 20.0
+                      "CappedDamage": 40.0
                     },
                     {
                       "Speed": 400.0,
@@ -2149,7 +2191,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 4.0,
                 "animationOffset": 0.05,
@@ -2162,7 +2204,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2172,10 +2214,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 20.0,
+                      "damage": 40.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 20.0
+                      "CappedDamage": 40.0
                     },
                     {
                       "Speed": 400.0,
@@ -2204,7 +2246,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 4.0,
                 "animationOffset": 0.05,
@@ -2217,7 +2259,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2227,10 +2269,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 20.0,
+                      "damage": 40.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 20.0
+                      "CappedDamage": 40.0
                     },
                     {
                       "Speed": 400.0,
@@ -2259,7 +2301,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 4.0,
                 "animationOffset": 0.05,
@@ -2272,7 +2314,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2282,10 +2324,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 20.0,
+                      "damage": 40.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 20.0
+                      "CappedDamage": 40.0
                     },
                     {
                       "Speed": 400.0,
@@ -2314,7 +2356,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 4.0,
                 "animationOffset": 0.05,
@@ -2361,7 +2403,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2371,10 +2413,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 30.0,
+                      "damage": 60.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 30.0
+                      "CappedDamage": 60.0
                     },
                     {
                       "Speed": 400.0,
@@ -2403,7 +2445,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2416,7 +2458,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2426,10 +2468,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 30.0,
+                      "damage": 60.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 30.0
+                      "CappedDamage": 60.0
                     },
                     {
                       "Speed": 400.0,
@@ -2458,7 +2500,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2471,7 +2513,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2481,10 +2523,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 30.0,
+                      "damage": 60.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 30.0
+                      "CappedDamage": 60.0
                     },
                     {
                       "Speed": 400.0,
@@ -2513,7 +2555,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2526,7 +2568,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2536,10 +2578,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 30.0,
+                      "damage": 60.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 30.0
+                      "CappedDamage": 60.0
                     },
                     {
                       "Speed": 400.0,
@@ -2568,7 +2610,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2822,7 +2864,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2832,10 +2874,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -2864,7 +2906,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2877,7 +2919,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2887,10 +2929,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -2919,7 +2961,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2932,7 +2974,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2942,10 +2984,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -2974,7 +3016,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -2987,7 +3029,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -2997,10 +3039,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -3029,7 +3071,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -3042,7 +3084,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -3052,10 +3094,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -3084,7 +3126,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -3097,7 +3139,7 @@
                 },
                 "projectile": {
                   "id": "Projectile",
-                  "pierce": 7.0,
+                  "pierce": 15.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -3107,10 +3149,10 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 35.0,
+                      "damage": 70.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "CappedDamage": 35.0
+                      "CappedDamage": 70.0
                     },
                     {
                       "Speed": 400.0,
@@ -3139,7 +3181,7 @@
                   ],
                   "canCollideWithBloons": true,
                   "radius": 6.0,
-                  "CappedPierce": 7.0
+                  "CappedPierce": 15.0
                 },
                 "Rate": 2.0,
                 "animationOffset": 0.05,
@@ -3179,11 +3221,15 @@
                   "behaviors": [
                     {
                       "tower": {
-                        "radius": 6.0,
-                        "radiusSquared": 36.0,
                         "range": 50.0,
                         "ignoreBlockers": true,
                         "towerSet": 4,
+                        "portrait": {
+                          "AssetGUID": "b70e406129be03d4288202256f6fdb9e"
+                        },
+                        "instaIcon": {
+                          "AssetGUID": "ce2f08224b1a64bbe8490d93a5189abc"
+                        },
                         "areaTypes": [
                           2
                         ],
@@ -3213,6 +3259,32 @@
                             "mod": "HotMagic"
                           }
                         ],
+                        "footprint": {
+                          "radius": 6.0,
+                          "doesntBlockTowerPlacement": true
+                        },
+                        "targetTypes": [
+                          {
+                            "id": "First"
+                          },
+                          {
+                            "id": "Last",
+                            "intID": 1
+                          },
+                          {
+                            "id": "Close",
+                            "intID": 2
+                          },
+                          {
+                            "id": "Strong",
+                            "intID": 3
+                          }
+                        ],
+                        "isSubTower": true,
+                        "isBakable": true,
+                        "animationSpeed": 1.0,
+                        "showBuffs": true,
+                        "displayScale": 1.0,
                         "behaviors": [
                           {
                             "Lifespan": 65.0,
@@ -3339,32 +3411,9 @@
                             "category": 4
                           }
                         ],
-                        "footprint": {
-                          "radius": 6.0,
-                          "doesntBlockTowerPlacement": true
-                        },
-                        "targetTypes": [
-                          {
-                            "id": "First"
-                          },
-                          {
-                            "id": "Last",
-                            "intID": 1
-                          },
-                          {
-                            "id": "Close",
-                            "intID": 2
-                          },
-                          {
-                            "id": "Strong",
-                            "intID": 3
-                          }
-                        ],
-                        "isSubTower": true,
-                        "isBakable": true,
-                        "animationSpeed": 1.0,
-                        "displayScale": 1.0,
-                        "showBuffs": true,
+                        "radius": 6.0,
+                        "DisplayScale": 1.0,
+                        "IsSubEntity": true,
                         "IsBaseTower": true,
                         "TargetTypes": [
                           {
@@ -3616,50 +3665,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 37.0,
-    "yWidth": 40.0,
-    "ignoresPlacementCheck": true
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "SuperMonkey-501",
-      "upgrade": "Knockback"
-    },
-    {
-      "tower": "SuperMonkey-510",
-      "upgrade": "Super Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Laser Blasts",
-    "Plasma Blasts",
-    "Sun Avatar",
-    "Sun Temple",
-    "True Sun God"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 25.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

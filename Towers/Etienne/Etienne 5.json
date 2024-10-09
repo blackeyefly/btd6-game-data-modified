@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -9,6 +7,9 @@
     5
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "cf705ed6bfed03c4ba17494686d5dfe7"
+  },
   "areaTypes": [
     2
   ],
@@ -59,6 +60,36 @@
       "target": "Explosion"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteEtienne]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "57dc679306cb24574b38811ccce74a6c"
+  },
+  "upgrades": [
+    {
+      "tower": "Etienne 6",
+      "upgrade": "Etienne Upgrade 6"
+    }
+  ],
+  "appliedUpgrades": [
+    "Etienne Upgrade 2",
+    "Etienne Upgrade 3",
+    "Etienne Upgrade 4",
+    "Etienne Upgrade 5"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -82,8 +113,6 @@
     },
     {
       "droneModel": {
-        "radius": 6.0,
-        "radiusSquared": 36.0,
         "range": 9999999.0,
         "ignoreBlockers": true,
         "towerSet": 16,
@@ -135,6 +164,23 @@
           }
         ],
         "ignoreTowerForSelection": true,
+        "footprint": {
+          "radius": 6.0,
+          "doesntBlockTowerPlacement": true,
+          "ignoresPlacementCheck": true,
+          "ignoresTowerOverlap": true
+        },
+        "dontDisplayUpgrades": true,
+        "targetTypes": [
+          {
+            "id": "Pursuit",
+            "intID": -1
+          }
+        ],
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "Lifespan": 9999999.0,
@@ -273,23 +319,9 @@
             "category": 4
           }
         ],
-        "footprint": {
-          "radius": 6.0,
-          "doesntBlockTowerPlacement": true,
-          "ignoresPlacementCheck": true,
-          "ignoresTowerOverlap": true
-        },
-        "dontDisplayUpgrades": true,
-        "targetTypes": [
-          {
-            "id": "Pursuit",
-            "intID": -1
-          }
-        ],
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "displayScale": 1.0,
-        "showBuffs": true,
+        "radius": 6.0,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true,
         "TargetTypes": [
           {
@@ -348,8 +380,6 @@
         {
           "droneSupportModel": {
             "droneModel": {
-              "radius": 6.0,
-              "radiusSquared": 36.0,
               "range": 9999999.0,
               "ignoreBlockers": true,
               "towerSet": 16,
@@ -401,6 +431,23 @@
                 }
               ],
               "ignoreTowerForSelection": true,
+              "footprint": {
+                "radius": 6.0,
+                "doesntBlockTowerPlacement": true,
+                "ignoresPlacementCheck": true,
+                "ignoresTowerOverlap": true
+              },
+              "dontDisplayUpgrades": true,
+              "targetTypes": [
+                {
+                  "id": "Pursuit",
+                  "intID": -1
+                }
+              ],
+              "isSubTower": true,
+              "animationSpeed": 1.0,
+              "showBuffs": true,
+              "displayScale": 1.0,
               "behaviors": [
                 {
                   "Lifespan": 29.5,
@@ -539,23 +586,9 @@
                   "category": 4
                 }
               ],
-              "footprint": {
-                "radius": 6.0,
-                "doesntBlockTowerPlacement": true,
-                "ignoresPlacementCheck": true,
-                "ignoresTowerOverlap": true
-              },
-              "dontDisplayUpgrades": true,
-              "targetTypes": [
-                {
-                  "id": "Pursuit",
-                  "intID": -1
-                }
-              ],
-              "isSubTower": true,
-              "animationSpeed": 1.0,
-              "displayScale": 1.0,
-              "showBuffs": true,
+              "radius": 6.0,
+              "DisplayScale": 1.0,
+              "IsSubEntity": true,
               "TargetTypes": [
                 {
                   "id": "Pursuit",
@@ -630,30 +663,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Etienne 6",
-      "upgrade": "Etienne Upgrade 6"
-    }
-  ],
-  "appliedUpgrades": [
-    "Etienne Upgrade 2",
-    "Etienne Upgrade 3",
-    "Etienne Upgrade 4",
-    "Etienne Upgrade 5"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

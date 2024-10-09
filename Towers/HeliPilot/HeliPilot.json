@@ -1,9 +1,13 @@
 {
   "cost": 1600.0,
-  "radius": 14.0,
-  "radiusSquared": 196.0,
   "range": 22.0,
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "fa97a062b51f220478d6a671e4bbd011"
+  },
+  "instaIcon": {
+    "AssetGUID": "6694adf5e72534fb68331826f7c88b31"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,44 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "xWidth": 27.0,
+    "yWidth": 27.0
+  },
+  "upgrades": [
+    {
+      "tower": "HeliPilot-100",
+      "upgrade": "Quad Darts"
+    },
+    {
+      "tower": "HeliPilot-010",
+      "upgrade": "Bigger Jets"
+    },
+    {
+      "tower": "HeliPilot-001",
+      "upgrade": "Faster Darts"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "FollowTouch",
+      "intID": -1
+    },
+    {
+      "id": "LockInPlace",
+      "isActionable": true,
+      "intID": -1
+    },
+    {
+      "id": "PatrolPoints",
+      "isActionable": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -150,6 +192,9 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
+          "lineDisplay": {
+            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
+          },
           "lineDelay": 0.2
         },
         {
@@ -199,44 +244,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 27.0,
-    "yWidth": 27.0
-  },
-  "upgrades": [
-    {
-      "tower": "HeliPilot-100",
-      "upgrade": "Quad Darts"
-    },
-    {
-      "tower": "HeliPilot-010",
-      "upgrade": "Bigger Jets"
-    },
-    {
-      "tower": "HeliPilot-001",
-      "upgrade": "Faster Darts"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "FollowTouch",
-      "intID": -1
-    },
-    {
-      "id": "LockInPlace",
-      "isActionable": true,
-      "intID": -1
-    },
-    {
-      "id": "PatrolPoints",
-      "isActionable": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 14.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

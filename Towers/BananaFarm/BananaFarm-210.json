@@ -1,7 +1,5 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "06c4b7c2ccf92d045ae835b288a8452e"
+  },
+  "instaIcon": {
+    "AssetGUID": "dcce4142567b0498a973d8e645c45534"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,30 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-220",
+      "upgrade": "Valuable Bananas"
+    },
+    {
+      "tower": "BananaFarm-310",
+      "upgrade": "Banana Plantation"
+    }
+  ],
+  "appliedUpgrades": [
+    "Increased Production",
+    "Greater Production",
+    "Long Life Bananas"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -341,28 +369,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-220",
-      "upgrade": "Valuable Bananas"
-    },
-    {
-      "tower": "BananaFarm-310",
-      "upgrade": "Banana Plantation"
-    }
-  ],
-  "appliedUpgrades": [
-    "Increased Production",
-    "Greater Production",
-    "Long Life Bananas"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

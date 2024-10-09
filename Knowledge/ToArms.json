@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 12,
   "category": 3,
   "investmentRequired": 3,
   "monkeyMoneyCost": 250,
@@ -8,18 +6,10 @@
     "MonkeyEducation"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.CallToArmsModModel, Assembly-CSharp",
-        "additionalTime": 3.0,
-        "name": "ToArms",
-        "ImplementationType": null
+        "additionalTime": 3.0
       }
-    ],
-    "name": "ToArms",
-    "ImplementationType": null
-  },
-  "name": "ToArms",
-  "ImplementationType": null
+    ]
+  }
 }

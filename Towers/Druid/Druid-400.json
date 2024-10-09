@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 35.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "d9ae5bbc92ae5e942b42629ce782a5ad"
+  },
+  "instaIcon": {
+    "AssetGUID": "3ae0dd4983d674217abbf089176b1547"
+  },
   "areaTypes": [
     2
   ],
@@ -42,6 +46,50 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-500",
+      "upgrade": "Superstorm"
+    },
+    {
+      "tower": "Druid-401",
+      "upgrade": "Druidic Reach"
+    },
+    {
+      "tower": "Druid-410",
+      "upgrade": "Thorn Swarm"
+    }
+  ],
+  "appliedUpgrades": [
+    "Hard Thorns",
+    "Heart of Thunder",
+    "Druid of the Storm",
+    "Ball Lightning"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -194,6 +242,35 @@
                     },
                     {
                       "lifeSpan": 0.3,
+                      "displayPaths": [
+                        {
+                          "AssetGUID": "548c26e4e668dac4a850a4c016916016"
+                        },
+                        {
+                          "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
+                        },
+                        {
+                          "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
+                        },
+                        {
+                          "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
+                        },
+                        {
+                          "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
+                        },
+                        {
+                          "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
+                        },
+                        {
+                          "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
+                        },
+                        {
+                          "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
+                        },
+                        {
+                          "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
+                        }
+                      ],
                       "displayLengths": [
                         17.962965,
                         17.962965,
@@ -244,7 +321,7 @@
                 },
                 "overlayType": "Ice",
                 "collisionPass": -1,
-                "Lifespan": 1.5,
+                "Lifespan": 4.5,
                 "mutator": {
                   "overlayType": "Ice",
                   "damageModel": {
@@ -254,7 +331,7 @@
                   "id": "Ice:Regular:Freeze",
                   "priority": 5
                 },
-                "lifespan": 1.5
+                "lifespan": 4.5
               },
               {
                 "immuneBloonProperties": 5,
@@ -310,6 +387,35 @@
               },
               {
                 "lifeSpan": 0.3,
+                "displayPaths": [
+                  {
+                    "AssetGUID": "548c26e4e668dac4a850a4c016916016"
+                  },
+                  {
+                    "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
+                  },
+                  {
+                    "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
+                  },
+                  {
+                    "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
+                  },
+                  {
+                    "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
+                  },
+                  {
+                    "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
+                  },
+                  {
+                    "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
+                  },
+                  {
+                    "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
+                  },
+                  {
+                    "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
+                  }
+                ],
                 "displayLengths": [
                   17.962965,
                   17.962965,
@@ -398,22 +504,27 @@
                 ]
               },
               {
-                "tag": "Lead"
+                "tag": "Ddt"
               },
               {
                 "tag": "Moabs"
+              },
+              {
+                "ifCantHitBloonProperties": 12
               }
             ],
             "behaviors": [
               {
                 "distributeToChildren": true,
-                "createPopEffect": true
+                "createPopEffect": true,
+                "immuneBloonProperties": 12,
+                "immuneBloonPropertiesOriginal": 12
               },
               {
-                "Speed": 90.0,
-                "Lifespan": 1.11111116,
-                "speed": 90.0,
-                "lifespan": 1.11111116
+                "Speed": 72.0,
+                "Lifespan": 1.38888884,
+                "speed": 72.0,
+                "lifespan": 1.38888884
               },
               {
                 "filters": [
@@ -426,10 +537,13 @@
                     ]
                   },
                   {
-                    "tag": "Lead"
+                    "tag": "Ddt"
                   },
                   {
                     "tag": "Moabs"
+                  },
+                  {
+                    "ifCantHitBloonProperties": 12
                   }
                 ]
               },
@@ -521,50 +635,8 @@
       "category": 1
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-500",
-      "upgrade": "Superstorm"
-    },
-    {
-      "tower": "Druid-401",
-      "upgrade": "Druidic Reach"
-    },
-    {
-      "tower": "Druid-410",
-      "upgrade": "Thorn Swarm"
-    }
-  ],
-  "appliedUpgrades": [
-    "Hard Thorns",
-    "Heart of Thunder",
-    "Druid of the Storm",
-    "Ball Lightning"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

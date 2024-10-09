@@ -1,7 +1,5 @@
 {
   "cost": 550.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 45.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "14f924f75457c5e488a7328460b366bc"
+  },
+  "instaIcon": {
+    "AssetGUID": "ee5ddf470aa7e4c7fa6e653022f37297"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,47 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "Alchemist-051",
+      "upgrade": "Alchemist Faster Throwing"
+    },
+    {
+      "tower": "Alchemist-150",
+      "upgrade": "Larger Potions"
+    }
+  ],
+  "appliedUpgrades": [
+    "Stronger Acid",
+    "Perishing Potions",
+    "Unstable Concoction",
+    "Transforming Tonic",
+    "Total Transformation"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -716,8 +761,6 @@
           "priority": 9999999,
           "mutateAll": true,
           "secondaryTowerModel": {
-            "radius": 6.0,
-            "radiusSquared": 36.0,
             "range": 72.0,
             "ignoreBlockers": true,
             "towerSet": 4,
@@ -744,6 +787,30 @@
                 "mod": "BetterSellDeals"
               }
             ],
+            "footprint": {
+              "radius": 6.0
+            },
+            "targetTypes": [
+              {
+                "id": "First"
+              },
+              {
+                "id": "Last",
+                "intID": 1
+              },
+              {
+                "id": "Close",
+                "intID": 2
+              },
+              {
+                "id": "Strong",
+                "intID": 3
+              }
+            ],
+            "isBakable": true,
+            "animationSpeed": 1.0,
+            "showBuffs": true,
+            "displayScale": 1.0,
             "behaviors": [
               {
                 "weapons": [
@@ -851,30 +918,8 @@
                 "category": 4
               }
             ],
-            "footprint": {
-              "radius": 6.0
-            },
-            "targetTypes": [
-              {
-                "id": "First"
-              },
-              {
-                "id": "Last",
-                "intID": 1
-              },
-              {
-                "id": "Close",
-                "intID": 2
-              },
-              {
-                "id": "Strong",
-                "intID": 3
-              }
-            ],
-            "isBakable": true,
-            "animationSpeed": 1.0,
-            "displayScale": 1.0,
-            "showBuffs": true,
+            "radius": 6.0,
+            "DisplayScale": 1.0,
             "TargetTypes": [
               {
                 "id": "First"
@@ -904,7 +949,7 @@
           "maxTier": 3,
           "maxCost": 9999999.0,
           "maxTowers": 5,
-          "affectList": "DartMonkey,IceMonkey,BoomerangMonkey,EngineerMonkey,NinjaMonkey,Alchemist,Druid,SuperMonkey,WizardMonkey,Dartling,SniperMonkey,GlueGunner",
+          "affectList": "DartMonkey,IceMonkey,BoomerangMonkey,EngineerMonkey,NinjaMonkey,Alchemist,Druid,SuperMonkey,WizardMonkey,Dartling,SniperMonkey,GlueGunner,Mermonkey",
           "affectListArray": [
             "DartMonkey",
             "IceMonkey",
@@ -917,7 +962,8 @@
             "WizardMonkey",
             "Dartling",
             "SniperMonkey",
-            "GlueGunner"
+            "GlueGunner",
+            "Mermonkey"
           ],
           "resetOnDefeatScreen": true,
           "ignoreWithMutators": "MonkeyFanClub,MonkeyFanClubPlasma",
@@ -932,8 +978,6 @@
           },
           "MorthTowerNotSelf": {
             "newTowerModel": {
-              "radius": 6.0,
-              "radiusSquared": 36.0,
               "range": 72.0,
               "ignoreBlockers": true,
               "towerSet": 4,
@@ -960,6 +1004,30 @@
                   "mod": "BetterSellDeals"
                 }
               ],
+              "footprint": {
+                "radius": 6.0
+              },
+              "targetTypes": [
+                {
+                  "id": "First"
+                },
+                {
+                  "id": "Last",
+                  "intID": 1
+                },
+                {
+                  "id": "Close",
+                  "intID": 2
+                },
+                {
+                  "id": "Strong",
+                  "intID": 3
+                }
+              ],
+              "isBakable": true,
+              "animationSpeed": 1.0,
+              "showBuffs": true,
+              "displayScale": 1.0,
               "behaviors": [
                 {
                   "weapons": [
@@ -1067,30 +1135,8 @@
                   "category": 4
                 }
               ],
-              "footprint": {
-                "radius": 6.0
-              },
-              "targetTypes": [
-                {
-                  "id": "First"
-                },
-                {
-                  "id": "Last",
-                  "intID": 1
-                },
-                {
-                  "id": "Close",
-                  "intID": 2
-                },
-                {
-                  "id": "Strong",
-                  "intID": 3
-                }
-              ],
-              "isBakable": true,
-              "animationSpeed": 1.0,
-              "displayScale": 1.0,
-              "showBuffs": true,
+              "radius": 6.0,
+              "DisplayScale": 1.0,
               "TargetTypes": [
                 {
                   "id": "First"
@@ -1236,47 +1282,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "Alchemist-051",
-      "upgrade": "Alchemist Faster Throwing"
-    },
-    {
-      "tower": "Alchemist-150",
-      "upgrade": "Larger Potions"
-    }
-  ],
-  "appliedUpgrades": [
-    "Stronger Acid",
-    "Perishing Potions",
-    "Unstable Concoction",
-    "Transforming Tonic",
-    "Total Transformation"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

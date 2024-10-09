@@ -1,13 +1,17 @@
 {
   "cost": 500.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 25.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "daf9f246045ace740990f64da6ac818e"
+  },
+  "instaIcon": {
+    "AssetGUID": "e8e5ff45927504c3a867b030f638cf3b"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,38 @@
       "target": "Attack,BaseProjectile"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "IceMonkey-400",
+      "upgrade": "Embrittlement"
+    },
+    {
+      "tower": "IceMonkey-310",
+      "upgrade": "Enhanced Freeze"
+    },
+    {
+      "tower": "IceMonkey-301",
+      "upgrade": "Larger Radius"
+    }
+  ],
+  "appliedUpgrades": [
+    "Permafrost",
+    "Metal Freeze",
+    "Ice Shards"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -184,6 +220,12 @@
               "priority": 5
             },
             "lifespan": 1.5
+          },
+          {
+            "cleanseRegen": true,
+            "cleanseCamo": true,
+            "cleanseOnlyIfDamaged": true,
+            "collisionPass": -1
           },
           {
             "scale": 1.0,
@@ -350,6 +392,12 @@
                 "lifespan": 1.5
               },
               {
+                "cleanseRegen": true,
+                "cleanseCamo": true,
+                "cleanseOnlyIfDamaged": true,
+                "collisionPass": -1
+              },
+              {
                 "scale": 1.0,
                 "category": 16
               }
@@ -399,38 +447,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "IceMonkey-400",
-      "upgrade": "Embrittlement"
-    },
-    {
-      "tower": "IceMonkey-310",
-      "upgrade": "Enhanced Freeze"
-    },
-    {
-      "tower": "IceMonkey-301",
-      "upgrade": "Larger Radius"
-    }
-  ],
-  "appliedUpgrades": [
-    "Permafrost",
-    "Metal Freeze",
-    "Ice Shards"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

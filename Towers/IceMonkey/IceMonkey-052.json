@@ -1,7 +1,5 @@
 {
   "cost": 500.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 47.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "3f7b752b454273d4b99f9b5ac98db4bf"
+  },
+  "instaIcon": {
+    "AssetGUID": "586d3a6195dee4ad5a28b17eda81c9a2"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,28 @@
       "target": "Attack,BaseProjectile"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Enhanced Freeze",
+    "Deep Freeze",
+    "Larger Radius",
+    "Re-Freeze",
+    "Arctic Wind",
+    "Snowstorm",
+    "Absolute Zero"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -43,7 +69,10 @@
     },
     {
       "radius": 52.0,
-      "areaHeightOffset": 1.0
+      "areaHeightOffset": 1.0,
+      "freezeAsset": {
+        "AssetGUID": "dcc79ccbe3defd44bad04079cc150d6c"
+      }
     },
     {
       "effectModel": {
@@ -94,7 +123,7 @@
             ]
           },
           {
-            "layers": 5,
+            "layers": 8,
             "damageModel": {
               "damage": 1.0,
               "maxDamage": -1.0,
@@ -215,7 +244,7 @@
                 ]
               },
               {
-                "layers": 5,
+                "layers": 8,
                 "damageModel": {
                   "damage": 1.0,
                   "maxDamage": -1.0,
@@ -360,7 +389,7 @@
                         "lifespan": 0.05
                       },
                       {
-                        "layers": 5,
+                        "layers": 8,
                         "damageModel": {
                           "damage": 1.0,
                           "distributeToChildren": true,
@@ -391,6 +420,9 @@
                         "distributeToChildren": true,
                         "createPopEffect": true,
                         "CappedDamage": 1.0
+                      },
+                      {
+                        "heatAmount": -1500.0
                       },
                       {
                         "scale": 1.0,
@@ -487,28 +519,8 @@
       "category": 32
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Enhanced Freeze",
-    "Deep Freeze",
-    "Larger Radius",
-    "Re-Freeze",
-    "Arctic Wind",
-    "Snowstorm",
-    "Absolute Zero"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

@@ -1,13 +1,17 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "45d1a50ba83ddbe47a351e8a2d37410a"
+  },
+  "instaIcon": {
+    "AssetGUID": "2bf3e9d95e178c0479ca093d28a6a528"
+  },
   "areaTypes": [
     1,
     2
@@ -29,6 +33,49 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-103",
+      "upgrade": "Trident Efficiency"
+    },
+    {
+      "tower": "Mermonkey-013",
+      "upgrade": "Sharper Prongs"
+    },
+    {
+      "tower": "Mermonkey-004",
+      "upgrade": "Symphonic Resonance"
+    }
+  ],
+  "appliedUpgrades": [
+    "Echosense Precision",
+    "Echosense Network",
+    "Alluring Melody"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -63,7 +110,7 @@
     {
       "projectileModel": {
         "id": "Projectile",
-        "pierce": 2.0,
+        "pierce": 3.0,
         "scale": 1.0,
         "ignoreBlockers": true,
         "filters": [
@@ -133,7 +180,7 @@
         "canCollideWithBloons": true,
         "radius": 28.0,
         "ignorePierceExhaustion": true,
-        "CappedPierce": 2.0
+        "CappedPierce": 3.0
       },
       "baseTowerRange": 28.0,
       "displayRadius": 28.0
@@ -156,9 +203,9 @@
             "behaviors": [
               {
                 "Speed": 200.0,
-                "Lifespan": 0.5,
+                "Lifespan": 1.0,
                 "speed": 200.0,
-                "lifespan": 0.5
+                "lifespan": 1.0
               },
               {
                 "projectile": {
@@ -242,7 +289,7 @@
     },
     {
       "rangeMultiplier": 0.06,
-      "maxStacks": 5,
+      "maxStacks": 10,
       "filters": [
         {
           "baseIds": [
@@ -256,7 +303,7 @@
           "path3MaxTier": 9999999
         }
       ],
-      "maxStackSize": 5,
+      "maxStackSize": 10,
       "isGlobalRange": true
     },
     {
@@ -268,7 +315,7 @@
           "ejectZ": 8.2,
           "projectile": {
             "id": "Projectile",
-            "pierce": 2.0,
+            "pierce": 3.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "filters": [
@@ -338,7 +385,7 @@
             "canCollideWithBloons": true,
             "radius": 28.0,
             "ignorePierceExhaustion": true,
-            "CappedPierce": 2.0
+            "CappedPierce": 3.0
           },
           "behaviors": [
             {
@@ -399,49 +446,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-103",
-      "upgrade": "Trident Efficiency"
-    },
-    {
-      "tower": "Mermonkey-013",
-      "upgrade": "Sharper Prongs"
-    },
-    {
-      "tower": "Mermonkey-004",
-      "upgrade": "Symphonic Resonance"
-    }
-  ],
-  "appliedUpgrades": [
-    "Echosense Precision",
-    "Echosense Network",
-    "Alluring Melody"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

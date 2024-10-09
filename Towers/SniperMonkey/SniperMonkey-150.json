@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "2866ce8fcdd7a6942b0a1e20cbd1a99c"
+  },
+  "instaIcon": {
+    "AssetGUID": "c7acfc61ef078409f8cccddd52ba8540"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,48 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "SniperMonkey-250",
+      "upgrade": "Large Calibre"
+    }
+  ],
+  "appliedUpgrades": [
+    "Night Vision Goggles",
+    "Shrapnel Shot",
+    "Bouncing Bullet",
+    "Supply Drop",
+    "Elite Sniper",
+    "Full Metal Jacket"
+  ],
+  "targetTypes": [
+    {
+      "id": "Elite",
+      "intID": -1
+    },
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -360,48 +406,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "SniperMonkey-250",
-      "upgrade": "Large Calibre"
-    }
-  ],
-  "appliedUpgrades": [
-    "Night Vision Goggles",
-    "Shrapnel Shot",
-    "Bouncing Bullet",
-    "Supply Drop",
-    "Elite Sniper",
-    "Full Metal Jacket"
-  ],
-  "targetTypes": [
-    {
-      "id": "Elite",
-      "intID": -1
-    },
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Elite",

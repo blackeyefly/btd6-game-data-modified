@@ -3,6 +3,12 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectDarkDungeonsButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "18e830a9016bd6a479cf4dae58055411"
+  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

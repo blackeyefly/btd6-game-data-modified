@@ -1,7 +1,5 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "2aebbbf64cc3cbc448ef9ebf0223d0ff"
+  },
+  "instaIcon": {
+    "AssetGUID": "9e9a1eb2029ec4021acf341c3c150a0f"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,46 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-401",
+      "upgrade": "Bloon Liquefier"
+    },
+    {
+      "tower": "GlueGunner-302",
+      "upgrade": "Stronger Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Glue Soak",
+    "Corrosive Glue",
+    "Bloon Dissolver",
+    "Stickier Glue"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -188,10 +232,10 @@
             "hasDamageModifiers": true,
             "CappedPierce": 2.0
           },
-          "Rate": 1.0,
+          "Rate": 0.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 1.0
+          "rate": 0.5
         }
       ],
       "behaviors": [
@@ -231,46 +275,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-401",
-      "upgrade": "Bloon Liquefier"
-    },
-    {
-      "tower": "GlueGunner-302",
-      "upgrade": "Stronger Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Glue Soak",
-    "Corrosive Glue",
-    "Bloon Dissolver",
-    "Stickier Glue"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

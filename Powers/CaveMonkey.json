@@ -10,13 +10,45 @@
     }
   ],
   "tower": {
-    "radius": 7.0,
-    "radiusSquared": 49.0,
     "range": 24.0,
     "towerSet": 64,
+    "portrait": {
+      "AssetGUID": "0f1b3639ddbbc2440954195347594e02"
+    },
     "areaTypes": [
       2
     ],
+    "footprint": {
+      "radius": 7.0
+    },
+    "dontDisplayUpgrades": true,
+    "emoteSpriteSmall": {
+      "AssetGUID": "UiEmoteIcons[EmotePatFusty]"
+    },
+    "emoteSpriteLarge": {
+      "AssetGUID": "9d32dd861cce40c4687058a8028c4cc7"
+    },
+    "targetTypes": [
+      {
+        "id": "First"
+      },
+      {
+        "id": "Last",
+        "intID": 1
+      },
+      {
+        "id": "Close",
+        "intID": 2
+      },
+      {
+        "id": "Strong",
+        "intID": 3
+      }
+    ],
+    "showPowerTowerBuffs": true,
+    "animationSpeed": 1.0,
+    "showBuffs": true,
+    "displayScale": 1.0,
     "behaviors": [
       {
         "effectModel": {
@@ -179,32 +211,9 @@
         "category": 4
       }
     ],
-    "footprint": {
-      "radius": 7.0
-    },
-    "dontDisplayUpgrades": true,
-    "targetTypes": [
-      {
-        "id": "First"
-      },
-      {
-        "id": "Last",
-        "intID": 1
-      },
-      {
-        "id": "Close",
-        "intID": 2
-      },
-      {
-        "id": "Strong",
-        "intID": 3
-      }
-    ],
-    "showPowerTowerBuffs": true,
-    "animationSpeed": 1.0,
-    "displayScale": 1.0,
-    "showBuffs": true,
+    "radius": 7.0,
     "isPowerTower": true,
+    "DisplayScale": 1.0,
     "IsBaseTower": true,
     "TargetTypes": [
       {

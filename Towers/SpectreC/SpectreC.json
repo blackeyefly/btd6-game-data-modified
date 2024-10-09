@@ -1,6 +1,4 @@
 {
-  "radius": 1.0,
-  "radiusSquared": 1.0,
   "range": 1.0,
   "towerSet": 2,
   "areaTypes": [
@@ -30,6 +28,19 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "footprint": {
+    "radius": 1.0
+  },
+  "targetTypes": [
+    {
+      "id": "FigureInfinite",
+      "intID": -1
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "weapons": [
@@ -219,19 +230,9 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 1.0
-  },
-  "targetTypes": [
-    {
-      "id": "FigureInfinite",
-      "intID": -1
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 1.0,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true,
   "TargetTypes": [
     {

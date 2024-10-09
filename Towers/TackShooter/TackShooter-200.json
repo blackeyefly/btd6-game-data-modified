@@ -1,13 +1,17 @@
 {
   "cost": 260.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 23.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "11e4d79e44d81394ab07d4e14e4beefc"
+  },
+  "instaIcon": {
+    "AssetGUID": "423a2942db48c4db4b3ba06fdd3679e1"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,37 @@
       "mod": "FastTackAttacks"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "TackShooter-300",
+      "upgrade": "Hot Shots"
+    },
+    {
+      "tower": "TackShooter-210",
+      "upgrade": "Long Range Tacks"
+    },
+    {
+      "tower": "TackShooter-201",
+      "upgrade": "More Tacks"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Shooting",
+    "Even Faster Shooting"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -130,37 +165,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "TackShooter-300",
-      "upgrade": "Hot Shots"
-    },
-    {
-      "tower": "TackShooter-210",
-      "upgrade": "Long Range Tacks"
-    },
-    {
-      "tower": "TackShooter-201",
-      "upgrade": "More Tacks"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Shooting",
-    "Even Faster Shooting"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

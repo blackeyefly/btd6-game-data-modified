@@ -1,8 +1,6 @@
 {
   "cost": 250.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
-  "range": 60.0,
+  "range": 50.0,
   "ignoreBlockers": true,
   "tier": 4,
   "tiers": [
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "6920892f8fb0c8a4a8f0b5766d96e089"
+  },
+  "instaIcon": {
+    "AssetGUID": "7e125ca561fa9b74e9dee545e43f5f61"
+  },
   "areaTypes": [
     2
   ],
@@ -27,6 +31,44 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BeastHandler-502",
+      "upgrade": "Megalodon"
+    }
+  ],
+  "appliedUpgrades": [
+    "Piranha",
+    "Barracuda",
+    "Gyrfalcon",
+    "Horned Owl",
+    "Great White",
+    "Orca"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "targetTypeMustExist": true
@@ -52,6 +94,33 @@
             "mod": "BetterSellDeals"
           }
         ],
+        "footprint": {
+          "radius": 2.0
+        },
+        "dontDisplayUpgrades": true,
+        "targetTypes": [
+          {
+            "id": "First"
+          },
+          {
+            "id": "Last",
+            "intID": 1
+          },
+          {
+            "id": "Close",
+            "intID": 2
+          },
+          {
+            "id": "Strong",
+            "intID": 3
+          }
+        ],
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "blockSelling": true,
+        "dontAddMutatorsFromParent": true,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "placeAnimation": 3,
@@ -73,12 +142,21 @@
             "thrashKnockbackLifetimeRange": 0.3,
             "displayStepModels": [
               {
+                "projectileDisplay": {
+                  "AssetGUID": "0340421e9a117bd49be895a8cc515060"
+                },
                 "percent": 1.0
               },
               {
+                "projectileDisplay": {
+                  "AssetGUID": "27d34d5b1bbb6a042be95a443d8806dd"
+                },
                 "percent": 0.4
               }
-            ]
+            ],
+            "genericIcon": {
+              "AssetGUID": "IngameUi[BhTargetIconFish]"
+            }
           },
           {
             "effectModel": {
@@ -99,15 +177,33 @@
             }
           },
           {
+            "projectileDisplay": {
+              "AssetGUID": "27d34d5b1bbb6a042be95a443d8806dd"
+            },
             "percent": 0.4
           },
           {
+            "projectileDisplay": {
+              "AssetGUID": "0340421e9a117bd49be895a8cc515060"
+            },
             "percent": 1.0
           },
           {
+            "portalEffectDisplay": {
+              "AssetGUID": "e7d9d1785b8f1e345a9552787f3b2723"
+            },
+            "noGrabEffectDisplay": {
+              "AssetGUID": "e7d9d1785b8f1e345a9552787f3b2723"
+            },
             "percent": 0.4
           },
           {
+            "portalEffectDisplay": {
+              "AssetGUID": "718f460b9a207294fa9dd2cfab593c24"
+            },
+            "noGrabEffectDisplay": {
+              "AssetGUID": "718f460b9a207294fa9dd2cfab593c24"
+            },
             "percent": 1.0
           },
           {
@@ -432,7 +528,7 @@
                                   "animationStateOnSetTarget": 4,
                                   "animationStateOnTowerOnDestroy": 7,
                                   "postBloonDestroyTime": 1.1,
-                                  "postBloonDestroyTimeFrames": 65,
+                                  "postBloonDestroyTimeFrames": 66,
                                   "bloonSpeedMultiplier": 0.6,
                                   "SlowMutator": {
                                     "multiplier": 0.6,
@@ -471,7 +567,7 @@
                               "scale": 1.0,
                               "lifespan": 2.0
                             },
-                            "maxPullRbe": 250000
+                            "maxPullRbe": 500000
                           },
                           {
                             "rounds": 1,
@@ -573,34 +669,9 @@
             "category": 4
           }
         ],
-        "footprint": {
-          "radius": 2.0
-        },
-        "dontDisplayUpgrades": true,
-        "targetTypes": [
-          {
-            "id": "First"
-          },
-          {
-            "id": "Last",
-            "intID": 1
-          },
-          {
-            "id": "Close",
-            "intID": 2
-          },
-          {
-            "id": "Strong",
-            "intID": 3
-          }
-        ],
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "blockSelling": true,
-        "dontAddMutatorsFromParent": true,
-        "displayScale": 1.0,
-        "showBuffs": true,
         "IsBeastHandlerPet": true,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true,
         "TargetTypes": [
           {
@@ -625,7 +696,7 @@
         "behaviors": [
           {
             "minDistance": 4.0,
-            "maxDistance": 60.0,
+            "maxDistance": 50.0,
             "targetRadius": 4.0,
             "pointDistance": 4.0,
             "dontUseTowerPosition": true,
@@ -638,10 +709,10 @@
             "rotateTower": true
           }
         ],
-        "range": 60.0,
+        "range": 50.0,
         "targetProvider": {
           "minDistance": 4.0,
-          "maxDistance": 60.0,
+          "maxDistance": 50.0,
           "targetRadius": 4.0,
           "pointDistance": 4.0,
           "dontUseTowerPosition": true,
@@ -652,7 +723,7 @@
         "attackThroughWalls": true
       },
       "towerModelSecond": {
-        "range": 60.0,
+        "range": 50.0,
         "ignoreBlockers": true,
         "towerSet": 8,
         "areaTypes": [
@@ -673,6 +744,20 @@
           }
         ],
         "ignoreTowerForSelection": true,
+        "dontDisplayUpgrades": true,
+        "targetTypes": [
+          {
+            "id": "Gyrfalcon",
+            "isActionable": true,
+            "intID": -1
+          }
+        ],
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "blockSelling": true,
+        "dontAddMutatorsFromParent": true,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "tier": 2,
@@ -680,14 +765,18 @@
             "basePower": 3,
             "maxPower": 6,
             "enableContribution": true,
-            "cooldownScaleRange": 0.28,
+            "cooldownScaleRange": 0.4,
             "pierceRange": 6,
             "damageRange": 1,
+            "speedRangeGyrfalcon": 40.0,
             "displayStepModels": [
               {
                 "percent": 1.0
               }
-            ]
+            ],
+            "genericIcon": {
+              "AssetGUID": "IngameUi[BhTargetIconBird]"
+            }
           },
           {
             "effectModel": {
@@ -713,7 +802,7 @@
           {
             "behaviors": [
               {
-                "maxSpeed": 110.0,
+                "maxSpeed": 80.0,
                 "rotationSpeed": 720.0,
                 "beginMovementAnimationState": 1,
                 "hoverAnimationState": 2,
@@ -753,8 +842,14 @@
                 },
                 "grappleDamageRate": 1.0,
                 "grappleDamageRateFrames": 60,
+                "selectPointDisplay": {
+                  "AssetGUID": "f10d129bc99697a46a1d6caf0fa71d05"
+                },
+                "selectPointDisplayInvalid": {
+                  "AssetGUID": "19f9eb0f9634ddc41af77a799a24e413"
+                },
                 "leadPiercePenalty": 1,
-                "ceramicPiercePenalty": 5,
+                "ceramicPiercePenalty": 4,
                 "moabSpeedScale": 0.7,
                 "snatchHoverAnimationState": 3,
                 "snatchFlyingAnimationState": 3,
@@ -805,9 +900,9 @@
                 "animationStateMaxContributor": -1
               }
             ],
-            "range": 60.0,
+            "range": 50.0,
             "targetProvider": {
-              "maxSpeed": 110.0,
+              "maxSpeed": 80.0,
               "rotationSpeed": 720.0,
               "beginMovementAnimationState": 1,
               "hoverAnimationState": 2,
@@ -847,8 +942,14 @@
               },
               "grappleDamageRate": 1.0,
               "grappleDamageRateFrames": 60,
+              "selectPointDisplay": {
+                "AssetGUID": "f10d129bc99697a46a1d6caf0fa71d05"
+              },
+              "selectPointDisplayInvalid": {
+                "AssetGUID": "19f9eb0f9634ddc41af77a799a24e413"
+              },
               "leadPiercePenalty": 1,
-              "ceramicPiercePenalty": 5,
+              "ceramicPiercePenalty": 4,
               "moabSpeedScale": 0.7,
               "snatchHoverAnimationState": 3,
               "snatchFlyingAnimationState": 3,
@@ -892,21 +993,9 @@
             "category": 4
           }
         ],
-        "dontDisplayUpgrades": true,
-        "targetTypes": [
-          {
-            "id": "Gyrfalcon",
-            "isActionable": true,
-            "intID": -1
-          }
-        ],
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "blockSelling": true,
-        "dontAddMutatorsFromParent": true,
-        "displayScale": 1.0,
-        "showBuffs": true,
         "IsBeastHandlerPet": true,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true,
         "TargetTypes": [
           {
@@ -917,7 +1006,7 @@
         ]
       },
       "spawnerAttackModelSecond": {
-        "range": 60.0,
+        "range": 50.0,
         "attackThroughWalls": true,
         "fireWithoutTarget": true
       },
@@ -926,6 +1015,18 @@
       "contributionDotOffset": 10.0,
       "contributionDotSpacing": 6.0,
       "contributionDotSpeed": 15.0,
+      "buffedTextDisplayPrefab": {
+        "AssetGUID": "9bdae2a6bac16284cbe7abc5d013f9f9"
+      },
+      "mergedTextDisplayPrefab": {
+        "AssetGUID": "6a1538a8436e34942972950b891747f5"
+      },
+      "powerTextDisplayPrefab": {
+        "AssetGUID": "483357db7b634fc44aaa23bdab741c4c"
+      },
+      "validMergeTargetObjectPath": {
+        "AssetGUID": "207f42fbbb705574c9f769023d5bcce3"
+      },
       "piranhaPetModel": {
         "tier": 4,
         "requiredCount": 3,
@@ -939,12 +1040,21 @@
         "thrashKnockbackLifetimeRange": 0.3,
         "displayStepModels": [
           {
+            "projectileDisplay": {
+              "AssetGUID": "0340421e9a117bd49be895a8cc515060"
+            },
             "percent": 1.0
           },
           {
+            "projectileDisplay": {
+              "AssetGUID": "27d34d5b1bbb6a042be95a443d8806dd"
+            },
             "percent": 0.4
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconFish]"
+        }
       },
       "microraptorPetModel": {
         "path": 1,
@@ -959,7 +1069,10 @@
           {
             "percent": 1.0
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconDino]"
+        }
       },
       "gyrfalconPetModel": {
         "tier": 2,
@@ -967,14 +1080,18 @@
         "basePower": 3,
         "maxPower": 6,
         "enableContribution": true,
-        "cooldownScaleRange": 0.28,
+        "cooldownScaleRange": 0.4,
         "pierceRange": 6,
         "damageRange": 1,
+        "speedRangeGyrfalcon": 40.0,
         "displayStepModels": [
           {
             "percent": 1.0
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconBird]"
+        }
       }
     },
     {
@@ -1025,7 +1142,7 @@
           "isSelectable": true
         }
       ],
-      "range": 60.0,
+      "range": 50.0,
       "attackThroughWalls": true,
       "addsToSharedGrid": true
     },
@@ -1033,7 +1150,7 @@
       "behaviors": [
         {
           "minDistance": 4.0,
-          "maxDistance": 60.0,
+          "maxDistance": 50.0,
           "targetRadius": 4.0,
           "pointDistance": 4.0,
           "dontUseTowerPosition": true,
@@ -1046,10 +1163,10 @@
           "rotateTower": true
         }
       ],
-      "range": 60.0,
+      "range": 50.0,
       "targetProvider": {
         "minDistance": 4.0,
-        "maxDistance": 60.0,
+        "maxDistance": 50.0,
         "targetRadius": 4.0,
         "pointDistance": 4.0,
         "dontUseTowerPosition": true,
@@ -1063,7 +1180,7 @@
       "behaviors": [
         {
           "minDistance": 4.0,
-          "maxDistance": 60.0,
+          "maxDistance": 50.0,
           "targetRadius": 4.0,
           "pointDistance": 4.0,
           "dontUseTowerPosition": true,
@@ -1076,10 +1193,10 @@
           "rotateTower": true
         }
       ],
-      "range": 60.0,
+      "range": 50.0,
       "targetProvider": {
         "minDistance": 4.0,
-        "maxDistance": 60.0,
+        "maxDistance": 50.0,
         "targetRadius": 4.0,
         "pointDistance": 4.0,
         "dontUseTowerPosition": true,
@@ -1090,7 +1207,7 @@
       "attackThroughWalls": true
     },
     {
-      "range": 60.0,
+      "range": 50.0,
       "attackThroughWalls": true,
       "fireWithoutTarget": true
     },
@@ -1100,44 +1217,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BeastHandler-502",
-      "upgrade": "Megalodon"
-    }
-  ],
-  "appliedUpgrades": [
-    "Piranha",
-    "Barracuda",
-    "Gyrfalcon",
-    "Horned Owl",
-    "Great White",
-    "Orca"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

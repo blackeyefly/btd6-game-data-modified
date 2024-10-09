@@ -52,6 +52,17 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "doesntRotate": true,
+  "targetTypes": [
+    {
+      "id": "Centered",
+      "intID": -1
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -182,17 +193,8 @@
       "category": 4
     }
   ],
-  "doesntRotate": true,
-  "targetTypes": [
-    {
-      "id": "Centered",
-      "intID": -1
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "Centered",

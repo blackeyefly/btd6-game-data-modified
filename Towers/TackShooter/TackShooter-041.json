@@ -1,7 +1,5 @@
 {
   "cost": 260.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 30.82,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "2e763b143ac4a794492c59ab1c23bbe5"
+  },
+  "instaIcon": {
+    "AssetGUID": "c080cc896b83a4c75b7e85af5d51b6f6"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,36 @@
       "mod": "FastTackAttacks"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "TackShooter-051",
+      "upgrade": "Super Maelstrom"
+    },
+    {
+      "tower": "TackShooter-042",
+      "upgrade": "Even More Tacks"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Range Tacks",
+    "Super Range Tacks",
+    "Blade Shooter",
+    "Blade Maelstrom",
+    "More Tacks"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -219,36 +253,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "TackShooter-051",
-      "upgrade": "Super Maelstrom"
-    },
-    {
-      "tower": "TackShooter-042",
-      "upgrade": "Even More Tacks"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Range Tacks",
-    "Super Range Tacks",
-    "Blade Shooter",
-    "Blade Maelstrom",
-    "More Tacks"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

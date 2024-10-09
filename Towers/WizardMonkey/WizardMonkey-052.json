@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 50.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "0ca8360024f78410699eb92469450206"
+  },
+  "instaIcon": {
+    "AssetGUID": "fd6b9287531b04955a827f13731e8f5d"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,43 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "appliedUpgrades": [
+    "Fireball",
+    "Wall of Fire",
+    "Intense Magic",
+    "Monkey Sense",
+    "Dragon's Breath",
+    "Summon Phoenix",
+    "Wizard Lord Phoenix"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "WizardMonkey-Paragon",
+    "upgrade": "WizardMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -396,6 +437,10 @@
           }
         ],
         "ignoreTowerForSelection": true,
+        "isSubTower": true,
+        "animationSpeed": 1.0,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "ignoreTargetType": true,
@@ -494,10 +539,8 @@
             "category": 4
           }
         ],
-        "isSubTower": true,
-        "animationSpeed": 1.0,
-        "displayScale": 1.0,
-        "showBuffs": true,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "IsBaseTower": true
       },
       "isAirBasedTower": true
@@ -546,6 +589,11 @@
               }
             ],
             "ignoreTowerForSelection": true,
+            "isSubTower": true,
+            "isBakable": true,
+            "animationSpeed": 1.0,
+            "showBuffs": true,
+            "displayScale": 1.0,
             "behaviors": [
               {
                 "expireOnDefeatScreen": true,
@@ -766,11 +814,8 @@
                 "category": 4
               }
             ],
-            "isSubTower": true,
-            "isBakable": true,
-            "animationSpeed": 1.0,
-            "displayScale": 1.0,
-            "showBuffs": true,
+            "DisplayScale": 1.0,
+            "IsSubEntity": true,
             "IsBaseTower": true
           },
           "isAirBasedTower": true,
@@ -803,43 +848,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Fireball",
-    "Wall of Fire",
-    "Intense Magic",
-    "Monkey Sense",
-    "Dragon's Breath",
-    "Summon Phoenix",
-    "Wizard Lord Phoenix"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "WizardMonkey-Paragon",
-    "upgrade": "WizardMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,7 +1,5 @@
 {
   "cost": 2500.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 60.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "b70e406129be03d4288202256f6fdb9e"
+  },
+  "instaIcon": {
+    "AssetGUID": "ce2f08224b1a64bbe8490d93a5189abc"
+  },
   "areaTypes": [
     2
   ],
@@ -42,6 +46,46 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "SuperMonkey-320",
+      "upgrade": "Epic Range"
+    },
+    {
+      "tower": "SuperMonkey-410",
+      "upgrade": "Sun Temple"
+    }
+  ],
+  "appliedUpgrades": [
+    "Laser Blasts",
+    "Plasma Blasts",
+    "Sun Avatar",
+    "Super Range"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -162,46 +206,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "SuperMonkey-320",
-      "upgrade": "Epic Range"
-    },
-    {
-      "tower": "SuperMonkey-410",
-      "upgrade": "Sun Temple"
-    }
-  ],
-  "appliedUpgrades": [
-    "Laser Blasts",
-    "Plasma Blasts",
-    "Sun Avatar",
-    "Super Range"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

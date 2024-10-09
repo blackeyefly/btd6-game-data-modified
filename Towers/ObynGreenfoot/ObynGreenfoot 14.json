@@ -1,7 +1,5 @@
 {
   "cost": 650.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "ignoreBlockers": true,
   "tier": 14,
@@ -9,6 +7,9 @@
     14
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "cf545d09fc64f7c47af9e34774f2c23c"
+  },
   "areaTypes": [
     2
   ],
@@ -55,6 +56,57 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "ccaa1772894571a48b7a191db847bbff"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "UiEmoteIcons[EmoteObyn]"
+  },
+  "upgrades": [
+    {
+      "tower": "ObynGreenfoot 15",
+      "upgrade": "ObynGreenfoot-15-NaturesWard++"
+    }
+  ],
+  "appliedUpgrades": [
+    "ObynGreenfoot-2-DruidOfWrath+",
+    "ObynGreenfoot-3-Brambles+",
+    "ObynGreenfoot-4-NaturesWard+",
+    "ObynGreenfoot-5-ReloadReduce+",
+    "ObynGreenfoot-6-Pierce+",
+    "ObynGreenfoot-7-Brambles++",
+    "ObynGreenfoot-8-NaturesWard++",
+    "ObynGreenfoot-9-Damage+",
+    "ObynGreenfoot-10-WallOfTrees",
+    "ObynGreenfoot-11-Range+",
+    "ObynGreenfoot-12-AttackSpeed+",
+    "ObynGreenfoot-13-Pierce+",
+    "ObynGreenfoot-14-Damage+"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -745,6 +797,9 @@
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
                   "startWithClosestTrackPoint": true,
+                  "displayInvalid": {
+                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 }
@@ -754,6 +809,9 @@
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
                 "startWithClosestTrackPoint": true,
+                "displayInvalid": {
+                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -787,6 +845,9 @@
                 "tower": {
                   "range": 32.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "f00bc9224369720458e7d57ff7e6b647"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -833,6 +894,10 @@
                       "mod": "WeakPoint"
                     }
                   ],
+                  "isSubTower": true,
+                  "animationSpeed": 1.0,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 15.0,
@@ -892,10 +957,8 @@
                       "category": 4
                     }
                   ],
-                  "isSubTower": true,
-                  "animationSpeed": 1.0,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true
                 },
                 "positionAtTarget": true
@@ -993,51 +1056,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "ObynGreenfoot 15",
-      "upgrade": "ObynGreenfoot-15-NaturesWard++"
-    }
-  ],
-  "appliedUpgrades": [
-    "ObynGreenfoot-2-DruidOfWrath+",
-    "ObynGreenfoot-3-Brambles+",
-    "ObynGreenfoot-4-NaturesWard+",
-    "ObynGreenfoot-5-ReloadReduce+",
-    "ObynGreenfoot-6-Pierce+",
-    "ObynGreenfoot-7-Brambles++",
-    "ObynGreenfoot-8-NaturesWard++",
-    "ObynGreenfoot-9-Damage+",
-    "ObynGreenfoot-10-WallOfTrees",
-    "ObynGreenfoot-11-Range+",
-    "ObynGreenfoot-12-AttackSpeed+",
-    "ObynGreenfoot-13-Pierce+",
-    "ObynGreenfoot-14-Damage+"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

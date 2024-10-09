@@ -2,6 +2,12 @@
   "id": "LuminousCove",
   "difficulty": 1,
   "mapMusic": "MusicWinterChilledMix",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectLuminousCoveMapButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "26359c49c54d0d140aa068d238539dea"
+  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

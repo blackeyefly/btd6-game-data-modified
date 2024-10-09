@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "215d2557ca22e9f4ca2e3beef4f00718"
+  },
+  "instaIcon": {
+    "AssetGUID": "07a1e3b7762984e3b9c76e96aebb35e2"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,47 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "SniperMonkey-015",
+      "upgrade": "Elite Defender"
+    },
+    {
+      "tower": "SniperMonkey-024",
+      "upgrade": "Shrapnel Shot"
+    }
+  ],
+  "appliedUpgrades": [
+    "Fast Firing",
+    "Even Faster Firing",
+    "Semi-Automatic",
+    "Full Auto Rifle",
+    "Night Vision Goggles"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -148,47 +193,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "SniperMonkey-015",
-      "upgrade": "Elite Defender"
-    },
-    {
-      "tower": "SniperMonkey-024",
-      "upgrade": "Shrapnel Shot"
-    }
-  ],
-  "appliedUpgrades": [
-    "Fast Firing",
-    "Even Faster Firing",
-    "Semi-Automatic",
-    "Full Auto Rifle",
-    "Night Vision Goggles"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

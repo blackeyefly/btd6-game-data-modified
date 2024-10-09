@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 2,
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "b7ff24ca75c5c2e4b8a9a1390c9f628d"
+  },
+  "instaIcon": {
+    "AssetGUID": "95f1339de5f2743408769fc528a98fee"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,48 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "SniperMonkey-300",
+      "upgrade": "Deadly Precision"
+    },
+    {
+      "tower": "SniperMonkey-201",
+      "upgrade": "Fast Firing"
+    },
+    {
+      "tower": "SniperMonkey-210",
+      "upgrade": "Night Vision Goggles"
+    }
+  ],
+  "appliedUpgrades": [
+    "Full Metal Jacket",
+    "Large Calibre"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -147,48 +193,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "SniperMonkey-300",
-      "upgrade": "Deadly Precision"
-    },
-    {
-      "tower": "SniperMonkey-201",
-      "upgrade": "Fast Firing"
-    },
-    {
-      "tower": "SniperMonkey-210",
-      "upgrade": "Night Vision Goggles"
-    }
-  ],
-  "appliedUpgrades": [
-    "Full Metal Jacket",
-    "Large Calibre"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

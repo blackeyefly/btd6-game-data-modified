@@ -1,13 +1,17 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "b4dca40c33f4011429e9f3f3e7bf0679"
+  },
+  "instaIcon": {
+    "AssetGUID": "d45613980c2e04c2b81131552c213834"
+  },
   "areaTypes": [
     2
   ],
@@ -28,6 +32,48 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-120",
+      "upgrade": "Sentry Gun"
+    },
+    {
+      "tower": "EngineerMonkey-030",
+      "upgrade": "Cleansing Foam"
+    },
+    {
+      "tower": "EngineerMonkey-021",
+      "upgrade": "Oversize Nails"
+    }
+  ],
+  "appliedUpgrades": [
+    "Larger Service Area",
+    "Deconstruction"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -150,48 +196,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-120",
-      "upgrade": "Sentry Gun"
-    },
-    {
-      "tower": "EngineerMonkey-030",
-      "upgrade": "Cleansing Foam"
-    },
-    {
-      "tower": "EngineerMonkey-021",
-      "upgrade": "Oversize Nails"
-    }
-  ],
-  "appliedUpgrades": [
-    "Larger Service Area",
-    "Deconstruction"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

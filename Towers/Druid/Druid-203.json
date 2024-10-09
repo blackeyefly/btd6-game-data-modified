@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 45.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "d207b61784c90c04ebdb224ce3cb10b2"
+  },
+  "instaIcon": {
+    "AssetGUID": "1217890b6c48a4bbfa0292eba36dd211"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,43 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-204",
+      "upgrade": "Poplust"
+    }
+  ],
+  "appliedUpgrades": [
+    "Hard Thorns",
+    "Heart of Thunder",
+    "Druidic Reach",
+    "Heart of Vengeance",
+    "Druid of Wrath"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -169,6 +210,35 @@
               },
               {
                 "lifeSpan": 0.3,
+                "displayPaths": [
+                  {
+                    "AssetGUID": "548c26e4e668dac4a850a4c016916016"
+                  },
+                  {
+                    "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
+                  },
+                  {
+                    "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
+                  },
+                  {
+                    "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
+                  },
+                  {
+                    "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
+                  },
+                  {
+                    "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
+                  },
+                  {
+                    "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
+                  },
+                  {
+                    "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
+                  },
+                  {
+                    "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
+                  }
+                ],
                 "displayLengths": [
                   17.962965,
                   17.962965,
@@ -249,43 +319,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-204",
-      "upgrade": "Poplust"
-    }
-  ],
-  "appliedUpgrades": [
-    "Hard Thorns",
-    "Heart of Thunder",
-    "Druidic Reach",
-    "Heart of Vengeance",
-    "Druid of Wrath"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

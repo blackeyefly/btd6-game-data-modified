@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "ce8f265b13f186044b1315feff336e01"
+  },
+  "instaIcon": {
+    "AssetGUID": "1c36c30b441644807930aeaa11bb881c"
+  },
   "areaTypes": [
     2
   ],
@@ -26,6 +30,40 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-400",
+      "upgrade": "The Big One"
+    },
+    {
+      "tower": "MortarMonkey-301",
+      "upgrade": "Increased Accuracy"
+    },
+    {
+      "tower": "MortarMonkey-310",
+      "upgrade": "Mortar Faster Reload"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Blast",
+    "Bloon Buster",
+    "Shockwave"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -296,40 +334,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-400",
-      "upgrade": "The Big One"
-    },
-    {
-      "tower": "MortarMonkey-301",
-      "upgrade": "Increased Accuracy"
-    },
-    {
-      "tower": "MortarMonkey-310",
-      "upgrade": "Mortar Faster Reload"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Blast",
-    "Bloon Buster",
-    "Shockwave"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

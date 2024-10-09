@@ -1,6 +1,9 @@
 {
   "range": 70.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "187bfb9bf7b7b9044b7cab8dcf33a4a9"
+  },
   "areaTypes": [
     2
   ],
@@ -21,6 +24,34 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 4.0,
+    "doesntBlockTowerPlacement": true
+  },
+  "doesntRotate": true,
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isSubTower": true,
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "canAlwaysBeSold": true,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -235,6 +266,9 @@
                 "tower": {
                   "range": 50.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "00e59418fb1222c45b71633625c19202"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -255,6 +289,34 @@
                       "mod": "MonkeyEducation"
                     }
                   ],
+                  "footprint": {
+                    "radius": 4.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "doesntRotate": true,
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "isBakable": true,
+                  "animationSpeed": 1.0,
+                  "canAlwaysBeSold": true,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 19.0,
@@ -459,34 +521,8 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 4.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "doesntRotate": true,
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "isBakable": true,
-                  "animationSpeed": 1.0,
-                  "canAlwaysBeSold": true,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -773,34 +809,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 4.0,
-    "doesntBlockTowerPlacement": true
-  },
-  "doesntRotate": true,
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isSubTower": true,
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "canAlwaysBeSold": true,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true,
   "TargetTypes": [
     {

@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "ignoreBlockers": true,
   "tier": 2,
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "3bfde72e36b5d4ab08029b9dee68a8d4"
+  },
+  "instaIcon": {
+    "AssetGUID": "d7799ed62aec84a40947518b025759fb"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,48 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-300",
+      "upgrade": "Arcane Mastery"
+    },
+    {
+      "tower": "WizardMonkey-201",
+      "upgrade": "Intense Magic"
+    },
+    {
+      "tower": "WizardMonkey-210",
+      "upgrade": "Fireball"
+    }
+  ],
+  "appliedUpgrades": [
+    "Guided Magic",
+    "Arcane Blast"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -149,48 +195,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-300",
-      "upgrade": "Arcane Mastery"
-    },
-    {
-      "tower": "WizardMonkey-201",
-      "upgrade": "Intense Magic"
-    },
-    {
-      "tower": "WizardMonkey-210",
-      "upgrade": "Fireball"
-    }
-  ],
-  "appliedUpgrades": [
-    "Guided Magic",
-    "Arcane Blast"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

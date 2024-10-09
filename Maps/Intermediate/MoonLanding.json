@@ -3,6 +3,12 @@
   "difficulty": 1,
   "coopMapDivisionType": 3,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectMoonLandingButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "9d7fb92de015b554aabbb0323dea7860"
+  },
   "theme": 6,
   "IsStandard": true
 }

@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 35.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "94c1629533fb2964e83710b009ba4f85"
+  },
+  "instaIcon": {
+    "AssetGUID": "76856dac10942714e9d33201ab9a5a7a"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,46 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-041",
+      "upgrade": "Arctic Knight"
+    },
+    {
+      "tower": "Mermonkey-032",
+      "upgrade": "Echosense Network"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharper Prongs",
+    "Tidal Chill",
+    "Riptide Champion",
+    "Echosense Precision"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -70,7 +114,7 @@
           "ejectZ": 8.2,
           "projectile": {
             "id": "Projectile",
-            "pierce": 8.0,
+            "pierce": 12.0,
             "scale": 1.0,
             "behaviors": [
               {
@@ -106,7 +150,7 @@
                 },
                 "bonusProjectileModel": {
                   "id": "SplitProjectile",
-                  "pierce": 8.0,
+                  "pierce": 12.0,
                   "scale": 1.0,
                   "behaviors": [
                     {
@@ -150,15 +194,47 @@
                       "mustBeModified": true
                     },
                     {
+                      "layers": 9999999,
+                      "damageModel": {
+                        "damage": 4.0,
+                        "distributeToChildren": true,
+                        "createPopEffect": true,
+                        "immuneBloonProperties": 9,
+                        "immuneBloonPropertiesOriginal": 9,
+                        "CappedDamage": 4.0
+                      },
+                      "applyAfterDamage": true,
+                      "overlayType": "Ice",
+                      "collisionPass": 1,
+                      "Lifespan": 0.3,
+                      "mutator": {
+                        "overlayType": "Ice",
+                        "damageModel": {
+                          "damage": 4.0,
+                          "distributeToChildren": true,
+                          "createPopEffect": true,
+                          "immuneBloonProperties": 9,
+                          "immuneBloonPropertiesOriginal": 9,
+                          "CappedDamage": 4.0
+                        },
+                        "id": "Ice: MermonkeyFreeze",
+                        "priority": 5
+                      },
+                      "lifespan": 0.3
+                    },
+                    {
                       "scale": 1.0,
                       "category": 16
                     }
+                  ],
+                  "collisionPasses": [
+                    1
                   ],
                   "canCollideWithBloons": true,
                   "radius": 1.0,
                   "vsBlockerRadius": 2.0,
                   "hasDamageModifiers": true,
-                  "CappedPierce": 8.0
+                  "CappedPierce": 12.0
                 },
                 "emission": {
                   "angle": 180.0,
@@ -226,7 +302,7 @@
             "radius": 1.0,
             "vsBlockerRadius": 2.0,
             "hasDamageModifiers": true,
-            "CappedPierce": 8.0
+            "CappedPierce": 12.0
           },
           "Rate": 1.2,
           "UseThrowMarker": true,
@@ -266,46 +342,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-041",
-      "upgrade": "Arctic Knight"
-    },
-    {
-      "tower": "Mermonkey-032",
-      "upgrade": "Echosense Network"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharper Prongs",
-    "Tidal Chill",
-    "Riptide Champion",
-    "Echosense Precision"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

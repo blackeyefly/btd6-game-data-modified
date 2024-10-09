@@ -1,6 +1,4 @@
 {
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 9999999.0,
   "ignoreBlockers": true,
   "towerSet": 16,
@@ -52,6 +50,23 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "footprint": {
+    "radius": 6.0,
+    "doesntBlockTowerPlacement": true,
+    "ignoresPlacementCheck": true,
+    "ignoresTowerOverlap": true
+  },
+  "dontDisplayUpgrades": true,
+  "targetTypes": [
+    {
+      "id": "Pursuit",
+      "intID": -1
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "Lifespan": 37.0,
@@ -190,23 +205,9 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0,
-    "doesntBlockTowerPlacement": true,
-    "ignoresPlacementCheck": true,
-    "ignoresTowerOverlap": true
-  },
-  "dontDisplayUpgrades": true,
-  "targetTypes": [
-    {
-      "id": "Pursuit",
-      "intID": -1
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "Pursuit",

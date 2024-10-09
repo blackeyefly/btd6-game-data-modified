@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "2199428b86c53d64ca42f4cba4682dae"
+  },
+  "instaIcon": {
+    "AssetGUID": "646c3d2024bc64a05a4db5c69dfe0e1c"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,38 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-402",
+      "upgrade": "Plasma Accelerator"
+    }
+  ],
+  "appliedUpgrades": [
+    "Focused Firing",
+    "Laser Shock",
+    "Faster Swivel",
+    "Powerful Darts",
+    "Laser Cannon"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -125,6 +161,14 @@
                 "damageAdditive": 1.0
               },
               {
+                "tag": "Moabs",
+                "tags": [
+                  "Moabs"
+                ],
+                "damageMultiplier": 1.0,
+                "damageAddative": 2.0
+              },
+              {
                 "scale": 1.0,
                 "category": 16
               }
@@ -188,38 +232,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-402",
-      "upgrade": "Plasma Accelerator"
-    }
-  ],
-  "appliedUpgrades": [
-    "Focused Firing",
-    "Laser Shock",
-    "Faster Swivel",
-    "Powerful Darts",
-    "Laser Cannon"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

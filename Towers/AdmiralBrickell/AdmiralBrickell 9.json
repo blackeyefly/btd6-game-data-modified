@@ -1,13 +1,14 @@
 {
   "cost": 900.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 58.0,
   "tier": 9,
   "tiers": [
     9
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "88d1500bab10292499e17eff50905156"
+  },
   "areaTypes": [
     1
   ],
@@ -58,6 +59,52 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteAdmiralBrickell]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "b2c0b90221e589b479a62fe3d826d734"
+  },
+  "upgrades": [
+    {
+      "tower": "AdmiralBrickell 10",
+      "upgrade": "AdmiralBrickell Upgrade 10"
+    }
+  ],
+  "appliedUpgrades": [
+    "AdmiralBrickell Upgrade 2",
+    "AdmiralBrickell Upgrade 3",
+    "AdmiralBrickell Upgrade 4",
+    "AdmiralBrickell Upgrade 5",
+    "AdmiralBrickell Upgrade 6",
+    "AdmiralBrickell Upgrade 7",
+    "AdmiralBrickell Upgrade 8",
+    "AdmiralBrickell Upgrade 9"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 5,
@@ -704,46 +751,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "AdmiralBrickell 10",
-      "upgrade": "AdmiralBrickell Upgrade 10"
-    }
-  ],
-  "appliedUpgrades": [
-    "AdmiralBrickell Upgrade 2",
-    "AdmiralBrickell Upgrade 3",
-    "AdmiralBrickell Upgrade 4",
-    "AdmiralBrickell Upgrade 5",
-    "AdmiralBrickell Upgrade 6",
-    "AdmiralBrickell Upgrade 7",
-    "AdmiralBrickell Upgrade 8",
-    "AdmiralBrickell Upgrade 9"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

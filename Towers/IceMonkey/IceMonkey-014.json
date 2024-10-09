@@ -1,7 +1,5 @@
 {
   "cost": 500.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "6697d15d4c732954ca6731926217980a"
+  },
+  "instaIcon": {
+    "AssetGUID": "444a4b2b5ef27469d8663b30e6411259"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,47 @@
       "target": "Attack,BaseProjectile"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "IceMonkey-015",
+      "upgrade": "Icicle Impale"
+    },
+    {
+      "tower": "IceMonkey-024",
+      "upgrade": "Deep Freeze"
+    }
+  ],
+  "appliedUpgrades": [
+    "Larger Radius",
+    "Re-Freeze",
+    "Cryo Cannon",
+    "Icicles",
+    "Enhanced Freeze"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -133,7 +178,7 @@
                       "cascadeMutators": true,
                       "overlayType": "Ice",
                       "collisionPass": -1,
-                      "Lifespan": 1.45,
+                      "Lifespan": 1.75,
                       "mutator": {
                         "overlayType": "Ice",
                         "damageModel": {
@@ -148,7 +193,7 @@
                         "id": "Ice:Regular:Freeze",
                         "priority": 5
                       },
-                      "lifespan": 1.45
+                      "lifespan": 1.75
                     },
                     {
                       "damage": 2.0,
@@ -230,7 +275,7 @@
                       "isUnique": true,
                       "collideThisFrame": true,
                       "collisionPass": -1,
-                      "lifespan": 1.45
+                      "lifespan": 1.75
                     },
                     {
                       "mutatorIds": "Ice:Icicles",
@@ -346,47 +391,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "IceMonkey-015",
-      "upgrade": "Icicle Impale"
-    },
-    {
-      "tower": "IceMonkey-024",
-      "upgrade": "Deep Freeze"
-    }
-  ],
-  "appliedUpgrades": [
-    "Larger Radius",
-    "Re-Freeze",
-    "Cryo Cannon",
-    "Icicles",
-    "Enhanced Freeze"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -30,6 +30,11 @@
     }
   ],
   "ignoreTowerForSelection": true,
+  "isSubTower": true,
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "expireOnDefeatScreen": true,
@@ -250,10 +255,7 @@
       "category": 4
     }
   ],
-  "isSubTower": true,
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "IsBaseTower": true
 }

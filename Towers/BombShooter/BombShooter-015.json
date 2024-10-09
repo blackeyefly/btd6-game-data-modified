@@ -1,7 +1,5 @@
 {
   "cost": 375.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 54.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "748d513652e38274a9443a5ad3c86fbc"
+  },
+  "instaIcon": {
+    "AssetGUID": "623f3023b2be446d299898cca0a972e6"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,44 @@
       "mod": "ViolentImpact"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BombShooter-025",
+      "upgrade": "Missile Launcher"
+    }
+  ],
+  "appliedUpgrades": [
+    "Extra Range",
+    "Frag Bombs",
+    "Cluster Bombs",
+    "Recursive Cluster",
+    "Bomb Blitz",
+    "Faster Reload"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -130,7 +172,7 @@
                     {
                       "minRange": 30.0,
                       "maxRange": 36.0,
-                      "speed": 180.0
+                      "speed": 130.0
                     },
                     {
                       "fraction": 1.0,
@@ -501,44 +543,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BombShooter-025",
-      "upgrade": "Missile Launcher"
-    }
-  ],
-  "appliedUpgrades": [
-    "Extra Range",
-    "Frag Bombs",
-    "Cluster Bombs",
-    "Recursive Cluster",
-    "Bomb Blitz",
-    "Faster Reload"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

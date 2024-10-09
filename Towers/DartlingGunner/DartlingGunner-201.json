@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 2,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "860f6a6113fa18a4db6deaa8b1688044"
+  },
+  "instaIcon": {
+    "AssetGUID": "6cf469aa9afb4432fa072cf71bf184e8"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,40 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-202",
+      "upgrade": "Powerful Darts"
+    },
+    {
+      "tower": "DartlingGunner-301",
+      "upgrade": "Laser Cannon"
+    }
+  ],
+  "appliedUpgrades": [
+    "Focused Firing",
+    "Laser Shock",
+    "Faster Swivel"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -188,40 +226,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-202",
-      "upgrade": "Powerful Darts"
-    },
-    {
-      "tower": "DartlingGunner-301",
-      "upgrade": "Laser Cannon"
-    }
-  ],
-  "appliedUpgrades": [
-    "Focused Firing",
-    "Laser Shock",
-    "Faster Swivel"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

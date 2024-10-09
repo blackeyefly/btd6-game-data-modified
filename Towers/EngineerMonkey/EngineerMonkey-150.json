@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "a410a48566257f341ab2f90c15b279ef"
+  },
+  "instaIcon": {
+    "AssetGUID": "c980a6c3b3b7e457a84701852f4759a8"
+  },
   "areaTypes": [
     2
   ],
@@ -33,6 +37,48 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-250",
+      "upgrade": "Faster Engineering"
+    }
+  ],
+  "appliedUpgrades": [
+    "Larger Service Area",
+    "Deconstruction",
+    "Cleansing Foam",
+    "Overclock",
+    "Ultraboost",
+    "Sentry Gun"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "EngineerMonkey-Paragon",
+    "upgrade": "EngineerMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -164,10 +210,11 @@
             "behaviors": [
               {
                 "tower": {
-                  "radius": 4.0,
-                  "radiusSquared": 16.0,
                   "range": 49.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "b618864dd8a85864ca6a112ec150598e"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -188,6 +235,32 @@
                       "mod": "MonkeyEducation"
                     }
                   ],
+                  "footprint": {
+                    "radius": 4.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "isBakable": true,
+                  "animationSpeed": 1.0,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 25.0,
@@ -337,32 +410,9 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 4.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "isBakable": true,
-                  "animationSpeed": 1.0,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "radius": 4.0,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -859,6 +909,9 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
+          "displayInvalid": {
+            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+          },
           "alwaysShowTarget": true,
           "useTerrainHeight": true
         }
@@ -868,6 +921,9 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
+        "displayInvalid": {
+          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
+        },
         "alwaysShowTarget": true,
         "useTerrainHeight": true
       },
@@ -890,6 +946,9 @@
           "rateModifier": 0.6,
           "villageRangeModifier": 1.25,
           "maxStacks": 1,
+          "selectionObjectPath": {
+            "AssetGUID": "aa3fcd87ea8c08c4c84de62e9115bf2d"
+          },
           "initialEffect": {
             "scale": 1.0,
             "lifespan": 1.0
@@ -914,9 +973,10 @@
         }
       ],
       "addedViaUpgrade": "Overclock",
-      "maxActivationsPerRound": 3,
+      "maxActivationsPerRound": 10,
       "animation": 4,
       "enabled": true,
+      "resetCooldownOnTierUpgrade": true,
       "Cooldown": 35.0,
       "cooldown": 35.0
     },
@@ -926,48 +986,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-250",
-      "upgrade": "Faster Engineering"
-    }
-  ],
-  "appliedUpgrades": [
-    "Larger Service Area",
-    "Deconstruction",
-    "Cleansing Foam",
-    "Overclock",
-    "Ultraboost",
-    "Sentry Gun"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "EngineerMonkey-Paragon",
-    "upgrade": "EngineerMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

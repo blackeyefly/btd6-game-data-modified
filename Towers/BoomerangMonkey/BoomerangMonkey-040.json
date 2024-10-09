@@ -1,13 +1,17 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 43.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "3b97e6267e2615f4095a2be39de4c103"
+  },
+  "instaIcon": {
+    "AssetGUID": "07ce00cb776dd40629ec7c1991e901d9"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,50 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-050",
+      "upgrade": "Perma Charge"
+    },
+    {
+      "tower": "BoomerangMonkey-140",
+      "upgrade": "Improved Rangs"
+    },
+    {
+      "tower": "BoomerangMonkey-041",
+      "upgrade": "Long Range Rangs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Throwing",
+    "Faster Rangs",
+    "Bionc Boomerang",
+    "Turbo Charge"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -409,6 +457,11 @@
         },
         {
           "multiplier": 0.142857149,
+          "projectileDisplay": {
+            "assetPath": {
+              "AssetGUID": "6cd31b3e9004c8e4a85a8374352772d2"
+            }
+          },
           "extraDamage": 1,
           "Lifespan": 10.0,
           "lifespan": 10.0
@@ -428,50 +481,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-050",
-      "upgrade": "Perma Charge"
-    },
-    {
-      "tower": "BoomerangMonkey-140",
-      "upgrade": "Improved Rangs"
-    },
-    {
-      "tower": "BoomerangMonkey-041",
-      "upgrade": "Long Range Rangs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Throwing",
-    "Faster Rangs",
-    "Bionc Boomerang",
-    "Turbo Charge"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

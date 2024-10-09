@@ -1,7 +1,5 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 36.8,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "fd674bea4cdbf554f87a3d8a5c25b6a8"
+  },
+  "instaIcon": {
+    "AssetGUID": "d315884580d60469d8167a043b819944"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,48 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartMonkey-520",
+      "upgrade": "Very Quick Shots"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharp Shots",
+    "Razor Sharp Shots",
+    "Spike-o-pult",
+    "Juggernaut",
+    "Ultra-Juggernaut",
+    "Quick Shots"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "DartMonkey-Paragon",
+    "upgrade": "DartMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -253,8 +299,8 @@
                 "damageAddative": 8.0
               },
               {
-                "heavyMultiplier": 1.5,
-                "lightMultiplier": 3.0,
+                "heavyMultiplier": 2.0,
+                "lightMultiplier": 6.0,
                 "collisionPass": -1,
                 "Lifespan": 0.15,
                 "mutator": {
@@ -332,48 +378,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartMonkey-520",
-      "upgrade": "Very Quick Shots"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharp Shots",
-    "Razor Sharp Shots",
-    "Spike-o-pult",
-    "Juggernaut",
-    "Ultra-Juggernaut",
-    "Quick Shots"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "DartMonkey-Paragon",
-    "upgrade": "DartMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

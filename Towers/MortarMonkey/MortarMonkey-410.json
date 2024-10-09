@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "67a03dd3fab3a194086fe6b88d418a60"
+  },
+  "instaIcon": {
+    "AssetGUID": "5b6ac7d8204fe4d1f80951d43cd40b05"
+  },
   "areaTypes": [
     2
   ],
@@ -27,6 +31,38 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-420",
+      "upgrade": "Mortar Rapid Reload"
+    },
+    {
+      "tower": "MortarMonkey-510",
+      "upgrade": "The Biggest One"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Blast",
+    "Bloon Buster",
+    "Shockwave",
+    "The Big One",
+    "Mortar Faster Reload"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -212,7 +248,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 1.0
+                      "damageAddative": 2.0
                     },
                     {
                       "scale": 1.0,
@@ -298,38 +334,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-420",
-      "upgrade": "Mortar Rapid Reload"
-    },
-    {
-      "tower": "MortarMonkey-510",
-      "upgrade": "The Biggest One"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Blast",
-    "Bloon Buster",
-    "Shockwave",
-    "The Big One",
-    "Mortar Faster Reload"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

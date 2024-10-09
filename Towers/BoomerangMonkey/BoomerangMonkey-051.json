@@ -1,7 +1,5 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 57.19,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "ccba2b86f728b3444a283b1efc6104da"
+  },
+  "instaIcon": {
+    "AssetGUID": "8bdd49d641cf543d68846a35b447d78b"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,48 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-052",
+      "upgrade": "Red Hot Rangs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Throwing",
+    "Faster Rangs",
+    "Bionc Boomerang",
+    "Turbo Charge",
+    "Perma Charge",
+    "Long Range Rangs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "BoomerangMonkey-Paragon",
+    "upgrade": "BoomerangMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -411,6 +457,11 @@
         {
           "lifespanFrames": 900,
           "additionalDamage": 8,
+          "projectileDisplay": {
+            "assetPath": {
+              "AssetGUID": "a73e6b69d039b574484293282d299b79"
+            }
+          },
           "Mutator": {
             "id": "DamageUp",
             "priority": 1
@@ -431,48 +482,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-052",
-      "upgrade": "Red Hot Rangs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Throwing",
-    "Faster Rangs",
-    "Bionc Boomerang",
-    "Turbo Charge",
-    "Perma Charge",
-    "Long Range Rangs"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "BoomerangMonkey-Paragon",
-    "upgrade": "BoomerangMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,13 +1,14 @@
 {
   "cost": 900.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 62.0,
   "tier": 17,
   "tiers": [
     17
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "5be0137b268fbd249813a9456ab7d08f"
+  },
   "areaTypes": [
     1
   ],
@@ -58,6 +59,60 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteAdmiralBrickell]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "b2c0b90221e589b479a62fe3d826d734"
+  },
+  "upgrades": [
+    {
+      "tower": "AdmiralBrickell 18",
+      "upgrade": "AdmiralBrickell Upgrade 18"
+    }
+  ],
+  "appliedUpgrades": [
+    "AdmiralBrickell Upgrade 2",
+    "AdmiralBrickell Upgrade 3",
+    "AdmiralBrickell Upgrade 4",
+    "AdmiralBrickell Upgrade 5",
+    "AdmiralBrickell Upgrade 6",
+    "AdmiralBrickell Upgrade 7",
+    "AdmiralBrickell Upgrade 8",
+    "AdmiralBrickell Upgrade 9",
+    "AdmiralBrickell Upgrade 10",
+    "AdmiralBrickell Upgrade 11",
+    "AdmiralBrickell Upgrade 12",
+    "AdmiralBrickell Upgrade 13",
+    "AdmiralBrickell Upgrade 14",
+    "AdmiralBrickell Upgrade 15",
+    "AdmiralBrickell Upgrade 16",
+    "AdmiralBrickell Upgrade 17"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 5,
@@ -835,14 +890,19 @@
             "lifespan": 1.0
           },
           "mockTowerModel": {
-            "radius": 2.0,
-            "radiusSquared": 4.0,
             "range": 40.0,
             "ignoreBlockers": true,
             "areaTypes": [
               1
             ],
             "ignoreTowerForSelection": true,
+            "footprint": {
+              "ignoresTowerOverlap": true
+            },
+            "animationSpeed": 1.0,
+            "ignoreCoopAreas": true,
+            "showBuffs": true,
+            "displayScale": 1.0,
             "behaviors": [
               {
                 "layer": -1,
@@ -850,13 +910,8 @@
                 "category": 4
               }
             ],
-            "footprint": {
-              "ignoresTowerOverlap": true
-            },
-            "animationSpeed": 1.0,
-            "ignoreCoopAreas": true,
-            "displayScale": 1.0,
-            "showBuffs": true,
+            "radius": 2.0,
+            "DisplayScale": 1.0,
             "IsBaseTower": true,
             "IsExclusivelyWaterBased": true
           },
@@ -920,54 +975,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "AdmiralBrickell 18",
-      "upgrade": "AdmiralBrickell Upgrade 18"
-    }
-  ],
-  "appliedUpgrades": [
-    "AdmiralBrickell Upgrade 2",
-    "AdmiralBrickell Upgrade 3",
-    "AdmiralBrickell Upgrade 4",
-    "AdmiralBrickell Upgrade 5",
-    "AdmiralBrickell Upgrade 6",
-    "AdmiralBrickell Upgrade 7",
-    "AdmiralBrickell Upgrade 8",
-    "AdmiralBrickell Upgrade 9",
-    "AdmiralBrickell Upgrade 10",
-    "AdmiralBrickell Upgrade 11",
-    "AdmiralBrickell Upgrade 12",
-    "AdmiralBrickell Upgrade 13",
-    "AdmiralBrickell Upgrade 14",
-    "AdmiralBrickell Upgrade 15",
-    "AdmiralBrickell Upgrade 16",
-    "AdmiralBrickell Upgrade 17"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

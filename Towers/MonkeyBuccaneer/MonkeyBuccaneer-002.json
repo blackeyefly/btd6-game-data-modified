@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "8a8c4a7dd5d2a6e4aa36c534e172007a"
+  },
+  "instaIcon": {
+    "AssetGUID": "0b38464d969b04eb5a22c0da4133b84a"
+  },
   "areaTypes": [
     1
   ],
@@ -40,6 +44,48 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-012",
+      "upgrade": "Buccaneer-Grape Shot"
+    },
+    {
+      "tower": "MonkeyBuccaneer-102",
+      "upgrade": "Buccaneer-Faster Shooting"
+    },
+    {
+      "tower": "MonkeyBuccaneer-003",
+      "upgrade": "Buccaneer-Merchantman"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -184,48 +230,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-012",
-      "upgrade": "Buccaneer-Grape Shot"
-    },
-    {
-      "tower": "MonkeyBuccaneer-102",
-      "upgrade": "Buccaneer-Faster Shooting"
-    },
-    {
-      "tower": "MonkeyBuccaneer-003",
-      "upgrade": "Buccaneer-Merchantman"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

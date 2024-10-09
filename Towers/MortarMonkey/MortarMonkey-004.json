@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "33b45ea59385a944da918bdd2831f1af"
+  },
+  "instaIcon": {
+    "AssetGUID": "2cd57d229ca4c443ebad7ce671d1b82e"
+  },
   "areaTypes": [
     2
   ],
@@ -37,6 +41,41 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-005",
+      "upgrade": "Blooncineration"
+    },
+    {
+      "tower": "MortarMonkey-014",
+      "upgrade": "Mortar Faster Reload"
+    },
+    {
+      "tower": "MortarMonkey-104",
+      "upgrade": "Bigger Blast"
+    }
+  ],
+  "appliedUpgrades": [
+    "Increased Accuracy",
+    "Burny Stuff",
+    "Signal Flare",
+    "Shattering Shells"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -356,41 +395,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-005",
-      "upgrade": "Blooncineration"
-    },
-    {
-      "tower": "MortarMonkey-014",
-      "upgrade": "Mortar Faster Reload"
-    },
-    {
-      "tower": "MortarMonkey-104",
-      "upgrade": "Bigger Blast"
-    }
-  ],
-  "appliedUpgrades": [
-    "Increased Accuracy",
-    "Burny Stuff",
-    "Signal Flare",
-    "Shattering Shells"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

@@ -1,7 +1,5 @@
 {
   "cost": 2500.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 75.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "e35fb80bef7b39c429ffcb09a48312dc"
+  },
+  "instaIcon": {
+    "AssetGUID": "ac313ed16344e4fe693006dca2974742"
+  },
   "areaTypes": [
     2
   ],
@@ -42,6 +46,43 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "SuperMonkey-024",
+      "upgrade": "Dark Champion"
+    }
+  ],
+  "appliedUpgrades": [
+    "Super Range",
+    "Epic Range",
+    "Knockback",
+    "Ultravision",
+    "Dark Knight"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -180,6 +221,9 @@
         {
           "restrictToTowerRadius": true,
           "placementZoneAssetRadius": 40.0,
+          "placementZoneAsset": {
+            "AssetGUID": "0b51091b90e723c4f9f1caaa123e2b8f"
+          },
           "disappearEffectModel": {
             "scale": 1.0,
             "lifespan": 1.0
@@ -202,43 +246,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "SuperMonkey-024",
-      "upgrade": "Dark Champion"
-    }
-  ],
-  "appliedUpgrades": [
-    "Super Range",
-    "Epic Range",
-    "Knockback",
-    "Ultravision",
-    "Dark Knight"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

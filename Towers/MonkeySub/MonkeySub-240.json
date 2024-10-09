@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "170f404873f2a0f4c9005c1f85f52550"
+  },
+  "instaIcon": {
+    "AssetGUID": "f5ccc177bad2b4b889f91b2efda5cd76"
+  },
   "areaTypes": [
     1
   ],
@@ -44,6 +48,44 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-250",
+      "upgrade": "Pre-emptive Strike"
+    }
+  ],
+  "appliedUpgrades": [
+    "Longer Range",
+    "Advanced Intel",
+    "Barbed Darts",
+    "Heat-tipped Darts",
+    "Ballistic Missile",
+    "First Strike Capability"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -191,7 +233,7 @@
               {
                 "projectile": {
                   "id": "MissileExplosion",
-                  "pierce": 60.0,
+                  "pierce": 40.0,
                   "scale": 1.0,
                   "ignoreBlockers": true,
                   "filters": [
@@ -201,11 +243,11 @@
                   ],
                   "behaviors": [
                     {
-                      "damage": 1.0,
+                      "damage": 3.0,
                       "distributeToChildren": true,
                       "immuneBloonProperties": 2,
                       "immuneBloonPropertiesOriginal": 2,
-                      "CappedDamage": 1.0
+                      "CappedDamage": 3.0
                     },
                     {
                       "rounds": 1,
@@ -218,11 +260,11 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 5.0
+                      "damageAddative": 3.0
                     },
                     {
                       "damageMultiplier": 1.0,
-                      "damageAdditive": 5.0,
+                      "damageAdditive": 3.0,
                       "includeChildren": true
                     },
                     {
@@ -240,7 +282,7 @@
                   "canCollideWithBloons": true,
                   "radius": 18.0,
                   "hasDamageModifiers": true,
-                  "CappedPierce": 60.0
+                  "CappedPierce": 40.0
                 }
               },
               {
@@ -435,44 +477,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-250",
-      "upgrade": "Pre-emptive Strike"
-    }
-  ],
-  "appliedUpgrades": [
-    "Longer Range",
-    "Advanced Intel",
-    "Barbed Darts",
-    "Heat-tipped Darts",
-    "Ballistic Missile",
-    "First Strike Capability"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

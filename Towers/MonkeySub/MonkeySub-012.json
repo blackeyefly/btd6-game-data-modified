@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 42.0,
   "tier": 2,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "45ff11c2b76df754d8c9133eb0d54e0b"
+  },
+  "instaIcon": {
+    "AssetGUID": "97f248e3f555045d1b7c21b0f939cffd"
+  },
   "areaTypes": [
     1
   ],
@@ -42,6 +46,45 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-013",
+      "upgrade": "Triple Guns"
+    },
+    {
+      "tower": "MonkeySub-022",
+      "upgrade": "Heat-tipped Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Twin Guns",
+    "Airburst Darts",
+    "Barbed Darts"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -297,45 +340,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-013",
-      "upgrade": "Triple Guns"
-    },
-    {
-      "tower": "MonkeySub-022",
-      "upgrade": "Heat-tipped Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Twin Guns",
-    "Airburst Darts",
-    "Barbed Darts"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

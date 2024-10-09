@@ -1,13 +1,14 @@
 {
   "cost": 1200.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "b382beb4f44ae5d46b5e2f98fde91283"
+  },
   "areaTypes": [
     2
   ],
@@ -50,6 +51,26 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteBenjamin]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "8e5c56e9f36383a49946c6e031f435f9"
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "Benjamin 2",
+      "upgrade": "Benjamin level 2"
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -105,19 +126,7 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "Benjamin 2",
-      "upgrade": "Benjamin level 2"
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true
 }

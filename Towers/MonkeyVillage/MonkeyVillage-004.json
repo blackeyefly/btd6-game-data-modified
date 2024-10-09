@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 50.0,
   "ignoreBlockers": true,
   "tier": 4,
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "eeff7b1b63f0a8c4eba094298d421092"
+  },
+  "instaIcon": {
+    "AssetGUID": "d2126ca72eacf4236a030782791c64c4"
+  },
   "areaTypes": [
     2
   ],
@@ -38,6 +42,34 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-005",
+      "upgrade": "Monkeyopolis"
+    },
+    {
+      "tower": "MonkeyVillage-014",
+      "upgrade": "Grow Blocker"
+    },
+    {
+      "tower": "MonkeyVillage-104",
+      "upgrade": "Bigger Radius"
+    }
+  ],
+  "appliedUpgrades": [
+    "Monkey Business",
+    "Monkey Commerce",
+    "Monkey Town",
+    "Monkey City"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -118,32 +150,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-005",
-      "upgrade": "Monkeyopolis"
-    },
-    {
-      "tower": "MonkeyVillage-014",
-      "upgrade": "Grow Blocker"
-    },
-    {
-      "tower": "MonkeyVillage-104",
-      "upgrade": "Bigger Radius"
-    }
-  ],
-  "appliedUpgrades": [
-    "Monkey Business",
-    "Monkey Commerce",
-    "Monkey Town",
-    "Monkey City"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

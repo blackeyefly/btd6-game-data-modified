@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 48.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "4e13ee89258020e42a261c9ce44ab755"
+  },
+  "instaIcon": {
+    "AssetGUID": "eb6e8a43b7c324717ba9d6f5b55723fe"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,27 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-420",
+      "upgrade": "Primary Mentoring"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Radius",
+    "Jungle Drums",
+    "Grow Blocker",
+    "Radar Scanner",
+    "Primary Training"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -133,25 +158,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-420",
-      "upgrade": "Primary Mentoring"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Radius",
-    "Jungle Drums",
-    "Grow Blocker",
-    "Radar Scanner",
-    "Primary Training"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

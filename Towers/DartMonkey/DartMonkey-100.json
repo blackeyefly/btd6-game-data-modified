@@ -1,13 +1,17 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 32.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "d63b508794f8e2148885db51c5c1a0e9"
+  },
+  "instaIcon": {
+    "AssetGUID": "c33d905cb6fdd40f88c47ae94261afb4"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,47 @@
       "mod": "ExtraDartPops"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartMonkey-200",
+      "upgrade": "Razor Sharp Shots"
+    },
+    {
+      "tower": "DartMonkey-110",
+      "upgrade": "Quick Shots"
+    },
+    {
+      "tower": "DartMonkey-101",
+      "upgrade": "Long Range Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharp Shots"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -137,47 +182,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartMonkey-200",
-      "upgrade": "Razor Sharp Shots"
-    },
-    {
-      "tower": "DartMonkey-110",
-      "upgrade": "Quick Shots"
-    },
-    {
-      "tower": "DartMonkey-101",
-      "upgrade": "Long Range Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharp Shots"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

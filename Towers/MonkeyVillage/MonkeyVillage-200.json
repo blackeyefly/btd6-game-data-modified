@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 48.0,
   "ignoreBlockers": true,
   "tier": 2,
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "42ace85befaeb964287f6600e0d69466"
+  },
+  "instaIcon": {
+    "AssetGUID": "7363754719a6d41fd93ba9c3d098d02d"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,32 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "MonkeyVillage-300",
+      "upgrade": "Primary Training"
+    },
+    {
+      "tower": "MonkeyVillage-201",
+      "upgrade": "Monkey Business"
+    },
+    {
+      "tower": "MonkeyVillage-210",
+      "upgrade": "Grow Blocker"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Radius",
+    "Jungle Drums"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -84,30 +114,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "MonkeyVillage-300",
-      "upgrade": "Primary Training"
-    },
-    {
-      "tower": "MonkeyVillage-201",
-      "upgrade": "Monkey Business"
-    },
-    {
-      "tower": "MonkeyVillage-210",
-      "upgrade": "Grow Blocker"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Radius",
-    "Jungle Drums"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 11.0,
+  "DisplayScale": 1.0
 }

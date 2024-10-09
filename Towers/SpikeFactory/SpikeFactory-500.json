@@ -1,7 +1,5 @@
 {
   "cost": 1000.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 34.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -9,6 +7,12 @@
     5
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "17280848524023f4c84fadf014ecc7e4"
+  },
+  "instaIcon": {
+    "AssetGUID": "c7b93cbd0230f4c20ae0d2f18c93cb07"
+  },
   "areaTypes": [
     2
   ],
@@ -32,6 +36,37 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "SpikeFactory-510",
+      "upgrade": "Faster Production"
+    },
+    {
+      "tower": "SpikeFactory-501",
+      "upgrade": "Long Reach"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Stacks",
+    "White Hot Spikes",
+    "Spiked Balls",
+    "Spiked Mines",
+    "Super Mines"
+  ],
+  "targetTypes": [
+    {
+      "id": "Track",
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -227,6 +262,38 @@
                 }
               },
               {
+                "sprites": [
+                  {
+                    "AssetGUID": "8fd6d597625658647a18e761864a14d3"
+                  },
+                  {
+                    "AssetGUID": "31a4803347e01a146a163488a03ec66e"
+                  },
+                  {
+                    "AssetGUID": "9e2791c4186cdce4a9540764e6d0c3ad"
+                  },
+                  {
+                    "AssetGUID": "253dc1deaae1feb4d8e8400c7a01dff8"
+                  },
+                  {
+                    "AssetGUID": "bbf393223ba271d48b3c34f3e024b2dd"
+                  },
+                  {
+                    "AssetGUID": "ab113f28a6f3bfb45a41df7253ca6f5b"
+                  },
+                  {
+                    "AssetGUID": "48f75adc8cb25544c973e009ce540bf1"
+                  },
+                  {
+                    "AssetGUID": "a95a8b4f08a1bc648a92ba1af02898b6"
+                  },
+                  {
+                    "AssetGUID": "086aa08b5ba2d714199fd59ae3adb113"
+                  },
+                  {
+                    "AssetGUID": "ad137d70a577810428ebfba7c97f9de7"
+                  }
+                ],
                 "loopMode": "Clamp"
               },
               {
@@ -530,37 +597,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "SpikeFactory-510",
-      "upgrade": "Faster Production"
-    },
-    {
-      "tower": "SpikeFactory-501",
-      "upgrade": "Long Reach"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Stacks",
-    "White Hot Spikes",
-    "Spiked Balls",
-    "Spiked Mines",
-    "Super Mines"
-  ],
-  "targetTypes": [
-    {
-      "id": "Track",
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Track",

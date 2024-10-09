@@ -1,7 +1,5 @@
 {
   "cost": 260.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 23.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "8eb96fb8f58745e47a33dc5d79e68dba"
+  },
+  "instaIcon": {
+    "AssetGUID": "d043a3b1c559e48d0afa6a4f3ed659e3"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,33 @@
       "mod": "FastTackAttacks"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "TackShooter-205",
+      "upgrade": "The Tack Zone"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Shooting",
+    "Even Faster Shooting",
+    "More Tacks",
+    "Even More Tacks",
+    "Tack Sprayer",
+    "Overdrive"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -131,33 +162,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "TackShooter-205",
-      "upgrade": "The Tack Zone"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Shooting",
-    "Even Faster Shooting",
-    "More Tacks",
-    "Even More Tacks",
-    "Tack Sprayer",
-    "Overdrive"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

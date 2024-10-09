@@ -1,7 +1,5 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "924bc1ac667634e17a3557e6ab8bb14d"
+  },
+  "instaIcon": {
+    "AssetGUID": "0c2ada8880caa461a98fd49930ac19bc"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,46 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "WizardMonkey-032",
+      "upgrade": "Monkey Sense"
+    },
+    {
+      "tower": "WizardMonkey-041",
+      "upgrade": "Summon Phoenix"
+    }
+  ],
+  "appliedUpgrades": [
+    "Fireball",
+    "Wall of Fire",
+    "Dragon's Breath",
+    "Intense Magic"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -453,46 +497,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "WizardMonkey-032",
-      "upgrade": "Monkey Sense"
-    },
-    {
-      "tower": "WizardMonkey-041",
-      "upgrade": "Summon Phoenix"
-    }
-  ],
-  "appliedUpgrades": [
-    "Fireball",
-    "Wall of Fire",
-    "Dragon's Breath",
-    "Intense Magic"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

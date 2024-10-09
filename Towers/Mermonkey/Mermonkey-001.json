@@ -1,13 +1,17 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "d8c064217e9b2e247a34d7b56e97894f"
+  },
+  "instaIcon": {
+    "AssetGUID": "2c0de913e3b3bcb4d9a452ce38a67236"
+  },
   "areaTypes": [
     1,
     2
@@ -29,6 +33,47 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "Mermonkey-101",
+      "upgrade": "Trident Efficiency"
+    },
+    {
+      "tower": "Mermonkey-011",
+      "upgrade": "Sharper Prongs"
+    },
+    {
+      "tower": "Mermonkey-002",
+      "upgrade": "Echosense Network"
+    }
+  ],
+  "appliedUpgrades": [
+    "Echosense Precision"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -74,9 +119,9 @@
             "behaviors": [
               {
                 "Speed": 200.0,
-                "Lifespan": 0.5,
+                "Lifespan": 1.0,
                 "speed": 200.0,
-                "lifespan": 0.5
+                "lifespan": 1.0
               },
               {
                 "projectile": {
@@ -168,47 +213,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "Mermonkey-101",
-      "upgrade": "Trident Efficiency"
-    },
-    {
-      "tower": "Mermonkey-011",
-      "upgrade": "Sharper Prongs"
-    },
-    {
-      "tower": "Mermonkey-002",
-      "upgrade": "Echosense Network"
-    }
-  ],
-  "appliedUpgrades": [
-    "Echosense Precision"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

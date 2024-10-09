@@ -1,13 +1,17 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 60.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "7c08a8a6eab65e948b2d04876c47b019"
+  },
+  "instaIcon": {
+    "AssetGUID": "f573939d572d0474a9934efdcfe91d03"
+  },
   "areaTypes": [
     1
   ],
@@ -44,6 +48,47 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-011",
+      "upgrade": "Buccaneer-Long Range"
+    },
+    {
+      "tower": "MonkeyBuccaneer-110",
+      "upgrade": "Buccaneer-Faster Shooting"
+    },
+    {
+      "tower": "MonkeyBuccaneer-020",
+      "upgrade": "Buccaneer-Hot Shot"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Grape Shot"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -343,47 +388,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-011",
-      "upgrade": "Buccaneer-Long Range"
-    },
-    {
-      "tower": "MonkeyBuccaneer-110",
-      "upgrade": "Buccaneer-Faster Shooting"
-    },
-    {
-      "tower": "MonkeyBuccaneer-020",
-      "upgrade": "Buccaneer-Hot Shot"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Grape Shot"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

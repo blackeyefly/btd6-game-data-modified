@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 14,
   "category": 2,
   "investmentRequired": 4,
   "monkeyMoneyCost": 250,
@@ -8,18 +6,10 @@
     "StrongTonic"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Towers.Mods.AcidPoolModModel, Assembly-CSharp",
-        "additionalTime": 5.0,
-        "name": "AcidStability",
-        "ImplementationType": null
+        "additionalTime": 5.0
       }
-    ],
-    "name": "AcidStability",
-    "ImplementationType": null
-  },
-  "name": "AcidStability",
-  "ImplementationType": null
+    ]
+  }
 }

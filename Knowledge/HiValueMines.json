@@ -1,6 +1,4 @@
 {
-  "$type": "Assets.Scripts.Models.Knowledge.KnowledgeModel, Assembly-CSharp",
-  "idx": 15,
   "category": 3,
   "investmentRequired": 8,
   "monkeyMoneyCost": 500,
@@ -8,20 +6,10 @@
     "VeryShreddy"
   ],
   "mod": {
-    "$type": "Assets.Scripts.Models.ModModel, Assembly-CSharp",
     "mutatorMods": [
       {
-        "$type": "Assets.Scripts.Models.Gameplay.Mods.UpgradeCostModModel, Assembly-CSharp",
-        "amountReduced": 1500,
-        "percentageReduced": 0.0,
-        "upgradeName": "Spiked Mines",
-        "name": "HiValueMines",
-        "ImplementationType": null
+        "amountReduced": 1500
       }
-    ],
-    "name": "HiValueMines",
-    "ImplementationType": null
-  },
-  "name": "HiValueMines",
-  "ImplementationType": null
+    ]
+  }
 }

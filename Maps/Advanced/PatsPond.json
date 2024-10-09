@@ -4,6 +4,12 @@
   "coopMapDivisionType": 1,
   "unlockDifficulty": 1,
   "mapMusic": "MusicUpbeat3A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectPatsPondButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "7a4a8955538927941939844ed5bafbdc"
+  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

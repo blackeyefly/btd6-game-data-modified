@@ -1,12 +1,13 @@
 {
-  "radius": 3.0,
-  "radiusSquared": 9.0,
   "range": 22.0,
   "tier": 2,
   "tiers": [
     2
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "1c926cb3f8f2e9c439783835c0c38626"
+  },
   "areaTypes": [
     2
   ],
@@ -53,6 +54,20 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 1.0
+  },
+  "dontDisplayUpgrades": true,
+  "targetTypes": [
+    {
+      "id": "FigureEight",
+      "intID": -1
+    }
+  ],
+  "isSubTower": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -229,21 +244,10 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 1.0
-  },
-  "dontDisplayUpgrades": true,
-  "targetTypes": [
-    {
-      "id": "FigureEight",
-      "intID": -1
-    }
-  ],
-  "isSubTower": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 3.0,
   "isGeraldoItem": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "FigureEight",

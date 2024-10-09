@@ -1,13 +1,14 @@
 {
   "cost": 540.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 52.0,
   "tier": 12,
   "tiers": [
     12
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "9f09f9e47a9e71a4fa8e607df6077456"
+  },
   "areaTypes": [
     2
   ],
@@ -58,6 +59,55 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteQuincy]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "58425d8460442024b9f76b31851c8e7f"
+  },
+  "upgrades": [
+    {
+      "tower": "Quincy 13",
+      "upgrade": "Quincy Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Quincy Ricochet 4",
+    "Quincy Rapid Shot",
+    "Quincy Twin Shot",
+    "Quincy Target Camo",
+    "Quincy Slightly Longer Range",
+    "Quincy Exploding Arrow",
+    "Quincy Deadshot",
+    "Quincy Ricochet 5",
+    "Quincy Storm of Arrows",
+    "Quincy Attack Speed",
+    "Quincy Pierce"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -280,6 +330,11 @@
         },
         {
           "multiplier": 0.3333333,
+          "projectileDisplay": {
+            "assetPath": {
+              "AssetGUID": "8e1a5d16efbcbca468a121a8e4e574ec"
+            }
+          },
           "Lifespan": 8.0,
           "lifespan": 8.0
         }
@@ -419,49 +474,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Quincy 13",
-      "upgrade": "Quincy Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Quincy Ricochet 4",
-    "Quincy Rapid Shot",
-    "Quincy Twin Shot",
-    "Quincy Target Camo",
-    "Quincy Slightly Longer Range",
-    "Quincy Exploding Arrow",
-    "Quincy Deadshot",
-    "Quincy Ricochet 5",
-    "Quincy Storm of Arrows",
-    "Quincy Attack Speed",
-    "Quincy Pierce"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

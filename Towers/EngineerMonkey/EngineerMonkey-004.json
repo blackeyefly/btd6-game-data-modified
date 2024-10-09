@@ -1,13 +1,17 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "fce414ec0c99e04489fc2947b2143eab"
+  },
+  "instaIcon": {
+    "AssetGUID": "bca4640854fb2488788245343e3a2e11"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,50 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-005",
+      "upgrade": "XXXL Trap"
+    },
+    {
+      "tower": "EngineerMonkey-104",
+      "upgrade": "Sentry Gun"
+    },
+    {
+      "tower": "EngineerMonkey-014",
+      "upgrade": "Larger Service Area"
+    }
+  ],
+  "appliedUpgrades": [
+    "Oversize Nails",
+    "Pin",
+    "Double Gun",
+    "Bloon Trap"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -523,50 +571,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-005",
-      "upgrade": "XXXL Trap"
-    },
-    {
-      "tower": "EngineerMonkey-104",
-      "upgrade": "Sentry Gun"
-    },
-    {
-      "tower": "EngineerMonkey-014",
-      "upgrade": "Larger Service Area"
-    }
-  ],
-  "appliedUpgrades": [
-    "Oversize Nails",
-    "Pin",
-    "Double Gun",
-    "Bloon Trap"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

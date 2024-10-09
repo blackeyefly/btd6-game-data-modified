@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "2866ce8fcdd7a6942b0a1e20cbd1a99c"
+  },
+  "instaIcon": {
+    "AssetGUID": "c7acfc61ef078409f8cccddd52ba8540"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "appliedUpgrades": [
+    "Full Metal Jacket",
+    "Large Calibre",
+    "Night Vision Goggles",
+    "Shrapnel Shot",
+    "Bouncing Bullet",
+    "Supply Drop",
+    "Elite Sniper"
+  ],
+  "targetTypes": [
+    {
+      "id": "Elite",
+      "intID": -1
+    },
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -123,7 +164,7 @@
                 "CappedDamage": 7.0
               },
               {
-                "distance": 50.0,
+                "distance": 80.0,
                 "maxBounces": 9999999,
                 "targetType": {
                   "id": "Close",
@@ -360,43 +401,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "appliedUpgrades": [
-    "Full Metal Jacket",
-    "Large Calibre",
-    "Night Vision Goggles",
-    "Shrapnel Shot",
-    "Bouncing Bullet",
-    "Supply Drop",
-    "Elite Sniper"
-  ],
-  "targetTypes": [
-    {
-      "id": "Elite",
-      "intID": -1
-    },
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Elite",

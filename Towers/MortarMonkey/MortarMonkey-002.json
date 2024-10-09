@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 2,
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "3c6720989b8911e4b99ce2276bba3d5c"
+  },
+  "instaIcon": {
+    "AssetGUID": "f31bb480c7ad7477788e545fc6ad7f90"
+  },
   "areaTypes": [
     2
   ],
@@ -29,6 +33,39 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-003",
+      "upgrade": "Signal Flare"
+    },
+    {
+      "tower": "MortarMonkey-012",
+      "upgrade": "Mortar Faster Reload"
+    },
+    {
+      "tower": "MortarMonkey-102",
+      "upgrade": "Bigger Blast"
+    }
+  ],
+  "appliedUpgrades": [
+    "Increased Accuracy",
+    "Burny Stuff"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -233,39 +270,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-003",
-      "upgrade": "Signal Flare"
-    },
-    {
-      "tower": "MortarMonkey-012",
-      "upgrade": "Mortar Faster Reload"
-    },
-    {
-      "tower": "MortarMonkey-102",
-      "upgrade": "Bigger Blast"
-    }
-  ],
-  "appliedUpgrades": [
-    "Increased Accuracy",
-    "Burny Stuff"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

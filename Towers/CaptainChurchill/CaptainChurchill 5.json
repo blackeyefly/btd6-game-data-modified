@@ -1,13 +1,14 @@
 {
   "cost": 2000.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
-  "range": 66.0,
+  "range": 75.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "e8ced09981eba46e59226f9bd6c25283"
+  },
   "areaTypes": [
     2
   ],
@@ -58,6 +59,48 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteChurchill]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "67172b4ce38cc654c8e7d7a6afbc9041"
+  },
+  "upgrades": [
+    {
+      "tower": "CaptainChurchill 6",
+      "upgrade": "Churchill Binoculars"
+    }
+  ],
+  "appliedUpgrades": [
+    "Churchill Pierce",
+    "Churchill Armor Piercing Shells",
+    "Churchill Range",
+    "Churchill Machine Gun"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -186,10 +229,10 @@
               "useEjectPoint": true
             }
           ],
-          "Rate": 1.8,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.2,
-          "rate": 1.8
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -220,7 +263,7 @@
           "category": 1
         }
       ],
-      "range": 66.0,
+      "range": 75.0,
       "addsToSharedGrid": true
     },
     {
@@ -240,12 +283,12 @@
             ],
             "behaviors": [
               {
-                "damage": 1.0,
+                "damage": 2.0,
                 "distributeToChildren": true,
                 "createPopEffect": true,
                 "immuneBloonProperties": 17,
                 "immuneBloonPropertiesOriginal": 17,
-                "CappedDamage": 1.0
+                "CappedDamage": 2.0
               },
               {
                 "filters": [
@@ -300,7 +343,7 @@
           "category": 1
         }
       ],
-      "range": 66.0
+      "range": 75.0
     },
     {
       "description": "Armor Piercing Shells: Shots can pop Black bloons and do extra damage to Ceramic or higher for 5 seconds.",
@@ -522,42 +565,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "CaptainChurchill 6",
-      "upgrade": "Churchill Binoculars"
-    }
-  ],
-  "appliedUpgrades": [
-    "Churchill Pierce",
-    "Churchill Armor Piercing Shells",
-    "Churchill Range",
-    "Churchill Machine Gun"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

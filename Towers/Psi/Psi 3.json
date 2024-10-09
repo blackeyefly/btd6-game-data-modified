@@ -1,7 +1,5 @@
 {
   "cost": 1000.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "ignoreBlockers": true,
   "isGlobalRange": true,
@@ -10,6 +8,9 @@
     3
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "53eba3020aa5239499a5fc0ba04b561e"
+  },
   "areaTypes": [
     2
   ],
@@ -52,6 +53,45 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmotePsi]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "4ca869b9295d7f44cb8854e8da4b6070"
+  },
+  "upgrades": [
+    {
+      "tower": "Psi 4",
+      "upgrade": "Psi Upgrade 4"
+    }
+  ],
+  "appliedUpgrades": [
+    "Psi Upgrade 2",
+    "Psi Upgrade 3"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 4,
@@ -312,39 +352,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Psi 4",
-      "upgrade": "Psi Upgrade 4"
-    }
-  ],
-  "appliedUpgrades": [
-    "Psi Upgrade 2",
-    "Psi Upgrade 3"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

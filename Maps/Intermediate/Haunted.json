@@ -3,6 +3,12 @@
   "difficulty": 1,
   "coopMapDivisionType": 2,
   "mapMusic": "MusicCityA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectHauntedButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "1ac6faae15dc6d142ba1db2551b7468d"
+  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

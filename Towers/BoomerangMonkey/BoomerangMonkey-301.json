@@ -1,7 +1,5 @@
 {
   "cost": 315.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 57.19,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "209c06fb16e5e884abb0796bcc0b8e46"
+  },
+  "instaIcon": {
+    "AssetGUID": "1409df6eaaee14452ac96393d839018b"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,46 @@
       "mod": "RecurringRangs"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-401",
+      "upgrade": "M.O.A.R Glaives"
+    },
+    {
+      "tower": "BoomerangMonkey-302",
+      "upgrade": "Red Hot Rangs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Improved Rangs",
+    "Glaives",
+    "Glaive Ricochet",
+    "Long Range Rangs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -168,46 +212,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BoomerangMonkey-401",
-      "upgrade": "M.O.A.R Glaives"
-    },
-    {
-      "tower": "BoomerangMonkey-302",
-      "upgrade": "Red Hot Rangs"
-    }
-  ],
-  "appliedUpgrades": [
-    "Improved Rangs",
-    "Glaives",
-    "Glaive Ricochet",
-    "Long Range Rangs"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

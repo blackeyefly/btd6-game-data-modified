@@ -1,13 +1,17 @@
 {
   "cost": 200.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
-  "range": 56.0,
+  "range": 60.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "6f3333aaafdea894a94a5efb9951fb6c"
+  },
+  "instaIcon": {
+    "AssetGUID": "81041058b829d43a2b83e2b8bf82f967"
+  },
   "areaTypes": [
     2
   ],
@@ -33,92 +37,6 @@
     },
     {
       "mod": "ExtraDartPops"
-    }
-  ],
-  "behaviors": [
-    {
-      "effectModel": {
-        "scale": 1.0,
-        "lifespan": 6.0
-      }
-    },
-    {
-      "effectModel": {
-        "scale": 1.0,
-        "lifespan": 1.0
-      }
-    },
-    {
-      "effectModel": {
-        "scale": 1.0,
-        "lifespan": 6.0
-      }
-    },
-    {
-      "weapons": [
-        {
-          "animation": 1,
-          "ejectX": -0.9,
-          "ejectY": 4.83,
-          "ejectZ": 8.8,
-          "projectile": {
-            "id": "Projectile",
-            "pierce": 3.0,
-            "scale": 1.0,
-            "behaviors": [
-              {
-                "damage": 3.0,
-                "distributeToChildren": true,
-                "createPopEffect": true,
-                "immuneBloonProperties": 17,
-                "immuneBloonPropertiesOriginal": 17,
-                "CappedDamage": 3.0
-              },
-              {
-                "Speed": 360.0,
-                "Lifespan": 0.3234375,
-                "speed": 360.0,
-                "lifespan": 0.3234375
-              },
-              {
-                "scale": 1.0,
-                "category": 16
-              }
-            ],
-            "canCollideWithBloons": true,
-            "radius": 2.0,
-            "CappedPierce": 3.0
-          },
-          "Rate": 0.95,
-          "UseThrowMarker": true,
-          "rate": 0.95
-        }
-      ],
-      "behaviors": [
-        {
-          "onlyRotateDuringThrow": true,
-          "rotateTower": true
-        },
-        {
-          "isSelectable": true
-        },
-        {
-          "isSelectable": true
-        },
-        {
-          "isSelectable": true
-        },
-        {
-          "isSelectable": true
-        }
-      ],
-      "range": 56.0,
-      "addsToSharedGrid": true
-    },
-    {
-      "layer": -1,
-      "scale": 1.0,
-      "category": 4
     }
   ],
   "footprint": {
@@ -162,8 +80,96 @@
   ],
   "isBakable": true,
   "animationSpeed": 1.0,
-  "displayScale": 1.0,
   "showBuffs": true,
+  "displayScale": 1.0,
+  "behaviors": [
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 6.0
+      }
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 1.0
+      }
+    },
+    {
+      "effectModel": {
+        "scale": 1.0,
+        "lifespan": 6.0
+      }
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "ejectX": -0.9,
+          "ejectY": 4.83,
+          "ejectZ": 8.8,
+          "projectile": {
+            "id": "Projectile",
+            "pierce": 3.0,
+            "scale": 1.0,
+            "behaviors": [
+              {
+                "damage": 3.0,
+                "distributeToChildren": true,
+                "createPopEffect": true,
+                "immuneBloonProperties": 17,
+                "immuneBloonPropertiesOriginal": 17,
+                "CappedDamage": 3.0
+              },
+              {
+                "Speed": 400.0,
+                "Lifespan": 0.31640625,
+                "speed": 400.0,
+                "lifespan": 0.31640625
+              },
+              {
+                "scale": 1.0,
+                "category": 16
+              }
+            ],
+            "canCollideWithBloons": true,
+            "radius": 2.0,
+            "CappedPierce": 3.0
+          },
+          "Rate": 0.95,
+          "UseThrowMarker": true,
+          "rate": 0.95
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "rotateTower": true
+        },
+        {
+          "isSelectable": true
+        },
+        {
+          "isSelectable": true
+        },
+        {
+          "isSelectable": true
+        },
+        {
+          "isSelectable": true
+        }
+      ],
+      "range": 60.0,
+      "addsToSharedGrid": true
+    },
+    {
+      "layer": -1,
+      "scale": 1.0,
+      "category": 4
+    }
+  ],
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

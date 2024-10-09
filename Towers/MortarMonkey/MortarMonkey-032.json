@@ -1,7 +1,5 @@
 {
   "cost": 750.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 30.0,
   "ignoreBlockers": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "15516721ea4d410499835b8b6e7ce95e"
+  },
+  "instaIcon": {
+    "AssetGUID": "bbdc060ff76e2427cb06251d6f540dd8"
+  },
   "areaTypes": [
     2
   ],
@@ -30,6 +34,34 @@
       "mod": "VeteranMonkeyTraining"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "MortarMonkey-042",
+      "upgrade": "Artillery Battery"
+    }
+  ],
+  "appliedUpgrades": [
+    "Mortar Faster Reload",
+    "Mortar Rapid Reload",
+    "Increased Accuracy",
+    "Burny Stuff",
+    "Heavy Shells"
+  ],
+  "targetTypes": [
+    {
+      "id": "TargetSelectedPoint",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -97,7 +129,7 @@
                       ],
                       "behaviors": [
                         {
-                          "damage": 2.0,
+                          "damage": 3.0,
                           "displayLifetime": 3.85,
                           "distributeToChildren": true,
                           "Interval": 1.25,
@@ -261,34 +293,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "MortarMonkey-042",
-      "upgrade": "Artillery Battery"
-    }
-  ],
-  "appliedUpgrades": [
-    "Mortar Faster Reload",
-    "Mortar Rapid Reload",
-    "Increased Accuracy",
-    "Burny Stuff",
-    "Heavy Shells"
-  ],
-  "targetTypes": [
-    {
-      "id": "TargetSelectedPoint",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "TargetSelectedPoint",

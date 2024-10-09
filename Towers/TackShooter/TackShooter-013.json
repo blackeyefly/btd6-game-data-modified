@@ -1,7 +1,5 @@
 {
   "cost": 260.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 26.91,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "264988633be14ce4e973305e8671b287"
+  },
+  "instaIcon": {
+    "AssetGUID": "6d01073d841044a1f865f72fb0d71329"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,35 @@
       "mod": "FastTackAttacks"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "TackShooter-014",
+      "upgrade": "Overdrive"
+    },
+    {
+      "tower": "TackShooter-023",
+      "upgrade": "Super Range Tacks"
+    }
+  ],
+  "appliedUpgrades": [
+    "More Tacks",
+    "Even More Tacks",
+    "Tack Sprayer",
+    "Long Range Tacks"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "intID": 2
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -131,35 +164,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "TackShooter-014",
-      "upgrade": "Overdrive"
-    },
-    {
-      "tower": "TackShooter-023",
-      "upgrade": "Super Range Tacks"
-    }
-  ],
-  "appliedUpgrades": [
-    "More Tacks",
-    "Even More Tacks",
-    "Tack Sprayer",
-    "Long Range Tacks"
-  ],
-  "targetTypes": [
-    {
-      "id": "Close",
-      "intID": 2
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Close",

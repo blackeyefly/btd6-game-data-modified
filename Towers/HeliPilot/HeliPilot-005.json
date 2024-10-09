@@ -1,13 +1,17 @@
 {
   "cost": 1600.0,
-  "radius": 14.0,
-  "radiusSquared": 196.0,
   "range": 22.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "0e1314f65ebb2ee4fb9a60d108bbfaa2"
+  },
+  "instaIcon": {
+    "AssetGUID": "b6f4733cf13054d909171b58bb111762"
+  },
   "areaTypes": [
     2
   ],
@@ -35,11 +39,50 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "xWidth": 27.0,
+    "yWidth": 27.0
+  },
+  "upgrades": [
+    {
+      "tower": "HeliPilot-015",
+      "upgrade": "Bigger Jets"
+    },
+    {
+      "tower": "HeliPilot-105",
+      "upgrade": "Quad Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Darts",
+    "Faster Firing",
+    "MOAB Shove",
+    "Comanche Defense",
+    "Comanche Commander"
+  ],
+  "targetTypes": [
+    {
+      "id": "FollowTouch",
+      "intID": -1
+    },
+    {
+      "id": "LockInPlace",
+      "isActionable": true,
+      "intID": -1
+    },
+    {
+      "id": "PatrolPoints",
+      "isActionable": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "towerModel": {
-        "radius": 9.0,
-        "radiusSquared": 81.0,
         "range": 54.6,
         "ignoreBlockers": true,
         "towerSet": 2,
@@ -71,6 +114,35 @@
           }
         ],
         "ignoreTowerForSelection": true,
+        "footprint": {
+          "radius": 9.0
+        },
+        "dontDisplayUpgrades": true,
+        "targetTypes": [
+          {
+            "id": "FollowTouch",
+            "intID": -1
+          },
+          {
+            "id": "LockInPlace",
+            "isActionable": true,
+            "intID": -1
+          },
+          {
+            "id": "PatrolPoints",
+            "isActionable": true,
+            "intID": -1
+          },
+          {
+            "id": "Pursuit",
+            "intID": -1
+          }
+        ],
+        "isSubTower": true,
+        "isBakable": true,
+        "animationSpeed": 1.0,
+        "showBuffs": true,
+        "displayScale": 1.0,
         "behaviors": [
           {
             "weapons": [
@@ -356,35 +428,9 @@
             "category": 4
           }
         ],
-        "footprint": {
-          "radius": 9.0
-        },
-        "dontDisplayUpgrades": true,
-        "targetTypes": [
-          {
-            "id": "FollowTouch",
-            "intID": -1
-          },
-          {
-            "id": "LockInPlace",
-            "isActionable": true,
-            "intID": -1
-          },
-          {
-            "id": "PatrolPoints",
-            "isActionable": true,
-            "intID": -1
-          },
-          {
-            "id": "Pursuit",
-            "intID": -1
-          }
-        ],
-        "isSubTower": true,
-        "isBakable": true,
-        "animationSpeed": 1.0,
-        "displayScale": 1.0,
-        "showBuffs": true,
+        "radius": 9.0,
+        "DisplayScale": 1.0,
+        "IsSubEntity": true,
         "TargetTypes": [
           {
             "id": "FollowTouch",
@@ -529,6 +575,9 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
+          "lineDisplay": {
+            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
+          },
           "lineDelay": 0.2
         },
         {
@@ -673,8 +722,8 @@
     },
     {
       "range": 42.0,
-      "moabPushSpeedScaleCap": -0.33,
-      "zomgPushSpeedScaleCap": 0.33,
+      "moabPushSpeedScaleCap": -0.3,
+      "zomgPushSpeedScaleCap": 0.22,
       "filterInvisibleModel": {
         "isActive": true
       }
@@ -710,47 +759,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 27.0,
-    "yWidth": 27.0
-  },
-  "upgrades": [
-    {
-      "tower": "HeliPilot-015",
-      "upgrade": "Bigger Jets"
-    },
-    {
-      "tower": "HeliPilot-105",
-      "upgrade": "Quad Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Darts",
-    "Faster Firing",
-    "MOAB Shove",
-    "Comanche Defense",
-    "Comanche Commander"
-  ],
-  "targetTypes": [
-    {
-      "id": "FollowTouch",
-      "intID": -1
-    },
-    {
-      "id": "LockInPlace",
-      "isActionable": true,
-      "intID": -1
-    },
-    {
-      "id": "PatrolPoints",
-      "isActionable": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 14.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "FollowTouch",

@@ -1,7 +1,5 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "1e12ac8656d27584f9fb6373a40852a6"
+  },
+  "instaIcon": {
+    "AssetGUID": "5be7b8bdecf7c44d0881bc4cf1d6ec7a"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,44 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-502",
+      "upgrade": "Stronger Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Glue Soak",
+    "Corrosive Glue",
+    "Bloon Dissolver",
+    "Bloon Liquefier",
+    "The Bloon Solver",
+    "Stickier Glue"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -273,10 +315,10 @@
                                 ]
                               },
                               {
-                                "damage": 20.0,
+                                "damage": 15.0,
                                 "distributeToChildren": true,
                                 "createPopEffect": true,
-                                "CappedDamage": 20.0
+                                "CappedDamage": 15.0
                               },
                               {
                                 "scale": 1.0,
@@ -362,10 +404,10 @@
                           ]
                         },
                         {
-                          "damage": 20.0,
+                          "damage": 15.0,
                           "distributeToChildren": true,
                           "createPopEffect": true,
-                          "CappedDamage": 20.0
+                          "CappedDamage": 15.0
                         },
                         {
                           "scale": 1.0,
@@ -442,44 +484,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-502",
-      "upgrade": "Stronger Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Glue Soak",
-    "Corrosive Glue",
-    "Bloon Dissolver",
-    "Bloon Liquefier",
-    "The Bloon Solver",
-    "Stickier Glue"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

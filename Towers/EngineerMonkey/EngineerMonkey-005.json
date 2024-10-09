@@ -1,13 +1,17 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "bfdb203428154ed48a12d03285df1723"
+  },
+  "instaIcon": {
+    "AssetGUID": "a6cffdddd58a24ba5a684664fcff6558"
+  },
   "areaTypes": [
     2
   ],
@@ -31,6 +35,51 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-105",
+      "upgrade": "Sentry Gun"
+    },
+    {
+      "tower": "EngineerMonkey-015",
+      "upgrade": "Larger Service Area"
+    }
+  ],
+  "appliedUpgrades": [
+    "Oversize Nails",
+    "Pin",
+    "Double Gun",
+    "Bloon Trap",
+    "XXXL Trap"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "EngineerMonkey-Paragon",
+    "upgrade": "EngineerMonkey Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -530,51 +579,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-105",
-      "upgrade": "Sentry Gun"
-    },
-    {
-      "tower": "EngineerMonkey-015",
-      "upgrade": "Larger Service Area"
-    }
-  ],
-  "appliedUpgrades": [
-    "Oversize Nails",
-    "Pin",
-    "Double Gun",
-    "Bloon Trap",
-    "XXXL Trap"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "EngineerMonkey-Paragon",
-    "upgrade": "EngineerMonkey Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

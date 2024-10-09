@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 55.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "44803f63527feab4ba19eb2466d4c51d"
+  },
+  "instaIcon": {
+    "AssetGUID": "0b5da9a9a79234b2f983b460dbe50daa"
+  },
   "areaTypes": [
     2
   ],
@@ -42,8 +46,124 @@
       "mod": "TinyTornadoes"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "Druid-052",
+      "upgrade": "Heart of Vengeance"
+    }
+  ],
+  "appliedUpgrades": [
+    "Thorn Swarm",
+    "Heart of Oak",
+    "Druid of the Jungle",
+    "Jungle's Bounty",
+    "Spirit of the Forest",
+    "Druidic Reach"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
+      "objectToPlace1FarPath": {
+        "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
+      },
+      "objectToPlace2FarPath": {
+        "AssetGUID": "66fac218aac221a4e842c696e6542a51"
+      },
+      "objectToPlace3FarPath": {
+        "AssetGUID": "28a99e771f710e14ca55fdf0e2b44696"
+      },
+      "objectToPlace4FarPath": {
+        "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
+      },
+      "objectsToPlaceFarPath": [
+        {
+          "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
+        },
+        {
+          "AssetGUID": "66fac218aac221a4e842c696e6542a51"
+        },
+        {
+          "AssetGUID": "28a99e771f710e14ca55fdf0e2b44696"
+        },
+        {
+          "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
+        }
+      ],
+      "objectToPlace1MiddlePath": {
+        "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
+      },
+      "objectToPlace2MiddlePath": {
+        "AssetGUID": "ca83da3d54e98764cb7dc2961fb7b69d"
+      },
+      "objectToPlace3MiddlePath": {
+        "AssetGUID": "a7e0d93244f155642aacbfa128d92704"
+      },
+      "objectToPlace4MiddlePath": {
+        "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
+      },
+      "objectsToPlaceMiddlePath": [
+        {
+          "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
+        },
+        {
+          "AssetGUID": "ca83da3d54e98764cb7dc2961fb7b69d"
+        },
+        {
+          "AssetGUID": "a7e0d93244f155642aacbfa128d92704"
+        },
+        {
+          "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
+        }
+      ],
+      "objectToPlace1ClosePath": {
+        "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
+      },
+      "objectToPlace2ClosePath": {
+        "AssetGUID": "b356d24f17288b147948e21dca7012c2"
+      },
+      "objectToPlace3ClosePath": {
+        "AssetGUID": "40ac80c0c7356814095bf2f272b17889"
+      },
+      "objectToPlace4ClosePath": {
+        "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
+      },
+      "objectsToPlaceClosePath": [
+        {
+          "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
+        },
+        {
+          "AssetGUID": "b356d24f17288b147948e21dca7012c2"
+        },
+        {
+          "AssetGUID": "40ac80c0c7356814095bf2f272b17889"
+        },
+        {
+          "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
+        }
+      ],
       "damageOverTimeZoneModelFar": {
         "behaviorModel": {
           "bloonTagsList": [
@@ -328,6 +448,7 @@
                       "CappedDamage": 5.0
                     },
                     {
+                      "isBuffedByRate": true,
                       "interval": 0.1
                     },
                     {
@@ -375,7 +496,7 @@
           },
           "behaviors": [
             {
-              "limit": 2
+              "limit": 1
             },
             {
               "effectModel": {
@@ -450,44 +571,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Druid-052",
-      "upgrade": "Heart of Vengeance"
-    }
-  ],
-  "appliedUpgrades": [
-    "Thorn Swarm",
-    "Heart of Oak",
-    "Druid of the Jungle",
-    "Jungle's Bounty",
-    "Spirit of the Forest",
-    "Druidic Reach"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

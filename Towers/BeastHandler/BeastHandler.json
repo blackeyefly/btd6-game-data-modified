@@ -1,10 +1,14 @@
 {
   "cost": 250.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "ignoreBlockers": true,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "4c40dea60cf867a459fb311f8b52eddd"
+  },
+  "instaIcon": {
+    "AssetGUID": "a764eca2d5c5fc142b3719d96ed8c39a"
+  },
   "areaTypes": [
     2
   ],
@@ -22,6 +26,44 @@
       "mod": "BetterSellDeals"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "BeastHandler-001",
+      "upgrade": "Gyrfalcon"
+    },
+    {
+      "tower": "BeastHandler-010",
+      "upgrade": "Microraptor"
+    },
+    {
+      "tower": "BeastHandler-100",
+      "upgrade": "Piranha"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -54,6 +96,18 @@
       "contributionDotOffset": 10.0,
       "contributionDotSpacing": 6.0,
       "contributionDotSpeed": 15.0,
+      "buffedTextDisplayPrefab": {
+        "AssetGUID": "9bdae2a6bac16284cbe7abc5d013f9f9"
+      },
+      "mergedTextDisplayPrefab": {
+        "AssetGUID": "6a1538a8436e34942972950b891747f5"
+      },
+      "powerTextDisplayPrefab": {
+        "AssetGUID": "483357db7b634fc44aaa23bdab741c4c"
+      },
+      "validMergeTargetObjectPath": {
+        "AssetGUID": "207f42fbbb705574c9f769023d5bcce3"
+      },
       "piranhaPetModel": {
         "canMove": true,
         "basePower": 1,
@@ -63,9 +117,15 @@
         "damageRange": 2,
         "displayStepModels": [
           {
+            "projectileDisplay": {
+              "AssetGUID": "a591d7dc394913240a4143e8087183ca"
+            },
             "percent": 1.0
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconFish]"
+        }
       },
       "microraptorPetModel": {
         "path": 1,
@@ -80,20 +140,27 @@
           {
             "percent": 1.0
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconDino]"
+        }
       },
       "gyrfalconPetModel": {
         "path": 2,
         "basePower": 1,
         "maxPower": 1,
-        "cooldownScaleRange": 0.28,
+        "cooldownScaleRange": 0.4,
         "pierceRange": 6,
         "damageRange": 1,
+        "speedRangeGyrfalcon": 40.0,
         "displayStepModels": [
           {
             "percent": 1.0
           }
-        ]
+        ],
+        "genericIcon": {
+          "AssetGUID": "IngameUi[BhTargetIconBird]"
+        }
       }
     },
     {
@@ -204,7 +271,7 @@
       "behaviors": [
         {
           "minDistance": 4.0,
-          "maxDistance": 60.0,
+          "maxDistance": 50.0,
           "targetRadius": 4.0,
           "pointDistance": 4.0,
           "dontUseTowerPosition": true,
@@ -217,10 +284,10 @@
           "rotateTower": true
         }
       ],
-      "range": 60.0,
+      "range": 50.0,
       "targetProvider": {
         "minDistance": 4.0,
-        "maxDistance": 60.0,
+        "maxDistance": 50.0,
         "targetRadius": 4.0,
         "pointDistance": 4.0,
         "dontUseTowerPosition": true,
@@ -234,7 +301,7 @@
       "behaviors": [
         {
           "minDistance": 4.0,
-          "maxDistance": 60.0,
+          "maxDistance": 50.0,
           "targetRadius": 4.0,
           "pointDistance": 4.0,
           "dontUseTowerPosition": true,
@@ -247,10 +314,10 @@
           "rotateTower": true
         }
       ],
-      "range": 60.0,
+      "range": 50.0,
       "targetProvider": {
         "minDistance": 4.0,
-        "maxDistance": 60.0,
+        "maxDistance": 50.0,
         "targetRadius": 4.0,
         "pointDistance": 4.0,
         "dontUseTowerPosition": true,
@@ -261,7 +328,7 @@
       "attackThroughWalls": true
     },
     {
-      "range": 60.0,
+      "range": 50.0,
       "attackThroughWalls": true,
       "fireWithoutTarget": true
     },
@@ -271,44 +338,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "BeastHandler-001",
-      "upgrade": "Gyrfalcon"
-    },
-    {
-      "tower": "BeastHandler-010",
-      "upgrade": "Microraptor"
-    },
-    {
-      "tower": "BeastHandler-100",
-      "upgrade": "Piranha"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

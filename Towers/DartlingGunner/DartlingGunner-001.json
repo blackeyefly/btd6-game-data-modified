@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 1,
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "dd1581ea4a0692b449d6c50f45195922"
+  },
+  "instaIcon": {
+    "AssetGUID": "4058ecae3c1544abd9b02ea6fcfcbfd1"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,42 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-002",
+      "upgrade": "Powerful Darts"
+    },
+    {
+      "tower": "DartlingGunner-011",
+      "upgrade": "Advanced Targeting"
+    },
+    {
+      "tower": "DartlingGunner-101",
+      "upgrade": "Focused Firing"
+    }
+  ],
+  "appliedUpgrades": [
+    "Faster Swivel"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -157,42 +197,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-002",
-      "upgrade": "Powerful Darts"
-    },
-    {
-      "tower": "DartlingGunner-011",
-      "upgrade": "Advanced Targeting"
-    },
-    {
-      "tower": "DartlingGunner-101",
-      "upgrade": "Focused Firing"
-    }
-  ],
-  "appliedUpgrades": [
-    "Faster Swivel"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

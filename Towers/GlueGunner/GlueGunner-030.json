@@ -1,13 +1,17 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
-  "range": 46.0,
+  "range": 58.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "173cbd8836168ac45b8113bfec5e6a5f"
+  },
+  "instaIcon": {
+    "AssetGUID": "11aa502da496d4391b22e50fd5e45355"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,49 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-040",
+      "upgrade": "Glue Strike"
+    },
+    {
+      "tower": "GlueGunner-130",
+      "upgrade": "Glue Soak"
+    },
+    {
+      "tower": "GlueGunner-031",
+      "upgrade": "Stickier Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Globs",
+    "Glue Splatter",
+    "Glue Hose"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -250,7 +297,7 @@
           "isSelectable": true
         }
       ],
-      "range": 46.0,
+      "range": 58.0,
       "addsToSharedGrid": true
     },
     {
@@ -259,49 +306,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-040",
-      "upgrade": "Glue Strike"
-    },
-    {
-      "tower": "GlueGunner-130",
-      "upgrade": "Glue Soak"
-    },
-    {
-      "tower": "GlueGunner-031",
-      "upgrade": "Stickier Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Globs",
-    "Glue Splatter",
-    "Glue Hose"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

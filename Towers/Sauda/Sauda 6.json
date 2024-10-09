@@ -1,13 +1,14 @@
 {
   "cost": 600.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 26.0,
   "tier": 6,
   "tiers": [
     6
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "b02425d2dfb113244bf770acf6e7b65e"
+  },
   "areaTypes": [
     2
   ],
@@ -54,6 +55,49 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteSauda]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "251eb804ae383794c837ac496db62dee"
+  },
+  "upgrades": [
+    {
+      "tower": "Sauda 7",
+      "upgrade": "Sauda Upgrade 7"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sauda Upgrade 2",
+    "Sauda Upgrade 3",
+    "Sauda Upgrade 4",
+    "Sauda Upgrade 5",
+    "Sauda Upgrade 6"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 4,
@@ -84,7 +128,7 @@
     {
       "projectileModel": {
         "id": "BaseProjectile",
-        "pierce": 7.0,
+        "pierce": 6.0,
         "scale": 1.0,
         "ignoreBlockers": true,
         "behaviors": [
@@ -118,7 +162,7 @@
         "canCollideWithBloons": true,
         "radius": 19.5,
         "hasDamageModifiers": true,
-        "CappedPierce": 7.0
+        "CappedPierce": 6.0
       },
       "baseTowerRange": 26.0,
       "projectileRadiusOffset": -6.5,
@@ -135,7 +179,7 @@
           "ejectZ": 8.7,
           "projectile": {
             "id": "BaseProjectile",
-            "pierce": 7.0,
+            "pierce": 6.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "behaviors": [
@@ -169,7 +213,7 @@
             "canCollideWithBloons": true,
             "radius": 19.5,
             "hasDamageModifiers": true,
-            "CappedPierce": 7.0
+            "CappedPierce": 6.0
           },
           "behaviors": [
             {
@@ -327,43 +371,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Sauda 7",
-      "upgrade": "Sauda Upgrade 7"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sauda Upgrade 2",
-    "Sauda Upgrade 3",
-    "Sauda Upgrade 4",
-    "Sauda Upgrade 5",
-    "Sauda Upgrade 6"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

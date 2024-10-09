@@ -3,6 +3,12 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicDarkA",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectFloodedValleyButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "c73e454d1288cc14a8a8ab8de6009486"
+  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

@@ -1,13 +1,17 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "tier": 3,
   "tiers": [
     3
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "a60b6d39ea6977c4da68b75b07af76bb"
+  },
+  "instaIcon": {
+    "AssetGUID": "b98265eb567994a229de892d12b009fc"
+  },
   "areaTypes": [
     2
   ],
@@ -28,6 +32,49 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-400",
+      "upgrade": "Sentry Expert"
+    },
+    {
+      "tower": "EngineerMonkey-310",
+      "upgrade": "Larger Service Area"
+    },
+    {
+      "tower": "EngineerMonkey-301",
+      "upgrade": "Oversize Nails"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sentry Gun",
+    "Faster Engineering",
+    "Sprockets"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -142,10 +189,11 @@
             "behaviors": [
               {
                 "tower": {
-                  "radius": 4.0,
-                  "radiusSquared": 16.0,
                   "range": 45.0,
                   "towerSet": 8,
+                  "portrait": {
+                    "AssetGUID": "b618864dd8a85864ca6a112ec150598e"
+                  },
                   "areaTypes": [
                     2
                   ],
@@ -166,6 +214,32 @@
                       "mod": "MonkeyEducation"
                     }
                   ],
+                  "footprint": {
+                    "radius": 4.0,
+                    "doesntBlockTowerPlacement": true
+                  },
+                  "targetTypes": [
+                    {
+                      "id": "First"
+                    },
+                    {
+                      "id": "Last",
+                      "intID": 1
+                    },
+                    {
+                      "id": "Close",
+                      "intID": 2
+                    },
+                    {
+                      "id": "Strong",
+                      "intID": 3
+                    }
+                  ],
+                  "isSubTower": true,
+                  "isBakable": true,
+                  "animationSpeed": 1.0,
+                  "showBuffs": true,
+                  "displayScale": 1.0,
                   "behaviors": [
                     {
                       "Lifespan": 25.0,
@@ -289,32 +363,9 @@
                       "category": 4
                     }
                   ],
-                  "footprint": {
-                    "radius": 4.0,
-                    "doesntBlockTowerPlacement": true
-                  },
-                  "targetTypes": [
-                    {
-                      "id": "First"
-                    },
-                    {
-                      "id": "Last",
-                      "intID": 1
-                    },
-                    {
-                      "id": "Close",
-                      "intID": 2
-                    },
-                    {
-                      "id": "Strong",
-                      "intID": 3
-                    }
-                  ],
-                  "isSubTower": true,
-                  "isBakable": true,
-                  "animationSpeed": 1.0,
-                  "displayScale": 1.0,
-                  "showBuffs": true,
+                  "radius": 4.0,
+                  "DisplayScale": 1.0,
+                  "IsSubEntity": true,
                   "IsBaseTower": true,
                   "TargetTypes": [
                     {
@@ -598,49 +649,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-400",
-      "upgrade": "Sentry Expert"
-    },
-    {
-      "tower": "EngineerMonkey-310",
-      "upgrade": "Larger Service Area"
-    },
-    {
-      "tower": "EngineerMonkey-301",
-      "upgrade": "Oversize Nails"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sentry Gun",
-    "Faster Engineering",
-    "Sprockets"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

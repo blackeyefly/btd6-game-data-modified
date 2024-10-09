@@ -1,7 +1,5 @@
 {
-  "cost": 600.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
+  "cost": 475.0,
   "range": 28.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "4df48e4f31275114ea4db7afedc1baf1"
+  },
+  "instaIcon": {
+    "AssetGUID": "82c61e9e7d5a5f14487a9ac462a6cbeb"
+  },
   "areaTypes": [
     1,
     2
@@ -30,6 +34,39 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "appliedUpgrades": [
+    "Trident Efficiency",
+    "Trident Swiftness",
+    "Echosense Precision",
+    "Echosense Network",
+    "Abyss Dweller",
+    "Abyssal Warrior",
+    "Lord of the Abyss"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "rangeMultiplier": 1.25,
@@ -63,7 +100,10 @@
     },
     {
       "radius": 33.0,
-      "areaHeightOffset": 1.0
+      "areaHeightOffset": 1.0,
+      "freezeAsset": {
+        "AssetGUID": "adbed99b49109d44e8461639994bdf0d"
+      }
     },
     {
       "weapons": [
@@ -111,19 +151,19 @@
                       "overlayType": "MermonkeyInk",
                       "collisionPass": -1,
                       "Lifespan": 10.0,
-                      "Multiplier": 0.8,
+                      "Multiplier": 0.6,
                       "Mutator": {
                         "overlayType": "MermonkeyInk",
-                        "multiplier": 0.8,
+                        "multiplier": 0.6,
                         "id": "SlowInk",
                         "priority": 1
                       },
                       "lifespan": 10.0,
-                      "multiplier": 0.8
+                      "multiplier": 0.6
                     },
                     {
                       "tag": "Moabs",
-                      "slowMultiplier": 0.9
+                      "slowMultiplier": 1.2
                     },
                     {
                       "tag": "Ddt",
@@ -231,8 +271,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -264,10 +304,10 @@
             ],
             "CappedPierce": 9999999.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -275,7 +315,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 22.5
+              "baseTowerRotationOffset": 22.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -340,8 +381,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -374,10 +415,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -385,7 +426,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 67.5
+              "baseTowerRotationOffset": 67.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -450,8 +492,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -484,10 +526,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -495,7 +537,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 112.5
+              "baseTowerRotationOffset": 112.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -560,8 +603,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -594,10 +637,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -605,7 +648,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 157.5
+              "baseTowerRotationOffset": 157.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -670,8 +714,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -704,10 +748,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -715,7 +759,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 202.5
+              "baseTowerRotationOffset": 202.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -780,8 +825,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -814,10 +859,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -825,7 +870,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 247.5
+              "baseTowerRotationOffset": 247.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -890,8 +936,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -924,10 +970,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -935,7 +981,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 292.5
+              "baseTowerRotationOffset": 292.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1000,8 +1047,8 @@
                       "damage": 50.0,
                       "distributeToChildren": true,
                       "createPopEffect": true,
-                      "immuneBloonProperties": 17,
-                      "immuneBloonPropertiesOriginal": 17,
+                      "immuneBloonProperties": 1,
+                      "immuneBloonPropertiesOriginal": 1,
                       "CappedDamage": 50.0
                     },
                     {
@@ -1034,10 +1081,10 @@
             "radius": 2.0,
             "CappedPierce": 9.0
           },
-          "Rate": 2.0,
+          "Rate": 1.5,
           "UseThrowMarker": true,
           "animationOffset": 0.1,
-          "rate": 2.0
+          "rate": 1.5
         }
       ],
       "behaviors": [
@@ -1045,7 +1092,8 @@
           "filters": [
             {
               "fieldOfView": 45.0,
-              "baseTowerRotationOffset": 337.5
+              "baseTowerRotationOffset": 337.5,
+              "ignoreTowerRotation": true
             }
           ]
         },
@@ -1077,13 +1125,13 @@
       "addsToSharedGrid": true
     },
     {
-      "percentIncrease": 1.3,
+      "percentIncrease": 1.4,
       "isUnique": true,
       "showBuffIcon": true
     },
     {
       "rangeMultiplier": 0.06,
-      "maxStacks": 5,
+      "maxStacks": 10,
       "filters": [
         {
           "baseIds": [
@@ -1097,7 +1145,7 @@
           "path3MaxTier": 9999999
         }
       ],
-      "maxStackSize": 5,
+      "maxStackSize": 10,
       "isGlobalRange": true
     },
     {
@@ -1111,39 +1159,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "appliedUpgrades": [
-    "Trident Efficiency",
-    "Trident Swiftness",
-    "Echosense Precision",
-    "Echosense Network",
-    "Abyss Dweller",
-    "Abyssal Warrior",
-    "Lord of the Abyss"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

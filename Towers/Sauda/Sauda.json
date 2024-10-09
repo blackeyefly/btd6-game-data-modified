@@ -1,13 +1,14 @@
 {
   "cost": 600.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 23.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "62c0ff1c4bd003f4cb39b346bc70ce8e"
+  },
   "areaTypes": [
     2
   ],
@@ -54,6 +55,42 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteSauda]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "251eb804ae383794c837ac496db62dee"
+  },
+  "upgrades": [
+    {
+      "tower": "Sauda 2",
+      "upgrade": "Sauda Upgrade 2"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 6,
@@ -78,7 +115,7 @@
     {
       "projectileModel": {
         "id": "BaseProjectile",
-        "pierce": 4.0,
+        "pierce": 3.0,
         "scale": 1.0,
         "ignoreBlockers": true,
         "behaviors": [
@@ -112,7 +149,7 @@
         "canCollideWithBloons": true,
         "radius": 16.5,
         "hasDamageModifiers": true,
-        "CappedPierce": 4.0
+        "CappedPierce": 3.0
       },
       "baseTowerRange": 23.0,
       "projectileRadiusOffset": -6.5,
@@ -135,7 +172,7 @@
           "ejectZ": 8.7,
           "projectile": {
             "id": "BaseProjectile",
-            "pierce": 4.0,
+            "pierce": 3.0,
             "scale": 1.0,
             "ignoreBlockers": true,
             "behaviors": [
@@ -169,7 +206,7 @@
             "canCollideWithBloons": true,
             "radius": 16.5,
             "hasDamageModifiers": true,
-            "CappedPierce": 4.0
+            "CappedPierce": 3.0
           },
           "behaviors": [
             {
@@ -223,36 +260,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "Sauda 2",
-      "upgrade": "Sauda Upgrade 2"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

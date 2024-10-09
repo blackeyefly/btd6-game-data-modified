@@ -1,13 +1,14 @@
 {
   "cost": 1200.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "tier": 4,
   "tiers": [
     4
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "039b8312f40124cee92aa3dab91a4deb"
+  },
   "areaTypes": [
     2
   ],
@@ -50,6 +51,31 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteBenjamin]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "8e5c56e9f36383a49946c6e031f435f9"
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "Benjamin 5",
+      "upgrade": "Benjamin level 5"
+    }
+  ],
+  "appliedUpgrades": [
+    "Benjamin level 2",
+    "Benjamin level 3",
+    "Benjamin level 4"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "xpScale": 1.0,
@@ -198,23 +224,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "Benjamin 5",
-      "upgrade": "Benjamin level 5"
-    }
-  ],
-  "appliedUpgrades": [
-    "Benjamin level 2",
-    "Benjamin level 3",
-    "Benjamin level 4"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 7.0,
+  "DisplayScale": 1.0
 }

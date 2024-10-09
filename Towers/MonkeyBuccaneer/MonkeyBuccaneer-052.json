@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 5,
   "tiers": [
@@ -9,6 +7,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "8db5e742fac4bb5408928cdc2d1553c0"
+  },
+  "instaIcon": {
+    "AssetGUID": "6f2080d0b5c2c4a91895de4eb7ae2947"
+  },
   "areaTypes": [
     1
   ],
@@ -45,6 +49,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "appliedUpgrades": [
+    "Buccaneer-Grape Shot",
+    "Buccaneer-Hot Shot",
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest",
+    "Buccaneer-Cannon Ship",
+    "Buccaneer-Monkey Pirates",
+    "Buccaneer-Pirate Lord"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeyBuccaneer-Paragon",
+    "upgrade": "MonkeyBuccaneer Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -275,7 +316,7 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 5.0
+                      "damageAddative": 10.0
                     },
                     {
                       "scale": 1.0,
@@ -404,7 +445,7 @@
                         "Moabs"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 5.0
+                      "damageAddative": 10.0
                     },
                     {
                       "scale": 1.0,
@@ -653,43 +694,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "appliedUpgrades": [
-    "Buccaneer-Grape Shot",
-    "Buccaneer-Hot Shot",
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest",
-    "Buccaneer-Cannon Ship",
-    "Buccaneer-Monkey Pirates",
-    "Buccaneer-Pirate Lord"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeyBuccaneer-Paragon",
-    "upgrade": "MonkeyBuccaneer Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

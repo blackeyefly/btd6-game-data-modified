@@ -1,13 +1,17 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "3c44b650562ed0d43a5668f54f157299"
+  },
+  "instaIcon": {
+    "AssetGUID": "267595ed51ee443bfacf249be7340738"
+  },
   "areaTypes": [
     2
   ],
@@ -46,6 +50,32 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-051",
+      "upgrade": "EZ Collect"
+    },
+    {
+      "tower": "BananaFarm-150",
+      "upgrade": "Increased Production"
+    }
+  ],
+  "appliedUpgrades": [
+    "Long Life Bananas",
+    "Valuable Bananas",
+    "Monkey Bank",
+    "IMF loan",
+    "Monkey-Nomics"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -167,30 +197,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-051",
-      "upgrade": "EZ Collect"
-    },
-    {
-      "tower": "BananaFarm-150",
-      "upgrade": "Increased Production"
-    }
-  ],
-  "appliedUpgrades": [
-    "Long Life Bananas",
-    "Valuable Bananas",
-    "Monkey Bank",
-    "IMF loan",
-    "Monkey-Nomics"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

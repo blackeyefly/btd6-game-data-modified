@@ -1,7 +1,5 @@
 {
   "cost": 1200.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 55.0,
   "ignoreBlockers": true,
   "tier": 5,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "9672086b97420eb4fabf83b354584071"
+  },
+  "instaIcon": {
+    "AssetGUID": "58f16289e9c504025a754b9014253d37"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,40 @@
       "mod": "FlatPackBuildings"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "doesntRotate": true,
+  "appliedUpgrades": [
+    "Bigger Radius",
+    "Jungle Drums",
+    "Monkey Business",
+    "Monkey Commerce",
+    "Primary Training",
+    "Primary Mentoring",
+    "Primary Expertise"
+  ],
+  "targetTypes": [
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    },
+    {
+      "id": "First"
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -263,40 +301,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "doesntRotate": true,
-  "appliedUpgrades": [
-    "Bigger Radius",
-    "Jungle Drums",
-    "Monkey Business",
-    "Monkey Commerce",
-    "Primary Training",
-    "Primary Mentoring",
-    "Primary Expertise"
-  ],
-  "targetTypes": [
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    },
-    {
-      "id": "First"
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Last",

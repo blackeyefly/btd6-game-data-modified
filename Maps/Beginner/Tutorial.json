@@ -1,24 +1,12 @@
 {
-  "$type": "Assets.Scripts.Data.MapSets.MapDetails, Assembly-CSharp",
   "id": "Tutorial",
-  "difficulty": 0,
   "coopMapDivisionType": 1,
-  "unlockDifficulty": 0,
   "mapMusic": "MusicUpbeat2A",
   "mapSprite": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.SpriteReference, NinjaKiwi.Common",
-    "AssetGUID": "MapImages[MapSelectMonkeyMeadowButton]",
-    "guidRef": "MapImages[MapSelectMonkeyMeadowButton]"
+    "AssetGUID": "MapImages[MapSelectMonkeyMeadowButton]"
   },
   "odysseyStatue": {
-    "$type": "NinjaKiwi.Common.ResourceUtils.PrefabReference, NinjaKiwi.Common",
-    "AssetGUID": "5a9215e01b887b4488572b1bfcafed7b",
-    "guidRef": "5a9215e01b887b4488572b1bfcafed7b"
+    "AssetGUID": "5a9215e01b887b4488572b1bfcafed7b"
   },
-  "isDebug": false,
-  "hasWater": false,
-  "theme": 0,
-  "IsStandard": true,
-  "IsBrowserOnly": false,
-  "isBrowserOnly": false
+  "IsStandard": true
 }

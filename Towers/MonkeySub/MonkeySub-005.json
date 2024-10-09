@@ -1,13 +1,17 @@
 {
   "cost": 325.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 42.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "a70a4e5af1cb66f4ca934d971487202d"
+  },
+  "instaIcon": {
+    "AssetGUID": "788269efcfcdd4a4196443fc9994464b"
+  },
   "areaTypes": [
     1
   ],
@@ -41,6 +45,51 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeySub-015",
+      "upgrade": "Barbed Darts"
+    },
+    {
+      "tower": "MonkeySub-105",
+      "upgrade": "Longer Range"
+    }
+  ],
+  "appliedUpgrades": [
+    "Twin Guns",
+    "Airburst Darts",
+    "Triple Guns",
+    "Armor Piercing Darts",
+    "Sub Commander"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "MonkeySub-Paragon",
+    "upgrade": "MonkeySub Paragon"
+  },
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "isUnique": true,
@@ -350,51 +399,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeySub-015",
-      "upgrade": "Barbed Darts"
-    },
-    {
-      "tower": "MonkeySub-105",
-      "upgrade": "Longer Range"
-    }
-  ],
-  "appliedUpgrades": [
-    "Twin Guns",
-    "Airburst Darts",
-    "Triple Guns",
-    "Armor Piercing Darts",
-    "Sub Commander"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "paragonUpgrade": {
-    "tower": "MonkeySub-Paragon",
-    "upgrade": "MonkeySub Paragon"
-  },
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

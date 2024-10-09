@@ -1,7 +1,5 @@
 {
   "cost": 2500.0,
-  "radius": 11.0,
-  "radiusSquared": 121.0,
   "range": 72.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 4,
+  "portrait": {
+    "AssetGUID": "755eba3a21e440540ab2e889edbcb39d"
+  },
+  "instaIcon": {
+    "AssetGUID": "aca653279b8ac448ca9799a9e5b528d9"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,46 @@
       "mod": "HotMagic"
     }
   ],
+  "footprint": {
+    "radius": 11.0
+  },
+  "upgrades": [
+    {
+      "tower": "SuperMonkey-140",
+      "upgrade": "Tech Terror"
+    },
+    {
+      "tower": "SuperMonkey-230",
+      "upgrade": "Plasma Blasts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Super Range",
+    "Epic Range",
+    "Robo Monkey",
+    "Laser Blasts"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -276,46 +320,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 11.0
-  },
-  "upgrades": [
-    {
-      "tower": "SuperMonkey-140",
-      "upgrade": "Tech Terror"
-    },
-    {
-      "tower": "SuperMonkey-230",
-      "upgrade": "Plasma Blasts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Super Range",
-    "Epic Range",
-    "Robo Monkey",
-    "Laser Blasts"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 11.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

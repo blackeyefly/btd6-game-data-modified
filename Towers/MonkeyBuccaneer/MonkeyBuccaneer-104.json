@@ -1,7 +1,5 @@
 {
   "cost": 400.0,
-  "radius": 8.0,
-  "radiusSquared": 64.0,
   "range": 71.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "b35051a17a5d98642aa521850cdfdbd7"
+  },
+  "instaIcon": {
+    "AssetGUID": "607bd3e8dc3854ed480e216f5f79c224"
+  },
   "areaTypes": [
     1
   ],
@@ -41,6 +45,47 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 8.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyBuccaneer-105",
+      "upgrade": "Buccaneer-Trade Empire"
+    },
+    {
+      "tower": "MonkeyBuccaneer-204",
+      "upgrade": "Buccaneer-Double Shot"
+    }
+  ],
+  "appliedUpgrades": [
+    "Buccaneer-Long Range",
+    "Buccaneer-Crow's Nest",
+    "Buccaneer-Merchantman",
+    "Buccaneer-Favored Trades",
+    "Buccaneer-Faster Shooting"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -194,47 +239,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 8.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyBuccaneer-105",
-      "upgrade": "Buccaneer-Trade Empire"
-    },
-    {
-      "tower": "MonkeyBuccaneer-204",
-      "upgrade": "Buccaneer-Double Shot"
-    }
-  ],
-  "appliedUpgrades": [
-    "Buccaneer-Long Range",
-    "Buccaneer-Crow's Nest",
-    "Buccaneer-Merchantman",
-    "Buccaneer-Favored Trades",
-    "Buccaneer-Faster Shooting"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 8.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

@@ -1,13 +1,14 @@
 {
   "cost": 700.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 60.0,
   "tier": 20,
   "tiers": [
     20
   ],
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "f08c41c80443f154d937f92730559daf"
+  },
   "areaTypes": [
     2
   ],
@@ -66,6 +67,57 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "emoteSpriteSmall": {
+    "AssetGUID": "UiEmoteIcons[EmoteStrikerJones]"
+  },
+  "emoteSpriteLarge": {
+    "AssetGUID": "ae7c454731e40624097148dcf3d7cf5e"
+  },
+  "appliedUpgrades": [
+    "Blast Radius",
+    "Concussive Shell",
+    "Bomb Speed Boost",
+    "Attack Speed",
+    "Bigger Explosion",
+    "Coordinated Shots",
+    "Bomb Expert",
+    "Black Resistance",
+    "Artillery Command",
+    "Attack Speed 2",
+    "Range",
+    "Attack Speed 3",
+    "Concussive Shell 2",
+    "Concussive Shell 3",
+    "Attack Speed 4",
+    "Range and Damage",
+    "Bomb Speed Boost 2",
+    "Attack Speed 5",
+    "Artillery Command 2"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -510,51 +562,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "appliedUpgrades": [
-    "Blast Radius",
-    "Concussive Shell",
-    "Bomb Speed Boost",
-    "Attack Speed",
-    "Bigger Explosion",
-    "Coordinated Shots",
-    "Bomb Expert",
-    "Black Resistance",
-    "Artillery Command",
-    "Attack Speed 2",
-    "Range",
-    "Attack Speed 3",
-    "Concussive Shell 2",
-    "Concussive Shell 3",
-    "Attack Speed 4",
-    "Range and Damage",
-    "Bomb Speed Boost 2",
-    "Attack Speed 5",
-    "Artillery Command 2"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

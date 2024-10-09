@@ -1,7 +1,5 @@
 {
   "cost": 800.0,
-  "radius": 12.0,
-  "radiusSquared": 144.0,
   "range": 22.0,
   "tier": 4,
   "tiers": [
@@ -9,6 +7,12 @@
     4
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "c2e8d5b0a5acda0479ad39419dba0c1b"
+  },
+  "instaIcon": {
+    "AssetGUID": "c6b40a57990b7452da45b9ca950dcb05"
+  },
   "areaTypes": [
     2
   ],
@@ -45,6 +49,49 @@
       "mod": "Wingmonkey"
     }
   ],
+  "footprint": {
+    "xWidth": 28.0,
+    "yWidth": 18.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyAce-105",
+      "upgrade": "Flying Fortress"
+    },
+    {
+      "tower": "MonkeyAce-204",
+      "upgrade": "Lots More Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Sharper Darts",
+    "Centered Path",
+    "Neva-Miss Targeting",
+    "Spectre",
+    "Rapid Fire"
+  ],
+  "targetTypes": [
+    {
+      "id": "Circle",
+      "intID": -1
+    },
+    {
+      "id": "FigureInfinite",
+      "intID": -1
+    },
+    {
+      "id": "FigureEight",
+      "intID": -1
+    },
+    {
+      "id": "Centered",
+      "isActionable": true,
+      "intID": -1
+    }
+  ],
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -361,7 +408,10 @@
           "heightRadius": 90.0,
           "isSelectable": true,
           "displayCount": 30,
-          "canSelectPoint": true
+          "canSelectPoint": true,
+          "pointDisplay": {
+            "AssetGUID": "3008bec461557b24a9556e9e8c4673a5"
+          }
         },
         {
           "filters": [
@@ -401,49 +451,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 28.0,
-    "yWidth": 18.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyAce-105",
-      "upgrade": "Flying Fortress"
-    },
-    {
-      "tower": "MonkeyAce-204",
-      "upgrade": "Lots More Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Sharper Darts",
-    "Centered Path",
-    "Neva-Miss Targeting",
-    "Spectre",
-    "Rapid Fire"
-  ],
-  "targetTypes": [
-    {
-      "id": "Circle",
-      "intID": -1
-    },
-    {
-      "id": "FigureInfinite",
-      "intID": -1
-    },
-    {
-      "id": "FigureEight",
-      "intID": -1
-    },
-    {
-      "id": "Centered",
-      "isActionable": true,
-      "intID": -1
-    }
-  ],
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 12.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Circle",

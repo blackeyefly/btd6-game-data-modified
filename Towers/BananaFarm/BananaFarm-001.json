@@ -1,13 +1,17 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 1,
   "tiers": [
     1
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "84351d7001484614aa8e470b7d9a503c"
+  },
+  "instaIcon": {
+    "AssetGUID": "6369741dfdaa74c49a88382fc40cff74"
+  },
   "areaTypes": [
     2
   ],
@@ -34,6 +38,32 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-002",
+      "upgrade": "Banana Salvage"
+    },
+    {
+      "tower": "BananaFarm-011",
+      "upgrade": "Long Life Bananas"
+    },
+    {
+      "tower": "BananaFarm-101",
+      "upgrade": "Increased Production"
+    }
+  ],
+  "appliedUpgrades": [
+    "EZ Collect"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -338,30 +368,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-002",
-      "upgrade": "Banana Salvage"
-    },
-    {
-      "tower": "BananaFarm-011",
-      "upgrade": "Long Life Bananas"
-    },
-    {
-      "tower": "BananaFarm-101",
-      "upgrade": "Increased Production"
-    }
-  ],
-  "appliedUpgrades": [
-    "EZ Collect"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

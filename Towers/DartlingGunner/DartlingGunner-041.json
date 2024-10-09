@@ -1,7 +1,5 @@
 {
   "cost": 850.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 4,
@@ -10,6 +8,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "83114a7b2789ddb48a95a8a05e868548"
+  },
+  "instaIcon": {
+    "AssetGUID": "90edab75e2d2546ae86748f3ecf98925"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,42 @@
       "mod": "GorgonStorm"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "DartlingGunner-042",
+      "upgrade": "Powerful Darts"
+    },
+    {
+      "tower": "DartlingGunner-051",
+      "upgrade": "M.A.D"
+    }
+  ],
+  "appliedUpgrades": [
+    "Advanced Targeting",
+    "Faster Barrel Spin",
+    "Hydra Rocket Pods",
+    "Rocket Storm",
+    "Faster Swivel"
+  ],
+  "targetTypes": [
+    {
+      "id": "Normal",
+      "intID": -1
+    },
+    {
+      "id": "Locked",
+      "isActionable": true,
+      "actionOnCreate": true,
+      "intID": -1
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -332,42 +372,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "DartlingGunner-042",
-      "upgrade": "Powerful Darts"
-    },
-    {
-      "tower": "DartlingGunner-051",
-      "upgrade": "M.A.D"
-    }
-  ],
-  "appliedUpgrades": [
-    "Advanced Targeting",
-    "Faster Barrel Spin",
-    "Hydra Rocket Pods",
-    "Rocket Storm",
-    "Faster Swivel"
-  ],
-  "targetTypes": [
-    {
-      "id": "Normal",
-      "intID": -1
-    },
-    {
-      "id": "Locked",
-      "isActionable": true,
-      "actionOnCreate": true,
-      "intID": -1
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Normal",

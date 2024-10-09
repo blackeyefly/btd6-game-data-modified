@@ -1,9 +1,13 @@
 {
   "cost": 350.0,
-  "radius": 7.0,
-  "radiusSquared": 49.0,
   "range": 40.0,
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "e434038c39c312c4ea5d687a1fb46a2b"
+  },
+  "instaIcon": {
+    "AssetGUID": "b1bde2898c0ab4b20b4aac908590059a"
+  },
   "areaTypes": [
     2
   ],
@@ -24,6 +28,44 @@
       "mod": "MonkeyEducation"
     }
   ],
+  "footprint": {
+    "radius": 7.0
+  },
+  "upgrades": [
+    {
+      "tower": "EngineerMonkey-100",
+      "upgrade": "Sentry Gun"
+    },
+    {
+      "tower": "EngineerMonkey-010",
+      "upgrade": "Larger Service Area"
+    },
+    {
+      "tower": "EngineerMonkey-001",
+      "upgrade": "Oversize Nails"
+    }
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -133,44 +175,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 7.0
-  },
-  "upgrades": [
-    {
-      "tower": "EngineerMonkey-100",
-      "upgrade": "Sentry Gun"
-    },
-    {
-      "tower": "EngineerMonkey-010",
-      "upgrade": "Larger Service Area"
-    },
-    {
-      "tower": "EngineerMonkey-001",
-      "upgrade": "Oversize Nails"
-    }
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 7.0,
+  "DisplayScale": 1.0,
   "IsBaseTower": true,
   "TargetTypes": [
     {

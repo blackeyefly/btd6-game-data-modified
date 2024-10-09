@@ -1,7 +1,5 @@
 {
   "cost": 800.0,
-  "radius": 12.0,
-  "radiusSquared": 144.0,
   "range": 22.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "ca06531644d49ad44916977edc35691b"
+  },
+  "instaIcon": {
+    "AssetGUID": "79a8d5d6b54504050a4229f7ca01deec"
+  },
   "areaTypes": [
     2
   ],
@@ -45,6 +49,41 @@
       "mod": "Wingmonkey"
     }
   ],
+  "footprint": {
+    "xWidth": 28.0,
+    "yWidth": 18.0
+  },
+  "upgrades": [
+    {
+      "tower": "MonkeyAce-102",
+      "upgrade": "Centered Path"
+    },
+    {
+      "tower": "MonkeyAce-201",
+      "upgrade": "Lots More Darts"
+    }
+  ],
+  "appliedUpgrades": [
+    "Rapid Fire",
+    "Sharper Darts"
+  ],
+  "targetTypes": [
+    {
+      "id": "Circle",
+      "intID": -1
+    },
+    {
+      "id": "FigureInfinite",
+      "intID": -1
+    },
+    {
+      "id": "FigureEight",
+      "intID": -1
+    }
+  ],
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -191,41 +230,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 28.0,
-    "yWidth": 18.0
-  },
-  "upgrades": [
-    {
-      "tower": "MonkeyAce-102",
-      "upgrade": "Centered Path"
-    },
-    {
-      "tower": "MonkeyAce-201",
-      "upgrade": "Lots More Darts"
-    }
-  ],
-  "appliedUpgrades": [
-    "Rapid Fire",
-    "Sharper Darts"
-  ],
-  "targetTypes": [
-    {
-      "id": "Circle",
-      "intID": -1
-    },
-    {
-      "id": "FigureInfinite",
-      "intID": -1
-    },
-    {
-      "id": "FigureEight",
-      "intID": -1
-    }
-  ],
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 12.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "Circle",

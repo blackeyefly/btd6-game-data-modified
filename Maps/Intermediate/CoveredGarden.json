@@ -2,6 +2,12 @@
   "id": "CoveredGarden",
   "difficulty": 1,
   "mapMusic": "MusicUpbeat2A",
+  "mapSprite": {
+    "AssetGUID": "MapImages[MapSelectCoveredGardenMapButton]"
+  },
+  "odysseyStatue": {
+    "AssetGUID": "a96a315f586dbd74f8c926bf6bd1e20b"
+  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

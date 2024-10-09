@@ -1,7 +1,5 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 46.0,
   "tier": 3,
   "tiers": [
@@ -9,6 +7,12 @@
     3
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "a829b3a7fbb9faf4e9b837d38094c218"
+  },
+  "instaIcon": {
+    "AssetGUID": "188ec6220c6584a25a179ea6d19b850a"
+  },
   "areaTypes": [
     2
   ],
@@ -39,6 +43,43 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-024",
+      "upgrade": "Relentless Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Globs",
+    "Glue Splatter",
+    "Stickier Glue",
+    "Stronger Glue",
+    "MOAB Glue"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -258,43 +299,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-024",
-      "upgrade": "Relentless Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Globs",
-    "Glue Splatter",
-    "Stickier Glue",
-    "Stronger Glue",
-    "MOAB Glue"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

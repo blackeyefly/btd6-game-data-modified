@@ -1,13 +1,17 @@
 {
   "cost": 225.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
-  "range": 46.0,
+  "range": 58.0,
   "tier": 5,
   "tiers": [
     5
   ],
   "towerSet": 1,
+  "portrait": {
+    "AssetGUID": "a4f4bd1129d242c4b8d4532938b1e1f4"
+  },
+  "instaIcon": {
+    "AssetGUID": "6a47a9b044395479aad85c769be9b785"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,47 @@
       "target": "WeaponModel_Weapon"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "GlueGunner-150",
+      "upgrade": "Glue Soak"
+    },
+    {
+      "tower": "GlueGunner-051",
+      "upgrade": "Stickier Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Globs",
+    "Glue Splatter",
+    "Glue Hose",
+    "Glue Strike",
+    "Glue Storm"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -250,7 +295,7 @@
           "isSelectable": true
         }
       ],
-      "range": 46.0,
+      "range": 58.0,
       "addsToSharedGrid": true
     },
     {
@@ -379,47 +424,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "GlueGunner-150",
-      "upgrade": "Glue Soak"
-    },
-    {
-      "tower": "GlueGunner-051",
-      "upgrade": "Stickier Glue"
-    }
-  ],
-  "appliedUpgrades": [
-    "Bigger Globs",
-    "Glue Splatter",
-    "Glue Hose",
-    "Glue Strike",
-    "Glue Storm"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

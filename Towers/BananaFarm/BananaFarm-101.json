@@ -1,7 +1,5 @@
 {
   "cost": 1250.0,
-  "radius": 15.0,
-  "radiusSquared": 225.0,
   "range": 40.0,
   "tier": 1,
   "tiers": [
@@ -9,6 +7,12 @@
     1
   ],
   "towerSet": 8,
+  "portrait": {
+    "AssetGUID": "d51cedc6700f3ab4ab5ea38adf55e44b"
+  },
+  "instaIcon": {
+    "AssetGUID": "b09437f86abda44a3b773c48615a1b77"
+  },
   "areaTypes": [
     2
   ],
@@ -35,6 +39,29 @@
       "mod": "HealthyBananas"
     }
   ],
+  "footprint": {
+    "xWidth": 30.0,
+    "yWidth": 30.0
+  },
+  "doesntRotate": true,
+  "upgrades": [
+    {
+      "tower": "BananaFarm-102",
+      "upgrade": "Banana Salvage"
+    },
+    {
+      "tower": "BananaFarm-201",
+      "upgrade": "Greater Production"
+    }
+  ],
+  "appliedUpgrades": [
+    "Increased Production",
+    "EZ Collect"
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -342,27 +369,6 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "xWidth": 30.0,
-    "yWidth": 30.0
-  },
-  "doesntRotate": true,
-  "upgrades": [
-    {
-      "tower": "BananaFarm-102",
-      "upgrade": "Banana Salvage"
-    },
-    {
-      "tower": "BananaFarm-201",
-      "upgrade": "Greater Production"
-    }
-  ],
-  "appliedUpgrades": [
-    "Increased Production",
-    "EZ Collect"
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true
+  "radius": 15.0,
+  "DisplayScale": 1.0
 }

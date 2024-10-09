@@ -1,7 +1,5 @@
 {
   "cost": 350.0,
-  "radius": 6.0,
-  "radiusSquared": 36.0,
   "range": 20.0,
   "isGlobalRange": true,
   "tier": 3,
@@ -10,6 +8,12 @@
     2
   ],
   "towerSet": 2,
+  "portrait": {
+    "AssetGUID": "bd47aef5b4bddd648b1202de4cd95908"
+  },
+  "instaIcon": {
+    "AssetGUID": "0c99704e2d31d4740baa18bcc2d13503"
+  },
   "areaTypes": [
     2
   ],
@@ -36,6 +40,43 @@
       "mod": "FlankingManeuvers"
     }
   ],
+  "footprint": {
+    "radius": 6.0
+  },
+  "upgrades": [
+    {
+      "tower": "SniperMonkey-402",
+      "upgrade": "Maim MOAB"
+    }
+  ],
+  "appliedUpgrades": [
+    "Full Metal Jacket",
+    "Large Calibre",
+    "Fast Firing",
+    "Even Faster Firing",
+    "Deadly Precision"
+  ],
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "effectModel": {
@@ -157,43 +198,8 @@
       "category": 4
     }
   ],
-  "footprint": {
-    "radius": 6.0
-  },
-  "upgrades": [
-    {
-      "tower": "SniperMonkey-402",
-      "upgrade": "Maim MOAB"
-    }
-  ],
-  "appliedUpgrades": [
-    "Full Metal Jacket",
-    "Large Calibre",
-    "Fast Firing",
-    "Even Faster Firing",
-    "Deadly Precision"
-  ],
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 6.0,
+  "DisplayScale": 1.0,
   "TargetTypes": [
     {
       "id": "First"

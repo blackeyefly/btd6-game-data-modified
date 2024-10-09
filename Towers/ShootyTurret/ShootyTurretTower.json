@@ -1,8 +1,9 @@
 {
-  "radius": 3.0,
-  "radiusSquared": 9.0,
   "range": 50.0,
   "towerSet": 16,
+  "portrait": {
+    "AssetGUID": "6dc10060b4cb6174992724ee4ff00d95"
+  },
   "areaTypes": [
     2
   ],
@@ -49,6 +50,32 @@
       "mod": "WeakPoint"
     }
   ],
+  "footprint": {
+    "radius": 3.0
+  },
+  "dontDisplayUpgrades": true,
+  "targetTypes": [
+    {
+      "id": "First"
+    },
+    {
+      "id": "Last",
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "intID": 3
+    }
+  ],
+  "isSubTower": true,
+  "isBakable": true,
+  "animationSpeed": 1.0,
+  "showBuffs": true,
+  "displayScale": 1.0,
   "behaviors": [
     {
       "placeAnimation": 2,
@@ -163,33 +190,10 @@
       "category": 1
     }
   ],
-  "footprint": {
-    "radius": 3.0
-  },
-  "dontDisplayUpgrades": true,
-  "targetTypes": [
-    {
-      "id": "First"
-    },
-    {
-      "id": "Last",
-      "intID": 1
-    },
-    {
-      "id": "Close",
-      "intID": 2
-    },
-    {
-      "id": "Strong",
-      "intID": 3
-    }
-  ],
-  "isSubTower": true,
-  "isBakable": true,
-  "animationSpeed": 1.0,
-  "displayScale": 1.0,
-  "showBuffs": true,
+  "radius": 3.0,
   "isGeraldoItem": true,
+  "DisplayScale": 1.0,
+  "IsSubEntity": true,
   "TargetTypes": [
     {
       "id": "First"
