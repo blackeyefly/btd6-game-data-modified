@@ -8,12 +8,6 @@
     4
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "528443d67856547519ba7199eb9c2af6"
-  },
-  "instaIcon": {
-    "AssetGUID": "3f3c0eff59fdd4062ade5a0794bad398"
-  },
   "areaTypes": [
     2
   ],
@@ -332,19 +326,9 @@
               "isActive": true
             }
           ]
-        },
-        {
-          "displayInvalid": {
-            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-          }
         }
       ],
       "range": 60.0,
-      "targetProvider": {
-        "displayInvalid": {
-          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-        }
-      },
       "attackThroughWalls": true
     },
     {

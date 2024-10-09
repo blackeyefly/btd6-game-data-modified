@@ -7,12 +7,6 @@
     4
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "2ff664274eb8f504291dbccd48f74a8f"
-  },
-  "instaIcon": {
-    "AssetGUID": "0e938199982594a9a859c22efc04b1aa"
-  },
   "areaTypes": [
     2
   ],
@@ -194,12 +188,6 @@
           "towerCount": 10,
           "range": 40.0,
           "reloadModifier": 0.06315789,
-          "towerDisplay": {
-            "AssetGUID": "7c0d27ae2e35ace479eef51e8cdb91dd"
-          },
-          "towerOriginDisplay": {
-            "AssetGUID": "8bc820f6f7a25e84eb1c15340dcf3fcc"
-          },
           "projectileRadius": 2.0,
           "effectModel": {
             "scale": 1.0,

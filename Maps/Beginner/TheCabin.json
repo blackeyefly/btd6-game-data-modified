@@ -2,12 +2,6 @@
   "id": "TheCabin",
   "coopMapDivisionType": 2,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectTheCabinMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "e9e5979696ec73b458fd72c8f4c7e65a"
-  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

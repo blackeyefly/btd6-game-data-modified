@@ -3,12 +3,6 @@
   "difficulty": 1,
   "coopMapDivisionType": 1,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectAdorasTemple]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "203a8ed70ba9b564e81531344ddbf627"
-  },
   "hasWater": true,
   "IsStandard": true
 }

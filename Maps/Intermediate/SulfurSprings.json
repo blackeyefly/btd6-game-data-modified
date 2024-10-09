@@ -2,12 +2,6 @@
   "id": "SulfurSprings",
   "difficulty": 1,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectSulfurSpringsButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "2712a9e1db4f7354fb9af0d7ec1dd99e"
-  },
   "hasWater": true,
   "theme": 6,
   "IsStandard": true

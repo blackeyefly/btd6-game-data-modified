@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "d10bc1e4fd9140b4db9ecfe31fd24bb9"
-  },
-  "instaIcon": {
-    "AssetGUID": "b209216f6c8364e6dad04a5d422493a2"
-  },
   "areaTypes": [
     2
   ],
@@ -203,9 +197,6 @@
                 "tower": {
                   "range": 54.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "78539c173eded754f96819747d79e67b"
-                  },
                   "areaTypes": [
                     2
                   ],

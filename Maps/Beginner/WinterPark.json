@@ -1,12 +1,6 @@
 {
   "id": "WinterPark",
   "mapMusic": "MusicCoopA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectWinterPark]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "a7a8ac07fccb8324c906aeba7f485ce7"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

@@ -12,12 +12,6 @@
           "description": "Door Gunner: Pick up a tower and allow it to shoot while mid-air.",
           "behaviors": [
             {
-              "selectionObjectPath": {
-                "AssetGUID": "533c8d007067dbe4b88b6b85801ffe31"
-              },
-              "isSelectableGameObject": {
-                "AssetGUID": "533c8d007067dbe4b88b6b85801ffe31"
-              },
               "Mutator": {
                 "id": "DoorGunnerMutator",
                 "priority": 1

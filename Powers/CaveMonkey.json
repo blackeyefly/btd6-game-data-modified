@@ -12,9 +12,6 @@
   "tower": {
     "range": 24.0,
     "towerSet": 64,
-    "portrait": {
-      "AssetGUID": "0f1b3639ddbbc2440954195347594e02"
-    },
     "areaTypes": [
       2
     ],
@@ -22,12 +19,6 @@
       "radius": 7.0
     },
     "dontDisplayUpgrades": true,
-    "emoteSpriteSmall": {
-      "AssetGUID": "UiEmoteIcons[EmotePatFusty]"
-    },
-    "emoteSpriteLarge": {
-      "AssetGUID": "9d32dd861cce40c4687058a8028c4cc7"
-    },
     "targetTypes": [
       {
         "id": "First"

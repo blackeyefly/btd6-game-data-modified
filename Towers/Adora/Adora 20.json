@@ -7,9 +7,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "1f71f4298fea50146af750ed5fadeb09"
-  },
   "areaTypes": [
     2
   ],
@@ -62,12 +59,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteAdora]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "ad415f9974769074fb2b1c582ae2c453"
   },
   "appliedUpgrades": [
     "Adora Upgrade 2",
@@ -143,55 +134,14 @@
         "lifespan": 2.0,
         "useTransformPosition": true
       },
-      "portraitRef": {
-        "AssetGUID": "2920a0f1bbe1a1341af6747740ce550a"
-      },
-      "newDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "54194f9f58ac894468bb2bef57c098da"
-        }
-      },
-      "projectileDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "59e2fa7df5f95874190ae4f2a9f58a76"
-        }
-      },
-      "bolDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "8e5e824492dae6e4cad1f9254d2cc3b0"
-        }
-      },
-      "bolProjectileDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "ec02a14e6de760f45b5ce1212d49f797"
-        }
-      },
-      "laolProjectileDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "1ec4619be037156468f29a419db7079d"
-        }
-      },
       "effectDarkModel": {
         "scale": 1.0,
         "lifespan": 2.0,
         "useTransformPosition": true
       },
-      "portraitDarkRef": {
-        "AssetGUID": "144cbec92a7d93d4b8eae7a7dd73701b"
-      },
-      "beamHitDisplayDarkPath": {
-        "assetPath": {
-          "AssetGUID": "d893aba3e0c8b7b44b5a8eb20a47b91b"
-        }
-      },
       "upgradeAnimationDarkPath": 4,
       "longArmOfLightBehaviorModel": {
         "multiplier": 2.0,
-        "projectileDisplay": {
-          "assetPath": {
-            "AssetGUID": "b57c7b3efd9b7c745b0b457d76734d94"
-          }
-        },
         "projectileRadiusMultiplier": 1.5,
         "damageIncrease": 2,
         "Lifespan": 15.0,
@@ -546,11 +496,6 @@
       "behaviors": [
         {
           "multiplier": 2.0,
-          "projectileDisplay": {
-            "assetPath": {
-              "AssetGUID": "b57c7b3efd9b7c745b0b457d76734d94"
-            }
-          },
           "projectileRadiusMultiplier": 1.5,
           "damageIncrease": 2,
           "Lifespan": 15.0,
@@ -578,9 +523,6 @@
       "behaviors": [
         {
           "xpMultiplier": 4.0,
-          "selectionObjectPath": {
-            "AssetGUID": "560c30a93c455734a915f8649ee7772d"
-          },
           "effectAtSacrificeModel": {
             "scale": 1.0,
             "lifespan": 18.0

@@ -6,12 +6,6 @@
     5
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "deed25003a7c24f1da05ac7a61633179"
-  },
-  "instaIcon": {
-    "AssetGUID": "b4bb74f9f39dd44edad5c0fb90818a02"
-  },
   "areaTypes": [
     2
   ],
@@ -408,19 +402,9 @@
               "isActive": true
             }
           ]
-        },
-        {
-          "displayInvalid": {
-            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-          }
         }
       ],
       "range": 80.0,
-      "targetProvider": {
-        "displayInvalid": {
-          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-        }
-      },
       "attackThroughWalls": true
     },
     {

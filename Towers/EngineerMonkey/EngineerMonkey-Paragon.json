@@ -6,12 +6,6 @@
     6
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "596c3a3ced092cb4cb34c89d60dbdd1d"
-  },
-  "instaIcon": {
-    "AssetGUID": "b209216f6c8364e6dad04a5d422493a2"
-  },
   "areaTypes": [
     2
   ],
@@ -71,33 +65,6 @@
       "bonusAttackSpeedPerRoundPercent": 0.3
     },
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "f1db745235f5dcb43b4c29d3587672f9"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "ca1f825595388db46b1ee052c28e65fb"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "44fca7e29ef81234093e2584edd8c67e"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "eaf31e60d36c64f49bfa608b440056b0"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "3076e4f3dddc96345a85461b146da569"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -649,24 +616,10 @@
                   "behaviors": [
                     {
                       "onlyAllowOneTowerPerType": true,
-                      "projectileDisplays": [
-                        {
-                          "AssetGUID": "daf41a57527bcf44a8f5f6d738863dc2"
-                        },
-                        {
-                          "AssetGUID": "b6f0d0b1d7e374d49b79fe819ab03ec6"
-                        },
-                        {
-                          "AssetGUID": "f08daa81ee5aa8d4c98327a9260f99ca"
-                        }
-                      ],
                       "towers": [
                         {
                           "range": 70.0,
                           "towerSet": 8,
-                          "portrait": {
-                            "AssetGUID": "5f5ee2016a2367a49a2e45d8551c70ec"
-                          },
                           "areaTypes": [
                             2
                           ],
@@ -987,9 +940,6 @@
                                         "tower": {
                                           "range": 50.0,
                                           "towerSet": 8,
-                                          "portrait": {
-                                            "AssetGUID": "00e59418fb1222c45b71633625c19202"
-                                          },
                                           "areaTypes": [
                                             2
                                           ],
@@ -1549,9 +1499,6 @@
                         {
                           "range": 70.0,
                           "towerSet": 8,
-                          "portrait": {
-                            "AssetGUID": "187bfb9bf7b7b9044b7cab8dcf33a4a9"
-                          },
                           "areaTypes": [
                             2
                           ],
@@ -1814,9 +1761,6 @@
                                         "tower": {
                                           "range": 50.0,
                                           "towerSet": 8,
-                                          "portrait": {
-                                            "AssetGUID": "00e59418fb1222c45b71633625c19202"
-                                          },
                                           "areaTypes": [
                                             2
                                           ],
@@ -2381,9 +2325,6 @@
                         {
                           "range": 70.0,
                           "towerSet": 8,
-                          "portrait": {
-                            "AssetGUID": "ae270fc986a18ff4aa21a010f191728a"
-                          },
                           "areaTypes": [
                             2
                           ],
@@ -2718,9 +2659,6 @@
                                         "tower": {
                                           "range": 50.0,
                                           "towerSet": 8,
-                                          "portrait": {
-                                            "AssetGUID": "00e59418fb1222c45b71633625c19202"
-                                          },
                                           "areaTypes": [
                                             2
                                           ],

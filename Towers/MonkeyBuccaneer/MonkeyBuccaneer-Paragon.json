@@ -6,12 +6,6 @@
     6
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "0ba5e41f3fc13cc47be8565794c159e9"
-  },
-  "instaIcon": {
-    "AssetGUID": "85e556df09bd04580a94b7d3606a8a10"
-  },
   "areaTypes": [
     1
   ],
@@ -79,33 +73,6 @@
   "displayScale": 1.0,
   "behaviors": [
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "e4514c91f322a3c419ffeed58b1947e6"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "a4c8ca4ad49cc104c9192ad1ef305c51"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "de649bdd9d7749e4f84a8e428c75680b"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "b8b2c80d80a061742b1ca9978ed9db46"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "36fc7f0fbe5ad944bb44d14820671b47"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0

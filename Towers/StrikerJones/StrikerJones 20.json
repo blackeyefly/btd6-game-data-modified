@@ -6,9 +6,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "f08c41c80443f154d937f92730559daf"
-  },
   "areaTypes": [
     2
   ],
@@ -69,12 +66,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteStrikerJones]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "ae7c454731e40624097148dcf3d7cf5e"
   },
   "appliedUpgrades": [
     "Blast Radius",

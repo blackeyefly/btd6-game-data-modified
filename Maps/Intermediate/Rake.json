@@ -2,12 +2,6 @@
   "id": "Rake",
   "difficulty": 1,
   "mapMusic": "MusicUpbeat1A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectRakeButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "023e8dd0612c5ae458cd193b2d8e14fc"
-  },
   "hasWater": true,
   "IsStandard": true
 }

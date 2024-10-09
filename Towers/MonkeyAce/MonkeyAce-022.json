@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "77d5c2bea25ecaa44ba52467f55c9d2b"
-  },
-  "instaIcon": {
-    "AssetGUID": "742e895ef4c344e8abb93483076bb3ce"
-  },
   "areaTypes": [
     2
   ],
@@ -197,10 +191,7 @@
           "heightRadius": 90.0,
           "isSelectable": true,
           "displayCount": 30,
-          "canSelectPoint": true,
-          "pointDisplay": {
-            "AssetGUID": "3008bec461557b24a9556e9e8c4673a5"
-          }
+          "canSelectPoint": true
         }
       ],
       "range": 22.0,

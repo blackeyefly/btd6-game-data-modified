@@ -7,9 +7,6 @@
     13
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "39bd4386d0ea52640b34648703ea49a8"
-  },
   "areaTypes": [
     2
   ],
@@ -58,12 +55,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteAdora]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "ad415f9974769074fb2b1c582ae2c453"
   },
   "upgrades": [
     {
@@ -239,11 +230,6 @@
       "behaviors": [
         {
           "multiplier": 2.0,
-          "projectileDisplay": {
-            "assetPath": {
-              "AssetGUID": "b57c7b3efd9b7c745b0b457d76734d94"
-            }
-          },
           "projectileRadiusMultiplier": 1.5,
           "Lifespan": 10.0,
           "mutator": {
@@ -271,9 +257,6 @@
       "behaviors": [
         {
           "xpMultiplier": 4.0,
-          "selectionObjectPath": {
-            "AssetGUID": "560c30a93c455734a915f8649ee7772d"
-          },
           "effectAtSacrificeModel": {
             "scale": 1.0,
             "lifespan": 18.0

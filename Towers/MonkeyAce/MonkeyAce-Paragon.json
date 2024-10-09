@@ -6,12 +6,6 @@
     6
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "06d38d6a9470dbb468b3d7fcdb13a95f"
-  },
-  "instaIcon": {
-    "AssetGUID": "833e37ca06bff419594862bde0a91585"
-  },
   "areaTypes": [
     2
   ],
@@ -85,33 +79,6 @@
   "displayScale": 1.0,
   "behaviors": [
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "3479f05e09f7f8c4b9c5c1b5880fc1b9"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "6b0f835f8789f6e4fba300a35824c44e"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "093b8f78c222da4419edc685c7e154ec"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "34ead43160fd3f84ab88296ad8898973"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "0ce5551498f8fb94cbe65b8f47172b50"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -282,10 +249,7 @@
           "heightRadius": 90.0,
           "isSelectable": true,
           "displayCount": 30,
-          "canSelectPoint": true,
-          "pointDisplay": {
-            "AssetGUID": "3008bec461557b24a9556e9e8c4673a5"
-          }
+          "canSelectPoint": true
         }
       ],
       "range": 22.0,
@@ -485,18 +449,6 @@
       "description": "Carpet Bomb",
       "behaviors": [
         {
-          "targetDisplay": {
-            "AssetGUID": "3008bec461557b24a9556e9e8c4673a5"
-          },
-          "lineDisplayGreenIndicator": {
-            "AssetGUID": "f6e4526492bc9164baac0dd1058077f2"
-          },
-          "lineDisplayRedIndicator": {
-            "AssetGUID": "15a96ce311133ec46b824e88f291a255"
-          },
-          "bombersPrefab": {
-            "AssetGUID": "6fb19edd78320c34caffdad31ce623cb"
-          },
           "projectileModel": {
             "id": "ProjectileFallingEffect",
             "pierce": 1.0,

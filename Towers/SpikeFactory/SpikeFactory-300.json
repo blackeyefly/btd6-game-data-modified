@@ -7,12 +7,6 @@
     3
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "aced54dd9b44a1a48b101e8f54b17491"
-  },
-  "instaIcon": {
-    "AssetGUID": "3b6eb1938f4624a42bc200bd4b54f948"
-  },
   "areaTypes": [
     2
   ],
@@ -198,38 +192,6 @@
                 }
               },
               {
-                "sprites": [
-                  {
-                    "AssetGUID": "af2f6ef7fc0b7d24ea1346f571d508f4"
-                  },
-                  {
-                    "AssetGUID": "250ee3f52eb8f244c8791b8fdb61a86f"
-                  },
-                  {
-                    "AssetGUID": "835eaa65a23e6e4448070949d8157253"
-                  },
-                  {
-                    "AssetGUID": "cca6dfb2d6f436d43991ae45fb5a74ea"
-                  },
-                  {
-                    "AssetGUID": "750d128121832ca4eb83fbc2c091175c"
-                  },
-                  {
-                    "AssetGUID": "e2a8bbb82bb3dd8429b3ce79cb59e281"
-                  },
-                  {
-                    "AssetGUID": "e0435e3c7c4e51a468271a3732e05ef8"
-                  },
-                  {
-                    "AssetGUID": "4bee72d23e155ed48a1a98d56b03a346"
-                  },
-                  {
-                    "AssetGUID": "d455ecdcaa9320f428ad0184dee86dd9"
-                  },
-                  {
-                    "AssetGUID": "a7f29ad87eabde84aa7d357bb8b9e85c"
-                  }
-                ],
                 "loopMode": "Clamp"
               },
               {

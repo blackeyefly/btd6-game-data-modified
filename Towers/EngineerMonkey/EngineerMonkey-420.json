@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "9ac1fec443c36894daf7d59d3a221e7c"
-  },
-  "instaIcon": {
-    "AssetGUID": "cf39db15e5cd340e2961a8a5f13e4167"
-  },
   "areaTypes": [
     2
   ],
@@ -196,9 +190,6 @@
                 "crushingTower": {
                   "range": 54.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "a4a5d4b1a96ef0641ba613c616f4c4f3"
-                  },
                   "areaTypes": [
                     2
                   ],
@@ -417,9 +408,6 @@
                 "boomTower": {
                   "range": 54.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "70849a4f9c4c10048bf29b6a0f2d8729"
-                  },
                   "areaTypes": [
                     2
                   ],
@@ -671,9 +659,6 @@
                 "coldTower": {
                   "range": 54.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "d5ca6a2aa01d57d48baad052fa668be7"
-                  },
                   "areaTypes": [
                     2
                   ],
@@ -1020,9 +1005,6 @@
                 "energyTower": {
                   "range": 54.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "a293ed1f22cac2e49bb467f76e681686"
-                  },
                   "areaTypes": [
                     2
                   ],
@@ -1230,18 +1212,6 @@
                       "intID": 3
                     }
                   ]
-                },
-                "crushingDisplay": {
-                  "AssetGUID": "333ed0c466512f94cace6f41b0a91fe9"
-                },
-                "boomDisplay": {
-                  "AssetGUID": "b7e4d300bcf4f6d4b874e0e9fe408127"
-                },
-                "coldDisplay": {
-                  "AssetGUID": "ea941ce796b2d81448d0342c0005b1ed"
-                },
-                "energyDisplay": {
-                  "AssetGUID": "23a27e92f3cf4114fb993470b570b6ee"
                 }
               },
               {

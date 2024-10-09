@@ -6,9 +6,6 @@
     6
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "a3e480ebedd3db2469c260bb8974e383"
-  },
   "areaTypes": [
     2
   ],
@@ -62,12 +59,6 @@
   "footprint": {
     "xWidth": 27.0,
     "yWidth": 27.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteRosalia]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "dc92fbb9c3080784c85cc025f83c0dfc"
   },
   "upgrades": [
     {
@@ -815,18 +806,6 @@
           "jumpDownAnimationState": 3,
           "jumpBlockerRadius": 6.0,
           "jumpSpeedScale": 1.5,
-          "idleLaserPrefab": {
-            "AssetGUID": "f6a59556d44f8cc4f96f71a78c711f65"
-          },
-          "idleGrenadePrefab": {
-            "AssetGUID": "f6f020dacbfd09547ac943ce9f8c6112"
-          },
-          "jumpingLaserPrefab": {
-            "AssetGUID": "7fcff54eb031b614085badf34e183d31"
-          },
-          "jumpingGrenadePrefab": {
-            "AssetGUID": "2d6a3236d914fd14298485277678d207"
-          },
           "noTargetSlowdownDistance": 30.0,
           "noTargetVelocityScale": 0.97
         }

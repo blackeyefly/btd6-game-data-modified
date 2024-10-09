@@ -2,12 +2,6 @@
   "id": "QuietStreet",
   "difficulty": 1,
   "mapMusic": "MusicBTD5JazzA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectQuietSteetMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "8f4c7d6feeafc9f44a2232b91a38170f"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

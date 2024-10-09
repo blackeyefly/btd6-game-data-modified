@@ -3,12 +3,6 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicCoopA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectGlacialTrailButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "6a6798a0934861e49b88c0e4332c6cab"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

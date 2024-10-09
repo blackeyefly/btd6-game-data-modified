@@ -14,9 +14,6 @@
     "ignoreBlockers": true,
     "isGlobalRange": true,
     "towerSet": 64,
-    "portrait": {
-      "AssetGUID": "4706e1e0ab479a348851c64ffe60a69b"
-    },
     "areaTypes": [
       2
     ],

@@ -7,12 +7,6 @@
     3
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "e35fb80bef7b39c429ffcb09a48312dc"
-  },
-  "instaIcon": {
-    "AssetGUID": "ac313ed16344e4fe693006dca2974742"
-  },
   "areaTypes": [
     2
   ],
@@ -224,9 +218,6 @@
         {
           "restrictToTowerRadius": true,
           "placementZoneAssetRadius": 40.0,
-          "placementZoneAsset": {
-            "AssetGUID": "0b51091b90e723c4f9f1caaa123e2b8f"
-          },
           "disappearEffectModel": {
             "scale": 1.0,
             "lifespan": 1.0

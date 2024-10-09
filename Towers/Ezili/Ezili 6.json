@@ -7,9 +7,6 @@
     6
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "c792228bebcbdd44d98f4527e8a23177"
-  },
   "areaTypes": [
     2
   ],
@@ -58,12 +55,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteEzili]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "3659b5703c271324ca14d4b106a73ffa"
   },
   "upgrades": [
     {

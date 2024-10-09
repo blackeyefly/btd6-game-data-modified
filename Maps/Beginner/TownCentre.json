@@ -2,12 +2,6 @@
   "id": "TownCentre",
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat1A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectTownCentreButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "6d8285b84a6181442b456593e8d35c72"
-  },
   "hasWater": true,
   "IsStandard": true
 }

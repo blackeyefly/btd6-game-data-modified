@@ -6,9 +6,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "d5b2a2fa219958b4c93726cfd67a58b0"
-  },
   "areaTypes": [
     1,
     2
@@ -59,12 +56,6 @@
   ],
   "footprint": {
     "radius": 8.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmotePatFusty]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "9d32dd861cce40c4687058a8028c4cc7"
   },
   "appliedUpgrades": [
     "2 PatFusty slam radius+",

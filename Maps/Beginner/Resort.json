@@ -2,12 +2,6 @@
   "id": "Resort",
   "coopMapDivisionType": 4,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectResortMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "822b5cb42fa3c1c4ab6c0a3760b0e435"
-  },
   "hasWater": true,
   "theme": 3,
   "IsStandard": true

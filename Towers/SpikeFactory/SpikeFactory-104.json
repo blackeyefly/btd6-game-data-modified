@@ -8,12 +8,6 @@
     4
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "783062f494519a8439cc8fa9f82987d1"
-  },
-  "instaIcon": {
-    "AssetGUID": "152825fd39a07489894babe8a8f590c5"
-  },
   "areaTypes": [
     2
   ],
@@ -208,11 +202,6 @@
                 }
               },
               {
-                "sprites": [
-                  {
-                    "AssetGUID": "6d356a7488c2ca7488ac88f24fdbb136"
-                  }
-                ],
                 "loopMode": "Clamp"
               },
               {

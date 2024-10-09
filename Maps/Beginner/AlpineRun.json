@@ -2,12 +2,6 @@
   "id": "AlpineRun",
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectAlpineRunButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "babfb92127acbac4ba33619f2575fc2f"
-  },
   "theme": 5,
   "IsStandard": true
 }

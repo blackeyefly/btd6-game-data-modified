@@ -7,12 +7,6 @@
     4
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "f44c0cc38c03b2e48823f7f096cf646c"
-  },
-  "instaIcon": {
-    "AssetGUID": "e9137e57d24b94d7daf54e7ff866131b"
-  },
   "areaTypes": [
     2
   ],
@@ -252,9 +246,6 @@
       "description": "DarkshiftDescription",
       "behaviors": [
         {
-          "placementZoneAsset": {
-            "AssetGUID": "7d0f0272fa5480146895ddcd72260882"
-          },
           "disappearEffectModel": {
             "scale": 1.0,
             "lifespan": 1.0

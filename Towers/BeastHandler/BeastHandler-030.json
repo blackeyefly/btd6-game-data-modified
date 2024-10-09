@@ -7,12 +7,6 @@
     3
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "35f522c7099f5004eb30945224325345"
-  },
-  "instaIcon": {
-    "AssetGUID": "a42b4abfce18d984ab894d3ac5278706"
-  },
   "areaTypes": [
     2
   ],
@@ -177,10 +171,7 @@
               {
                 "percent": 0.5
               }
-            ],
-            "genericIcon": {
-              "AssetGUID": "IngameUi[BhTargetIconDino]"
-            }
+            ]
           },
           {
             "effectModel": {
@@ -388,18 +379,6 @@
       "contributionDotOffset": 10.0,
       "contributionDotSpacing": 6.0,
       "contributionDotSpeed": 15.0,
-      "buffedTextDisplayPrefab": {
-        "AssetGUID": "9bdae2a6bac16284cbe7abc5d013f9f9"
-      },
-      "mergedTextDisplayPrefab": {
-        "AssetGUID": "6a1538a8436e34942972950b891747f5"
-      },
-      "powerTextDisplayPrefab": {
-        "AssetGUID": "483357db7b634fc44aaa23bdab741c4c"
-      },
-      "validMergeTargetObjectPath": {
-        "AssetGUID": "207f42fbbb705574c9f769023d5bcce3"
-      },
       "piranhaPetModel": {
         "canMove": true,
         "basePower": 1,
@@ -409,15 +388,9 @@
         "damageRange": 2,
         "displayStepModels": [
           {
-            "projectileDisplay": {
-              "AssetGUID": "a591d7dc394913240a4143e8087183ca"
-            },
             "percent": 1.0
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconFish]"
-        }
+        ]
       },
       "microraptorPetModel": {
         "tier": 3,
@@ -438,10 +411,7 @@
           {
             "percent": 0.5
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconDino]"
-        }
+        ]
       },
       "gyrfalconPetModel": {
         "path": 2,
@@ -455,10 +425,7 @@
           {
             "percent": 1.0
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconBird]"
-        }
+        ]
       }
     },
     {

@@ -1,12 +1,6 @@
 {
   "id": "LotusIsland",
   "mapMusic": "MusicSailsAgain",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectLotusIslandButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "a082a38965349d0498389d23b658e37d"
-  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

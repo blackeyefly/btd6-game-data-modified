@@ -7,12 +7,6 @@
     5
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "44803f63527feab4ba19eb2466d4c51d"
-  },
-  "instaIcon": {
-    "AssetGUID": "0b5da9a9a79234b2f983b460dbe50daa"
-  },
   "areaTypes": [
     2
   ],
@@ -81,84 +75,6 @@
   "displayScale": 1.0,
   "behaviors": [
     {
-      "objectToPlace1FarPath": {
-        "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
-      },
-      "objectToPlace2FarPath": {
-        "AssetGUID": "66fac218aac221a4e842c696e6542a51"
-      },
-      "objectToPlace3FarPath": {
-        "AssetGUID": "28a99e771f710e14ca55fdf0e2b44696"
-      },
-      "objectToPlace4FarPath": {
-        "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
-      },
-      "objectsToPlaceFarPath": [
-        {
-          "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
-        },
-        {
-          "AssetGUID": "66fac218aac221a4e842c696e6542a51"
-        },
-        {
-          "AssetGUID": "28a99e771f710e14ca55fdf0e2b44696"
-        },
-        {
-          "AssetGUID": "ca0d7525455bad4419a64d548f02d40f"
-        }
-      ],
-      "objectToPlace1MiddlePath": {
-        "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
-      },
-      "objectToPlace2MiddlePath": {
-        "AssetGUID": "ca83da3d54e98764cb7dc2961fb7b69d"
-      },
-      "objectToPlace3MiddlePath": {
-        "AssetGUID": "a7e0d93244f155642aacbfa128d92704"
-      },
-      "objectToPlace4MiddlePath": {
-        "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
-      },
-      "objectsToPlaceMiddlePath": [
-        {
-          "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
-        },
-        {
-          "AssetGUID": "ca83da3d54e98764cb7dc2961fb7b69d"
-        },
-        {
-          "AssetGUID": "a7e0d93244f155642aacbfa128d92704"
-        },
-        {
-          "AssetGUID": "0116eef9af1e0f7499aedffa24fa3e35"
-        }
-      ],
-      "objectToPlace1ClosePath": {
-        "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
-      },
-      "objectToPlace2ClosePath": {
-        "AssetGUID": "b356d24f17288b147948e21dca7012c2"
-      },
-      "objectToPlace3ClosePath": {
-        "AssetGUID": "40ac80c0c7356814095bf2f272b17889"
-      },
-      "objectToPlace4ClosePath": {
-        "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
-      },
-      "objectsToPlaceClosePath": [
-        {
-          "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
-        },
-        {
-          "AssetGUID": "b356d24f17288b147948e21dca7012c2"
-        },
-        {
-          "AssetGUID": "40ac80c0c7356814095bf2f272b17889"
-        },
-        {
-          "AssetGUID": "59776fd9878ddec43a68a870ca6e4bf7"
-        }
-      ],
       "damageOverTimeZoneModelFar": {
         "behaviorModel": {
           "bloonTagsList": [
@@ -354,35 +270,6 @@
               },
               {
                 "lifeSpan": 0.3,
-                "displayPaths": [
-                  {
-                    "AssetGUID": "548c26e4e668dac4a850a4c016916016"
-                  },
-                  {
-                    "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
-                  },
-                  {
-                    "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
-                  },
-                  {
-                    "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
-                  },
-                  {
-                    "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
-                  },
-                  {
-                    "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
-                  },
-                  {
-                    "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
-                  },
-                  {
-                    "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
-                  },
-                  {
-                    "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
-                  }
-                ],
                 "displayLengths": [
                   17.962965,
                   17.962965,

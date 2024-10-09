@@ -62,15 +62,9 @@
                 "useSyncedRandom": true
               },
               {
-                "Effect": {
-                  "AssetGUID": "966fb7349f1435c4fa1f2d4a62faa1eb"
-                },
                 "Lifespan": 2.0
               },
               {
-                "Effect": {
-                  "AssetGUID": "b1dec8a8d79593843bc2e2410eae944e"
-                },
                 "Lifespan": 2.0
               }
             ]
@@ -96,8 +90,5 @@
   "amountToReplenish": 1,
   "levelUnlockedAt": 10,
   "showGeraldoRangeCircle": true,
-  "blockPurchaseIfTowerPlaced": "WererabbitTower",
-  "defaultIcon": {
-    "AssetGUID": "de55f58d4f49f824eb2d760ba2f2514c"
-  }
+  "blockPurchaseIfTowerPlaced": "WererabbitTower"
 }

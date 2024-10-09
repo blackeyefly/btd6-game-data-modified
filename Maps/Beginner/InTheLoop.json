@@ -2,12 +2,6 @@
   "id": "InTheLoop",
   "coopMapDivisionType": 4,
   "mapMusic": "MusicUpbeat3A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectInTheLoopButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "4fbadff7298bb2a4b9dfe597bb0fd6d1"
-  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

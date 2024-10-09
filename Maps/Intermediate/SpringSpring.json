@@ -3,12 +3,6 @@
   "difficulty": 1,
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat3A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectSpringSpringButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "fef38be178a39da4bb77716e94eec914"
-  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

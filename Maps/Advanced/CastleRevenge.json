@@ -3,12 +3,6 @@
   "difficulty": 2,
   "unlockDifficulty": 1,
   "mapMusic": "MusicBTD5JazzA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectCastleRevengeMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "9073446561b91164ab59c75660a55eb5"
-  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

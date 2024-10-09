@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "038988521d8028c4590dbf1843bad247"
-  },
-  "instaIcon": {
-    "AssetGUID": "8b0562c9522444b9e851e30d87c53c7a"
-  },
   "areaTypes": [
     2
   ],
@@ -201,35 +195,6 @@
                     },
                     {
                       "lifeSpan": 0.3,
-                      "displayPaths": [
-                        {
-                          "AssetGUID": "548c26e4e668dac4a850a4c016916016"
-                        },
-                        {
-                          "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
-                        },
-                        {
-                          "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
-                        },
-                        {
-                          "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
-                        },
-                        {
-                          "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
-                        },
-                        {
-                          "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
-                        },
-                        {
-                          "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
-                        },
-                        {
-                          "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
-                        },
-                        {
-                          "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
-                        }
-                      ],
                       "displayLengths": [
                         17.962965,
                         17.962965,
@@ -450,35 +415,6 @@
                           },
                           {
                             "lifeSpan": 0.3,
-                            "displayPaths": [
-                              {
-                                "AssetGUID": "548c26e4e668dac4a850a4c016916016"
-                              },
-                              {
-                                "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
-                              },
-                              {
-                                "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
-                              },
-                              {
-                                "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
-                              },
-                              {
-                                "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
-                              },
-                              {
-                                "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
-                              },
-                              {
-                                "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
-                              },
-                              {
-                                "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
-                              },
-                              {
-                                "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
-                              }
-                            ],
                             "displayLengths": [
                               17.962965,
                               17.962965,
@@ -611,35 +547,6 @@
               },
               {
                 "lifeSpan": 0.3,
-                "displayPaths": [
-                  {
-                    "AssetGUID": "548c26e4e668dac4a850a4c016916016"
-                  },
-                  {
-                    "AssetGUID": "ffed377b3e146f649b3e6d5767726a44"
-                  },
-                  {
-                    "AssetGUID": "c5e4bf0202becd0459c47b8184b4588f"
-                  },
-                  {
-                    "AssetGUID": "3e113b397a21a3a4687cf2ed0c436ec8"
-                  },
-                  {
-                    "AssetGUID": "c6c2049a0c01e8a4d9904db8c9b84ca0"
-                  },
-                  {
-                    "AssetGUID": "e9b2a3d6f0fe0e4419a423e4d2ebe6f6"
-                  },
-                  {
-                    "AssetGUID": "c8471dcde4c65fc459f7846c6a932a8c"
-                  },
-                  {
-                    "AssetGUID": "a73b565de9c31c14ebcd3317705ab17e"
-                  },
-                  {
-                    "AssetGUID": "bd23939e7362b8e40a3a39f595a2a1dc"
-                  }
-                ],
                 "displayLengths": [
                   17.962965,
                   17.962965,

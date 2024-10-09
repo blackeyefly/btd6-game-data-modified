@@ -3,12 +3,6 @@
   "difficulty": 2,
   "unlockDifficulty": 1,
   "mapMusic": "MusicHaunted",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectAncientPortalMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "ed0b4f01ea7041944815a8fdda2a114f"
-  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

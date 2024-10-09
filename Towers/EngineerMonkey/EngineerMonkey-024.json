@@ -7,12 +7,6 @@
     4
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "fce414ec0c99e04489fc2947b2143eab"
-  },
-  "instaIcon": {
-    "AssetGUID": "bca4640854fb2488788245343e3a2e11"
-  },
   "areaTypes": [
     2
   ],
@@ -570,9 +564,6 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
-          "displayInvalid": {
-            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-          },
           "alwaysShowTarget": true,
           "projectileToExpireOnTargetChangeModel": {
             "id": "Collidable",
@@ -888,9 +879,6 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
-        "displayInvalid": {
-          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-        },
         "alwaysShowTarget": true,
         "projectileToExpireOnTargetChangeModel": {
           "id": "Collidable",

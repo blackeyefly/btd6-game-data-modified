@@ -9,9 +9,6 @@
   "tower": {
     "range": 24.0,
     "towerSet": 64,
-    "portrait": {
-      "AssetGUID": "c1738153284a15d4d9edcdeba5023696"
-    },
     "areaTypes": [
       2
     ],

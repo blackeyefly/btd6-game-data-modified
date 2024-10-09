@@ -8,12 +8,6 @@
     2
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "a919f6c857e630c41b85233da0bdc74f"
-  },
-  "instaIcon": {
-    "AssetGUID": "70d3d6167609897499cc16e9d8b7a6ff"
-  },
   "areaTypes": [
     2
   ],
@@ -149,10 +143,7 @@
               {
                 "percent": 1.0
               }
-            ],
-            "genericIcon": {
-              "AssetGUID": "IngameUi[BhTargetIconDino]"
-            }
+            ]
           },
           {
             "effectModel": {
@@ -393,10 +384,7 @@
               {
                 "percent": 1.0
               }
-            ],
-            "genericIcon": {
-              "AssetGUID": "IngameUi[BhTargetIconBird]"
-            }
+            ]
           },
           {
             "effectModel": {
@@ -462,12 +450,6 @@
                 },
                 "grappleDamageRate": 1.0,
                 "grappleDamageRateFrames": 60,
-                "selectPointDisplay": {
-                  "AssetGUID": "f10d129bc99697a46a1d6caf0fa71d05"
-                },
-                "selectPointDisplayInvalid": {
-                  "AssetGUID": "19f9eb0f9634ddc41af77a799a24e413"
-                },
                 "leadPiercePenalty": 1,
                 "ceramicPiercePenalty": 4,
                 "moabSpeedScale": 0.7,
@@ -562,12 +544,6 @@
               },
               "grappleDamageRate": 1.0,
               "grappleDamageRateFrames": 60,
-              "selectPointDisplay": {
-                "AssetGUID": "f10d129bc99697a46a1d6caf0fa71d05"
-              },
-              "selectPointDisplayInvalid": {
-                "AssetGUID": "19f9eb0f9634ddc41af77a799a24e413"
-              },
               "leadPiercePenalty": 1,
               "ceramicPiercePenalty": 4,
               "moabSpeedScale": 0.7,
@@ -635,18 +611,6 @@
       "contributionDotOffset": 10.0,
       "contributionDotSpacing": 6.0,
       "contributionDotSpeed": 15.0,
-      "buffedTextDisplayPrefab": {
-        "AssetGUID": "9bdae2a6bac16284cbe7abc5d013f9f9"
-      },
-      "mergedTextDisplayPrefab": {
-        "AssetGUID": "6a1538a8436e34942972950b891747f5"
-      },
-      "powerTextDisplayPrefab": {
-        "AssetGUID": "483357db7b634fc44aaa23bdab741c4c"
-      },
-      "validMergeTargetObjectPath": {
-        "AssetGUID": "207f42fbbb705574c9f769023d5bcce3"
-      },
       "piranhaPetModel": {
         "canMove": true,
         "basePower": 1,
@@ -656,15 +620,9 @@
         "damageRange": 2,
         "displayStepModels": [
           {
-            "projectileDisplay": {
-              "AssetGUID": "a591d7dc394913240a4143e8087183ca"
-            },
             "percent": 1.0
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconFish]"
-        }
+        ]
       },
       "microraptorPetModel": {
         "tier": 2,
@@ -681,10 +639,7 @@
           {
             "percent": 1.0
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconDino]"
-        }
+        ]
       },
       "gyrfalconPetModel": {
         "tier": 2,
@@ -700,10 +655,7 @@
           {
             "percent": 1.0
           }
-        ],
-        "genericIcon": {
-          "AssetGUID": "IngameUi[BhTargetIconBird]"
-        }
+        ]
       }
     },
     {

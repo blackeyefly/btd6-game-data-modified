@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "3d7873b043f4cd9498458bbec4812841"
-  },
-  "instaIcon": {
-    "AssetGUID": "53cfdb6c8ac5a4e16b77c5ddb35d05cf"
-  },
   "areaTypes": [
     2
   ],
@@ -189,9 +183,6 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
-          "lineDisplay": {
-            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
-          },
           "lineDelay": 0.2
         },
         {
@@ -333,12 +324,6 @@
       "description": "Redeploy Ability: Pick up and redeploy most Monkey types.",
       "behaviors": [
         {
-          "selectionObjectPath": {
-            "AssetGUID": "533c8d007067dbe4b88b6b85801ffe31"
-          },
-          "isSelectableGameObject": {
-            "AssetGUID": "533c8d007067dbe4b88b6b85801ffe31"
-          },
           "Mutator": {
             "id": "RedeployMutator",
             "priority": 1
@@ -543,9 +528,6 @@
           "towerModel": {
             "range": 50.0,
             "towerSet": 2,
-            "portrait": {
-              "AssetGUID": "da0eb02efc3e2a04c9dab835a71e6f05"
-            },
             "areaTypes": [
               2
             ],
@@ -725,9 +707,6 @@
                         "tower": {
                           "range": 50.0,
                           "towerSet": 2,
-                          "portrait": {
-                            "AssetGUID": "da0eb02efc3e2a04c9dab835a71e6f05"
-                          },
                           "areaTypes": [
                             2
                           ],

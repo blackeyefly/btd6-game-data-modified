@@ -48,9 +48,6 @@
       "radius": 60.0,
       "stunDuration": 18.0,
       "paragonStunTimeMultiplier": 1.0,
-      "towerStunEffect": {
-        "AssetGUID": "289f511b736a06a4c993b9e0e73d2b8a"
-      },
       "blockTowerSelling": true,
       "Mutator": {
         "blockTowerSelling": true,
@@ -67,17 +64,11 @@
       }
     },
     {
-      "effect": {
-        "AssetGUID": "cca99a9b78fda884d9e8064bf03edaf5"
-      },
       "scale": 1.0,
       "lifespan": 1.75
     },
     {
       "radius": 60.0,
-      "destroyedItemEffect": {
-        "AssetGUID": "257268e7e7ea4d74387e0a9e987154a8"
-      },
       "destroyedItemEffectTime": 1.0,
       "ignorePowerProjectiles": true
     },

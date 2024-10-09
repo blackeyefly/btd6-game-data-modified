@@ -2,12 +2,6 @@
   "id": "Balance",
   "difficulty": 1,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectBalanceMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "51cc87d05ce961745a56042074931508"
-  },
   "hasWater": true,
   "IsStandard": true
 }

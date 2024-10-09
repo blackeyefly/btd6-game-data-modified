@@ -7,12 +7,6 @@
     4
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "ff6e53f4e052cfa44bc92895ea7cb770"
-  },
-  "instaIcon": {
-    "AssetGUID": "31151001b710044309c8a4a0c26e6a72"
-  },
   "areaTypes": [
     2
   ],
@@ -211,9 +205,6 @@
                 "tower": {
                   "range": 49.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "b618864dd8a85864ca6a112ec150598e"
-                  },
                   "areaTypes": [
                     2
                   ],
@@ -908,9 +899,6 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
-          "displayInvalid": {
-            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-          },
           "alwaysShowTarget": true,
           "useTerrainHeight": true
         }
@@ -920,9 +908,6 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
-        "displayInvalid": {
-          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-        },
         "alwaysShowTarget": true,
         "useTerrainHeight": true
       },
@@ -945,9 +930,6 @@
           "rateModifier": 0.6,
           "villageRangeModifier": 1.25,
           "maxStacks": 1,
-          "selectionObjectPath": {
-            "AssetGUID": "aa3fcd87ea8c08c4c84de62e9115bf2d"
-          },
           "initialEffect": {
             "scale": 1.0,
             "lifespan": 1.0

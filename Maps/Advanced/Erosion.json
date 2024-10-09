@@ -3,12 +3,6 @@
   "difficulty": 2,
   "unlockDifficulty": 1,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectErosionButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "e685151f8fbd62842be0cdb3731a13f4"
-  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

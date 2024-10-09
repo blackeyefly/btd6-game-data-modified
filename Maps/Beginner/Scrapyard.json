@@ -1,12 +1,6 @@
 {
   "id": "Scrapyard",
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectScrapyardMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "44f1c3e19914a2140b0cd585ff9a4920"
-  },
   "theme": 3,
   "IsStandard": true
 }

@@ -7,12 +7,6 @@
     5
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "219d89c6f3dd52d42bda3a2e9601b0da"
-  },
-  "instaIcon": {
-    "AssetGUID": "bb8bb59a055e549e693bc4385d7338f3"
-  },
   "areaTypes": [
     2
   ],
@@ -191,12 +185,6 @@
           "range": 40.0,
           "reloadModifier": 0.0315789469,
           "immuneBloonProperties": 8,
-          "towerDisplay": {
-            "AssetGUID": "c3844dbb6d54791428d8dda3eb948f9d"
-          },
-          "towerOriginDisplay": {
-            "AssetGUID": "a2d32477fb4bfe64eb0670d449208aa1"
-          },
           "bonusPierce": 3.0,
           "projectileRadius": 6.0,
           "bonusDamage": 1,

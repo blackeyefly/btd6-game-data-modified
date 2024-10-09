@@ -13,8 +13,5 @@
   "startingQuantity": 1,
   "maxQuantity": 4,
   "roundsToReplenish": 3,
-  "amountToReplenish": 1,
-  "defaultIcon": {
-    "AssetGUID": "52f1cdbde877fe147840b3ba71bea310"
-  }
+  "amountToReplenish": 1
 }

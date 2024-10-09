@@ -1,12 +1,6 @@
 {
   "id": "ParkPath",
   "mapMusic": "MusicBTD5JazzA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectParkPathButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "40ac81d12ad7770488a7a0c9ce23e085"
-  },
   "hasWater": true,
   "IsStandard": true
 }

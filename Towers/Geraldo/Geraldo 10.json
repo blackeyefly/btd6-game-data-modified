@@ -6,9 +6,6 @@
     10
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "37997a80546cbc7499d8abfe3510083a"
-  },
   "areaTypes": [
     2
   ],
@@ -58,12 +55,6 @@
   "footprint": {
     "radius": 7.0
   },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteGeraldo]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "0d4eadca496777746ad45795768cdf89"
-  },
   "upgrades": [
     {
       "tower": "Geraldo 11",
@@ -100,9 +91,6 @@
   ],
   "isBakable": true,
   "animationSpeed": 1.0,
-  "secondarySelectionMenu": {
-    "AssetGUID": "09a7d4a360dbb1b40bfa660b1b528f00"
-  },
   "showBuffs": true,
   "displayScale": 1.0,
   "behaviors": [
@@ -178,35 +166,6 @@
               },
               {
                 "lifeSpan": 0.3,
-                "displayPaths": [
-                  {
-                    "AssetGUID": "941b26953d925df4cbe9c7e336a1280b"
-                  },
-                  {
-                    "AssetGUID": "6dc7deccbc673c54c8162eb204fed01c"
-                  },
-                  {
-                    "AssetGUID": "c6314428886d4f34b97851237b6ae637"
-                  },
-                  {
-                    "AssetGUID": "d5d803d35acc0ff43b7948bc262be145"
-                  },
-                  {
-                    "AssetGUID": "78ff716f8f5029445b948fc359901342"
-                  },
-                  {
-                    "AssetGUID": "7999b54cc0ec47841a7b007ff129669b"
-                  },
-                  {
-                    "AssetGUID": "8f3c6f16db649a44ab2136ddee3c5df4"
-                  },
-                  {
-                    "AssetGUID": "63b749130eff67e4f86689297c3cd6ba"
-                  },
-                  {
-                    "AssetGUID": "254353af627e6b240ad6901e955a57f4"
-                  }
-                ],
                 "displayLengths": [
                   17.962965,
                   17.962965,

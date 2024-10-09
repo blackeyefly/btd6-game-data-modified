@@ -7,12 +7,6 @@
     2
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "4df48e4f31275114ea4db7afedc1baf1"
-  },
-  "instaIcon": {
-    "AssetGUID": "82c61e9e7d5a5f14487a9ac462a6cbeb"
-  },
   "areaTypes": [
     1,
     2
@@ -100,10 +94,7 @@
     },
     {
       "radius": 33.0,
-      "areaHeightOffset": 1.0,
-      "freezeAsset": {
-        "AssetGUID": "adbed99b49109d44e8461639994bdf0d"
-      }
+      "areaHeightOffset": 1.0
     },
     {
       "weapons": [

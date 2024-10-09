@@ -14,8 +14,5 @@
     "Deflation",
     "BossRush"
   ],
-  "blockPurchaseIfTowerPlaced": "RareQuincyActionFigureTower",
-  "defaultIcon": {
-    "AssetGUID": "9e985a6ee7f45934384bcb0578a5c3d3"
-  }
+  "blockPurchaseIfTowerPlaced": "RareQuincyActionFigureTower"
 }

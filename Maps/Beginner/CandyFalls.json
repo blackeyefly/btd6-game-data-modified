@@ -2,12 +2,6 @@
   "id": "CandyFalls",
   "coopMapDivisionType": 4,
   "mapMusic": "MusicCoopA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectCandyfallsButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "b714acc6b18c14a4fb0d19143f64077c"
-  },
   "hasWater": true,
   "IsStandard": true
 }

@@ -2,12 +2,6 @@
   "id": "Carved",
   "coopMapDivisionType": 2,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectCarvedButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "e73bf4daa6fa9284990355f9fa9f030d"
-  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

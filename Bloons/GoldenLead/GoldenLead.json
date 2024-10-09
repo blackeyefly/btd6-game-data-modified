@@ -12,12 +12,6 @@
       "multiplier": 1.0
     },
     {
-      "damageFX": {
-        "AssetGUID": "fd178abb820f9254c8dd493047fd6bd0"
-      },
-      "rewardText": {
-        "AssetGUID": "88c44d1eafb66a843b99a4e07422600e"
-      },
       "rewardTextLifeTime": 2.0,
       "speedIncreaseWhenDamaged": 2.5,
       "jumpChanceTotal": 20,

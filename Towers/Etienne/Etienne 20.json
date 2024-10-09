@@ -7,9 +7,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "3fbf4ebb670851240a91d1c567e7d20d"
-  },
   "areaTypes": [
     2
   ],
@@ -66,12 +63,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteEtienne]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "57dc679306cb24574b38811ccce74a6c"
   },
   "appliedUpgrades": [
     "Etienne Upgrade 2",

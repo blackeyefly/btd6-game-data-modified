@@ -3,12 +3,6 @@
   "difficulty": 3,
   "unlockDifficulty": 2,
   "mapMusic": "MusicCityA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectBloodyPuddlesButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "95778f61bc4da9c429d4421111c9dc48"
-  },
   "hasWater": true,
   "theme": 1,
   "IsStandard": true

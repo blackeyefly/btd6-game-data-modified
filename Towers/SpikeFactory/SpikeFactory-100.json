@@ -7,12 +7,6 @@
     1
   ],
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "e22d5b3a23de0a4408936fc92623a5c4"
-  },
-  "instaIcon": {
-    "AssetGUID": "4131402aa87c9474e8945d981958a974"
-  },
   "areaTypes": [
     2
   ],
@@ -117,68 +111,6 @@
                 "interval": 0.001
               },
               {
-                "sprites": [
-                  {
-                    "AssetGUID": "ff7ada25698ff484f87767a8c4b01865"
-                  },
-                  {
-                    "AssetGUID": "44f458dc60fb8834eaf6677455998e6f"
-                  },
-                  {
-                    "AssetGUID": "85f9b4d05a53e644ca31e7ed6de494f6"
-                  },
-                  {
-                    "AssetGUID": "ac2e0f6dd632c9049b2ddcfed21454c8"
-                  },
-                  {
-                    "AssetGUID": "2d9755bf10a45cb4d8dcb1ea56ac829a"
-                  },
-                  {
-                    "AssetGUID": "b3049788c3b19724fa85a5ca2e34dff3"
-                  },
-                  {
-                    "AssetGUID": "f450fd35ab8825b48b4a9457bf771f9a"
-                  },
-                  {
-                    "AssetGUID": "d07b55cb3f1b96a439a796af3f38f44c"
-                  },
-                  {
-                    "AssetGUID": "06efb9f746a60574a8060cedc72c2998"
-                  },
-                  {
-                    "AssetGUID": "b399227a1df969f42810d4c132382795"
-                  },
-                  {
-                    "AssetGUID": "86f8f1775a83a684dab5562a4f2fa1cf"
-                  },
-                  {
-                    "AssetGUID": "67871f62bb9f70a4b8bc1d87f58f57ba"
-                  },
-                  {
-                    "AssetGUID": "909d3637af681e248a5ec65ff414c13f"
-                  },
-                  {
-                    "AssetGUID": "f7af270b4bf613d4b93cab43442fc4ef"
-                  },
-                  {
-                    "AssetGUID": "10da519ce46d9054eb3624a041b9fcb0"
-                  },
-                  {
-                    "AssetGUID": "f7215612ecce85d4eb6fc54e1ba43492"
-                  },
-                  {
-                    "AssetGUID": "57b53f7bdfaa86d499745d6f4998ee61"
-                  },
-                  {
-                    "AssetGUID": "04798a9599f1fdf4b83c91aca80240e7"
-                  },
-                  {
-                    "AssetGUID": "a45b9d1f1df836c4da410ff21f8bc1f9"
-                  },
-                  {
-                    "AssetGUID": "8e2802d4bd3d42e4cb192c6bbcef0173"
-                  }
-                ],
                 "loopMode": "Clamp"
               },
               {

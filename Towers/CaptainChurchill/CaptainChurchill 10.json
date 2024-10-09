@@ -6,9 +6,6 @@
     10
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "70c5c64a86d734c359bf9428750ed243"
-  },
   "areaTypes": [
     2
   ],
@@ -61,12 +58,6 @@
   ],
   "footprint": {
     "radius": 8.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteChurchill]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "67172b4ce38cc654c8e7d7a6afbc9041"
   },
   "upgrades": [
     {

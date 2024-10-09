@@ -8,12 +8,6 @@
     2
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "65ddf86d9fe6d4712bf2f1fd517cbfe5"
-  },
-  "instaIcon": {
-    "AssetGUID": "d5fd5f6359be242feae56bf21c4ffb71"
-  },
   "areaTypes": [
     2
   ],
@@ -387,9 +381,6 @@
           "scale": 1.0,
           "lockToInsideTowerRange": true,
           "startWithClosestTrackPoint": true,
-          "displayInvalid": {
-            "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-          },
           "alwaysShowTarget": true,
           "useTerrainHeight": true
         },
@@ -412,9 +403,6 @@
         "scale": 1.0,
         "lockToInsideTowerRange": true,
         "startWithClosestTrackPoint": true,
-        "displayInvalid": {
-          "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-        },
         "alwaysShowTarget": true,
         "useTerrainHeight": true
       },

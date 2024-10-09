@@ -7,12 +7,6 @@
     5
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "504f949f953e38944afc1d5f6f66fa2b"
-  },
-  "instaIcon": {
-    "AssetGUID": "66cc2758c3c6f47cfb9805cc88f0a9e8"
-  },
   "areaTypes": [
     2
   ],
@@ -124,18 +118,6 @@
         "lifespan": 5.0,
         "useTransformPosition": true,
         "destroyOnTransformDestroy": true
-      },
-      "defaultProjectilePath": {
-        "AssetGUID": "5a7af3162d20c8745a946b6c24681248"
-      },
-      "weakProjectilePath": {
-        "AssetGUID": "071b980f2e608b9489b261993c5ea47a"
-      },
-      "mediumProjectilePath": {
-        "AssetGUID": "ba4d45ba8f325044fb587c1c44e74292"
-      },
-      "epicProjectilePath": {
-        "AssetGUID": "51e59091e85b0c346b2a9ffdca6fc47d"
       },
       "smallGlowEffectStacks": 2,
       "mediumGlowEffectStacks": 9,

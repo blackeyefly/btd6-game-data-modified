@@ -7,12 +7,6 @@
     5
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "3f7b752b454273d4b99f9b5ac98db4bf"
-  },
-  "instaIcon": {
-    "AssetGUID": "586d3a6195dee4ad5a28b17eda81c9a2"
-  },
   "areaTypes": [
     2
   ],
@@ -73,10 +67,7 @@
     },
     {
       "radius": 45.0,
-      "areaHeightOffset": 1.0,
-      "freezeAsset": {
-        "AssetGUID": "dcc79ccbe3defd44bad04079cc150d6c"
-      }
+      "areaHeightOffset": 1.0
     },
     {
       "effectModel": {

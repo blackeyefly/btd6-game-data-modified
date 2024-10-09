@@ -6,12 +6,6 @@
     6
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "980cbe6ba66478140850db9a98f8ba9f"
-  },
-  "instaIcon": {
-    "AssetGUID": "119c0cced6fad4d13aed8e53ef2e1690"
-  },
   "areaTypes": [
     2
   ],
@@ -95,33 +89,6 @@
       }
     },
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "4a4a8d531e486ba43940bb673d1994ad"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "7c20a34e40a10944f88581fa29c06017"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "0328aa392f0d8304c83aa850175da670"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "d192b1db197a024479f3542bc99ac04c"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "2ef4918ce220ca04d87a9afc8290a0c4"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -153,22 +120,10 @@
       "effectScaleDownTime": 0.15
     },
     {
-      "displayToSwap": {
-        "AssetGUID": "229e6a36dc2ee3d42a75ca64a305e6ad"
-      },
-      "newDisplay": {
-        "AssetGUID": "0a990350818c21e4bb5039a00c8a4977"
-      },
       "displayDegree": 5,
       "applyToAllAbove": true
     },
     {
-      "displayToSwap": {
-        "AssetGUID": "307a0e209b0b167498de8500c8c2e236"
-      },
-      "newDisplay": {
-        "AssetGUID": "358f76f3f21b8f9439f3cccd23c9b5ff"
-      },
       "displayDegree": 5,
       "applyToAllAbove": true
     },

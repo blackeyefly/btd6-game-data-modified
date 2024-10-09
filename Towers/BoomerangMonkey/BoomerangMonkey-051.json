@@ -7,12 +7,6 @@
     1
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "ccba2b86f728b3444a283b1efc6104da"
-  },
-  "instaIcon": {
-    "AssetGUID": "8bdd49d641cf543d68846a35b447d78b"
-  },
   "areaTypes": [
     2
   ],
@@ -457,11 +451,6 @@
         {
           "lifespanFrames": 900,
           "additionalDamage": 8,
-          "projectileDisplay": {
-            "assetPath": {
-              "AssetGUID": "a73e6b69d039b574484293282d299b79"
-            }
-          },
           "Mutator": {
             "id": "DamageUp",
             "priority": 1

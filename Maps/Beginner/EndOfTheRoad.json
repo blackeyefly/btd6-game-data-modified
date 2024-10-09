@@ -2,12 +2,6 @@
   "id": "EndOfTheRoad",
   "coopMapDivisionType": 2,
   "mapMusic": "MusicUpbeat3A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectEndOfTheRoadButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "01e67facfc166844d9d96d156c4f66a9"
-  },
   "hasWater": true,
   "theme": 3,
   "IsStandard": true

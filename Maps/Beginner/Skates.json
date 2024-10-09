@@ -2,12 +2,6 @@
   "id": "Skates",
   "coopMapDivisionType": 3,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectSkatesButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "ab955aa0dae595043b8634135cca409f"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

@@ -2,12 +2,6 @@
   "id": "Tinkerton",
   "coopMapDivisionType": 3,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectTinkertonMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "6744eb1562db0ad469392a493074f68e"
-  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

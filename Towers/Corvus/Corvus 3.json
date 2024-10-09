@@ -7,9 +7,6 @@
     3
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "c4882de2755383c498d82868d4d09d42"
-  },
   "areaTypes": [
     2
   ],
@@ -63,12 +60,6 @@
   "footprint": {
     "radius": 7.0
   },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteCorvus]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "ff693fd540f5b3a47b864fae06c47f29"
-  },
   "upgrades": [
     {
       "tower": "Corvus 4",
@@ -98,9 +89,6 @@
   ],
   "isBakable": true,
   "animationSpeed": 1.0,
-  "secondarySelectionMenu": {
-    "AssetGUID": "d3e6f7515f97cfd4ca72f7dcefe40210"
-  },
   "showBuffs": true,
   "displayScale": 1.0,
   "behaviors": [
@@ -183,35 +171,6 @@
                       },
                       {
                         "lifeSpan": 0.3,
-                        "displayPaths": [
-                          {
-                            "AssetGUID": "bdff77dec610931459b23458ec583ac8"
-                          },
-                          {
-                            "AssetGUID": "64c4db723bce7ce4e88cccb505b3d459"
-                          },
-                          {
-                            "AssetGUID": "a04ed14771189d545bd5f0027f88b883"
-                          },
-                          {
-                            "AssetGUID": "ce8f13c3a760c1240a335562755656b9"
-                          },
-                          {
-                            "AssetGUID": "8e18d7ceb2847214382ddcde03aff6ab"
-                          },
-                          {
-                            "AssetGUID": "0a7c768bc4c0a1349921322a647209c2"
-                          },
-                          {
-                            "AssetGUID": "e4e3817e5cefd274bb649333bb0a59c1"
-                          },
-                          {
-                            "AssetGUID": "a91e9ffe536e12247ad8bb86da66f906"
-                          },
-                          {
-                            "AssetGUID": "aa34c091ff189114eab7b9c803b2e473"
-                          }
-                        ],
                         "displayLengths": [
                           17.962965,
                           17.962965,
@@ -292,9 +251,6 @@
       "ongoingManaCost": 10,
       "manaDrainInterval": 1.0,
       "initialManaCost": 100,
-      "placingPrefabReference": {
-        "AssetGUID": "b39534d9450e60f46be0af4945d8cbd4"
-      },
       "spellType": 2,
       "unlocksAtLevel": 1,
       "corvusAnimationState": 1,
@@ -307,18 +263,12 @@
         "scale": 1.0,
         "lifespan": 4.0,
         "useTransformPosition": true
-      },
-      "defaultIcon": {
-        "AssetGUID": "08296066cf4aa4e4196a4670bce9a72b"
       }
     },
     {
       "xpPerMana": 2.0,
       "cashPerManaAtMaxLevel": 1.0,
       "cooldown": 60.0,
-      "placingPrefabReference": {
-        "AssetGUID": "83b190f7ebcc45e49af23dcbb5f6e59f"
-      },
       "spellType": 14,
       "unlocksAtLevel": 1,
       "corvusAnimationState": 1,
@@ -331,9 +281,6 @@
         "scale": 1.0,
         "lifespan": 1.0,
         "useTransformPosition": true
-      },
-      "defaultIcon": {
-        "AssetGUID": "62548a0b142974542bc2552d23573f85"
       },
       "SpellCategory": 2
     },
@@ -386,9 +333,6 @@
       "duration": 15.0,
       "cooldown": 45.0,
       "initialManaCost": 150,
-      "placingPrefabReference": {
-        "AssetGUID": "6988c2ff001b106498f60dbd98e27602"
-      },
       "spellType": 10,
       "unlocksAtLevel": 1,
       "corvusAnimationState": 1,
@@ -402,9 +346,6 @@
         "lifespan": 5.0,
         "useTransformPosition": true
       },
-      "defaultIcon": {
-        "AssetGUID": "a668c85fd4606194199321488b413e00"
-      },
       "SpellCategory": 1
     },
     {
@@ -412,9 +353,6 @@
         "range": 50.0,
         "ignoreBlockers": true,
         "towerSet": 16,
-        "portrait": {
-          "AssetGUID": "8e2dca02cd94daa4da6638ee2c03948b"
-        },
         "areaTypes": [
           2
         ],
@@ -466,12 +404,6 @@
           }
         ],
         "ignoreTowerForSelection": true,
-        "emoteSpriteSmall": {
-          "AssetGUID": "UiEmoteIcons[EmoteCorvus]"
-        },
-        "emoteSpriteLarge": {
-          "AssetGUID": "ff693fd540f5b3a47b864fae06c47f29"
-        },
         "targetTypes": [
           {
             "id": "Strong",
@@ -480,9 +412,6 @@
         ],
         "isSubTower": true,
         "animationSpeed": 1.0,
-        "secondarySelectionMenu": {
-          "AssetGUID": "d3e6f7515f97cfd4ca72f7dcefe40210"
-        },
         "showBuffs": true,
         "displayScale": 1.0,
         "behaviors": [
@@ -710,35 +639,6 @@
                           },
                           {
                             "lifeSpan": 0.3,
-                            "displayPaths": [
-                              {
-                                "AssetGUID": "bdff77dec610931459b23458ec583ac8"
-                              },
-                              {
-                                "AssetGUID": "64c4db723bce7ce4e88cccb505b3d459"
-                              },
-                              {
-                                "AssetGUID": "a04ed14771189d545bd5f0027f88b883"
-                              },
-                              {
-                                "AssetGUID": "ce8f13c3a760c1240a335562755656b9"
-                              },
-                              {
-                                "AssetGUID": "8e18d7ceb2847214382ddcde03aff6ab"
-                              },
-                              {
-                                "AssetGUID": "0a7c768bc4c0a1349921322a647209c2"
-                              },
-                              {
-                                "AssetGUID": "e4e3817e5cefd274bb649333bb0a59c1"
-                              },
-                              {
-                                "AssetGUID": "a91e9ffe536e12247ad8bb86da66f906"
-                              },
-                              {
-                                "AssetGUID": "aa34c091ff189114eab7b9c803b2e473"
-                              }
-                            ],
                             "displayLengths": [
                               17.962965,
                               17.962965,
@@ -834,9 +734,6 @@
       "duration": 25.0,
       "cooldown": 55.0,
       "initialManaCost": 300,
-      "placingPrefabReference": {
-        "AssetGUID": "5ef22cb101d194e479299238b8cfdf60"
-      },
       "spellType": 12,
       "unlocksAtLevel": 3,
       "corvusAnimationState": 1,
@@ -850,9 +747,6 @@
         "lifespan": 5.0,
         "useTransformPosition": true
       },
-      "defaultIcon": {
-        "AssetGUID": "aa14109a9edd88445995dca56d1c6ca8"
-      },
       "SpellCategory": 1
     },
     {
@@ -861,9 +755,6 @@
       "duration": 20.0,
       "cooldown": 15.0,
       "initialManaCost": 50,
-      "placingPrefabReference": {
-        "AssetGUID": "050a643286d3a4947a0450f89f23caf5"
-      },
       "spellType": 11,
       "unlocksAtLevel": 3,
       "corvusAnimationState": 1,
@@ -878,9 +769,6 @@
         "useTransformPosition": true,
         "destroyOnTransformDestroy": true
       },
-      "defaultIcon": {
-        "AssetGUID": "08d0d3ea1be7bcd4693f67e16315f327"
-      },
       "SpellCategory": 1
     },
     {
@@ -888,9 +776,6 @@
         "range": 50.0,
         "ignoreBlockers": true,
         "towerSet": 16,
-        "portrait": {
-          "AssetGUID": "8e2dca02cd94daa4da6638ee2c03948b"
-        },
         "areaTypes": [
           2
         ],
@@ -942,12 +827,6 @@
           }
         ],
         "ignoreTowerForSelection": true,
-        "emoteSpriteSmall": {
-          "AssetGUID": "UiEmoteIcons[EmoteCorvus]"
-        },
-        "emoteSpriteLarge": {
-          "AssetGUID": "ff693fd540f5b3a47b864fae06c47f29"
-        },
         "targetTypes": [
           {
             "id": "Strong",
@@ -956,9 +835,6 @@
         ],
         "isSubTower": true,
         "animationSpeed": 1.0,
-        "secondarySelectionMenu": {
-          "AssetGUID": "d3e6f7515f97cfd4ca72f7dcefe40210"
-        },
         "showBuffs": true,
         "displayScale": 1.0,
         "behaviors": [
@@ -1186,35 +1062,6 @@
                           },
                           {
                             "lifeSpan": 0.3,
-                            "displayPaths": [
-                              {
-                                "AssetGUID": "bdff77dec610931459b23458ec583ac8"
-                              },
-                              {
-                                "AssetGUID": "64c4db723bce7ce4e88cccb505b3d459"
-                              },
-                              {
-                                "AssetGUID": "a04ed14771189d545bd5f0027f88b883"
-                              },
-                              {
-                                "AssetGUID": "ce8f13c3a760c1240a335562755656b9"
-                              },
-                              {
-                                "AssetGUID": "8e18d7ceb2847214382ddcde03aff6ab"
-                              },
-                              {
-                                "AssetGUID": "0a7c768bc4c0a1349921322a647209c2"
-                              },
-                              {
-                                "AssetGUID": "e4e3817e5cefd274bb649333bb0a59c1"
-                              },
-                              {
-                                "AssetGUID": "a91e9ffe536e12247ad8bb86da66f906"
-                              },
-                              {
-                                "AssetGUID": "aa34c091ff189114eab7b9c803b2e473"
-                              }
-                            ],
                             "displayLengths": [
                               17.962965,
                               17.962965,

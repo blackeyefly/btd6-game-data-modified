@@ -95,9 +95,6 @@
         "BionicAugmentation",
         "SeeInvisibilityPotionEffect"
       ],
-      "towerFreezeDisplayAsset": {
-        "AssetGUID": "1b840daaa72a9f44b84bf8a7624ebb48"
-      },
       "Mutator": {
         "id": "LychFreeze",
         "priority": 1
@@ -111,10 +108,7 @@
       ]
     },
     {
-      "healPercentForHighestTier": 0.01,
-      "effectAtTower": {
-        "AssetGUID": "2ab71292b7513cd40a3532b6b84e823c"
-      }
+      "healPercentForHighestTier": 0.01
     },
     {
       "preventFallthrough": true,
@@ -137,9 +131,6 @@
     {
       "radius": 9999.0,
       "maxRbe": 2000,
-      "reanimationEffect": {
-        "AssetGUID": "1735f6f704084f54da0be621e3ab0699"
-      },
       "pauseMovementDuration": 1.0,
       "speedMultiplier": 1.7,
       "healthMultiplier": 6.0,

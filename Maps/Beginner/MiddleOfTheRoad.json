@@ -2,12 +2,6 @@
   "id": "MiddleOfTheRoad",
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectMiddleOfTheRoadMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "ce1977cb043a2004c838402f54c73069"
-  },
   "hasWater": true,
   "theme": 3,
   "IsStandard": true

@@ -2,12 +2,6 @@
   "cost": 350.0,
   "range": 40.0,
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "e434038c39c312c4ea5d687a1fb46a2b"
-  },
-  "instaIcon": {
-    "AssetGUID": "b1bde2898c0ab4b20b4aac908590059a"
-  },
   "areaTypes": [
     2
   ],

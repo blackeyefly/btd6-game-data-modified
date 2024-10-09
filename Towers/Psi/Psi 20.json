@@ -8,9 +8,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "75dfa503dcac30740b78e815ff664d73"
-  },
   "areaTypes": [
     2
   ],
@@ -59,12 +56,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmotePsi]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "4ca869b9295d7f44cb8854e8da4b6070"
   },
   "appliedUpgrades": [
     "Psi Upgrade 2",

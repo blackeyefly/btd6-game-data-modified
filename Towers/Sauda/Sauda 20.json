@@ -6,9 +6,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "437e2270d2e17054b84d6cb471f78202"
-  },
   "areaTypes": [
     2
   ],
@@ -61,12 +58,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteSauda]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "251eb804ae383794c837ac496db62dee"
   },
   "appliedUpgrades": [
     "Sauda Upgrade 2",

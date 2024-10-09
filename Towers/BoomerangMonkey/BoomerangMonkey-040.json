@@ -6,12 +6,6 @@
     4
   ],
   "towerSet": 1,
-  "portrait": {
-    "AssetGUID": "3b97e6267e2615f4095a2be39de4c103"
-  },
-  "instaIcon": {
-    "AssetGUID": "07ce00cb776dd40629ec7c1991e901d9"
-  },
   "areaTypes": [
     2
   ],
@@ -457,11 +451,6 @@
         },
         {
           "multiplier": 0.142857149,
-          "projectileDisplay": {
-            "assetPath": {
-              "AssetGUID": "6cd31b3e9004c8e4a85a8374352772d2"
-            }
-          },
           "extraDamage": 1,
           "Lifespan": 10.0,
           "lifespan": 10.0

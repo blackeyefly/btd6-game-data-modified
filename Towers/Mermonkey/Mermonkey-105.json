@@ -7,12 +7,6 @@
     5
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "38ecc573c3ce1254cbec6732cb6abab4"
-  },
-  "instaIcon": {
-    "AssetGUID": "176f29ceca226904fa87e726ffcff9a2"
-  },
   "areaTypes": [
     1,
     2
@@ -107,9 +101,6 @@
       "tower": {
         "range": 38.0,
         "towerSet": 4,
-        "portrait": {
-          "AssetGUID": "f00bc9224369720458e7d57ff7e6b647"
-        },
         "areaTypes": [
           2
         ],
@@ -430,12 +421,6 @@
         "DisplayScale": 1.0,
         "IsSubEntity": true,
         "IsBaseTower": true
-      },
-      "targetDisplay": {
-        "AssetGUID": "f786dd2ad0e3e8649a8ff0ac9f8cc6fb"
-      },
-      "targetDisplayInvalid": {
-        "AssetGUID": "d053160180f53da43be4f9972ee1497a"
       }
     },
     {

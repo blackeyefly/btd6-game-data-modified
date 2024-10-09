@@ -7,12 +7,6 @@
     6
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "220dafce6b156704b8c8d2bebc175352"
-  },
-  "instaIcon": {
-    "AssetGUID": "2fb07a35edbf9415b9846d0ddaef9119"
-  },
   "areaTypes": [
     2
   ],
@@ -84,33 +78,6 @@
       }
     },
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "52b78bafae53d5e4190371882b58db8b"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "642a5b3b937451341a66b087c75fad56"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "80b1588477a5da549b48fb19f19f3a7a"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "8531d77c5b6ce05458e47b3368c20d86"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "431239d8256eae547b4290a31b8ac055"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -169,32 +136,6 @@
       },
       "rateBonusThreshold": 0.5,
       "rateMultplierAmount": 0.5,
-      "graveyardDisplay1": {
-        "AssetGUID": "d1f62942525fa2c4fac3ac37cfd9ca44"
-      },
-      "graveyardDisplay2": {
-        "AssetGUID": "20505979f17a59845be308369cddbcb0"
-      },
-      "textDisplayPrefab": {
-        "AssetGUID": "a39cb4bf5054278449240c692b62bada"
-      },
-      "phoenixDisabledPrefabs": [
-        {
-          "AssetGUID": "730952037e5a55b41971ccc9e14ce84d"
-        },
-        {
-          "AssetGUID": "14a20478746b12c4191472e87d0cf3d8"
-        },
-        {
-          "AssetGUID": "d4c3c42fa671b7644a39ff585354e77b"
-        },
-        {
-          "AssetGUID": "81968825ab5936e4bbe5c19461beb32d"
-        },
-        {
-          "AssetGUID": "56c6360849f5a804299778b4447238f5"
-        }
-      ],
       "RateMutator": {
         "id": "MagusGraveyardRateMutator"
       }
@@ -1789,33 +1730,6 @@
       "behaviors": [
         {
           "manaPerSecond": 5000,
-          "displayDegreePaths": [
-            {
-              "assetPath": {
-                "AssetGUID": "a82a49e66142bee4bb3e8712311de3d4"
-              }
-            },
-            {
-              "assetPath": {
-                "AssetGUID": "14523f14831a8ac4484373ec06d74aba"
-              }
-            },
-            {
-              "assetPath": {
-                "AssetGUID": "86e398c8059974f469c5764cbce7e33b"
-              }
-            },
-            {
-              "assetPath": {
-                "AssetGUID": "1b4a0472419ef4d45bbadb69de1249b5"
-              }
-            },
-            {
-              "assetPath": {
-                "AssetGUID": "6f8225cf45571aa45b6d55450d9c6757"
-              }
-            }
-          ],
           "effectTowerModel": {
             "scale": 1.0,
             "lifespan": 2.0,

@@ -3,12 +3,6 @@
   "range": 40.0,
   "ignoreBlockers": true,
   "towerSet": 8,
-  "portrait": {
-    "AssetGUID": "8e94164ab07bda54a95c5466fb978ceb"
-  },
-  "instaIcon": {
-    "AssetGUID": "8afd6e2f980654d3d84a31e8fc8d7ece"
-  },
   "areaTypes": [
     2
   ],

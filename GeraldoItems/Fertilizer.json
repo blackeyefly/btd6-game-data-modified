@@ -22,8 +22,5 @@
   "bannedForModes": "Clicks",
   "bannedForModesList": [
     "Clicks"
-  ],
-  "defaultIcon": {
-    "AssetGUID": "b699a031e3d62ce42ae9fc7524505e65"
-  }
+  ]
 }

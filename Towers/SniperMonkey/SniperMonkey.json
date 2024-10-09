@@ -3,12 +3,6 @@
   "range": 20.0,
   "isGlobalRange": true,
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "a5f156d14d91423448b2b475f4172b53"
-  },
-  "instaIcon": {
-    "AssetGUID": "5d62b34799c60495dbbad2e36e2c39b4"
-  },
   "areaTypes": [
     2
   ],

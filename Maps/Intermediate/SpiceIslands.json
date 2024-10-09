@@ -3,12 +3,6 @@
   "difficulty": 1,
   "coopMapDivisionType": 1,
   "mapMusic": "MusicSailsAgain",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectSpiceIslandsButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "83f7c0e8b409b7049bd6efa139cc1bf9"
-  },
   "hasWater": true,
   "theme": 4,
   "IsStandard": true

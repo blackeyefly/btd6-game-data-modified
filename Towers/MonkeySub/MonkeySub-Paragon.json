@@ -7,12 +7,6 @@
     6
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "d9bfba35e997eb64cbba5f82065c053c"
-  },
-  "instaIcon": {
-    "AssetGUID": "e1f84739edd944aad990ccc348b637af"
-  },
   "areaTypes": [
     1
   ],
@@ -426,33 +420,6 @@
       }
     },
     {
-      "displayDegreePaths": [
-        {
-          "assetPath": {
-            "AssetGUID": "a8161dc68eaabae47a3462292f2ddab6"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "c0dd1afc9013c354cb553bfee9eafcc5"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "85acc7e4477c89b459cb66264f62ee7e"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "713ffc137221bb9469c68aba27028e99"
-          }
-        },
-        {
-          "assetPath": {
-            "AssetGUID": "e75e515eaf8e55a48857addc542443f2"
-          }
-        }
-      ],
       "effectDuringModel": {
         "scale": 1.0,
         "lifespan": 9999999.0
@@ -964,9 +931,6 @@
         {
           "countdown": 15.05,
           "launchRate": 0.2,
-          "textEffectDisplay": {
-            "AssetGUID": "6755b43f4a9a8e84383bee88eb857801"
-          },
           "projectileModel": {
             "id": "FinalStrikeProjectile",
             "maxPierce": 1.0,

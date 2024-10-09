@@ -63,15 +63,9 @@
       "damageRange": 2,
       "displayStepModels": [
         {
-          "projectileDisplay": {
-            "AssetGUID": "a591d7dc394913240a4143e8087183ca"
-          },
           "percent": 1.0
         }
-      ],
-      "genericIcon": {
-        "AssetGUID": "IngameUi[BhTargetIconFish]"
-      }
+      ]
     },
     {
       "effectModel": {
@@ -92,9 +86,6 @@
       }
     },
     {
-      "projectileDisplay": {
-        "AssetGUID": "a591d7dc394913240a4143e8087183ca"
-      },
       "percent": 1.0
     },
     {

@@ -6,12 +6,6 @@
     4
   ],
   "towerSet": 4,
-  "portrait": {
-    "AssetGUID": "94836a0a6f7772941a80b554a3befd35"
-  },
-  "instaIcon": {
-    "AssetGUID": "5add6633aded3744a9c96c83ab7bb367"
-  },
   "areaTypes": [
     1,
     2
@@ -432,13 +426,7 @@
         "IsSubEntity": true,
         "IsBaseTower": true
       },
-      "withinTowerRange": true,
-      "targetDisplay": {
-        "AssetGUID": "f786dd2ad0e3e8649a8ff0ac9f8cc6fb"
-      },
-      "targetDisplayInvalid": {
-        "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-      }
+      "withinTowerRange": true
     },
     {
       "weapons": [

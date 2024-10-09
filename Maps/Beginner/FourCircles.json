@@ -2,12 +2,6 @@
   "id": "FourCircles",
   "coopMapDivisionType": 2,
   "mapMusic": "MusicUpbeat1A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectFourCirclesButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "76346be8a105bb84b93b7f7998f708a1"
-  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

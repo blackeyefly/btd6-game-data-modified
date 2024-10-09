@@ -6,9 +6,6 @@
     17
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "996fdd4ee27f8ce408ae66080d01c909"
-  },
   "areaTypes": [
     2
   ],
@@ -57,12 +54,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteGwendolin]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "dcbc7dc2da5520043976dc938ab03518"
   },
   "upgrades": [
     {
@@ -255,9 +246,6 @@
                   {
                     "increase": 1.0,
                     "useTowerPosition": true,
-                    "displayToAddPath": {
-                      "AssetGUID": "b720a719dc3097a4380702202c2dbe41"
-                    },
                     "Mutator": {
                       "id": "HeatItUp:Pierce PierceUp"
                     },
@@ -614,9 +602,6 @@
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
                   "startWithClosestTrackPoint": true,
-                  "displayInvalid": {
-                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 },
@@ -630,9 +615,6 @@
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
                 "startWithClosestTrackPoint": true,
-                "displayInvalid": {
-                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -733,9 +715,6 @@
                       {
                         "increase": 1.0,
                         "useTowerPosition": true,
-                        "displayToAddPath": {
-                          "AssetGUID": "b720a719dc3097a4380702202c2dbe41"
-                        },
                         "Mutator": {
                           "id": "HeatItUp:Pierce PierceUp"
                         },

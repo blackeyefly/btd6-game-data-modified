@@ -1,12 +1,6 @@
 {
   "id": "FrozenOver",
   "mapMusic": "MusicCoopA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectFrozenOverButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "3e72a4f172a3b1546a1a0c7376606443"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

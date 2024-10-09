@@ -6,9 +6,6 @@
     20
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "de6cc8b8559ca44c4aa268af7d21ae6d"
-  },
   "areaTypes": [
     2
   ],
@@ -65,12 +62,6 @@
   ],
   "footprint": {
     "radius": 8.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteChurchill]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "67172b4ce38cc654c8e7d7a6afbc9041"
   },
   "appliedUpgrades": [
     "Churchill Pierce",

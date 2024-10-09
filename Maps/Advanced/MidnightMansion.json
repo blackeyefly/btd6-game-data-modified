@@ -3,12 +3,6 @@
   "difficulty": 2,
   "unlockDifficulty": 1,
   "mapMusic": "MusicDarkA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectMidnightMansionMapButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "b59fc78f430c6174198fd8fadeba2362"
-  },
   "theme": 2,
   "IsStandard": true
 }

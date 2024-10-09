@@ -6,9 +6,6 @@
     3
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "039b8312f40124cee92aa3dab91a4deb"
-  },
   "areaTypes": [
     2
   ],
@@ -53,12 +50,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteBenjamin]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "8e5c56e9f36383a49946c6e031f435f9"
   },
   "doesntRotate": true,
   "upgrades": [

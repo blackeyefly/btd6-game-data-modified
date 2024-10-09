@@ -4,12 +4,6 @@
   "coopMapDivisionType": 2,
   "unlockDifficulty": 1,
   "mapMusic": "MusicUpbeat1A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectAnotherBrickButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "f8dd0ef850a4381499b4aa076154583e"
-  },
   "hasWater": true,
   "theme": 2,
   "IsStandard": true

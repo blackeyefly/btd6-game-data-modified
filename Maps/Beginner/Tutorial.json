@@ -2,11 +2,5 @@
   "id": "Tutorial",
   "coopMapDivisionType": 1,
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectMonkeyMeadowButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "5a9215e01b887b4488572b1bfcafed7b"
-  },
   "IsStandard": true
 }

@@ -2,12 +2,6 @@
   "cost": 1600.0,
   "range": 22.0,
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "fa97a062b51f220478d6a671e4bbd011"
-  },
-  "instaIcon": {
-    "AssetGUID": "6694adf5e72534fb68331826f7c88b31"
-  },
   "areaTypes": [
     2
   ],
@@ -192,9 +186,6 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
-          "lineDisplay": {
-            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
-          },
           "lineDelay": 0.2
         },
         {

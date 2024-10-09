@@ -6,9 +6,6 @@
     8
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "88d1500bab10292499e17eff50905156"
-  },
   "areaTypes": [
     1
   ],
@@ -61,12 +58,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "UiEmoteIcons[EmoteAdmiralBrickell]"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "b2c0b90221e589b479a62fe3d826d734"
   },
   "upgrades": [
     {

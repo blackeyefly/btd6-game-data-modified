@@ -2,12 +2,6 @@
   "id": "FiringRange",
   "difficulty": 1,
   "mapMusic": "MusicCityA",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectFiringRangeButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "34def8ad2908b104e8d3fa74cf590151"
-  },
   "hasWater": true,
   "theme": 3,
   "IsStandard": true

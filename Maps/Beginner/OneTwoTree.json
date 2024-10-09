@@ -1,12 +1,6 @@
 {
   "id": "OneTwoTree",
   "mapMusic": "MusicUpbeat2A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectOneTwoTreeButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "712f12ec260195546a1bf6ff467f64d0"
-  },
   "hasWater": true,
   "theme": 5,
   "IsStandard": true

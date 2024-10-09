@@ -2,11 +2,5 @@
   "id": "TreeStump",
   "coopMapDivisionType": 3,
   "mapMusic": "MusicUpbeat3A",
-  "mapSprite": {
-    "AssetGUID": "MapImages[MapSelectTreeStumpButton]"
-  },
-  "odysseyStatue": {
-    "AssetGUID": "7d25b748c0c803f46a1d6e63089adbe7"
-  },
   "IsStandard": true
 }

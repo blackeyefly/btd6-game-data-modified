@@ -7,12 +7,6 @@
     1
   ],
   "towerSet": 2,
-  "portrait": {
-    "AssetGUID": "ffa0b7722b5447648be0e31bac6b697f"
-  },
-  "instaIcon": {
-    "AssetGUID": "1caa31de135c545faa4ec4eb8ac212ba"
-  },
   "areaTypes": [
     2
   ],
@@ -349,9 +343,6 @@
           "pointSwitchDistanceSquared": 25.0,
           "dotSpacing": 12.0,
           "dotOffset": 18.0,
-          "lineDisplay": {
-            "AssetGUID": "505654c2ff7054e49900a08b16f67bde"
-          },
           "lineDelay": 0.2
         },
         {

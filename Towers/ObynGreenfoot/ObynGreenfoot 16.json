@@ -7,9 +7,6 @@
     16
   ],
   "towerSet": 16,
-  "portrait": {
-    "AssetGUID": "cf545d09fc64f7c47af9e34774f2c23c"
-  },
   "areaTypes": [
     2
   ],
@@ -58,12 +55,6 @@
   ],
   "footprint": {
     "radius": 7.0
-  },
-  "emoteSpriteSmall": {
-    "AssetGUID": "ccaa1772894571a48b7a191db847bbff"
-  },
-  "emoteSpriteLarge": {
-    "AssetGUID": "UiEmoteIcons[EmoteObyn]"
   },
   "upgrades": [
     {
@@ -797,9 +788,6 @@
                   "scale": 1.0,
                   "lockToInsideTowerRange": true,
                   "startWithClosestTrackPoint": true,
-                  "displayInvalid": {
-                    "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-                  },
                   "alwaysShowTarget": true,
                   "useTerrainHeight": true
                 }
@@ -809,9 +797,6 @@
                 "scale": 1.0,
                 "lockToInsideTowerRange": true,
                 "startWithClosestTrackPoint": true,
-                "displayInvalid": {
-                  "AssetGUID": "d053160180f53da43be4f9972ee1497a"
-                },
                 "alwaysShowTarget": true,
                 "useTerrainHeight": true
               },
@@ -845,9 +830,6 @@
                 "tower": {
                   "range": 32.0,
                   "towerSet": 8,
-                  "portrait": {
-                    "AssetGUID": "f00bc9224369720458e7d57ff7e6b647"
-                  },
                   "areaTypes": [
                     2
                   ],
